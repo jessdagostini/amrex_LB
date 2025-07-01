@@ -19,6 +19,8 @@
 #include "SFC.H"
 #include "SFC_knapsack.H"
 #include "painterPartition.H"
+#include "KK.h"
+
 
 
 #if defined(AMREX_USE_MPI) || defined(AMREX_USE_GPU)
@@ -47,6 +49,7 @@ void main_main() {
     int nbins, nnodes, ranks_per_node;
     Real mean, stdev;
     int nruns = 1;
+    bool debug = false;
     IntVect d_size, mgs, nghost, piv;
     {
         ParmParse pp;
@@ -63,6 +66,7 @@ void main_main() {
         pp.query("nruns",nruns);
         pp.query("name", name);
         pp.query("scaling", scaling);
+        pp.query("debug", debug);
     }
     amrex::Print() << "Mean: " << mean << std::endl;
     amrex::Print() << "Stdev: " << stdev << std::endl;
@@ -111,6 +115,7 @@ for (int r = 0; r<nruns; r++) {
         wgts[i] = amrex::RandomNormal(mean, stdev);
         amrex::Print()<<wgts[i]<<" , ";
     }
+    amrex::Print() << std::endl;
     std::vector<Long> scaled_wgts = scale_wgts(wgts);
     amrex::Print()<<" Scaled Weights: ";
       for (int i=0; i<nitems; ++i) {
@@ -118,14 +123,19 @@ for (int r = 0; r<nruns; r++) {
         amrex::Print()<<scaled_wgts[i]<<" , ";
        
     }
+    amrex::Print() << std::endl;
 
     amrex::Real sfc_eff = 0.0, knapsack_eff = 0.0;
     int node_size = 0;
     double time_start=0;
 
     time_start = amrex::second();
-    std::vector<int> k_dmap = KnapSackDoIt(scaled_wgts, nranks, k_eff, true, nmax, true, false, bytes);
+    std::vector<int> k_dmap = KnapSackDoIt(scaled_wgts, nranks, k_eff, true, nmax, debug, false, bytes);
     amrex::Print()<<" Final Knapsack time: " << amrex::second() - time_start << std::endl<<std::endl;
+
+    time_start = amrex::second();
+    std::vector<int> kk_dmap = KKDoIt(scaled_wgts, nranks, k_eff, false, debug, bytes);
+    amrex::Print()<<" Final Karmarkar-Karp time: " << amrex::second() - time_start << std::endl<<std::endl;
 
     time_start = amrex::second();
     std::vector<int> s_dmap = SFCProcessorMapDoIt(ba, scaled_wgts, nranks, &s_eff, node_size, true, false, bytes);

@@ -22,6 +22,7 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
                      amrex::Real*                    knapsack_eff,
                      bool                            flag_verbose_mapper,
                      bool                            sort,
+                     int                             r, // run number
                      const std::vector<amrex::Long>& bytes);
 
 

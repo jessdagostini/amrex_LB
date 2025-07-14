@@ -194,6 +194,7 @@ SFCProcessorMapDoIt (const amrex::BoxArray&          boxes,
                      int                             node_size,
                      bool                            flag_verbose_mapper,
                      bool                            sort,
+                     int                             r, // run number
                      const std::vector<amrex::Long>& bytes)
 
 {
@@ -393,6 +394,8 @@ SFCProcessorMapDoIt (const amrex::BoxArray&          boxes,
         }
         amrex::Real efficiency = (sum_wgt/(nteams*max_wgt));
         if (eff) *eff = efficiency;
+
+        metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
 
         if (flag_verbose_mapper)
         {

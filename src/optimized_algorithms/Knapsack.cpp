@@ -253,6 +253,7 @@ KnapSackDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the nu
               int                             nmax,//limit max number of boxes in the buckets, 
               bool                            flag_verbose_mapper,//output distributed maps
               bool                            sort,  //wgts sorted or not
+              int                             r, //run number
               const std::vector<amrex::Long>& bytes)
 {
     sort = false;
@@ -288,7 +289,7 @@ KnapSackDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the nu
             for (int j = 0, nj = vec[i].size(); j < nj; ++j) {
                 // amrex::Print() << vec[i][j] << " ";
             }
-            amrex::Print() << std::endl;
+            // amrex::Print() << std::endl;
         }
     }
 
@@ -380,6 +381,8 @@ KnapSackDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the nu
         amrex::Print() << "Only KNAPSACK  efficiency: " << efficiency << '\n';
         amrex::Print() << "test......: " << '\n';
     }
+
+    metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
 
     // // Output the distribution map to a CSV file
     // std::ofstream outfile("distribution_map_knapsack.csv");

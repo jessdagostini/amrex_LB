@@ -22,6 +22,7 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
                      amrex::Real*                    knapsack_eff,
                      bool                            flag_verbose_mapper,
                      bool                            sort,
+                     int                             r, // run number
                      const std::vector<amrex::Long>& bytes)
 
 {
@@ -387,6 +388,7 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
         amrex::Print() << "SFC[painter] efficiency for combined algorithm: " << *sfc_eff << '\n';
         amrex::Print() << "Painter+Knapsack combined efficiency: " << *knapsack_eff << '\n';
     }
+    metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::EFFICIENCY, *knapsack_eff, r);
 
 
 

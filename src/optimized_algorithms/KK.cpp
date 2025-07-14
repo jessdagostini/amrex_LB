@@ -17,33 +17,33 @@
 
 
 // represents a box with weight and ID
-class Box {
+class WeightedBox {
     int  m_boxid;
     amrex::Long m_weight;
 
 public:
-    Box (int b, int w) : m_boxid(b), m_weight(w) {}
+    WeightedBox (int b, int w) : m_boxid(b), m_weight(w) {}
 
     amrex::Long weight () const { return m_weight; }
     amrex::Long weight (int b) const { return m_weight; }
     
     int  boxid ()  const { return m_boxid;  }
     // Sort the boxes in descending order by weight
-    bool operator< (const Box& rhs) const {
+    bool operator< (const WeightedBox& rhs) const {
         return weight() > rhs.weight();
     }
 };
 
 struct BoxSubset {
-    amrex::Vector<Box> boxes;
+    amrex::Vector<WeightedBox> boxes;
     amrex::Long totalWeight;
 
     BoxSubset() : totalWeight(0) {} // Default constructor
-    BoxSubset(Box b) : totalWeight(b.weight()) {
+    BoxSubset(WeightedBox b) : totalWeight(b.weight()) {
         boxes.push_back(b);
     }
 
-    void addBox(Box b) {
+    void addBox(WeightedBox b) {
         boxes.push_back(b);
         totalWeight += b.weight();
     }
@@ -119,7 +119,7 @@ kk (const std::vector<amrex::Long>&  wgts,
     std::priority_queue<BoxTuple> boxQueue;
     
     for (unsigned int i = 0, N = wgts.size(); i < N; ++i) {
-        Box element(i, wgts[i]);
+        WeightedBox element(i, wgts[i]);
         BoxSubset bs(element);
         BoxTuple bt(bs, nprocs); // Initialize with one subset
         boxQueue.push(bt);
@@ -172,16 +172,16 @@ kk (const std::vector<amrex::Long>&  wgts,
         combined.update_difference();
 
         // Debug combined BoxTuple
-        // if (flag_verbose_mapper) {
-        //     amrex::Print() << "Combined BoxTuple with difference: " << combined.difference << "\n";
-        //     for (const auto& subset : combined.subsets) {
-        //         amrex::Print() << "Subset total weight: " << subset.weight() << "\n";
-        //         for (const auto& box : subset.boxes) {
-        //             amrex::Print() << "  Box ID: " << box.boxid() << ", Weight: " << box.weight() << "\n";
-        //         }
-        //     }
-        //     amrex::Print() << "\n";
-        // }
+        if (flag_verbose_mapper) {
+            amrex::Print() << "Combined BoxTuple with difference: " << combined.difference << "\n";
+            for (const auto& subset : combined.subsets) {
+                amrex::Print() << "Subset total weight: " << subset.weight() << "\n";
+                for (const auto& box : subset.boxes) {
+                    amrex::Print() << "  Box ID: " << box.boxid() << ", Weight: " << box.weight() << "\n";
+                }
+            }
+            amrex::Print() << "\n";
+        }
 
         boxQueue.push(combined);
     }
@@ -225,6 +225,7 @@ KKDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the number o
               amrex::Real&                    efficiency,//output
               bool                            sort,  //wgts sorted or not
               bool                            flag_verbose_mapper,//output distributed maps
+              int                             r, //run number
               const std::vector<amrex::Long>& bytes)
 {
 
@@ -348,6 +349,8 @@ KKDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the number o
         amrex::Print() << "Only Karmarkar-Karp efficiency: " << efficiency << '\n';
         amrex::Print() << "test......: " << '\n';
     }
+
+    metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
 
     // // Output the distribution map to a CSV file
     // std::ofstream outfile("distribution_map_knapsack.csv");

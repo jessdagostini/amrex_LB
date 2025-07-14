@@ -2,6 +2,9 @@
 #include <climits> 
 #include <iostream> 
 #include <vector>
+
+#include "metric_utils.h"
+
 using namespace std; 
 
 // function to calculate sum between two indices 
@@ -13,7 +16,7 @@ long  findMax(vector<long> arr, int n, int k);
 bool isPartitionPossible(vector<long> arr, int n, int k, long maxTime);
 long minWeight(vector<long> wgts, int n, int k);
 // driver function 
-vector<int>  painterPartition(const amrex::BoxArray&   boxes,vector<long> arr,int k);
+vector<int>  painterPartition(const amrex::BoxArray&   boxes,vector<long> arr,int k, int r = 0);
 vector<vector<int>> painterPartition_VecVec(const amrex::BoxArray &boxes, vector<long> wgts, int number_of_ranks);
 std::vector<int>
 SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
@@ -24,4 +27,5 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
                      amrex::Real*                    knapsack_eff,
                      bool                            flag_verbose_mapper,
                      bool                            sort,
+                     int                             r, // run number
                      const std::vector<amrex::Long>& bytes); 

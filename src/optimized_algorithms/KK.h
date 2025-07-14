@@ -4,6 +4,8 @@
 #include <AMReX_INT.H>
 #include <AMReX_Vector.H>
 
+#include "metric_utils.h"
+
 // =============================================================
 
 void kk (const std::vector<amrex::Long>&  wgts,
@@ -17,5 +19,6 @@ std::vector<int> KKDoIt (const std::vector<amrex::Long>& wgts,
               amrex::Real&                    efficiency,
               bool                            sort,  //wgts sorted or not
               bool                            flag_verbose_mapper = false,
+              int                             r = 0, //run number
               const std::vector<amrex::Long>& bytes = std::vector<amrex::Long>());
 #endif

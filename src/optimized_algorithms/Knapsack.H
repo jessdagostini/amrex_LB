@@ -3,6 +3,7 @@
 
 #include <AMReX_INT.H>
 #include <AMReX_Vector.H>
+#include "metric_utils.h"
 
 using LIpair = std::pair<amrex::Long, int>;
 
@@ -55,6 +56,7 @@ KnapSackDoIt (const std::vector<amrex::Long>& wgts,
               int                             nmax = std::numeric_limits<int>::max(),
               bool                            flag_verbose_mapper = false,
               bool                            sort = false,
+              int                             r = 0, //run number
               const std::vector<amrex::Long>& bytes = std::vector<amrex::Long>());
 //std::vector<int>
 // BruteForceDoIt (const std::vector<amrex::Long>& wgts,

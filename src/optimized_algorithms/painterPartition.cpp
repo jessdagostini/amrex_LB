@@ -179,7 +179,7 @@ long minWeight(vector<long> wgts, int n, int k)
     }
 
 // driver function 
- vector<int> painterPartition(const amrex::BoxArray&   boxes,vector<long> wgts,int number_of_ranks) 
+ vector<int> painterPartition(const amrex::BoxArray&   boxes,vector<long> wgts,int number_of_ranks, int r) 
 { 
 
 	BL_PROFILE("painterPartition()");
@@ -297,6 +297,7 @@ long minWeight(vector<long> wgts, int n, int k)
             //amrex::Print()<<__LINE__<<std::endl;
             amrex::Print() << "SFC+painterPartition efficiency: " << efficiency << '\n';
         }
+        metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
     }
      
 	return result;

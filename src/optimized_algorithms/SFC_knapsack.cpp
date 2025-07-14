@@ -20,6 +20,7 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
                      amrex::Real*                    knapsack_eff,
                      bool                            flag_verbose_mapper,
                      bool                            sort,
+                     int                             r, // run number
                      const std::vector<amrex::Long>& bytes)
 
 {
@@ -366,6 +367,8 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
         amrex::Print() << "SFC efficiency for combined algorithm: " << *sfc_eff << '\n';
         amrex::Print() << "SFC+Knapsack combined efficiency: " << *knapsack_eff << '\n';
     }
+
+    metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::EFFICIENCY, *knapsack_eff, r);
 
 
 

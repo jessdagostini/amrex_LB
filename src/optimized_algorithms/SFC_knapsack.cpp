@@ -81,30 +81,7 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
 
     Distribute(tokens, wgts, nteams, volperteam, vec, flag_verbose_mapper); //// calling SFC 1
 
-/////
-    // amrex::Print()<<"Printing SFC vec" << "\n"; 
-
-
-    // for (int i = 0; i < vec.size(); ++i)
-    // {
-    //     for (int j = 0; j<vec[i].size();++j)
-    //     {
-    //         amrex::Print()<<vec[i][j] << "," ;
-    //     }
-    //     amrex::Print()<<"\n";
-
-    // }
-    // amrex::Print()<<"\n\n";  
-
-    ///// Commented Out ////////
-
-
-
-
-
     // amrex::Print() << "SFC Distribution Map (Node -> Boxes):\n";
-
-
 
     // for (int i = 0; i < vec.size(); ++i)
     // {
@@ -119,15 +96,6 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
     //     amrex::Print() << "\n";
     // }
     // amrex::Print() << "\n";
-
-
-
-
-
-
-    ///// Commented Out ////////
-
-/////
 
     // vec has a size of nteams and vec[] holds a vector of box ids.
 
@@ -173,8 +141,6 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
     amrex::Real total_weight_knapsack = 0;
     amrex::Real max_weight_knapsack_across_ranks = 0;
 
-
-
     for (int i = 0; i < nteams; ++i) {
 
         const int tid = i; // tid is team id
@@ -192,22 +158,13 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
             local_indices.push_back(vi[j]); /// Track global index
         }
 
-
         /// Print local weights and indices for debugging
-
-
-
-
 
         // amrex::Print() << "Node " << i << " Weights and Indices:\n";
         // for (int j = 0; j < Nbx; ++j) {
         //     amrex::Print() << "  Index " << local_indices[j] << " -> Weight " << local_wgts[j] << "\n";
         // }
         // amrex::Print() << "\n";
-
-
-
-
 
         // The Knapsack algorithm is run on the smaller weight vector.
 
@@ -216,24 +173,9 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
         // lowercase knapsack is just like distribute in SFC
 
         knapsack(local_wgts, ranks_per_node, knapsack_result, knapsack_local_efficiency, true, N);
-        amrex::Print() << "Node " << i << " Each Knapsack efficiency: " << knapsack_local_efficiency << "\n";        
-
-        
-
-
-   
-
-
-
         // *knapsack_eff = knapsack_local_efficiency;
 
-
-
-
-      
-
         // amrex::Print()<<"Printing Knapsack vec team" << i << "\n"; 
-
 
         // for (int i = 0; i < knapsack_result.size(); ++i)
         // {
@@ -247,10 +189,6 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
         // amrex::Print()<<"\n\n";  
 
         /// Print the knapsack result with corresponding global indices for each node
-
-
-
-
         // amrex::Print() << "Knapsack result for Node " << i << ":\n";
         // for (int j = 0; j < knapsack_result.size(); ++j) {
         //     amrex::Print() << "  Processor Group " << j << ": ";
@@ -261,12 +199,6 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
         //     amrex::Print() << "\n";
         // }
         // amrex::Print() << "\n";
-
-
-
-
-
-        ///
 
         // The Knapsack results are transferred back into the full solution vector,
         // adjusting the indices to account for the node and rank.
@@ -280,6 +212,7 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
 
         for (int j = 0; j < knapsack_result.size(); ++j) {
             amrex::Real local_knapsack_wgt = 0;
+            int global_rank = (tid * ranks_per_node) + j;
             for (int k = 0; k < knapsack_result[j].size(); ++k) {
 
                 /// Here, the global index is obtained using local_indices.
@@ -289,7 +222,6 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
                 // result[global_idx] = j + (tid * ranks_per_node); //// Map local rank (0-3) to global rank
                 // Calculate local weight for each rank
                 local_knapsack_wgt += wgts[global_idx];
-                int global_rank = (tid * ranks_per_node) + j;
                 result[global_idx] = global_rank;
             //     amrex::Print() << "Global Index: " << global_idx << ", Local Rank: " << j
             //    << ", Global Rank: " << global_rank << "\n";
@@ -298,9 +230,12 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
             // Update total and max weights after knapsack redistribution
 
             if (local_knapsack_wgt > max_weight_knapsack_across_ranks) {
-            max_weight_knapsack_across_ranks = local_knapsack_wgt;
+                max_weight_knapsack_across_ranks = local_knapsack_wgt;
             }
             total_weight_knapsack += local_knapsack_wgt;
+
+            // Add the weight to metrics_utils
+            metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::WEIGHT, local_knapsack_wgt, r, global_rank);
             
         }
 
@@ -311,13 +246,9 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
 
 
     }
-
-    
-
-
-    
-
-    // amrex::Print()<<"Printing final result" << "\n"; 
+    // amrex::Print()<<"Printing final result" << "\n";
+    // amrex::Print() << "Expecting " << boxes.size() << " boxes in the result.\n";
+    // amrex::Print() << "Size of result vector: " << result.size() << "\n";
     // for (int i = 0; i < result.size(); ++i)
     // {
                 
@@ -336,41 +267,17 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
     *knapsack_eff = total_weight_knapsack / (ranks_per_node * nteams * max_weight_knapsack_across_ranks);
 
 
-     
-
-
-
-
-    //// old way of calculating efficiency
-
-    // amrex::Real sum_wgt_knapsack = 0, max_wgt_knapsack = 0;
-    // for (int i = 0; i < nteams; ++i) {
-    //     amrex::Real local_sum_wgt = 0;
-    //     for (const auto& idx : vec[i]) {
-    //         local_sum_wgt += wgts[idx];
-    //     }
-    //     if (local_sum_wgt > max_wgt_knapsack) max_wgt_knapsack = local_sum_wgt;
-    //     sum_wgt_knapsack += local_sum_wgt;
-    // }
-    // *knapsack_eff = (sum_wgt_knapsack / (nteams * max_wgt_knapsack));
-    
-   /////
-
-
-    // for (int i=0; i<result.size(); ++i) {
-    //     amrex::Print()<<result[i]<<" , ";
-    // }
-    // amrex::Print()<<"\n";
-
-
     if (flag_verbose_mapper) {
         amrex::Print() << "SFC efficiency for combined algorithm: " << *sfc_eff << '\n';
         amrex::Print() << "SFC+Knapsack combined efficiency: " << *knapsack_eff << '\n';
     }
 
     metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::EFFICIENCY, *knapsack_eff, r);
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 
     // // Output the distribution map with weights to a CSV file
     // std::ofstream outfile("distribution_map_sfc_knapsack.csv");

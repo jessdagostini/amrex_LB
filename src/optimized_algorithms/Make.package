@@ -1,2 +1,6 @@
 CEXE_headers += Knapsack.H SFC.H LeastUsed.H Util.H CommObjs.H  SFC_knapsack.H painterPartition.H KK.H
+<<<<<<< Updated upstream
 CEXE_sources += main.cpp Knapsack.cpp SFC.cpp LeastUsed.cpp CommObjs.cpp  SFC_knapsack.cpp painterPartition.cpp painter_knapsack.cpp KK.cpp metric_utils.cpp
+=======
+CEXE_sources += Knapsack.cpp SFC.cpp LeastUsed.cpp CommObjs.cpp  SFC_knapsack.cpp painterPartition.cpp painter_knapsack.cpp KK.cpp metric_utils.cpp main_warpx.cpp
+>>>>>>> Stashed changes

@@ -237,7 +237,7 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
         // lowercase knapsack is just like distribute in SFC
 
         knapsack(local_wgts, ranks_per_node, knapsack_result, knapsack_local_efficiency, true, N);
-        amrex::Print() << "Node " << i << " Each Knapsack efficiency: " << knapsack_local_efficiency << "\n";        
+        // amrex::Print() << "Node " << i << " Each Knapsack efficiency: " << knapsack_local_efficiency << "\n";
 
         
 
@@ -301,6 +301,7 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
 
         for (int j = 0; j < knapsack_result.size(); ++j) {
             amrex::Real local_knapsack_wgt = 0;
+            int global_rank = (tid * ranks_per_node) + j;
             for (int k = 0; k < knapsack_result[j].size(); ++k) {
 
                 /// Here, the global index is obtained using local_indices.
@@ -310,7 +311,6 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
                 // result[global_idx] = j + (tid * ranks_per_node); //// Map local rank (0-3) to global rank
                 // Calculate local weight for each rank
                 local_knapsack_wgt += wgts[global_idx];
-                int global_rank = (tid * ranks_per_node) + j;
                 result[global_idx] = global_rank;
             //     amrex::Print() << "Global Index: " << global_idx << ", Local Rank: " << j
             //    << ", Global Rank: " << global_rank << "\n";
@@ -322,7 +322,10 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
             max_weight_knapsack_across_ranks = local_knapsack_wgt;
             }
             total_weight_knapsack += local_knapsack_wgt;
-            
+
+            // Add the weight to metrics_utils
+            metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::WEIGHT, local_knapsack_wgt, r, global_rank);
+
         }
 
         //Print local results after each node's knapsack run

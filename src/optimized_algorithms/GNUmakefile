@@ -1,15 +1,15 @@
 # AMREX_HOME defines the directory in which we will find all the AMReX code.
 # If you set AMREX_HOME as an environment variable, this line will be ignored
-AMREX_HOME ?= ../../../amrex
+AMREX_HOME ?= ../../amrex
 # AMREX_HOME ?= ../../amrex
 
 # AMREX_HOME ?= ../amrex
 
 #DEBUG        = TRUE
 #USE_CCACHE   = TRUE
-USE_OMP      = FALSE
+USE_OMP      = TRUE
 TINY_PROFILE = TRUE
-USE_MPI      = FALSE 
+USE_MPI      = FALSE
 USE_CUDA     = FALSE
 BL_NO_FORT   = TRUE
 COMP         = gcc

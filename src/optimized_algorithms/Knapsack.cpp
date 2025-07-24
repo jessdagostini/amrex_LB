@@ -319,6 +319,10 @@ KnapSackDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the nu
         }
     }
 
+    for (const auto &p : LIpairV) {
+        metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::WEIGHT, p.first, r, p.second);
+    }
+
     amrex::Vector<int> ord;// ordering of the buckets 
     amrex::Vector<amrex::Vector<int> > wrkerord; //mapping of boxes to boxes for 
                                                 //the algorithm

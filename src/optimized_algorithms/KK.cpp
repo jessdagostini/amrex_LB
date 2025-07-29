@@ -223,10 +223,8 @@ std::vector<int>
 KKDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the number of boxes
               int                             nprocs,// number of buckets
               amrex::Real&                    efficiency,//output
-              bool                            sort,  //wgts sorted or not
               bool                            flag_verbose_mapper,//output distributed maps
-              int                             r, //run number
-              const std::vector<amrex::Long>& bytes)
+              int                             r)
 {
 
     if (flag_verbose_mapper) {
@@ -279,7 +277,7 @@ KKDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the number o
         LIpairV.push_back(LIpair(wgt,i));
     }
 
-    if (sort) {Sort(LIpairV, true);}
+    // if (sort) {Sort(LIpairV, true);}
 
     if (flag_verbose_mapper) {
         for (const auto &p : LIpairV) {
@@ -287,30 +285,18 @@ KKDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the number o
         }
     }
 
+    // Store weights total distribution per rank
+    for (const auto &p : LIpairV) {
+        metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::WEIGHT, p.first, r, p.second);
+    }
+
     amrex::Vector<int> ord;// ordering of the buckets 
     amrex::Vector<amrex::Vector<int> > wrkerord; //mapping of boxes to boxes for 
                                                 //the algorithm
 
-    if (nteams == nprocs) {
-        if (sort) {
-            LeastUsedCPUs(nprocs,bytes,ord,flag_verbose_mapper);
-        } else {
-            ord.resize(nprocs);
-            std::iota(ord.begin(), ord.end(), 0);
-        }
-    } else {
-        if (sort) {
-//            LeastUsedTeams(ord,wrkerord,nteams,nworkers);
-        } else {
-            ord.resize(nteams);
-            std::iota(ord.begin(), ord.end(), 0);
-            wrkerord.resize(nteams);
-            for (auto& v : wrkerord) {
-                v.resize(nworkers);
-                std::iota(v.begin(), v.end(), 0);
-            }
-        }
-    }
+    
+    ord.resize(nprocs);
+    std::iota(ord.begin(), ord.end(), 0);
 
     std::vector<int> result(wgts.size());
 
@@ -321,10 +307,6 @@ KKDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the number o
 
         const std::vector<int>& vi = vec[idx];
         const int N = vi.size();
-
-        // if (flag_verbose_mapper) {
-        //     amrex::Print() << "  Mapping bucket " << idx << " to rank " << tid << std::endl;
-        // }
 
         if (nteams == nprocs) {
             for (int j = 0; j < N; ++j)
@@ -351,25 +333,5 @@ KKDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the number o
     }
 
     metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
-
-    // // Output the distribution map to a CSV file
-    // std::ofstream outfile("distribution_map_knapsack.csv");
-    // outfile << "BoxID,Processor,Weight\n";
-    // for (size_t i = 0; i < result.size(); ++i) {
-    //     outfile << i << "," << result[i] << "," << wgts[i] << "\n";
-    // }
-    // outfile.close();
-
-
     return result;
-
-    // amrex::Print() << "test......: " << '\n';
-// Output the distribution map to a CSV file
-//     std::ofstream outfile("distribution_map_knapsack.csv");
-//     for (const auto& elem : result) {
-//         outfile << elem << "\n";
-//     }
-//     outfile.close();
-
-//     return result;
 }

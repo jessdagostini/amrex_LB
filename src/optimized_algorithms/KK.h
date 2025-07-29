@@ -17,8 +17,6 @@ void kk (const std::vector<amrex::Long>&  wgts,
 std::vector<int> KKDoIt (const std::vector<amrex::Long>& wgts,
               int                             nprocs,
               amrex::Real&                    efficiency,
-              bool                            sort,  //wgts sorted or not
               bool                            flag_verbose_mapper = false,
-              int                             r = 0, //run number
-              const std::vector<amrex::Long>& bytes = std::vector<amrex::Long>());
+              int                             r = 0);
 #endif

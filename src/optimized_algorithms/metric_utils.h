@@ -11,10 +11,11 @@ using namespace std;
 
 struct entryPoint {
     long long int id;
-    int id_algorithm; // 0 for SFC, 1 for Knapsack, 2 for Karmarkar-Karp
+    int id_algorithm;
     int id_metric;
     double metric_value;
     int run_id; // Run ID to differentiate runs
+    int rank_id;
     UT_hash_handle hh;
 };
 
@@ -25,7 +26,7 @@ extern long long int entryPointCount;
 extern pthread_rwlock_t lock_metric_utils;
 
 extern char algorithms[7][40];
-extern char metrics[3][40];
+extern char metrics[7][40];
 
 enum MetricUtilsAlgorithms {
     KNAPSACK,          // Automatically assigned 0
@@ -34,15 +35,19 @@ enum MetricUtilsAlgorithms {
     SFC_PAINTER,      // Automatically assigned 3
     SFC_KNAPSACK,        // Automatically assigned 4
     PAINTER_KNAPSACK, // Automatically assigned 5
+    ORIGINAL            // Automatically assigned 6
 };
 
 enum MetricUtilsMetrics {
     EFFICIENCY,     // Automatically assigned 0
     TIME,           // Automatically assigned 1
-    MEMORY          // Automatically assigned 2
+    MEMORY,        // Automatically assigned 2
+    WEIGHT,       // Automatically assigned 3
+    PREVIOUS_EFFICIENCY, // Automatically assigned 4
+    USED_EFFICIENCY // Automatically assigned 5
 };
 
 void metric_utils_dump();
 
-void metric_utils_add(int id_algorithm, int id_metric, double metric_value, int run_id);
+void metric_utils_add(int id_algorithm, int id_metric, double metric_value, int run_id, int rank_id = 0);
 #endif

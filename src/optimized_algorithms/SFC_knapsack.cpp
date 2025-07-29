@@ -273,11 +273,6 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
     }
 
     metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::EFFICIENCY, *knapsack_eff, r);
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
 
     // // Output the distribution map with weights to a CSV file
     // std::ofstream outfile("distribution_map_sfc_knapsack.csv");

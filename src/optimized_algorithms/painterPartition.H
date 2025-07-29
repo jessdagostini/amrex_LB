@@ -16,19 +16,15 @@ long  findMax(vector<long> arr, int n, int k);
 bool isPartitionPossible(vector<long> arr, int n, int k, long maxTime);
 long minWeight(vector<long> wgts, int n, int k);
 // driver function 
-<<<<<<< Updated upstream
-vector<int>  painterPartition(const amrex::BoxArray&   boxes,vector<long> arr,int k, int r = 0);
-=======
-vector<int>  painterPartition(const amrex::BoxArray&   boxes,vector<long> arr,int k, int r = 0, bool full = false);
->>>>>>> Stashed changes
+vector<int>  painterPartition(const amrex::BoxArray&   boxes,vector<long> arr,int k, amrex::Real &sfc_painter_eff, int r = 0, bool full = false);
 vector<vector<int>> painterPartition_VecVec(const amrex::BoxArray &boxes, vector<long> wgts, int number_of_ranks);
 std::vector<int>
 SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
                      const std::vector<amrex::Long>& wgts,
                      int                             nnodes,
                      int                             ranks_per_node,
-                     amrex::Real*                    sfc_eff,
-                     amrex::Real*                    knapsack_eff,
+                     amrex::Real                    &sfc_eff,
+                     amrex::Real                    &knapsack_eff,
                      bool                            flag_verbose_mapper,
                      bool                            sort,
                      int                             r, // run number

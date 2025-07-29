@@ -179,11 +179,7 @@ long minWeight(vector<long> wgts, int n, int k)
     }
 
 // driver function 
-<<<<<<< Updated upstream
- vector<int> painterPartition(const amrex::BoxArray&   boxes,vector<long> wgts,int number_of_ranks, int r) 
-=======
- vector<int> painterPartition(const amrex::BoxArray&   boxes,vector<long> wgts,int number_of_ranks, int r, bool full) 
->>>>>>> Stashed changes
+ vector<int> painterPartition(const amrex::BoxArray&   boxes,vector<long> wgts,int number_of_ranks, amrex::Real &sfc_painter_eff, int r, bool full) 
 { 
 
 	BL_PROFILE("painterPartition()");
@@ -295,12 +291,12 @@ long minWeight(vector<long> wgts, int n, int k)
         }
         amrex::Real efficiency = (sum_wgt/(nteams*max_wgt));
         if (s_painter_eff) s_painter_eff = efficiency;
+        sfc_painter_eff = efficiency;
 
         if (full) {
             amrex::Print() << "SFC+painterPartition efficiency: " << efficiency << '\n';
             metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
         }
-        metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
     }
      
 	return result;

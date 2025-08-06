@@ -269,7 +269,7 @@ KKDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the number o
     LIpairV.reserve(nteams);
 
     for (int i = 0; i < nteams; ++i) {
-        amrex::Long wgt = 0;
+        amrex::Real wgt = 0;
         for (std::vector<int>::const_iterator lit = vec[i].begin(), End = vec[i].end(); lit != End; ++lit) {
             wgt += wgts[*lit];
         }

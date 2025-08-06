@@ -71,7 +71,7 @@ void read_precomp_file(string input_file, int nruns, vector<vector<amrex::Real>>
     file.close();
 }
 
-void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int nruns, int ranks_per_node) {
+void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int nruns, amrex::Real min_ratio, int ranks_per_node) {
     vector<vector<amrex::Real>> file_wgts;
     vector<vector<int>> file_ranks;
     read_precomp_file(file, nruns, file_wgts, file_ranks);
@@ -151,7 +151,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
 
         ratio = og_eff / prev_og_eff;
         amrex::Print() << "Original ratio: " << ratio << endl;
-        if (ratio > 1.1) {
+        if (ratio > min_ratio) {
             metric_utils_add(MetricUtilsAlgorithms::ORIGINAL, MetricUtilsMetrics::USED_EFFICIENCY, og_eff, run_id);
         } else {
             original_map = prev_original_map; // Use previous map if the ratio is not significant
@@ -182,7 +182,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
         
         ratio = k_eff / prev_k_eff;
         amrex::Print() << "Knapsack ratio: " << ratio << endl;
-        if (ratio > 1.1) {
+        if (ratio > min_ratio) {
             metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::USED_EFFICIENCY, k_eff, run_id);
         } else {
             knapsack_map = prev_knapsack_map; // Use previous map if the ratio is not significant
@@ -216,7 +216,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
 
         ratio = kk_eff / prev_kk_eff;
         amrex::Print() << "Karmarkar-Karp ratio: " << ratio << endl;
-        if (ratio > 1.1) {
+        if (ratio > min_ratio) {
             metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::USED_EFFICIENCY, k_eff, run_id);
         } else {
             kk_map = prev_kk_map; // Use previous map if the ratio is not significant
@@ -250,7 +250,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
 
         ratio = sfc_eff / prev_sfc_eff;
         amrex::Print() << "SFC ratio: " << ratio << endl;
-        if (ratio > 1.1) {
+        if (ratio > min_ratio) {
             metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::USED_EFFICIENCY, sfc_eff, run_id);
         } else {
             sfc_map = prev_sfc_map; // Use previous map if the ratio is not significant
@@ -283,7 +283,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
 
         ratio = sfc_knapsack_eff / prev_sfc_knapsack_eff;
         amrex::Print() << "SFC + Knapsack ratio: " << ratio << endl;
-        if (ratio > 1.1) {
+        if (ratio > min_ratio) {
             metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::USED_EFFICIENCY, sfc_knapsack_eff, run_id);
         } else {
             sfc_knapsack_map = prev_sfc_knapsack_map; // Use previous map if the ratio is not significant
@@ -315,7 +315,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
 
         ratio = sfc_painter_eff / prev_sfc_painter_eff;
         amrex::Print() << "SFC+Painter ratio: " << ratio << endl;
-        if (ratio > 1.1) {
+        if (ratio > min_ratio) {
             metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::USED_EFFICIENCY, sfc_painter_eff, run_id);
         } else {
             sfc_painter_map = prev_sfc_painter_map; // Use previous map if the ratio is not significant
@@ -348,7 +348,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
 
         ratio = painter_knapsack_eff / prev_painter_knapsack_eff;
         amrex::Print() << "Painter+Knapsack ratio: " << ratio << endl;
-        if (ratio > 1.1) {
+        if (ratio > min_ratio) {
             metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::USED_EFFICIENCY, painter_knapsack_eff, run_id);
         } else {
             painter_knapsack_map = prev_painter_knapsack_map; // Use previous map if the ratio is not significant
@@ -435,6 +435,7 @@ int main(int argc, char* argv[]) {
     int amrex_version;
     amrex::Real mean = 0.0;
     amrex::Real stdev = 0.0;
+    amrex::Real ratio = 1.1;
     string file = "";
     string test_case = "";
     {
@@ -455,6 +456,7 @@ int main(int argc, char* argv[]) {
         pp.get("amrex.v", amrex_version);
         pp.query("mean", mean);
         pp.query("stdev", stdev);
+        pp.query("ratio", ratio);
     }
 
     amrex::Print() << "Starting running " << test_case << " running with " << nodes << " nodes and " << ranks_per_node << " ranks per node." << endl;
@@ -473,7 +475,7 @@ int main(int argc, char* argv[]) {
 
     if (file != "") {
         amrex::Print() << "Reading precomputed weights and ranks from file: " << file << endl;
-        lb_real_data(file, ba, nodes, nranks, steps/intervals, ranks_per_node);
+        lb_real_data(file, ba, nodes, nranks, steps/intervals, ratio, ranks_per_node);
     } else {
         amrex::Print() << "Generating random weights and ranks." << endl;
         lb_generated_data(ba, nodes, nranks, nruns, ranks_per_node, mean, stdev);

@@ -36,6 +36,16 @@ knapsack (const std::vector<amrex::Long>&  wgts,
           int                              nprocs,
           std::vector< std::vector<int> >& result,
           amrex::Real&                     efficiency,
+          const std::vector<amrex::size_t>& memory,
+          bool                             do_full_knapsack = true,
+          std::size_t                      max = std::numeric_limits<std::size_t>::max(),
+          const amrex::Real&               max_efficiency = 0.9);
+
+void
+knapsack (const std::vector<amrex::Long>&  wgts,
+          int                              nprocs,
+          std::vector< std::vector<int> >& result,
+          amrex::Real&                     efficiency,
           bool                             do_full_knapsack = true,
           int                              nmax = std::numeric_limits<int>::max(),
           const amrex::Real&               max_efficiency = 0.9);
@@ -58,6 +68,19 @@ KnapSackDoIt (const std::vector<amrex::Long>& wgts,
               bool                            sort = false,
               int                             r = 0, //run number
               const std::vector<amrex::Long>& bytes = std::vector<amrex::Long>());
+
+std::vector<int>
+KnapSackDoItMem (const std::vector<amrex::Long>& wgts,
+                 const std::vector<std::size_t>& memory,
+                 int                             nprocs,
+                 amrex::Real&                    efficiency,
+                 bool                            do_full_knapsack = true,
+                 int                             nmax = std::numeric_limits<int>::max(),
+                 std::size_t                     maxmem = std::numeric_limits<std::size_t>::max(),
+                 bool                            flag_verbose_mapper = false,
+                 bool                            sort = false,
+                 int                             r = 0, //run number
+                 const std::vector<amrex::Long>& bytes = std::vector<amrex::Long>());
 //std::vector<int>
 // BruteForceDoIt (const std::vector<amrex::Long>& wgts,
 //               int                             nprocs,

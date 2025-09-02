@@ -71,6 +71,9 @@ void read_precomp_file(string input_file, int nruns, vector<vector<amrex::Real>>
     file.close();
 }
 
+void lb_real_data_mem(string file, amrex::BoxArray &ba, int nnodes, int nranks, int nruns, amrex::Real min_ratio, int ranks_per_node) {
+}
+
 void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int nruns, amrex::Real min_ratio, int ranks_per_node) {
     vector<vector<amrex::Real>> file_wgts;
     vector<vector<int>> file_ranks;
@@ -81,13 +84,11 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
     vector<int> prev_original_map, prev_knapsack_map, prev_kk_map, prev_sfc_map, prev_sfc_knapsack_map, prev_painter_knapsack_map, prev_sfc_painter_map;
 
     amrex::Real og_eff = 0.0, prev_og_eff = 0.0, k_eff = 0.0, prev_k_eff = 0.0, kk_eff = 0.0, prev_kk_eff = 0.0, sfc_eff = 0.0, prev_sfc_eff = 0.0, sfc_knapsack_eff = 0.0, prev_sfc_knapsack_eff = 0.0, prev_sfc_painter_eff = 0.0, sfc_painter_eff = 0.0, prev_painter_knapsack_eff = 0.0, painter_knapsack_eff = 0.0;
-        double time_start = amrex::second();
-        int nmax = numeric_limits<int>::max();
-        vector<amrex::Long> bytes;
-        int node_size = 0;
-        amrex::Real ratio;
-
-
+    double time_start = amrex::second();
+    int nmax = numeric_limits<int>::max();
+    vector<amrex::Long> bytes;
+    int node_size = 0;
+    amrex::Real ratio;
 
     for(int run_id = 0; run_id <= nruns; run_id++) {
         amrex::Print() << "Run " << run_id << "\n";
@@ -368,6 +369,7 @@ void lb_generated_data(amrex::BoxArray &ba, int nnodes, int nranks, int nruns, i
 
     vector<amrex::Long> bytes;
     vector<amrex::Long> wgts(ba.size());
+    vector<std::size_t> memory(ba.size());
 
     for (int r = 1; r<=nruns; r++) {
         amrex::Print() << "\n=== Starting Run " << r << " ===\n";
@@ -379,7 +381,8 @@ void lb_generated_data(amrex::BoxArray &ba, int nnodes, int nranks, int nruns, i
             wgts_tmp[i] = amrex::RandomNormal(mean, stdev);
         }
         
-        wgts = scale_wgts(wgts_tmp);        
+        wgts = scale_wgts(wgts_tmp);
+        memory = get_memory(wgts_tmp);
 
         amrex::Real sfc_eff = 0.0, knapsack_eff = 0.0, kk_eff = 0.0, k_eff = 0.0, s_eff = 0.0, sfc_painter_eff = 0.0;
         int node_size = 0;
@@ -387,6 +390,11 @@ void lb_generated_data(amrex::BoxArray &ba, int nnodes, int nranks, int nruns, i
 
         time_start = amrex::second();
         vector<int> k_dmap = KnapSackDoIt(wgts, nranks, k_eff, true, nmax, false, false, r, bytes);
+        amrex::Print()<<" Final Knapsack time: " << amrex::second() - time_start << endl<<endl;
+        metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+
+        time_start = amrex::second();
+        vector<int> k_dmap = KnapSackDoItMem(wgts, memory, nranks, k_eff, true, nmax, false, false, r, bytes);
         amrex::Print()<<" Final Knapsack time: " << amrex::second() - time_start << endl<<endl;
         metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
 
@@ -420,6 +428,67 @@ void lb_generated_data(amrex::BoxArray &ba, int nnodes, int nranks, int nruns, i
     }
 }
 
+void lb_generated_data_mem(amrex::BoxArray &ba, int nnodes, int nranks, int nruns, int ranks_per_node, amrex::Real mean, amrex::Real stdev) {
+    amrex::ResetRandomSeed(rand());
+
+    int nmax = numeric_limits<int>::max();
+
+    vector<amrex::Long> bytes;
+    vector<amrex::Long> wgts(ba.size());
+    vector<std::size_t> memory(ba.size());
+
+    for (int r = 1; r<=nruns; r++) {
+        amrex::Print() << "\n=== Starting Run " << r << " ===\n";
+       
+        amrex::ResetRandomSeed(rand());
+        vector<amrex::Real> wgts_tmp(ba.size());
+
+        for (int i = 0; i < ba.size(); ++i) {
+            wgts_tmp[i] = amrex::RandomNormal(mean, stdev);
+        }
+        
+        wgts = scale_wgts(wgts_tmp);
+        memory = get_memory(wgts_tmp);
+
+        amrex::Real sfc_eff = 0.0, knapsack_eff = 0.0, kk_eff = 0.0, k_eff = 0.0, s_eff = 0.0, sfc_painter_eff = 0.0;
+        int node_size = 0;
+        double time_start=0;
+
+        time_start = amrex::second();
+        vector<int> k_dmap = KnapSackDoItMem(wgts, memory, nranks, k_eff, true, nmax, false, false, r, bytes);
+        amrex::Print()<<" Final Knapsack time: " << amrex::second() - time_start << endl<<endl;
+        metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+
+        // time_start = amrex::second();
+        // vector<int> kk_dmap = KKDoIt(wgts, nranks, kk_eff, false, r);
+        // amrex::Print()<<" Final Karmarkar-Karp time: " << amrex::second() - time_start << endl<<endl;
+        // metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+
+        // time_start = amrex::second();
+        // vector<int> s_dmap = SFCProcessorMapDoIt(ba, wgts, nranks, &s_eff, node_size, false, false, r, bytes);
+        // amrex::Print()<<" Final SFC time: " << amrex::second() - time_start << endl<<endl;
+        // metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+
+        // time_start = amrex::second();
+        // vector<int> vec=painterPartition(ba,wgts,nranks,sfc_painter_eff,r);
+        // amrex::Print()<<" Final SFC+Painter time: " << amrex::second() - time_start << endl<<endl;
+        // metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+
+        // time_start = amrex::second();
+        // vector<int> sfc_knapsack_dmap = SFCProcessorMapDoItCombined(ba, wgts, nnodes, ranks_per_node, &sfc_eff, &knapsack_eff, false, false, r, bytes);
+        // amrex::Print()<<" Final SFC+Knapsack_Combined time: " << amrex::second() - time_start << endl<<endl;
+        // metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+
+        // time_start = amrex::second();
+        // vector<int> painter_knapsack_dmap = SFCProcessorMapDoItCombinedPainter(ba, wgts, nnodes, ranks_per_node, sfc_eff, knapsack_eff, false, false, r, bytes);
+        // amrex::Print()<<" Final painter+Knapsack_Combined time: " << amrex::second() - time_start << endl;
+        // metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+
+        amrex::Print() << "\n=== End of Run " << r << " ===\n";
+        amrex::Print() << "======================================\n\n";
+    }
+}
+
 int main(int argc, char* argv[]) {
     amrex::Initialize(argc, argv);
     
@@ -432,6 +501,7 @@ int main(int argc, char* argv[]) {
     int nruns = 0;
     int print_threshold = 0;
     bool debug = false;
+    bool memory_optimized = false;
     int amrex_version;
     amrex::Real mean = 0.0;
     amrex::Real stdev = 0.0;
@@ -453,6 +523,7 @@ int main(int argc, char* argv[]) {
         pp.query("print_threshold", print_threshold);
         pp.query("debug", debug);
         pp.query("file", file);
+        pp.query("memory_optimized", memory_optimized); // use the memory optimized version of knapsack
         pp.get("amrex.v", amrex_version);
         pp.query("mean", mean);
         pp.query("stdev", stdev);
@@ -473,9 +544,15 @@ int main(int argc, char* argv[]) {
 
     int nranks = nodes * ranks_per_node;
 
-    if (file != "") {
-        amrex::Print() << "Reading precomputed weights and ranks from file: " << file << endl;
+    if (file != "" && memory_optimized) {
+        amrex::Print() << "Reading precomputed weights, memory, and ranks from file: " << file << endl;
+        lb_real_data_mem(file, ba, nodes, nranks, steps/intervals, ratio, ranks_per_node);
+    } else if (file != "" && !memory_optimized) {
+        amrex::Print() << "Reading precomputed weights, memory, and ranks from file: " << file << endl;
         lb_real_data(file, ba, nodes, nranks, steps/intervals, ratio, ranks_per_node);
+    } else if (file == "" && memory_optimized) {
+        amrex::Print() << "Generating random weights and ranks, memory optimized knapsack." << endl;
+        lb_generated_data_mem(ba, nodes, nranks, nruns, ranks_per_node, mean, stdev);
     } else {
         amrex::Print() << "Generating random weights and ranks." << endl;
         lb_generated_data(ba, nodes, nranks, nruns, ranks_per_node, mean, stdev);

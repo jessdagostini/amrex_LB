@@ -7,6 +7,9 @@
 
 using namespace std; 
 
+// Enum for space-filling curve type
+enum class SFCType { MORTON, HILBERT };
+
 // function to calculate sum between two indices 
 // in array 
 long  sum(vector<long> arr, int from, int to);
@@ -15,9 +18,19 @@ long  sum(vector<long> arr, int from, int to);
 long  findMax(vector<long> arr, int n, int k); 
 bool isPartitionPossible(vector<long> arr, int n, int k, long maxTime);
 long minWeight(vector<long> wgts, int n, int k);
-// driver function 
-vector<int>  painterPartition(const amrex::BoxArray&   boxes,vector<long> arr,int k, amrex::Real &sfc_painter_eff, int r = 0, bool full = false);
-vector<vector<int>> painterPartition_VecVec(const amrex::BoxArray &boxes, vector<long> wgts, int number_of_ranks);
+
+// Main painterPartition function with SFC type parameter
+vector<int> painterPartition(const amrex::BoxArray& boxes, vector<long> wgts, int number_of_ranks, SFCType sfc_type = SFCType::MORTON);
+
+// Wrapper functions for specific SFC types
+vector<int> painterPartitionMorton(const amrex::BoxArray& boxes, vector<long> wgts, int number_of_ranks);
+vector<int> painterPartitionHilbert(const amrex::BoxArray& boxes, vector<long> wgts, int number_of_ranks);
+
+// VecVec versions
+vector<vector<int>> painterPartition_VecVec(const amrex::BoxArray& boxes, vector<long> wgts, int number_of_ranks, SFCType sfc_type = SFCType::MORTON);
+vector<vector<int>> painterPartition_VecVecMorton(const amrex::BoxArray& boxes, vector<long> wgts, int number_of_ranks);
+vector<vector<int>> painterPartition_VecVecHilbert(const amrex::BoxArray& boxes, vector<long> wgts, int number_of_ranks);
+
 std::vector<int>
 SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
                      const std::vector<amrex::Long>& wgts,
@@ -27,5 +40,4 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
                      amrex::Real                    &knapsack_eff,
                      bool                            flag_verbose_mapper,
                      bool                            sort,
-                     int                             r, // run number
-                     const std::vector<amrex::Long>& bytes); 
+                     const std::vector<amrex::Long>& bytes);

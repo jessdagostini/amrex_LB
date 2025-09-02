@@ -1,11 +1,14 @@
 name = "FB128-X"
 domain = (256,256,256)
-max_grid_size = (128, 64, 64)
+# max_grid_size = (128, 128, 128)
+max_grid_size = (16, 16, 16)
 ncomp = 1
-nghost = (1, 0, 0) 
-periodicity = (0, 0, 0)
-nnodes = 2
-ranks_per_node = 4
+# nghost = (1, 0, 0)
+nghost = (1, 1, 1)
+# periodicity = (0, 0, 0)
+periodicity = (1, 1, 1)
+nnodes = 32
+ranks_per_node = 4 
 mean = 100000
 stdev = 250
 
@@ -13,8 +16,7 @@ stdev = 250
 
 # stdev = 4523
 
-# nruns = 250
-nruns = 1
+nruns = 10
 
 tiny_profiler.print_threshold = 0
 

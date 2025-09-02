@@ -1,0 +1,2 @@
+CEXE_sources += heterogeneous_lb.cpp ../Knapsack.cpp # xyz_heterogeneous_lb.cpp
+CEXE_headers += heterogeneous_lb.h

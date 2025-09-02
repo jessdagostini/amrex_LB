@@ -143,7 +143,8 @@ This repo uses the same license as the AMReX repo.
 Kevin Gott \
 Md Kamal Chowdhury\
 Amitash Nanda \
-Hannah Ross
+Hannah Ross \
+Sowmya Yellapragada
 
 Plus, the BoxLib and AMReX authors of the original load balancing algorithms.
 
@@ -154,3 +155,4 @@ Plus, the BoxLib and AMReX authors of the original load balancing algorithms.
 4. **National Energy Research Scientific Computing Center**
 5. **University of California San Diego (Boolean Lab)**
 6. **The University of Alabama**
+7. **University of Utah**

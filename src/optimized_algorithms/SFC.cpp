@@ -336,6 +336,11 @@ SFCProcessorMapDoIt (const amrex::BoxArray&          boxes,
             {
                 result[vi[j]] = tid;
 //                m_ref->m_pmap[vi[j]] = amrex::ParallelContext::local_to_global_rank(tid);
+                // #ifdef AMREX_USE_MPI
+                // result[vi[j]] = amrex::ParallelContext::local_to_global_rank(tid);
+                // #else
+                // result[vi[j]] = tid;              // keep the logical processor id
+                // #endif
             }
         }
         else   // We would like to do knapsack within the team workers

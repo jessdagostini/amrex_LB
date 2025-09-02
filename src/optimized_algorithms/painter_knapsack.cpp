@@ -84,7 +84,7 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
     std::vector<int> p_result; 
     //Distribute(tokens, wgts, nteams, volperteam, vec, flag_verbose_mapper); //// calling SFC 1
 //    vec2=painterPartition_VecVec(boxes,wgts,nteams);
-     p_result=painterPartition(boxes,wgts,nteams, sfc_eff);
+     p_result=painterPartition(boxes,wgts,nteams, sfc_eff, r);
      
      for (int i = 0; i < p_result.size(); ++i)
     {

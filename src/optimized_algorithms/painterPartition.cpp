@@ -16,10 +16,11 @@
 #include <SFC.H>
 #include <Knapsack.H>
 #include <LeastUsed.H>
+#include "painterPartition.H"
 using namespace std; 
 
 // Enum for space-filling curve type
-enum class SFCType { MORTON, HILBERT };
+// enum class SFCType { MORTON, HILBERT };
 
 // function to calculate sum between two indices in wgts
 long sum(vector<long> wgts, int from, int to) { 
@@ -115,7 +116,10 @@ long minWeight(vector<long> wgts, int n, int k) {
 vector<int> painterPartition(const amrex::BoxArray& boxes, 
                            vector<long> wgts, 
                            int number_of_ranks,
-                           SFCType sfc_type = SFCType::MORTON) { 
+                           amrex::Real &sfc_painter_eff,
+                           int r,
+                           bool full,
+                           SFCType sfc_type) { 
     BL_PROFILE("painterPartition()");
     vector<long> sorted_wgts;
     
@@ -187,6 +191,12 @@ vector<int> painterPartition(const amrex::BoxArray& boxes,
         
         Sort(LIpairV, true);
 
+        if (full){
+            for (const auto &p : LIpairV) {
+                metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::WEIGHT, p.first, r, p.second);
+            }
+        }
+
         amrex::Real sum_wgt = 0, max_wgt = 0;
         for (int i = 0; i < number_of_ranks; ++i) {
             const amrex::Long W = LIpairV[i].first;
@@ -194,7 +204,12 @@ vector<int> painterPartition(const amrex::BoxArray& boxes,
             sum_wgt += W;
         }
         amrex::Real efficiency = (sum_wgt/(number_of_ranks*max_wgt));
-        amrex::Print() << "SFC+painterPartition efficiency: " << efficiency << '\n';
+        sfc_painter_eff = efficiency;
+        
+        if (full) {
+            amrex::Print() << "SFC+painterPartition efficiency: " << efficiency << '\n';
+            metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
+        }
         
         return result;
     }
@@ -268,33 +283,40 @@ vector<int> painterPartition(const amrex::BoxArray& boxes,
             sum_wgt += W;
         }
         amrex::Real efficiency = (sum_wgt/(number_of_ranks*max_wgt));
+        sfc_painter_eff = efficiency;
         amrex::Print() << "Hilbert+painterPartition efficiency: " << efficiency << '\n';
         
         return result;
     }
     
     // Fallback to Morton if unknown type
-    return painterPartition(boxes, wgts, number_of_ranks, SFCType::MORTON);
+    return painterPartition(boxes, wgts, number_of_ranks, sfc_painter_eff, full, r, SFCType::MORTON);
 }
 
 // Wrapper functions for backward compatibility and easy access
-vector<int> painterPartitionMorton(const amrex::BoxArray& boxes, 
-                                 vector<long> wgts, 
-                                 int number_of_ranks) {
-    return painterPartition(boxes, wgts, number_of_ranks, SFCType::MORTON);
+vector<int> painterPartitionMorton(const amrex::BoxArray& boxes,
+                                 vector<long> wgts,
+                                 int number_of_ranks,
+                                 bool full,
+                                 int r,
+                                 amrex::Real &sfc_painter_eff) {
+    return painterPartition(boxes, wgts, number_of_ranks, sfc_painter_eff, full, r, SFCType::MORTON);
 }
 
-vector<int> painterPartitionHilbert(const amrex::BoxArray& boxes, 
-                                  vector<long> wgts, 
-                                  int number_of_ranks) {
-    return painterPartition(boxes, wgts, number_of_ranks, SFCType::HILBERT);
+vector<int> painterPartitionHilbert(const amrex::BoxArray& boxes,
+                                  vector<long> wgts,
+                                  int number_of_ranks,
+                                  bool full,
+                                  int r,
+                                  amrex::Real &sfc_painter_eff) {
+    return painterPartition(boxes, wgts, number_of_ranks, sfc_painter_eff, full, r, SFCType::HILBERT);
 }
 
 // Updated VecVec version with SFC type selection
 vector<vector<int>> painterPartition_VecVec(const amrex::BoxArray& boxes, 
                                            vector<long> wgts, 
                                            int number_of_ranks,
-                                           SFCType sfc_type = SFCType::MORTON) { 
+                                           SFCType sfc_type) { 
     BL_PROFILE("painterPartition_combined()");
     vector<long> sorted_wgts;
     
@@ -387,7 +409,7 @@ vector<vector<int>> painterPartition_VecVec(const amrex::BoxArray& boxes,
         }
         amrex::Real efficiency = (sum_wgt/(nteams*max_wgt));
         if (s_painter_eff) s_painter_eff = efficiency;
-        sfc_painter_eff = efficiency;
+        // sfc_painter_eff = efficiency;
 
         if (flag_verbose_mapper) {
             const char* sfc_name = (sfc_type == SFCType::HILBERT) ? "Hilbert" : "SFC";

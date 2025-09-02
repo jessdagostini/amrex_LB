@@ -268,7 +268,7 @@ knapsack (const std::vector<amrex::Long>&  wgts,
           int                              nprocs,
           std::vector< std::vector<int> >& result,
           amrex::Real&                     efficiency,
-          const std::vector<amrex::size_t>& memory,
+          const std::vector<std::size_t>& memory,
           bool                             do_full_knapsack,
           std::size_t                      nmax,
           const amrex::Real&               max_efficiency)
@@ -321,7 +321,7 @@ knapsack (const std::vector<amrex::Long>&  wgts,
             // If I run out of bins, this means I run out of memory space in all bins
             // Thus, I should return an error because I don't have space to put all boxes
             amrex::Abort("Knapsack Error: Not enough memory space in bins to allocate all boxes");
-            return -1;
+            return;
         }
     }
 
@@ -596,7 +596,6 @@ KnapSackDoItMem (const std::vector<amrex::Long>& wgts,// length of vector is the
                 int                             nprocs,// number of buckets
                 amrex::Real&                    efficiency,//output
                 bool                            do_full_knapsack,
-                int                             nmax,//limit max number of boxes in the buckets,
                 std::size_t                     maxmem,//limit max memory in the buckets,
                 bool                            flag_verbose_mapper,//output distributed maps
                 bool                            sort,  //wgts sorted or not
@@ -628,7 +627,7 @@ KnapSackDoItMem (const std::vector<amrex::Long>& wgts,// length of vector is the
 
     efficiency = 0;
 
-    knapsack(wgts,memory,nteams,vec,efficiency,do_full_knapsack,maxmem);
+    knapsack(wgts,nteams,vec,efficiency,memory,do_full_knapsack,maxmem);
 
     if (flag_verbose_mapper) {
         for (int i = 0, ni = vec.size(); i < ni; ++i) {

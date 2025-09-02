@@ -71,8 +71,7 @@ void read_precomp_file(string input_file, int nruns, vector<vector<amrex::Real>>
     file.close();
 }
 
-void lb_real_data_mem(string file, amrex::BoxArray &ba, int nnodes, int nranks, int nruns, amrex::Real min_ratio, int ranks_per_node) {
-}
+void lb_real_data_mem(string file, amrex::BoxArray &ba, int nnodes, int nranks, int nruns, amrex::Real min_ratio, int ranks_per_node) {}
 
 void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int nruns, amrex::Real min_ratio, int ranks_per_node) {
     vector<vector<amrex::Real>> file_wgts;
@@ -312,7 +311,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
         }
 
         time_start = amrex::second();
-        sfc_painter_map = painterPartition(ba, wgts, nranks, sfc_painter_eff, run_id, true);
+        sfc_painter_map = painterPartition(ba, wgts, nranks, sfc_painter_eff, run_id, true, SFCType::MORTON);
 
         ratio = sfc_painter_eff / prev_sfc_painter_eff;
         amrex::Print() << "SFC+Painter ratio: " << ratio << endl;
@@ -394,7 +393,7 @@ void lb_generated_data(amrex::BoxArray &ba, int nnodes, int nranks, int nruns, i
         metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
 
         time_start = amrex::second();
-        vector<int> k_dmap = KnapSackDoItMem(wgts, memory, nranks, k_eff, true, nmax, false, false, r, bytes);
+        vector<int> k_dmap_mem = KnapSackDoItMem(wgts, memory, nranks, k_eff, true, nmax, false, false, r, bytes);
         amrex::Print()<<" Final Knapsack time: " << amrex::second() - time_start << endl<<endl;
         metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
 
@@ -409,7 +408,7 @@ void lb_generated_data(amrex::BoxArray &ba, int nnodes, int nranks, int nruns, i
         metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
 
         time_start = amrex::second();
-        vector<int> vec=painterPartition(ba,wgts,nranks,sfc_painter_eff,r);
+        vector<int> vec=painterPartition(ba,wgts,nranks,sfc_painter_eff, r);
         amrex::Print()<<" Final SFC+Painter time: " << amrex::second() - time_start << endl<<endl;
         metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
 

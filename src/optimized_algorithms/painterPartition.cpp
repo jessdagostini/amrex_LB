@@ -306,9 +306,9 @@ vector<int> painterPartitionMorton(const amrex::BoxArray& boxes,
 vector<int> painterPartitionHilbert(const amrex::BoxArray& boxes,
                                   vector<long> wgts,
                                   int number_of_ranks,
-                                  bool full,
+                                  amrex::Real &sfc_painter_eff,
                                   int r,
-                                  amrex::Real &sfc_painter_eff) {
+                                  bool full) {
     return painterPartition(boxes, wgts, number_of_ranks, sfc_painter_eff, full, r, SFCType::HILBERT);
 }
 

@@ -25,8 +25,8 @@ extern long long int entryPointCount;
 
 extern pthread_rwlock_t lock_metric_utils;
 
-extern char algorithms[7][40];
-extern char metrics[7][40];
+extern char algorithms[10][40];
+extern char metrics[8][40];
 
 enum MetricUtilsAlgorithms {
     KNAPSACK,          // Automatically assigned 0
@@ -35,7 +35,10 @@ enum MetricUtilsAlgorithms {
     SFC_PAINTER,      // Automatically assigned 3
     SFC_KNAPSACK,        // Automatically assigned 4
     PAINTER_KNAPSACK, // Automatically assigned 5
-    ORIGINAL            // Automatically assigned 6
+    ORIGINAL,            // Automatically assigned 6
+    HILBERT_SFC,        // Automatically assigned 7
+    HILBERT_PAINTER,     // Automatically assigned 8
+    HILBERT_KNAPSACK,    // Automatically assigned 9
 };
 
 enum MetricUtilsMetrics {

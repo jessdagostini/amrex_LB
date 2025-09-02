@@ -335,6 +335,7 @@ HilbertProcessorMapDoIt(const amrex::BoxArray& boxes,
                        int node_size,
                        bool flag_verbose_mapper,
                        bool sort,
+                       int r, 
                        const std::vector<amrex::Long>& bytes,
                        HilbertDirection direction) {
     if (flag_verbose_mapper) {
@@ -489,9 +490,14 @@ HilbertProcessorMapDoIt(const amrex::BoxArray& boxes,
             const amrex::Long W = LIpairV[i].first;
             if (W > max_wgt) max_wgt = W;
             sum_wgt += W;
+
+            // Store the weight distribution per rank
+            metric_utils_add(MetricUtilsAlgorithms::HILBERT_SFC, MetricUtilsMetrics::WEIGHT, W, r, i);
         }
         amrex::Real efficiency = (sum_wgt / (nteams * max_wgt));
         if (eff) *eff = efficiency;
+
+        metric_utils_add(MetricUtilsAlgorithms::HILBERT_SFC, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
 
         if (flag_verbose_mapper) {
             amrex::Print() << "Hilbert SFC efficiency: " << efficiency << '\n';
@@ -544,7 +550,7 @@ HilbertProcessorMapDoItWithDirectionTesting(const amrex::BoxArray& boxes,
         auto current_result = HilbertProcessorMapDoIt(boxes, wgts, nprocs, 
                                                      &current_eff, node_size, 
                                                      false, // Don't print individual results
-                                                     sort, bytes, directions[d]);
+                                                     sort, 0, bytes, directions[d]);
         
         // Calculate load distribution statistics
         std::vector<amrex::Long> rank_loads(nprocs, 0);

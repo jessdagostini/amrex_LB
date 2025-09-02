@@ -5,8 +5,8 @@ entryPoint *metric_data = NULL;
 long long int entryPointCount = 0;
 pthread_rwlock_t lock_metric_utils;
 
-char algorithms[7][40] = {"Knapsack", "Karmarkar-Karp", "SFC", "SFC+Painter", "SFC+Knapsack","Painter+Knapsack", "Original"};
-char metrics[7][40] = {"Efficiency", "Time", "Memory", "Weight", "PreviousEfficiency", "UsedEfficiency"};
+char algorithms[10][40] = {"Knapsack", "Karmarkar-Karp", "SFC", "SFC+Painter", "SFC+Knapsack","Painter+Knapsack", "Original", "HilbertSFC", "Hilbert+Painter", "Hilbert+Knapsack"};
+char metrics[8][40] = {"Efficiency", "Time", "Memory", "Weight", "PreviousEfficiency", "UsedEfficiency"};
 
 void metric_utils_dump() {
     // fprintf(stderr, "Entrou dump\n");

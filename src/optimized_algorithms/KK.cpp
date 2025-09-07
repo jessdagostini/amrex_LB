@@ -133,27 +133,6 @@ kk (const std::vector<amrex::Long>&  wgts,
         std::sort(B.subsets.begin(), B.subsets.end()); // Sort subsets by total weight
         boxQueue.pop();
 
-        // Print both A and B for debugging
-        // if (flag_verbose_mapper) {
-        //     amrex::Print() << "Combining BoxTuple A with difference: " << A.difference << "\n";
-        //     for (const auto& subset : A.subsets) {
-        //         amrex::Print() << "Subset total weight: " << subset.weight() << "\n";
-        //         for (const auto& box : subset.boxes) {
-        //             amrex::Print() << "  Box ID: " << box.boxid() << ", Weight: " << box.weight() << "\n";
-        //         }
-        //     }
-
-        //     amrex::Print() << "Combining BoxTuple B with difference: " << B.difference << "\n";
-        //     for (const auto& subset : B.subsets) {
-        //         amrex::Print() << "Subset total weight: " << subset.weight() << "\n";
-        //         for (const auto& box : subset.boxes) {
-        //             amrex::Print() << "  Box ID: " << box.boxid() << ", Weight: " << box.weight() << "\n";
-        //         }
-        //     }
-
-        //     amrex::Print() << "\n";
-        // }
-
         BoxTuple combined(nprocs); // Create a new BoxTuple for the combination
         int A_size = A.subsets.size();
         int B_size = B.subsets.size();
@@ -233,19 +212,12 @@ KKDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the number o
 
     BL_PROFILE("KKDoIt()");
 
-    //nprocs = amrex::ParallelContext::NProcsSub();
-
     // If team is not use, we are going to treat it as a special case in which
     // the number of teams is nprocs and the number of workers is 1.
 
     int nteams = nprocs;
     int nworkers = 1;
-    /*
-    #if defined(BL_USE_TEAM)
-        nteams = ParallelDescriptor::NTeams();
-        nworkers = ParallelDescriptor::TeamSize();
-    #endif
-    */
+    
     std::vector< std::vector<int> > vec;
 
     efficiency = 0;

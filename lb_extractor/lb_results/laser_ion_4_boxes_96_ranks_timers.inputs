@@ -1,0 +1,17 @@
+name = input_laser_ion_timers
+domain = (7488, 14720)
+max_grid_size = (512, 512)
+nghost = (1, 0, 0) 
+periodicity = (0, 0, 0)
+nnodes = 24
+ranks_per_node = 4
+steps = 5000
+intervals = 100
+tiny_profiler.print_threshold = 0
+debug=True
+amrex.v = 1
+#DistributionMapping.verbose_mapper=1
+file=/global/homes/j/jessd/lb_extractor/lb_inputs/laser_ion_4_boxes_96_ranks_timers_lb_data.txt
+mean = 100000
+stdev = 250
+ratio = 1.1

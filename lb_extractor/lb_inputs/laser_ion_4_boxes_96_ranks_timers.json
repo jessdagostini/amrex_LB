@@ -1,0 +1,24 @@
+{
+    "input_name": "input_laser_ion_timers",
+    "max_steps": 5000,
+    "n_cells": [
+        7488,
+        14720
+    ],
+    "blocking_factor": [
+        32,
+        32
+    ],
+    "max_grid_size": [
+        512,
+        512
+    ],
+    "load_balance_intervals": 100,
+    "load_balance_costs_update": "timers",
+    "lbc_output_interval": 100,
+    "lbc_output_type": "LoadBalanceCosts",
+    "nodes": 24,
+    "job_name": "laser_ion_4_boxes_96_ranks_timers",
+    "ratio": 1.1,
+    "file_path": "/global/homes/j/jessd/lb_extractor/lb_inputs/laser_ion_4_boxes_96_ranks_timers_lb_data.txt"
+}

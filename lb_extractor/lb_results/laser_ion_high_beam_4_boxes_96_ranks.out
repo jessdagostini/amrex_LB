@@ -1,0 +1,1623 @@
+Initializing AMReX (25.06-22-g1d307c2c661a)...
+OMP initialized with 256 OMP threads
+AMReX (25.06-22-g1d307c2c661a) initialized
+Starting running input_laser_ion_high_beam running with 24 nodes and 4 ranks per node.
+Total steps: 5000, intervals: 100 = 50 runs
+Reading precomputed weights and ranks from file: /global/homes/j/jessd/lb_extractor/lb_inputs/laser_ion_high_beam_4_boxes_96_ranks_lb_data.txt
+/global/homes/j/jessd/lb_extractor/lb_inputs/laser_ion_high_beam_4_boxes_96_ranks_lb_data.txt
+Run 0: Weights size: 435
+Run 1: Weights size: 435
+Run 2: Weights size: 435
+Run 3: Weights size: 435
+Run 4: Weights size: 435
+Run 5: Weights size: 435
+Run 6: Weights size: 435
+Run 7: Weights size: 435
+Run 8: Weights size: 435
+Run 9: Weights size: 435
+Run 10: Weights size: 435
+Run 11: Weights size: 435
+Run 12: Weights size: 435
+Run 13: Weights size: 435
+Run 14: Weights size: 435
+Run 15: Weights size: 435
+Run 16: Weights size: 435
+Run 17: Weights size: 435
+Run 18: Weights size: 435
+Run 19: Weights size: 435
+Run 20: Weights size: 435
+Run 21: Weights size: 435
+Run 22: Weights size: 435
+Run 23: Weights size: 435
+Run 24: Weights size: 435
+Run 25: Weights size: 435
+Run 26: Weights size: 435
+Run 27: Weights size: 435
+Run 28: Weights size: 435
+Run 29: Weights size: 435
+Run 30: Weights size: 435
+Run 31: Weights size: 435
+Run 32: Weights size: 435
+Run 33: Weights size: 435
+Run 34: Weights size: 435
+Run 35: Weights size: 435
+Run 36: Weights size: 435
+Run 37: Weights size: 435
+Run 38: Weights size: 435
+Run 39: Weights size: 435
+Run 40: Weights size: 435
+Run 41: Weights size: 435
+Run 42: Weights size: 435
+Run 43: Weights size: 435
+Run 44: Weights size: 435
+Run 45: Weights size: 435
+Run 46: Weights size: 435
+Run 47: Weights size: 435
+Run 48: Weights size: 435
+Run 49: Weights size: 435
+Run 50: Weights size: 435
+Run 0
+File weights 51 and ranks 51
+Original efficiency: 0.2759491367
+Original ratio: inf
+Knapsack ratio: inf
+ Final Knapsack time: 9.4336e-05
+
+Karmarkar-Karp ratio: inf
+ Final Karmarkar-Karp time: 0.006539062
+
+ Time take to run this function: 6.91e-07
+SFC ratio: inf
+ Final SFC time: 7.1774e-05
+
+SFC + Knapsack ratio: inf
+ Final SFC+Knapsack_Combined time: 9.7903e-05
+
+SFC+painterPartition efficiency: 0.6898728417
+SFC+Painter ratio: inf
+ Final SFC+Painter time: 0.000138769
+
+Painter+Knapsack ratio: inf
+ Final painter+Knapsack_Combined time: 0.000164456
+Run 1
+File weights 51 and ranks 51
+Original previous efficiency: 0.2759362854
+Original efficiency: 0.7358358198
+Original ratio: 2.666687416
+Knapsack previous efficiency: 0.7357786914
+Knapsack ratio: 1.000081875
+ Final Knapsack time: 6.6113e-05
+
+Karmarkar-Karp previous efficiency: 0.7350236668
+Karmarkar-Karp ratio: 1.00110917
+ Final Karmarkar-Karp time: 0.005928494
+
+SFC previous efficiency: 0.6887805436
+ Time take to run this function: 3.9e-07
+SFC ratio: 1
+ Final SFC time: 5.5684e-05
+
+SFC+Knapsack previous efficiency: 0.6895414262
+SFC + Knapsack ratio: 1.000447482
+ Final SFC+Knapsack_Combined time: 8.4537e-05
+
+SFC+Painter previous efficiency: 0.6884737435
+SFC+painterPartition efficiency: 0.689858514
+SFC+Painter ratio: 1.002011363
+ Final SFC+Painter time: 0.000125544
+
+Painter+Knapsack previous efficiency: 0.6897682323
+Painter+Knapsack ratio: 1.000118053
+ Final painter+Knapsack_Combined time: 0.000143227
+Run 2
+File weights 51 and ranks 51
+Original previous efficiency: 0.7344223999
+Original efficiency: 0.7344223999
+Original ratio: 1
+Knapsack previous efficiency: 0.7342330947
+Knapsack ratio: 1.000292115
+ Final Knapsack time: 6.5963e-05
+
+Karmarkar-Karp previous efficiency: 0.7278996164
+Karmarkar-Karp ratio: 1.008995689
+ Final Karmarkar-Karp time: 0.006510588
+
+SFC previous efficiency: 0.6757861634
+ Time take to run this function: 3.91e-07
+SFC ratio: 1
+ Final SFC time: 5.6385e-05
+
+SFC+Knapsack previous efficiency: 0.683267113
+SFC + Knapsack ratio: 1.009601235
+ Final SFC+Knapsack_Combined time: 8.5439e-05
+
+SFC+Painter previous efficiency: 0.6757861634
+SFC+painterPartition efficiency: 0.6898398741
+SFC+Painter ratio: 1.020796091
+ Final SFC+Painter time: 0.00012873
+
+Painter+Knapsack previous efficiency: 0.6842674143
+Painter+Knapsack ratio: 1.008130751
+ Final painter+Knapsack_Combined time: 0.00013984
+Run 3
+File weights 51 and ranks 51
+Original previous efficiency: 0.7293184963
+Original efficiency: 0.7293184963
+Original ratio: 1
+Knapsack previous efficiency: 0.7290408336
+Knapsack ratio: 1.000443049
+ Final Knapsack time: 6.4881e-05
+
+Karmarkar-Karp previous efficiency: 0.7278960929
+Karmarkar-Karp ratio: 1.002016416
+ Final Karmarkar-Karp time: 0.006308091
+
+SFC previous efficiency: 0.6756073013
+ Time take to run this function: 4.1e-07
+SFC ratio: 1
+ Final SFC time: 8.588e-05
+
+SFC+Knapsack previous efficiency: 0.6816291255
+SFC + Knapsack ratio: 1.011994776
+ Final SFC+Knapsack_Combined time: 8.5109e-05
+
+SFC+Painter previous efficiency: 0.6741374163
+SFC+painterPartition efficiency: 0.6898123566
+SFC+Painter ratio: 1.023251847
+ Final SFC+Painter time: 0.000124182
+
+Painter+Knapsack previous efficiency: 0.6841160104
+Painter+Knapsack ratio: 1.008316698
+ Final painter+Knapsack_Combined time: 0.000141574
+Run 4
+File weights 51 and ranks 51
+Original previous efficiency: 0.7263743305
+Original efficiency: 0.7263743305
+Original ratio: 1
+Knapsack previous efficiency: 0.7260407613
+Knapsack ratio: 1.000582843
+ Final Knapsack time: 6.7215e-05
+
+Karmarkar-Karp previous efficiency: 0.7260334514
+Karmarkar-Karp ratio: 1.000592917
+ Final Karmarkar-Karp time: 0.006293594
+
+SFC previous efficiency: 0.6757396544
+ Time take to run this function: 3.61e-07
+SFC ratio: 1
+ Final SFC time: 5.6365e-05
+
+SFC+Knapsack previous efficiency: 0.6808141735
+SFC + Knapsack ratio: 1.013153818
+ Final SFC+Knapsack_Combined time: 8.4788e-05
+
+SFC+Painter previous efficiency: 0.6732393187
+SFC+painterPartition efficiency: 0.68978171
+SFC+Painter ratio: 1.024571339
+ Final SFC+Painter time: 0.000113672
+
+Painter+Knapsack previous efficiency: 0.6847780001
+Painter+Knapsack ratio: 1.007296008
+ Final painter+Knapsack_Combined time: 0.000145371
+Run 5
+File weights 51 and ranks 51
+Original previous efficiency: 0.7239805889
+Original efficiency: 0.7239805889
+Original ratio: 1
+Knapsack previous efficiency: 0.723587028
+Knapsack ratio: 1.00199655
+ Final Knapsack time: 6.7525e-05
+
+Karmarkar-Karp previous efficiency: 0.7235980085
+Karmarkar-Karp ratio: 1.001981345
+ Final Karmarkar-Karp time: 0.006225467
+
+SFC previous efficiency: 0.6761583715
+ Time take to run this function: 3.91e-07
+SFC ratio: 1
+ Final SFC time: 5.6455e-05
+
+SFC+Knapsack previous efficiency: 0.6800203505
+SFC + Knapsack ratio: 1.014278516
+ Final SFC+Knapsack_Combined time: 8.4578e-05
+
+SFC+Painter previous efficiency: 0.6726701425
+SFC+painterPartition efficiency: 0.6897456411
+SFC+Painter ratio: 1.025384654
+ Final SFC+Painter time: 0.00012379
+
+Painter+Knapsack previous efficiency: 0.6854901679
+Painter+Knapsack ratio: 1.006191964
+ Final painter+Knapsack_Combined time: 0.000142406
+Run 6
+File weights 51 and ranks 51
+Original previous efficiency: 0.7210041218
+Original efficiency: 0.7210041218
+Original ratio: 1
+Knapsack previous efficiency: 0.7205396525
+Knapsack ratio: 1.004213864
+ Final Knapsack time: 6.4711e-05
+
+Karmarkar-Karp previous efficiency: 0.7205398282
+Karmarkar-Karp ratio: 1.00421362
+ Final Karmarkar-Karp time: 0.006262717
+
+SFC previous efficiency: 0.6769407143
+ Time take to run this function: 4.51e-07
+SFC ratio: 1
+ Final SFC time: 5.6586e-05
+
+SFC+Knapsack previous efficiency: 0.6787007896
+SFC + Knapsack ratio: 1.016218405
+ Final SFC+Knapsack_Combined time: 8.4447e-05
+
+SFC+Painter previous efficiency: 0.6720012886
+SFC+painterPartition efficiency: 0.6897156358
+SFC+Painter ratio: 1.026360585
+ Final SFC+Painter time: 0.000125223
+
+Painter+Knapsack previous efficiency: 0.6866004001
+Painter+Knapsack ratio: 1.004515393
+ Final painter+Knapsack_Combined time: 0.000143687
+Run 7
+File weights 51 and ranks 51
+Original previous efficiency: 0.71777914
+Original efficiency: 0.71777914
+Original ratio: 1
+Knapsack previous efficiency: 0.7172832881
+Knapsack ratio: 1.009650564
+ Final Knapsack time: 6.6835e-05
+
+Karmarkar-Karp previous efficiency: 0.7172637954
+Karmarkar-Karp ratio: 1.009678003
+ Final Karmarkar-Karp time: 0.006188779
+
+SFC previous efficiency: 0.6757198878
+ Time take to run this function: 3.81e-07
+SFC ratio: 0.9916795633
+ Final SFC time: 5.6395e-05
+
+SFC+Knapsack previous efficiency: 0.6757447568
+SFC + Knapsack ratio: 1.02058618
+ Final SFC+Knapsack_Combined time: 8.4487e-05
+
+SFC+Painter previous efficiency: 0.6700976033
+SFC+painterPartition efficiency: 0.6896877804
+SFC+Painter ratio: 1.029234811
+ Final SFC+Painter time: 0.000125625
+
+Painter+Knapsack previous efficiency: 0.6889984801
+Painter+Knapsack ratio: 1.000977551
+ Final painter+Knapsack_Combined time: 0.000144609
+Run 8
+File weights 51 and ranks 51
+Original previous efficiency: 0.7121004666
+Original efficiency: 0.7121004666
+Original ratio: 1
+Knapsack previous efficiency: 0.7115661466
+Knapsack ratio: 1.016263
+ Final Knapsack time: 6.6874e-05
+
+Karmarkar-Karp previous efficiency: 0.7115116801
+Karmarkar-Karp ratio: 1.016340796
+ Final Karmarkar-Karp time: 0.006197515
+
+SFC previous efficiency: 0.6716804025
+ Time take to run this function: 3.91e-07
+SFC ratio: 0.9940332405
+ Final SFC time: 5.7627e-05
+
+SFC+Knapsack previous efficiency: 0.6717448174
+SFC + Knapsack ratio: 1.026476999
+ Final SFC+Knapsack_Combined time: 8.5419e-05
+
+SFC+Painter previous efficiency: 0.6676726471
+SFC+painterPartition efficiency: 0.689644825
+SFC+Painter ratio: 1.032908609
+ Final SFC+Painter time: 0.000125514
+
+Painter+Knapsack previous efficiency: 0.6895692098
+Painter+Knapsack ratio: 1.000024029
+ Final painter+Knapsack_Combined time: 0.000143187
+Run 9
+File weights 51 and ranks 51
+Original previous efficiency: 0.7060311156
+Original efficiency: 0.7060311156
+Original ratio: 1
+Knapsack previous efficiency: 0.7054362811
+Knapsack ratio: 1.02241491
+ Final Knapsack time: 6.5853e-05
+
+Karmarkar-Karp previous efficiency: 0.6987438376
+Karmarkar-Karp ratio: 1.032207417
+ Final Karmarkar-Karp time: 0.006224435
+
+SFC previous efficiency: 0.6571584934
+ Time take to run this function: 3.6e-07
+SFC ratio: 1.003473126
+ Final SFC time: 5.936e-05
+
+SFC+Knapsack previous efficiency: 0.6631584333
+SFC + Knapsack ratio: 1.039854127
+ Final SFC+Knapsack_Combined time: 8.7032e-05
+
+SFC+Painter previous efficiency: 0.6594408878
+SFC+painterPartition efficiency: 0.6895922166
+SFC+Painter ratio: 1.045722565
+ Final SFC+Painter time: 0.000127368
+
+Painter+Knapsack previous efficiency: 0.6736051244
+Painter+Knapsack ratio: 1.023722401
+ Final painter+Knapsack_Combined time: 0.000142586
+Run 10
+File weights 51 and ranks 51
+Original previous efficiency: 0.6989454786
+Original efficiency: 0.6989454786
+Original ratio: 1
+Knapsack previous efficiency: 0.601631051
+Knapsack ratio: 1.212547827
+ Final Knapsack time: 6.8908e-05
+
+Karmarkar-Karp previous efficiency: 0.6494082151
+Karmarkar-Karp ratio: 1.123340307
+ Final Karmarkar-Karp time: 0.006415261
+
+SFC previous efficiency: 0.570270892
+ Time take to run this function: 4.31e-07
+SFC ratio: 1.107145967
+ Final SFC time: 0.00015599
+
+SFC+Knapsack previous efficiency: 0.5143682322
+SFC + Knapsack ratio: 1.328782631
+ Final SFC+Knapsack_Combined time: 8.7514e-05
+
+SFC+Painter previous efficiency: 0.4952941221
+SFC+painterPartition efficiency: 0.6835011136
+SFC+Painter ratio: 1.379990359
+ Final SFC+Painter time: 0.000119333
+
+Painter+Knapsack previous efficiency: 0.570270892
+Painter+Knapsack ratio: 1.19852439
+ Final painter+Knapsack_Combined time: 0.000147555
+Run 11
+File weights 51 and ranks 51
+Original previous efficiency: 0.699026705
+Original efficiency: 0.699026705
+Original ratio: 1
+Knapsack previous efficiency: 0.7279165893
+Knapsack ratio: 1.000729406
+ Final Knapsack time: 7.1033e-05
+
+Karmarkar-Karp previous efficiency: 0.7279165893
+Karmarkar-Karp ratio: 1.000729406
+ Final Karmarkar-Karp time: 0.006771404
+
+SFC previous efficiency: 0.5657304982
+ Time take to run this function: 4.21e-07
+SFC ratio: 1.205480497
+ Final SFC time: 6.2206e-05
+
+SFC+Knapsack previous efficiency: 0.6819777186
+SFC + Knapsack ratio: 1.000020298
+ Final SFC+Knapsack_Combined time: 8.9818e-05
+
+SFC+Painter previous efficiency: 0.681987106
+SFC+painterPartition efficiency: 0.682014156
+SFC+Painter ratio: 1.000039663
+ Final SFC+Painter time: 0.000122939
+
+Painter+Knapsack previous efficiency: 0.6819834466
+Painter+Knapsack ratio: 1.000011898
+ Final painter+Knapsack_Combined time: 0.000147945
+Run 12
+File weights 51 and ranks 51
+Original previous efficiency: 0.6940226255
+Original efficiency: 0.6940226255
+Original ratio: 1
+Knapsack previous efficiency: 0.7274924559
+Knapsack ratio: 1.000992161
+ Final Knapsack time: 6.979e-05
+
+Karmarkar-Karp previous efficiency: 0.7274924559
+Karmarkar-Karp ratio: 1.000992161
+ Final Karmarkar-Karp time: 0.006578876
+
+SFC previous efficiency: 0.6816928168
+ Time take to run this function: 4.41e-07
+SFC ratio: 0.9612630255
+ Final SFC time: 5.9651e-05
+
+SFC+Knapsack previous efficiency: 0.6811136062
+SFC + Knapsack ratio: 1.000850388
+ Final SFC+Knapsack_Combined time: 8.7753e-05
+
+SFC+Painter previous efficiency: 0.6816961567
+SFC+painterPartition efficiency: 0.6817189002
+SFC+Painter ratio: 1.000033363
+ Final SFC+Painter time: 0.000127367
+
+Painter+Knapsack previous efficiency: 0.6811136062
+Painter+Knapsack ratio: 1.000866733
+ Final painter+Knapsack_Combined time: 0.000146703
+Run 13
+File weights 51 and ranks 51
+Original previous efficiency: 0.6852669342
+Original efficiency: 0.6852669342
+Original ratio: 1
+Knapsack previous efficiency: 0.7243937891
+Knapsack ratio: 1.005554534
+ Final Knapsack time: 6.8137e-05
+
+Karmarkar-Karp previous efficiency: 0.7243937891
+Karmarkar-Karp ratio: 1.005554534
+ Final Karmarkar-Karp time: 0.006503846
+
+SFC previous efficiency: 0.6813772527
+ Time take to run this function: 4.21e-07
+SFC ratio: 0.9794834653
+ Final SFC time: 5.7107e-05
+
+SFC+Knapsack previous efficiency: 0.6783135189
+SFC + Knapsack ratio: 1.004542472
+ Final SFC+Knapsack_Combined time: 8.6681e-05
+
+SFC+Painter previous efficiency: 0.6813969647
+SFC+painterPartition efficiency: 0.6814144521
+SFC+Painter ratio: 1.000025664
+ Final SFC+Painter time: 0.000115886
+
+Painter+Knapsack previous efficiency: 0.6783135189
+Painter+Knapsack ratio: 1.004540597
+ Final painter+Knapsack_Combined time: 0.000146473
+Run 14
+File weights 51 and ranks 51
+Original previous efficiency: 0.675702243
+Original efficiency: 0.675702243
+Original ratio: 1
+Knapsack previous efficiency: 0.7194333401
+Knapsack ratio: 1.012318754
+ Final Knapsack time: 6.939e-05
+
+Karmarkar-Karp previous efficiency: 0.7194333401
+Karmarkar-Karp ratio: 1.012318754
+ Final Karmarkar-Karp time: 0.006528502
+
+SFC previous efficiency: 0.6732566061
+ Time take to run this function: 3.51e-07
+SFC ratio: 0.9965003474
+ Final SFC time: 5.6956e-05
+
+SFC+Knapsack previous efficiency: 0.674249996
+SFC + Knapsack ratio: 1.010272602
+ Final SFC+Knapsack_Combined time: 8.5479e-05
+
+SFC+Painter previous efficiency: 0.6732566061
+SFC+painterPartition efficiency: 0.6812007723
+SFC+Painter ratio: 1.011799611
+ Final SFC+Painter time: 0.000109784
+
+Painter+Knapsack previous efficiency: 0.674249996
+Painter+Knapsack ratio: 1.010291458
+ Final painter+Knapsack_Combined time: 0.000147465
+Run 15
+File weights 51 and ranks 51
+Original previous efficiency: 0.6689658992
+Original efficiency: 0.6689658992
+Original ratio: 1
+Knapsack previous efficiency: 0.711785758
+Knapsack ratio: 1.022137885
+ Final Knapsack time: 6.8438e-05
+
+Karmarkar-Karp previous efficiency: 0.711785758
+Karmarkar-Karp ratio: 1.022137885
+ Final Karmarkar-Karp time: 0.006437052
+
+SFC previous efficiency: 0.6565795917
+ Time take to run this function: 3.61e-07
+SFC ratio: 0.9223879468
+ Final SFC time: 5.6545e-05
+
+SFC+Knapsack previous efficiency: 0.6698000687
+SFC + Knapsack ratio: 1.015812008
+ Final SFC+Knapsack_Combined time: 8.5399e-05
+
+SFC+Painter previous efficiency: 0.6565795917
+SFC+painterPartition efficiency: 0.6804090496
+SFC+Painter ratio: 1.036293327
+ Final SFC+Painter time: 0.000111929
+
+Painter+Knapsack previous efficiency: 0.6698000687
+Painter+Knapsack ratio: 1.015816037
+ Final painter+Knapsack_Combined time: 0.000148386
+Run 16
+File weights 51 and ranks 51
+Original previous efficiency: 0.6654943025
+Original efficiency: 0.6654943025
+Original ratio: 1
+Knapsack previous efficiency: 0.7073038272
+Knapsack ratio: 1.028894013
+ Final Knapsack time: 6.8909e-05
+
+Karmarkar-Karp previous efficiency: 0.7073038272
+Karmarkar-Karp ratio: 1.028894013
+ Final Karmarkar-Karp time: 0.006427974
+
+SFC previous efficiency: 0.6538055649
+ Time take to run this function: 3.91e-07
+SFC ratio: 0.9251149759
+ Final SFC time: 5.9371e-05
+
+SFC+Knapsack previous efficiency: 0.6661200456
+SFC + Knapsack ratio: 1.020103728
+ Final SFC+Knapsack_Combined time: 8.6531e-05
+
+SFC+Painter previous efficiency: 0.6538055649
+SFC+painterPartition efficiency: 0.6795270794
+SFC+Painter ratio: 1.039341229
+ Final SFC+Painter time: 0.00011271
+
+Painter+Knapsack previous efficiency: 0.6661200456
+Painter+Knapsack ratio: 1.020100634
+ Final painter+Knapsack_Combined time: 0.000151242
+Run 17
+File weights 51 and ranks 51
+Original previous efficiency: 0.6564859336
+Original efficiency: 0.7279229531
+Original ratio: 1.108817289
+Knapsack previous efficiency: 0.6970517079
+Knapsack ratio: 1.044288314
+ Final Knapsack time: 6.9349e-05
+
+Karmarkar-Karp previous efficiency: 0.6970517079
+Karmarkar-Karp ratio: 1.044288314
+ Final Karmarkar-Karp time: 0.006449584
+
+SFC previous efficiency: 0.6360119526
+ Time take to run this function: 3.81e-07
+SFC ratio: 0.9190823316
+ Final SFC time: 5.6245e-05
+
+SFC+Knapsack previous efficiency: 0.6360119526
+SFC + Knapsack ratio: 1.067808402
+ Final SFC+Knapsack_Combined time: 8.6341e-05
+
+SFC+Painter previous efficiency: 0.6481097671
+SFC+painterPartition efficiency: 0.6791514244
+SFC+Painter ratio: 1.047895679
+ Final SFC+Painter time: 0.000124362
+
+Painter+Knapsack previous efficiency: 0.6481097671
+Painter+Knapsack ratio: 1.047876365
+ Final painter+Knapsack_Combined time: 0.000145982
+Run 18
+File weights 51 and ranks 51
+Original previous efficiency: 0.7278281581
+Original efficiency: 0.7278281581
+Original ratio: 1
+Knapsack previous efficiency: 0.6875202764
+Knapsack ratio: 1.104847928
+ Final Knapsack time: 6.8748e-05
+
+Karmarkar-Karp previous efficiency: 0.6875202764
+Karmarkar-Karp ratio: 1.104847928
+ Final Karmarkar-Karp time: 0.006521579
+
+SFC previous efficiency: 0.4283271964
+ Time take to run this function: 3.709999999e-07
+SFC ratio: 1.33256346
+ Final SFC time: 5.8268e-05
+
+SFC+Knapsack previous efficiency: 0.4283271964
+SFC + Knapsack ratio: 1.584891864
+ Final SFC+Knapsack_Combined time: 8.8685e-05
+
+SFC+Painter previous efficiency: 0.5259695736
+SFC+painterPartition efficiency: 0.6788925205
+SFC+Painter ratio: 1.290744854
+ Final SFC+Painter time: 0.000132536
+
+Painter+Knapsack previous efficiency: 0.4593892682
+Painter+Knapsack ratio: 1.477735034
+ Final painter+Knapsack_Combined time: 0.000152474
+Run 19
+File weights 51 and ranks 51
+Original previous efficiency: 0.7005514836
+Original efficiency: 0.7005514836
+Original ratio: 1
+Knapsack previous efficiency: 0.7605713605
+Knapsack ratio: 1.010445163
+ Final Knapsack time: 7.2635e-05
+
+Karmarkar-Karp previous efficiency: 0.7605713605
+Karmarkar-Karp ratio: 1.010445163
+ Final Karmarkar-Karp time: 0.00656516
+
+SFC previous efficiency: 0.5235948211
+ Time take to run this function: 4.41e-07
+SFC ratio: 1.153693501
+ Final SFC time: 6.0453e-05
+
+SFC+Knapsack previous efficiency: 0.6786277556
+SFC + Knapsack ratio: 1.000012599
+ Final SFC+Knapsack_Combined time: 8.9376e-05
+
+SFC+Painter previous efficiency: 0.6786711399
+SFC+painterPartition efficiency: 0.6787172218
+SFC+Painter ratio: 1.0000679
+ Final SFC+Painter time: 0.000126946
+
+Painter+Knapsack previous efficiency: 0.6786225311
+Painter+Knapsack ratio: 1.000029864
+ Final painter+Knapsack_Combined time: 0.000143277
+Run 20
+File weights 51 and ranks 51
+Original previous efficiency: 0.6973949177
+Original efficiency: 0.7708032472
+Original ratio: 1.105260775
+Knapsack previous efficiency: 0.7597818766
+Knapsack ratio: 1.014505967
+ Final Knapsack time: 7.1153e-05
+
+Karmarkar-Karp previous efficiency: 0.7597818766
+Karmarkar-Karp ratio: 1.014505967
+ Final Karmarkar-Karp time: 0.006519876
+
+SFC previous efficiency: 0.6038990118
+ Time take to run this function: 3.710000001e-07
+SFC ratio: 1
+ Final SFC time: 5.8679e-05
+
+SFC+Knapsack previous efficiency: 0.6784287489
+SFC + Knapsack ratio: 1.000017964
+ Final SFC+Knapsack_Combined time: 8.6451e-05
+
+SFC+Painter previous efficiency: 0.678461514
+SFC+painterPartition efficiency: 0.6785101142
+SFC+Painter ratio: 1.000071633
+ Final SFC+Painter time: 0.000114453
+
+Painter+Knapsack previous efficiency: 0.6784287489
+Painter+Knapsack ratio: 1.000026364
+ Final painter+Knapsack_Combined time: 0.000146834
+Run 21
+File weights 51 and ranks 51
+Original previous efficiency: 0.7632295918
+Original efficiency: 0.7632295918
+Original ratio: 1
+Knapsack previous efficiency: 0.7635367713
+Knapsack ratio: 1.011626462
+ Final Knapsack time: 6.8457e-05
+
+Karmarkar-Karp previous efficiency: 0.7635367713
+Karmarkar-Karp ratio: 1.011626462
+ Final Karmarkar-Karp time: 0.006525867
+
+SFC previous efficiency: 0.6035803949
+ Time take to run this function: 3.6e-07
+SFC ratio: 1
+ Final SFC time: 5.9551e-05
+
+SFC+Knapsack previous efficiency: 0.6780568485
+SFC + Knapsack ratio: 1.000048995
+ Final SFC+Knapsack_Combined time: 8.6461e-05
+
+SFC+Painter previous efficiency: 0.6780968729
+SFC+painterPartition efficiency: 0.6781498769
+SFC+Painter ratio: 1.000078166
+ Final SFC+Painter time: 0.000125855
+
+Painter+Knapsack previous efficiency: 0.6780622268
+Painter+Knapsack ratio: 1.000041063
+ Final painter+Knapsack_Combined time: 0.000151693
+Run 22
+File weights 51 and ranks 51
+Original previous efficiency: 0.7383791909
+Original efficiency: 0.7383791909
+Original ratio: 1
+Knapsack previous efficiency: 0.7399116391
+Knapsack ratio: 1.046760621
+ Final Knapsack time: 7.2706e-05
+
+Karmarkar-Karp previous efficiency: 0.7399116391
+Karmarkar-Karp ratio: 1.046760621
+ Final Karmarkar-Karp time: 0.006525045
+
+SFC previous efficiency: 0.5939753812
+ Time take to run this function: 3.91e-07
+SFC ratio: 1.015642728
+ Final SFC time: 5.8579e-05
+
+SFC+Knapsack previous efficiency: 0.67771477
+SFC + Knapsack ratio: 1.000014465
+ Final SFC+Knapsack_Combined time: 8.601e-05
+
+SFC+Painter previous efficiency: 0.6777413343
+SFC+painterPartition efficiency: 0.6777917797
+SFC+Painter ratio: 1.000074432
+ Final SFC+Painter time: 0.000126335
+
+Painter+Knapsack previous efficiency: 0.677717932
+Painter+Knapsack ratio: 1.000022165
+ Final painter+Knapsack_Combined time: 0.000142796
+Run 23
+File weights 51 and ranks 51
+Original previous efficiency: 0.7408777761
+Original efficiency: 0.7408777761
+Original ratio: 1
+Knapsack previous efficiency: 0.7392062486
+Knapsack ratio: 1.047466107
+ Final Knapsack time: 7.0401e-05
+
+Karmarkar-Karp previous efficiency: 0.7392062486
+Karmarkar-Karp ratio: 1.047466107
+ Final Karmarkar-Karp time: 0.006454213
+
+SFC previous efficiency: 0.5838311258
+ Time take to run this function: 4.01e-07
+SFC ratio: 1.032933874
+ Final SFC time: 5.6024e-05
+
+SFC+Knapsack previous efficiency: 0.6759669765
+SFC + Knapsack ratio: 1.002256809
+ Final SFC+Knapsack_Combined time: 8.5469e-05
+
+SFC+Painter previous efficiency: 0.6775048345
+SFC+painterPartition efficiency: 0.6775541566
+SFC+Painter ratio: 1.0000728
+ Final SFC+Painter time: 0.000123521
+
+Painter+Knapsack previous efficiency: 0.6774762245
+Painter+Knapsack ratio: 1.000020065
+ Final painter+Knapsack_Combined time: 0.000144369
+Run 24
+File weights 51 and ranks 51
+Original previous efficiency: 0.7404669933
+Original efficiency: 0.7404669933
+Original ratio: 1
+Knapsack previous efficiency: 0.7013978897
+Knapsack ratio: 1.103644075
+ Final Knapsack time: 7.9838e-05
+
+Karmarkar-Karp previous efficiency: 0.7013978897
+Karmarkar-Karp ratio: 1.103644075
+ Final Karmarkar-Karp time: 0.006481695
+
+SFC previous efficiency: 0.5671013671
+ Time take to run this function: 3.91e-07
+SFC ratio: 1.063066552
+ Final SFC time: 5.8819e-05
+
+SFC+Knapsack previous efficiency: 0.6339203667
+SFC + Knapsack ratio: 1.068377479
+ Final SFC+Knapsack_Combined time: 8.7303e-05
+
+SFC+Painter previous efficiency: 0.6772859951
+SFC+painterPartition efficiency: 0.6773300866
+SFC+Painter ratio: 1.0000651
+ Final SFC+Painter time: 0.00011279
+
+Painter+Knapsack previous efficiency: 0.6772551823
+Painter+Knapsack ratio: 1.000016332
+ Final painter+Knapsack_Combined time: 0.000146633
+Run 25
+File weights 51 and ranks 51
+Original previous efficiency: 0.7302631966
+Original efficiency: 0.7302631966
+Original ratio: 1
+Knapsack previous efficiency: 0.7738979377
+Knapsack ratio: 1.000298756
+ Final Knapsack time: 7.5821e-05
+
+Karmarkar-Karp previous efficiency: 0.7738979377
+Karmarkar-Karp ratio: 1.000298756
+ Final Karmarkar-Karp time: 0.006513113
+
+SFC previous efficiency: 0.5400230663
+ Time take to run this function: 4.41e-07
+SFC ratio: 1.086836849
+ Final SFC time: 6.5882e-05
+
+SFC+Knapsack previous efficiency: 0.5086456128
+SFC + Knapsack ratio: 1.331140963
+ Final SFC+Knapsack_Combined time: 8.9537e-05
+
+SFC+Painter previous efficiency: 0.6025846915
+SFC+painterPartition efficiency: 0.677161637
+SFC+Painter ratio: 1.123761766
+ Final SFC+Painter time: 0.000127938
+
+Painter+Knapsack previous efficiency: 0.5619537835
+Painter+Knapsack ratio: 1.204867411
+ Final painter+Knapsack_Combined time: 0.000146162
+Run 26
+File weights 51 and ranks 51
+Original previous efficiency: 0.7242186729
+Original efficiency: 0.7242186729
+Original ratio: 1
+Knapsack previous efficiency: 0.7725748984
+Knapsack ratio: 1.001751478
+ Final Knapsack time: 7.6472e-05
+
+Karmarkar-Karp previous efficiency: 0.7725748984
+Karmarkar-Karp ratio: 1.001751478
+ Final Karmarkar-Karp time: 0.006814535
+
+SFC previous efficiency: 0.496182857
+ Time take to run this function: 4.610000001e-07
+SFC ratio: 1.266480743
+ Final SFC time: 6.3258e-05
+
+SFC+Knapsack previous efficiency: 0.6100386663
+SFC + Knapsack ratio: 1.109603582
+ Final SFC+Knapsack_Combined time: 8.9958e-05
+
+SFC+Painter previous efficiency: 0.676974375
+SFC+painterPartition efficiency: 0.6771736214
+SFC+Painter ratio: 1.000294319
+ Final SFC+Painter time: 0.000119622
+
+Painter+Knapsack previous efficiency: 0.6100771491
+Painter+Knapsack ratio: 1.10953359
+ Final painter+Knapsack_Combined time: 0.000148346
+Run 27
+File weights 51 and ranks 51
+Original previous efficiency: 0.7027742066
+Original efficiency: 0.7740237701
+Original ratio: 1.101383293
+Knapsack previous efficiency: 0.7689691321
+Knapsack ratio: 1.006573265
+ Final Knapsack time: 7.1363e-05
+
+Karmarkar-Karp previous efficiency: 0.7689691321
+Karmarkar-Karp ratio: 1.006573265
+ Final Karmarkar-Karp time: 0.006512783
+
+SFC previous efficiency: 0.6401505659
+ Time take to run this function: 4.31e-07
+SFC ratio: 0.9560139605
+ Final SFC time: 5.8799e-05
+
+SFC+Knapsack previous efficiency: 0.6622701044
+SFC + Knapsack ratio: 1.021710737
+ Final SFC+Knapsack_Combined time: 8.8716e-05
+
+SFC+Painter previous efficiency: 0.6735233376
+SFC+painterPartition efficiency: 0.676930069
+SFC+Painter ratio: 1.005058075
+ Final SFC+Painter time: 0.000123771
+
+Painter+Knapsack previous efficiency: 0.6766481614
+Painter+Knapsack ratio: 1.000000466
+ Final painter+Knapsack_Combined time: 0.0001449
+Run 28
+File weights 51 and ranks 51
+Original previous efficiency: 0.7737765738
+Original efficiency: 0.7737765738
+Original ratio: 1
+Knapsack previous efficiency: 0.7632071157
+Knapsack ratio: 1.013848742
+ Final Knapsack time: 7.1974e-05
+
+Karmarkar-Karp previous efficiency: 0.7632071157
+Karmarkar-Karp ratio: 1.013848742
+ Final Karmarkar-Karp time: 0.006435669
+
+SFC previous efficiency: 0.6433071737
+ Time take to run this function: 3.7e-07
+SFC ratio: 0.9775707434
+ Final SFC time: 5.926e-05
+
+SFC+Knapsack previous efficiency: 0.6396229175
+SFC + Knapsack ratio: 1.057475789
+ Final SFC+Knapsack_Combined time: 8.9266e-05
+
+SFC+Painter previous efficiency: 0.6623726268
+SFC+painterPartition efficiency: 0.6766844509
+SFC+Painter ratio: 1.021606908
+ Final SFC+Painter time: 0.000124101
+
+Painter+Knapsack previous efficiency: 0.6763750187
+Painter+Knapsack ratio: 1.000015865
+ Final painter+Knapsack_Combined time: 0.000145931
+Run 29
+File weights 51 and ranks 51
+Original previous efficiency: 0.7736332687
+Original efficiency: 0.7736332687
+Original ratio: 1
+Knapsack previous efficiency: 0.7584986876
+Knapsack ratio: 1.019973486
+ Final Knapsack time: 6.9129e-05
+
+Karmarkar-Karp previous efficiency: 0.7584986876
+Karmarkar-Karp ratio: 1.019973486
+ Final Karmarkar-Karp time: 0.006406945
+
+SFC previous efficiency: 0.6452019431
+ Time take to run this function: 3.91e-07
+SFC ratio: 0.9584433963
+ Final SFC time: 5.6916e-05
+
+SFC+Knapsack previous efficiency: 0.6186604113
+SFC + Knapsack ratio: 1.092968223
+ Final SFC+Knapsack_Combined time: 8.6311e-05
+
+SFC+Painter previous efficiency: 0.6525944115
+SFC+painterPartition efficiency: 0.6765183605
+SFC+Painter ratio: 1.036659752
+ Final SFC+Painter time: 0.000118682
+
+Painter+Knapsack previous efficiency: 0.6761725416
+Painter+Knapsack ratio: 1.000005366
+ Final painter+Knapsack_Combined time: 0.000146183
+Run 30
+File weights 51 and ranks 51
+Original previous efficiency: 0.7735842144
+Original efficiency: 0.7735842144
+Original ratio: 1
+Knapsack previous efficiency: 0.7491438038
+Knapsack ratio: 1.032647616
+ Final Knapsack time: 6.968e-05
+
+Karmarkar-Karp previous efficiency: 0.7491438038
+Karmarkar-Karp ratio: 1.032647616
+ Final Karmarkar-Karp time: 0.006332216
+
+SFC previous efficiency: 0.645881227
+ Time take to run this function: 3.81e-07
+SFC ratio: 0.9397583425
+ Final SFC time: 5.5784e-05
+
+SFC+Knapsack previous efficiency: 0.6072762894
+SFC + Knapsack ratio: 1.113259566
+ Final SFC+Knapsack_Combined time: 8.573e-05
+
+SFC+Painter previous efficiency: 0.6438252294
+SFC+painterPartition efficiency: 0.6764424803
+SFC+Painter ratio: 1.050661654
+ Final SFC+Painter time: 0.000123881
+
+Painter+Knapsack previous efficiency: 0.6760337419
+Painter+Knapsack ratio: 1
+ Final painter+Knapsack_Combined time: 0.000154067
+Run 31
+File weights 51 and ranks 51
+Original previous efficiency: 0.7735478349
+Original efficiency: 0.7735478349
+Original ratio: 1
+Knapsack previous efficiency: 0.7408935716
+Knapsack ratio: 1.044130475
+ Final Knapsack time: 7.1854e-05
+
+Karmarkar-Karp previous efficiency: 0.7408935716
+Karmarkar-Karp ratio: 1.044130475
+ Final Karmarkar-Karp time: 0.006483799
+
+SFC previous efficiency: 0.6463415789
+ Time take to run this function: 3.61e-07
+SFC ratio: 0.9296005923
+ Final SFC time: 5.7707e-05
+
+SFC+Knapsack previous efficiency: 0.6759469071
+SFC + Knapsack ratio: 1.000002566
+ Final SFC+Knapsack_Combined time: 8.555e-05
+
+SFC+Painter previous efficiency: 0.6346510983
+SFC+painterPartition efficiency: 0.6778181648
+SFC+Painter ratio: 1.068017004
+ Final SFC+Painter time: 0.000124622
+
+Painter+Knapsack previous efficiency: 0.6759499036
+Painter+Knapsack ratio: 0.9999981333
+ Final painter+Knapsack_Combined time: 0.000146182
+Run 32
+File weights 51 and ranks 51
+Original previous efficiency: 0.7734470607
+Original efficiency: 0.7734470607
+Original ratio: 1
+Knapsack previous efficiency: 0.7332775453
+Knapsack ratio: 1.057398502
+ Final Knapsack time: 7.0592e-05
+
+Karmarkar-Karp previous efficiency: 0.7332775453
+Karmarkar-Karp ratio: 1.057398502
+ Final Karmarkar-Karp time: 0.006397057
+
+SFC previous efficiency: 0.6325051776
+ Time take to run this function: 3.510000001e-07
+SFC ratio: 0.9340682981
+ Final SFC time: 5.8148e-05
+
+SFC+Knapsack previous efficiency: 0.6189699575
+SFC + Knapsack ratio: 1.091736379
+ Final SFC+Knapsack_Combined time: 8.5239e-05
+
+SFC+Painter previous efficiency: 0.6266720864
+SFC+painterPartition efficiency: 0.6790347165
+SFC+Painter ratio: 1.083556666
+ Final SFC+Painter time: 0.000126997
+
+Painter+Knapsack previous efficiency: 0.6603516784
+Painter+Knapsack ratio: 1.023363443
+ Final painter+Knapsack_Combined time: 0.000144028
+Run 33
+File weights 51 and ranks 51
+Original previous efficiency: 0.7733724331
+Original efficiency: 0.7733724331
+Original ratio: 1
+Knapsack previous efficiency: 0.7265927259
+Knapsack ratio: 1.067084949
+ Final Knapsack time: 7.0251e-05
+
+Karmarkar-Karp previous efficiency: 0.7265927259
+Karmarkar-Karp ratio: 1.067084949
+ Final Karmarkar-Karp time: 0.006547738
+
+SFC previous efficiency: 0.4780104644
+ Time take to run this function: 3.61e-07
+SFC ratio: 1.21297521
+ Final SFC time: 5.7868e-05
+
+SFC+Knapsack previous efficiency: 0.4481519585
+SFC + Knapsack ratio: 1.399432989
+ Final SFC+Knapsack_Combined time: 8.9016e-05
+
+SFC+Painter previous efficiency: 0.6147015233
+SFC+painterPartition efficiency: 0.6885530435
+SFC+Painter ratio: 1.120142081
+ Final SFC+Painter time: 0.000126475
+
+Painter+Knapsack previous efficiency: 0.4780104644
+Painter+Knapsack ratio: 1.413437
+ Final painter+Knapsack_Combined time: 0.000147545
+Run 34
+File weights 51 and ranks 51
+Original previous efficiency: 0.7679908591
+Original efficiency: 0.7679908591
+Original ratio: 1
+Knapsack previous efficiency: 0.7234372967
+Knapsack ratio: 1.069014488
+ Final Knapsack time: 7.1754e-05
+
+Karmarkar-Karp previous efficiency: 0.7234372967
+Karmarkar-Karp ratio: 1.069014488
+ Final Karmarkar-Karp time: 0.006560511
+
+SFC previous efficiency: 0.5777364002
+ Time take to run this function: 4.109999999e-07
+SFC ratio: 1
+ Final SFC time: 5.9922e-05
+
+SFC+Knapsack previous efficiency: 0.5777208391
+SFC + Knapsack ratio: 1.101763142
+ Final SFC+Knapsack_Combined time: 8.9026e-05
+
+SFC+Painter previous efficiency: 0.6885938297
+SFC+painterPartition efficiency: 0.6885938297
+SFC+Painter ratio: 1
+ Final SFC+Painter time: 0.000126676
+
+Painter+Knapsack previous efficiency: 0.6741111185
+Painter+Knapsack ratio: 1.002179384
+ Final painter+Knapsack_Combined time: 0.000141664
+Run 35
+File weights 51 and ranks 51
+Original previous efficiency: 0.7643817369
+Original efficiency: 0.7643817369
+Original ratio: 1
+Knapsack previous efficiency: 0.7208791682
+Knapsack ratio: 1.072708767
+ Final Knapsack time: 7.1654e-05
+
+Karmarkar-Karp previous efficiency: 0.7208791682
+Karmarkar-Karp ratio: 1.072708767
+ Final Karmarkar-Karp time: 0.006384103
+
+SFC previous efficiency: 0.5873670142
+ Time take to run this function: 4e-07
+SFC ratio: 0.8929178961
+ Final SFC time: 5.8619e-05
+
+SFC+Knapsack previous efficiency: 0.6417039426
+SFC + Knapsack ratio: 1
+ Final SFC+Knapsack_Combined time: 8.619e-05
+
+SFC+Painter previous efficiency: 0.6884722108
+SFC+painterPartition efficiency: 0.6894964268
+SFC+Painter ratio: 1.001487665
+ Final SFC+Painter time: 0.000115375
+
+Painter+Knapsack previous efficiency: 0.6579072723
+Painter+Knapsack ratio: 1.026665484
+ Final painter+Knapsack_Combined time: 0.000146964
+Run 36
+File weights 51 and ranks 51
+Original previous efficiency: 0.7551686276
+Original efficiency: 0.7551686276
+Original ratio: 1
+Knapsack previous efficiency: 0.7167599402
+Knapsack ratio: 1.078475316
+ Final Knapsack time: 7.2535e-05
+
+Karmarkar-Karp previous efficiency: 0.7167599402
+Karmarkar-Karp ratio: 1.078475316
+ Final Karmarkar-Karp time: 0.006329301
+
+SFC previous efficiency: 0.5714130402
+ Time take to run this function: 3.81e-07
+SFC ratio: 0.9204933196
+ Final SFC time: 5.7267e-05
+
+SFC+Knapsack previous efficiency: 0.6444442034
+SFC + Knapsack ratio: 1
+ Final SFC+Knapsack_Combined time: 8.7684e-05
+
+SFC+Painter previous efficiency: 0.6881943192
+SFC+painterPartition efficiency: 0.6902029146
+SFC+Painter ratio: 1.002918646
+ Final SFC+Painter time: 0.00012336
+
+Painter+Knapsack previous efficiency: 0.6374094249
+Painter+Knapsack ratio: 1.059271602
+ Final painter+Knapsack_Combined time: 0.000150882
+Run 37
+File weights 51 and ranks 51
+Original previous efficiency: 0.7455875302
+Original efficiency: 0.7455875302
+Original ratio: 1
+Knapsack previous efficiency: 0.6938031537
+Knapsack ratio: 1.113611338
+ Final Knapsack time: 7.2455e-05
+
+Karmarkar-Karp previous efficiency: 0.6938031537
+Karmarkar-Karp ratio: 1.113611338
+ Final Karmarkar-Karp time: 0.006305837
+
+SFC previous efficiency: 0.5593525586
+ Time take to run this function: 3.810000001e-07
+SFC ratio: 1.044920628
+ Final SFC time: 5.7687e-05
+
+SFC+Knapsack previous efficiency: 0.645899536
+SFC + Knapsack ratio: 0.9880823219
+ Final SFC+Knapsack_Combined time: 8.5139e-05
+
+SFC+Painter previous efficiency: 0.687833222
+SFC+painterPartition efficiency: 0.690250014
+SFC+Painter ratio: 1.003513631
+ Final SFC+Painter time: 0.000126806
+
+Painter+Knapsack previous efficiency: 0.6167389577
+Painter+Knapsack ratio: 1.094188714
+ Final painter+Knapsack_Combined time: 0.000145692
+Run 38
+File weights 51 and ranks 51
+Original previous efficiency: 0.7481938104
+Original efficiency: 0.7481938104
+Original ratio: 1
+Knapsack previous efficiency: 0.7719947197
+Knapsack ratio: 1.000051563
+ Final Knapsack time: 7.0752e-05
+
+Karmarkar-Karp previous efficiency: 0.7719947197
+Karmarkar-Karp ratio: 1.000051563
+ Final Karmarkar-Karp time: 0.00635567
+
+SFC previous efficiency: 0.5501300142
+ Time take to run this function: 3.709999999e-07
+SFC ratio: 1.102757549
+ Final SFC time: 5.7687e-05
+
+SFC+Knapsack previous efficiency: 0.6445305857
+SFC + Knapsack ratio: 1.003816887
+ Final SFC+Knapsack_Combined time: 8.583e-05
+
+SFC+Painter previous efficiency: 0.6872085713
+SFC+painterPartition efficiency: 0.6914147811
+SFC+Painter ratio: 1.006120718
+ Final SFC+Painter time: 0.000124402
+
+Painter+Knapsack previous efficiency: 0.6044351087
+Painter+Knapsack ratio: 1.110628409
+ Final painter+Knapsack_Combined time: 0.000143137
+Run 39
+File weights 51 and ranks 51
+Original previous efficiency: 0.7421887192
+Original efficiency: 0.7421887192
+Original ratio: 1
+Knapsack previous efficiency: 0.7716088343
+Knapsack ratio: 1.000049962
+ Final Knapsack time: 7.3827e-05
+
+Karmarkar-Karp previous efficiency: 0.7716088343
+Karmarkar-Karp ratio: 1.000049962
+ Final Karmarkar-Karp time: 0.006424147
+
+SFC previous efficiency: 0.6074535645
+ Time take to run this function: 4.01e-07
+SFC ratio: 1
+ Final SFC time: 6.963e-05
+
+SFC+Knapsack previous efficiency: 0.6361146425
+SFC + Knapsack ratio: 1.018151411
+ Final SFC+Knapsack_Combined time: 9.3955e-05
+
+SFC+Painter previous efficiency: 0.6841470752
+SFC+painterPartition efficiency: 0.6868287453
+SFC+Painter ratio: 1.003919728
+ Final SFC+Painter time: 0.000122929
+
+Painter+Knapsack previous efficiency: 0.6647920914
+Painter+Knapsack ratio: 1
+ Final painter+Knapsack_Combined time: 0.000151132
+Run 40
+File weights 51 and ranks 51
+Original previous efficiency: 0.6863516327
+Original efficiency: 0.7737465397
+Original ratio: 1.127332555
+Knapsack previous efficiency: 0.7713401028
+Knapsack ratio: 1.003119813
+ Final Knapsack time: 7.2986e-05
+
+Karmarkar-Karp previous efficiency: 0.7713401028
+Karmarkar-Karp ratio: 1.003119813
+ Final Karmarkar-Karp time: 0.006466726
+
+SFC previous efficiency: 0.5508701808
+ Time take to run this function: 3.81e-07
+SFC ratio: 1.040872138
+ Final SFC time: 6.3198e-05
+
+SFC+Knapsack previous efficiency: 0.5247877211
+SFC + Knapsack ratio: 1.198406625
+ Final SFC+Knapsack_Combined time: 9.0108e-05
+
+SFC+Painter previous efficiency: 0.6781131969
+SFC+painterPartition efficiency: 0.6865732205
+SFC+Painter ratio: 1.012475828
+ Final SFC+Painter time: 0.000118421
+
+Painter+Knapsack previous efficiency: 0.6064051733
+Painter+Knapsack ratio: 1.06944291
+ Final painter+Knapsack_Combined time: 0.000160298
+Run 41
+File weights 51 and ranks 51
+Original previous efficiency: 0.7732160809
+Original efficiency: 0.7732160809
+Original ratio: 1
+Knapsack previous efficiency: 0.770767708
+Knapsack ratio: 1.005334179
+ Final Knapsack time: 7.3647e-05
+
+Karmarkar-Karp previous efficiency: 0.770767708
+Karmarkar-Karp ratio: 1.005334179
+ Final Karmarkar-Karp time: 0.006862935
+
+SFC previous efficiency: 0.5393141616
+ Time take to run this function: 4.71e-07
+SFC ratio: 1.01359784
+ Final SFC time: 6.5512e-05
+
+SFC+Knapsack previous efficiency: 0.5613103141
+SFC + Knapsack ratio: 1.096559068
+ Final SFC+Knapsack_Combined time: 9.2172e-05
+
+SFC+Painter previous efficiency: 0.6771552422
+SFC+painterPartition efficiency: 0.6860065508
+SFC+Painter ratio: 1.013071314
+ Final SFC+Painter time: 0.000129051
+
+Painter+Knapsack previous efficiency: 0.5497408347
+Painter+Knapsack ratio: 1.156157379
+ Final painter+Knapsack_Combined time: 0.000149659
+Run 42
+File weights 51 and ranks 51
+Original previous efficiency: 0.772249345
+Original efficiency: 0.772249345
+Original ratio: 1
+Knapsack previous efficiency: 0.7697594594
+Knapsack ratio: 1.005451319
+ Final Knapsack time: 7.3196e-05
+
+Karmarkar-Karp previous efficiency: 0.7697594594
+Karmarkar-Karp ratio: 1.005451319
+ Final Karmarkar-Karp time: 0.006429467
+
+SFC previous efficiency: 0.5349518058
+ Time take to run this function: 4.01e-07
+SFC ratio: 1.110540014
+ Final SFC time: 6.0293e-05
+
+SFC+Knapsack previous efficiency: 0.5542890983
+SFC + Knapsack ratio: 1.154892977
+ Final SFC+Knapsack_Combined time: 8.8225e-05
+
+SFC+Painter previous efficiency: 0.6781533259
+SFC+painterPartition efficiency: 0.6850511237
+SFC+Painter ratio: 1.010171443
+ Final SFC+Painter time: 0.000122869
+
+Painter+Knapsack previous efficiency: 0.6401445867
+Painter+Knapsack ratio: 1
+ Final painter+Knapsack_Combined time: 0.000152324
+Run 43
+File weights 51 and ranks 51
+Original previous efficiency: 0.7709095367
+Original efficiency: 0.7709095367
+Original ratio: 1
+Knapsack previous efficiency: 0.7670118326
+Knapsack ratio: 1.008581264
+ Final Knapsack time: 7.2805e-05
+
+Karmarkar-Karp previous efficiency: 0.7670118326
+Karmarkar-Karp ratio: 1.008581264
+ Final Karmarkar-Karp time: 0.006422704
+
+SFC previous efficiency: 0.6106095439
+ Time take to run this function: 3.81e-07
+SFC ratio: 0.9495001613
+ Final SFC time: 6.0322e-05
+
+SFC+Knapsack previous efficiency: 0.6421749236
+SFC + Knapsack ratio: 1
+ Final SFC+Knapsack_Combined time: 8.8224e-05
+
+SFC+Painter previous efficiency: 0.6778698274
+SFC+painterPartition efficiency: 0.6837494933
+SFC+Painter ratio: 1.008673739
+ Final SFC+Painter time: 0.00012878
+
+Painter+Knapsack previous efficiency: 0.6421749236
+Painter+Knapsack ratio: 1
+ Final painter+Knapsack_Combined time: 0.000142986
+Run 44
+File weights 51 and ranks 51
+Original previous efficiency: 0.7614986087
+Original efficiency: 0.7614986087
+Original ratio: 1
+Knapsack previous efficiency: 0.7585979927
+Knapsack ratio: 1.019416
+ Final Knapsack time: 7.4949e-05
+
+Karmarkar-Karp previous efficiency: 0.7585979927
+Karmarkar-Karp ratio: 1.019416
+ Final Karmarkar-Karp time: 0.006502323
+
+SFC previous efficiency: 0.618027869
+ Time take to run this function: 4.11e-07
+SFC ratio: 0.9140145978
+ Final SFC time: 6.0032e-05
+
+SFC+Knapsack previous efficiency: 0.6274631109
+SFC + Knapsack ratio: 1.026086191
+ Final SFC+Knapsack_Combined time: 8.8494e-05
+
+SFC+Painter previous efficiency: 0.676728887
+SFC+painterPartition efficiency: 0.6828367199
+SFC+Painter ratio: 1.009025524
+ Final SFC+Painter time: 0.000135723
+
+Painter+Knapsack previous efficiency: 0.6438312332
+Painter+Knapsack ratio: 1
+ Final painter+Knapsack_Combined time: 0.000147876
+Run 45
+File weights 51 and ranks 51
+Original previous efficiency: 0.7454015834
+Original efficiency: 0.7454015834
+Original ratio: 1
+Knapsack previous efficiency: 0.7491772388
+Knapsack ratio: 1.036224417
+ Final Knapsack time: 7.1874e-05
+
+Karmarkar-Karp previous efficiency: 0.7491772388
+Karmarkar-Karp ratio: 1.036224417
+ Final Karmarkar-Karp time: 0.006568896
+
+SFC previous efficiency: 0.6073344744
+ Time take to run this function: 4.11e-07
+SFC ratio: 0.9125647509
+ Final SFC time: 5.9902e-05
+
+SFC+Knapsack previous efficiency: 0.6072077452
+SFC + Knapsack ratio: 1.054101666
+ Final SFC+Knapsack_Combined time: 8.6651e-05
+
+SFC+Painter previous efficiency: 0.6730391494
+SFC+painterPartition efficiency: 0.6829200634
+SFC+Painter ratio: 1.014681039
+ Final SFC+Painter time: 0.000127838
+
+Painter+Knapsack previous efficiency: 0.645261072
+Painter+Knapsack ratio: 1
+ Final painter+Knapsack_Combined time: 0.000143427
+Run 46
+File weights 51 and ranks 51
+Original previous efficiency: 0.7297282962
+Original efficiency: 0.7297282962
+Original ratio: 1
+Knapsack previous efficiency: 0.7384995995
+Knapsack ratio: 1.052323365
+ Final Knapsack time: 8.0119e-05
+
+Karmarkar-Karp previous efficiency: 0.7384995995
+Karmarkar-Karp ratio: 1.052323365
+ Final Karmarkar-Karp time: 0.006542728
+
+SFC previous efficiency: 0.5969060618
+ Time take to run this function: 3.709999999e-07
+SFC ratio: 1
+ Final SFC time: 5.902e-05
+
+SFC+Knapsack previous efficiency: 0.5967852918
+SFC + Knapsack ratio: 1.059321556
+ Final SFC+Knapsack_Combined time: 8.7754e-05
+
+SFC+Painter previous efficiency: 0.6678641937
+SFC+painterPartition efficiency: 0.6878756211
+SFC+Painter ratio: 1.029963318
+ Final SFC+Painter time: 0.000125013
+
+Painter+Knapsack previous efficiency: 0.6463084368
+Painter+Knapsack ratio: 1
+ Final painter+Knapsack_Combined time: 0.000152174
+Run 47
+File weights 51 and ranks 51
+Original previous efficiency: 0.7162718063
+Original efficiency: 0.7162718063
+Original ratio: 1
+Knapsack previous efficiency: 0.7290158056
+Knapsack ratio: 1.060673916
+ Final Knapsack time: 7.6212e-05
+
+Karmarkar-Karp previous efficiency: 0.7290158056
+Karmarkar-Karp ratio: 1.060673916
+ Final Karmarkar-Karp time: 0.006562686
+
+SFC previous efficiency: 0.5923448952
+ Time take to run this function: 4.01e-07
+SFC ratio: 1
+ Final SFC time: 5.9541e-05
+
+SFC+Knapsack previous efficiency: 0.5922370216
+SFC + Knapsack ratio: 1.064276778
+ Final SFC+Knapsack_Combined time: 8.8785e-05
+
+SFC+Painter previous efficiency: 0.6693938304
+SFC+painterPartition efficiency: 0.6884422701
+SFC+Painter ratio: 1.028456252
+ Final SFC+Painter time: 0.000124733
+
+Painter+Knapsack previous efficiency: 0.6408617663
+Painter+Knapsack ratio: 1.009708159
+ Final painter+Knapsack_Combined time: 0.000152224
+Run 48
+File weights 51 and ranks 51
+Original previous efficiency: 0.7080913554
+Original efficiency: 0.7080913554
+Original ratio: 1
+Knapsack previous efficiency: 0.7229152921
+Knapsack ratio: 1.069218073
+ Final Knapsack time: 7.1203e-05
+
+Karmarkar-Karp previous efficiency: 0.7229152921
+Karmarkar-Karp ratio: 1.069218073
+ Final Karmarkar-Karp time: 0.006531807
+
+SFC previous efficiency: 0.588491719
+ Time take to run this function: 3.91e-07
+SFC ratio: 1
+ Final SFC time: 5.9991e-05
+
+SFC+Knapsack previous efficiency: 0.5884047612
+SFC + Knapsack ratio: 1.039773577
+ Final SFC+Knapsack_Combined time: 8.7703e-05
+
+SFC+Painter previous efficiency: 0.6647647917
+SFC+painterPartition efficiency: 0.6873383343
+SFC+Painter ratio: 1.033957187
+ Final SFC+Painter time: 0.000127086
+
+Painter+Knapsack previous efficiency: 0.6305612249
+Painter+Knapsack ratio: 1.027141699
+ Final painter+Knapsack_Combined time: 0.000149709
+Run 49
+File weights 51 and ranks 51
+Original previous efficiency: 0.7046835653
+Original efficiency: 0.7046835653
+Original ratio: 1
+Knapsack previous efficiency: 0.7229398666
+Knapsack ratio: 1.06865334
+ Final Knapsack time: 7.2395e-05
+
+Karmarkar-Karp previous efficiency: 0.7229398666
+Karmarkar-Karp ratio: 1.06865334
+ Final Karmarkar-Karp time: 0.006534462
+
+SFC previous efficiency: 0.5676922137
+ Time take to run this function: 3.710000001e-07
+SFC ratio: 1.032312565
+ Final SFC time: 5.9531e-05
+
+SFC+Knapsack previous efficiency: 0.5855956925
+SFC + Knapsack ratio: 1.065192697
+ Final SFC+Knapsack_Combined time: 8.6491e-05
+
+SFC+Painter previous efficiency: 0.6568531513
+SFC+painterPartition efficiency: 0.6868131632
+SFC+Painter ratio: 1.045611431
+ Final SFC+Painter time: 0.000130513
+
+Painter+Knapsack previous efficiency: 0.6144592021
+Painter+Knapsack ratio: 1.053139971
+ Final painter+Knapsack_Combined time: 0.000148376
+Run 50
+File weights 51 and ranks 51
+Original previous efficiency: 0.7012478979
+Original efficiency: 0.772460054
+Original ratio: 1.101550616
+Knapsack previous efficiency: 0.7260651766
+Knapsack ratio: 1.063899053
+ Final Knapsack time: 7.522e-05
+
+Karmarkar-Karp previous efficiency: 0.7260651766
+Karmarkar-Karp ratio: 1.063899053
+ Final Karmarkar-Karp time: 0.006600776
+
+SFC previous efficiency: 0.5448670183
+ Time take to run this function: 4.11e-07
+SFC ratio: 1.083009984
+ Final SFC time: 5.9952e-05
+
+SFC+Knapsack previous efficiency: 0.5834038428
+SFC + Knapsack ratio: 1.081654107
+ Final SFC+Knapsack_Combined time: 9.3223e-05
+
+SFC+Painter previous efficiency: 0.6525738484
+SFC+painterPartition efficiency: 0.6856392978
+SFC+Painter ratio: 1.050669284
+ Final SFC+Painter time: 0.000113732
+
+Painter+Knapsack previous efficiency: 0.5881311047
+Painter+Knapsack ratio: 1.101259046
+ Final painter+Knapsack_Combined time: 0.00014998
+
+
+TinyProfiler total time across processes [min...avg...max]: 0.5788 ... 0.5788 ... 0.5788
+
+-------------------------------------------------------------------------------------
+Name                                  NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+-------------------------------------------------------------------------------------
+kk()                                      51     0.3277     0.3277     0.3277  56.62%
+painterPartition()                       102    0.01012    0.01012    0.01012   1.75%
+knapsack()                              2499   0.005441   0.005441   0.005441   0.94%
+SFCProcessorMapDoIt()                     51   0.002297   0.002297   0.002297   0.40%
+SFCProcessorMapDoItCombined()             51   0.002179   0.002179   0.002179   0.38%
+SFCProcessorMapDoItCombinedPainter()      51   0.001257   0.001257   0.001257   0.22%
+Distribute()                             102  0.0006972  0.0006972  0.0006972   0.12%
+KKDoIt()                                  51  0.0006402  0.0006402  0.0006402   0.11%
+KnapSackDoIt()                            51   0.000612   0.000612   0.000612   0.11%
+knapsack()swap                          1821  0.0001787  0.0001787  0.0001787   0.03%
+-------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------
+Name                                  NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+-------------------------------------------------------------------------------------
+KKDoIt()                                  51     0.3284     0.3284     0.3284  56.73%
+kk()                                      51     0.3277     0.3277     0.3277  56.62%
+painterPartition()                       102    0.01012    0.01012    0.01012   1.75%
+SFCProcessorMapDoItCombinedPainter()      51   0.006991   0.006991   0.006991   1.21%
+knapsack()                              2499   0.005619   0.005619   0.005619   0.97%
+SFCProcessorMapDoItCombined()             51   0.003994   0.003994   0.003994   0.69%
+KnapSackDoIt()                            51   0.003189   0.003189   0.003189   0.55%
+SFCProcessorMapDoIt()                     51   0.002735   0.002735   0.002735   0.47%
+Distribute()                             102  0.0006972  0.0006972  0.0006972   0.12%
+knapsack()swap                          1821  0.0001787  0.0001787  0.0001787   0.03%
+-------------------------------------------------------------------------------------
+
+Pinned Memory Usage:
+---------------------------------------------------------------
+Name                            Nalloc  Nfree  AvgMem    MaxMem
+---------------------------------------------------------------
+The_Pinned_Arena::Initialize()       1      1  46 KiB  8192 KiB
+---------------------------------------------------------------
+
+AMReX (25.06-22-g1d307c2c661a) finalized

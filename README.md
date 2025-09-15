@@ -135,6 +135,28 @@ These instructions will get you a copy of the project up and running on your loc
 
    ```
 
+### **Committing Jupyter Notebook files**
+To avoid the Jupyter Notebook to represent most of this repository's code, we can clean their outputs before commiting the `.ipynb` files.
+For that, register a new filter in the `.git/config`:
+
+```
+[filter "remove-notebook-output"]
+    clean = "jupyter nbconvert --clear-output --to=notebook --stdin --stdout --log-level=ERROR"
+```
+
+Before that, make sure that you have `jupyter nbconvert` installed in your local machine. To test, you can use
+
+```jupyter nbconvert --version```
+
+If the output is `>=6.0`, you can use the above command. If version is `<6.0`, change the command to
+
+```
+[filter "remove-notebook-output"]
+    clean = "jupyter nbconvert --ClearOutputPreprocessor.enabled=True --to=notebook --stdin --stdout --log-level=ERROR"
+```
+
+Source: [Janakiev's Blog Post](https://janakiev.com/blog/jupyter-git-remove-output/)
+
 ## **License**
 
 This repo uses the same license as the AMReX repo.
@@ -144,7 +166,8 @@ Kevin Gott \
 Md Kamal Chowdhury\
 Amitash Nanda \
 Hannah Ross \
-Sowmya Yellapragada
+Sowmya Yellapragada \
+Jessica Dagostini
 
 Plus, the BoxLib and AMReX authors of the original load balancing algorithms.
 
@@ -156,3 +179,4 @@ Plus, the BoxLib and AMReX authors of the original load balancing algorithms.
 5. **University of California San Diego (Boolean Lab)**
 6. **The University of Alabama**
 7. **University of Utah**
+8. **University of California Santa Cruz**

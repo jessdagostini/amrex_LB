@@ -5,7 +5,7 @@
 #include <omp.h>
 #include <pthread.h>
 
-#include "uthash.h"
+// #include "uthash.h"
 
 using namespace std;
 
@@ -16,7 +16,7 @@ struct entryPoint {
     double metric_value;
     int run_id; // Run ID to differentiate runs
     int rank_id;
-    UT_hash_handle hh;
+    // UT_hash_handle hh;
 };
 
 extern entryPoint *metric_data;

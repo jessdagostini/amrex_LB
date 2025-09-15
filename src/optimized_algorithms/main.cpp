@@ -149,7 +149,7 @@ for (int r = 1; r<=nruns; r++) {
     time_start = amrex::second();
     std::vector<int> kk_dmap = KKDoIt(scaled_wgts, nranks, k_eff, false, debug, r, bytes);
     amrex::Print()<<" Final Karmarkar-Karp time: " << amrex::second() - time_start << std::endl<<std::endl;
-    metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+    // metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
 
     // time_start = amrex::second();
     // std::vector<int> s_dmap = SFCProcessorMapDoIt(ba, scaled_wgts, nranks, &s_eff, node_size, false, false, r, bytes);
@@ -176,7 +176,7 @@ for (int r = 1; r<=nruns; r++) {
 
 }
 
-metric_utils_dump();
+// metric_utils_dump();
 
 
     // Print SFC and Knapsack efficiencies

@@ -500,7 +500,7 @@ KnapSackDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the nu
     }
 
     for (const auto &p : LIpairV) {
-        metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::WEIGHT, p.first, r, p.second);
+        // metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::WEIGHT, p.first, r, p.second);
     }
 
     amrex::Vector<int> ord;// ordering of the buckets 
@@ -566,7 +566,7 @@ KnapSackDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the nu
         amrex::Print() << "test......: " << '\n';
     }
 
-    metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
+    // metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
 
     // // Output the distribution map to a CSV file
     // std::ofstream outfile("distribution_map_knapsack.csv");
@@ -666,7 +666,7 @@ KnapSackDoItMem (const std::vector<amrex::Long>& wgts,// length of vector is the
     }
 
     for (const auto &p : LIpairV) {
-        metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::WEIGHT, p.first, r, p.second);
+        // metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::WEIGHT, p.first, r, p.second);
     }
 
     amrex::Vector<int> ord;// ordering of the buckets 
@@ -732,7 +732,7 @@ KnapSackDoItMem (const std::vector<amrex::Long>& wgts,// length of vector is the
         amrex::Print() << "test......: " << '\n';
     }
 
-    metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
+    // metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
 
     // // Output the distribution map to a CSV file
     // std::ofstream outfile("distribution_map_knapsack.csv");

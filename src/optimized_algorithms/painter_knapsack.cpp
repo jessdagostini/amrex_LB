@@ -324,7 +324,7 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
             total_weight_knapsack += local_knapsack_wgt;
 
             // Add the weight to metrics_utils
-            metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::WEIGHT, local_knapsack_wgt, r, global_rank);
+            // metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::WEIGHT, local_knapsack_wgt, r, global_rank);
 
         }
 
@@ -391,7 +391,7 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
         amrex::Print() << "SFC[painter] efficiency for combined algorithm: " << sfc_eff << '\n';
         amrex::Print() << "Painter+Knapsack combined efficiency: " << knapsack_eff << '\n';
     }
-    metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::EFFICIENCY, knapsack_eff, r);
+    // metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::EFFICIENCY, knapsack_eff, r);
 
 
 

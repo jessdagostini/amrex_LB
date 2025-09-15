@@ -193,7 +193,7 @@ vector<int> painterPartition(const amrex::BoxArray& boxes,
 
         if (full){
             for (const auto &p : LIpairV) {
-                metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::WEIGHT, p.first, r, p.second);
+                // metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::WEIGHT, p.first, r, p.second);
             }
         }
 
@@ -208,7 +208,7 @@ vector<int> painterPartition(const amrex::BoxArray& boxes,
         
         if (full) {
             amrex::Print() << "SFC+painterPartition efficiency: " << efficiency << '\n';
-            metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
+            // metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
         }
         
         return result;

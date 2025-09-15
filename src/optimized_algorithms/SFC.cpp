@@ -398,12 +398,12 @@ SFCProcessorMapDoIt (const amrex::BoxArray&          boxes,
             sum_wgt += W;
 
             // Store the weight distribution per rank
-            metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::WEIGHT, W, r, i);
+            // metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::WEIGHT, W, r, i);
         }
         amrex::Real efficiency = (sum_wgt/(nteams*max_wgt));
         if (eff) *eff = efficiency;
 
-        metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
+        // metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
 
         if (flag_verbose_mapper)
         {

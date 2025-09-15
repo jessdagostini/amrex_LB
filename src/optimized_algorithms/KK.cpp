@@ -259,7 +259,7 @@ KKDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the number o
 
     // Store weights total distribution per rank
     for (const auto &p : LIpairV) {
-        metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::WEIGHT, p.first, r, p.second);
+        // metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::WEIGHT, p.first, r, p.second);
     }
 
     amrex::Vector<int> ord;// ordering of the buckets 
@@ -304,6 +304,6 @@ KKDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the number o
         amrex::Print() << "test......: " << '\n';
     }
 
-    metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
+    // metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
     return result;
 }

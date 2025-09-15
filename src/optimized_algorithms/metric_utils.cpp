@@ -14,14 +14,14 @@ void metric_utils_dump() {
     entryPoint *tmp = NULL;
 
     // fprintf(stderr, "\nTime Measurements\n");
-    HASH_ITER(hh, metric_data, s, tmp) {
-        fprintf(stderr, "%d, %s, %s, %0.10f, %d\n", 
-                s->run_id,
-                algorithms[s->id_algorithm],
-                metrics[s->id_metric],
-                s->metric_value,
-                s->rank_id);
-    }
+    // HASH_ITER(hh, metric_data, s, tmp) {
+    //     fprintf(stderr, "%d, %s, %s, %0.10f, %d\n", 
+    //             s->run_id,
+    //             algorithms[s->id_algorithm],
+    //             metrics[s->id_metric],
+    //             s->metric_value,
+    //             s->rank_id);
+    // }
 }
 
 void metric_utils_add(int id_algorithm, int id_metric, double metric_value, int run_id, int rank_id) {
@@ -39,7 +39,7 @@ void metric_utils_add(int id_algorithm, int id_metric, double metric_value, int 
     s->rank_id = rank_id;
     s->id = entryPointCount;
 
-    HASH_ADD_INT(metric_data, id, s);  /* id is the key field */
+    // HASH_ADD_INT(metric_data, id, s);  /* id is the key field */
 
     entryPointCount++;
 

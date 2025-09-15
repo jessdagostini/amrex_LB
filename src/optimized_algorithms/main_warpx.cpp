@@ -127,7 +127,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
             prev_og_eff = static_cast<amrex::Real>(total_weight) / (nranks * max_load);
 
             amrex::Print() << "Original previous efficiency: " << prev_og_eff << endl;
-            metric_utils_add(MetricUtilsAlgorithms::ORIGINAL, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_og_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::ORIGINAL, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_og_eff, run_id);
 
         }
 
@@ -143,20 +143,20 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
         og_eff = static_cast<amrex::Real>(total_weight) / (nranks * max_load);
 
         amrex::Print() << "Original efficiency: " << og_eff << endl;
-        metric_utils_add(MetricUtilsAlgorithms::ORIGINAL, MetricUtilsMetrics::EFFICIENCY, og_eff, run_id);
+        // metric_utils_add(MetricUtilsAlgorithms::ORIGINAL, MetricUtilsMetrics::EFFICIENCY, og_eff, run_id);
 
         // Add original weight distribution
         for (int rank = 0; rank < nranks; ++rank) {
-            metric_utils_add(MetricUtilsAlgorithms::ORIGINAL, MetricUtilsMetrics::WEIGHT, rank_loads[rank], run_id, rank);
+            // metric_utils_add(MetricUtilsAlgorithms::ORIGINAL, MetricUtilsMetrics::WEIGHT, rank_loads[rank], run_id, rank);
         }
 
         ratio = og_eff / prev_og_eff;
         amrex::Print() << "Original ratio: " << ratio << endl;
         if (ratio > min_ratio) {
-            metric_utils_add(MetricUtilsAlgorithms::ORIGINAL, MetricUtilsMetrics::USED_EFFICIENCY, og_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::ORIGINAL, MetricUtilsMetrics::USED_EFFICIENCY, og_eff, run_id);
         } else {
             original_map = prev_original_map; // Use previous map if the ratio is not significant
-            metric_utils_add(MetricUtilsAlgorithms::ORIGINAL, MetricUtilsMetrics::USED_EFFICIENCY, prev_og_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::ORIGINAL, MetricUtilsMetrics::USED_EFFICIENCY, prev_og_eff, run_id);
         }
 
         // KNAPSACK ALGORITHM
@@ -174,7 +174,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
             prev_k_eff = static_cast<amrex::Real>(total_weight) / (nranks * max_load);
 
             amrex::Print() << "Knapsack previous efficiency: " << prev_k_eff << endl;
-            metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_k_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_k_eff, run_id);
 
         }
         
@@ -184,13 +184,13 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
         ratio = k_eff / prev_k_eff;
         amrex::Print() << "Knapsack ratio: " << ratio << endl;
         if (ratio > min_ratio) {
-            metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::USED_EFFICIENCY, k_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::USED_EFFICIENCY, k_eff, run_id);
         } else {
             knapsack_map = prev_knapsack_map; // Use previous map if the ratio is not significant
-            metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::USED_EFFICIENCY, prev_k_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::USED_EFFICIENCY, prev_k_eff, run_id);
         }
         amrex::Print()<<" Final Knapsack time: " << amrex::second() - time_start << endl<<endl;
-        metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);
+        // metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);
 
 
         // KARMARKAR-KARP ALGORITHM
@@ -208,7 +208,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
             prev_kk_eff = static_cast<amrex::Real>(total_weight) / (nranks * max_load);
 
             amrex::Print() << "Karmarkar-Karp previous efficiency: " << prev_kk_eff << endl;
-            metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_kk_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_kk_eff, run_id);
 
         }
 
@@ -218,15 +218,15 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
         ratio = kk_eff / prev_kk_eff;
         amrex::Print() << "Karmarkar-Karp ratio: " << ratio << endl;
         if (ratio > min_ratio) {
-            metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::USED_EFFICIENCY, k_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::USED_EFFICIENCY, k_eff, run_id);
         } else {
             kk_map = prev_kk_map; // Use previous map if the ratio is not significant
-            metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::USED_EFFICIENCY, prev_kk_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::USED_EFFICIENCY, prev_kk_eff, run_id);
         }
         
         
         amrex::Print()<<" Final Karmarkar-Karp time: " << amrex::second() - time_start << endl<<endl;
-        metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);
+        // metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);
 
         // SFC ALGORITHM
         // Calculate previous efficiency for SFC
@@ -243,7 +243,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
             prev_sfc_eff = static_cast<amrex::Real>(total_weight) / (nranks * max_load);
 
             amrex::Print() << "SFC previous efficiency: " << prev_sfc_eff << endl;
-            metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_sfc_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_sfc_eff, run_id);
         }
 
         time_start = amrex::second();
@@ -252,14 +252,14 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
         ratio = sfc_eff / prev_sfc_eff;
         amrex::Print() << "SFC ratio: " << ratio << endl;
         if (ratio > min_ratio) {
-            metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::USED_EFFICIENCY, sfc_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::USED_EFFICIENCY, sfc_eff, run_id);
         } else {
             sfc_map = prev_sfc_map; // Use previous map if the ratio is not significant
-            metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::USED_EFFICIENCY, prev_sfc_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::USED_EFFICIENCY, prev_sfc_eff, run_id);
         }
 
         amrex::Print()<<" Final SFC time: " << amrex::second() - time_start << endl<<endl;
-        metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);
+        // metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);
 
         // HILBERT SFC ALGORITHM
         // Calculate previous efficiency for Hilbert SFC
@@ -276,7 +276,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
             prev_hilbert_sfc_eff = static_cast<amrex::Real>(total_weight) / (nranks * max_load);
 
             amrex::Print() << "Hilbert SFC previous efficiency: " << prev_hilbert_sfc_eff << endl;
-            metric_utils_add(MetricUtilsAlgorithms::HILBERT_SFC, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_hilbert_sfc_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::HILBERT_SFC, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_hilbert_sfc_eff, run_id);
         }
 
         time_start = amrex::second();
@@ -285,14 +285,14 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
         ratio = hilbert_sfc_eff / prev_hilbert_sfc_eff;
         amrex::Print() << "Hilbert SFC ratio: " << ratio << endl;
         if (ratio > min_ratio) {
-            metric_utils_add(MetricUtilsAlgorithms::HILBERT_SFC, MetricUtilsMetrics::USED_EFFICIENCY, hilbert_sfc_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::HILBERT_SFC, MetricUtilsMetrics::USED_EFFICIENCY, hilbert_sfc_eff, run_id);
         } else {
             hilbert_sfc_map = prev_hilbert_sfc_map; // Use previous map if the ratio is not significant
-            metric_utils_add(MetricUtilsAlgorithms::HILBERT_SFC, MetricUtilsMetrics::USED_EFFICIENCY, prev_hilbert_sfc_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::HILBERT_SFC, MetricUtilsMetrics::USED_EFFICIENCY, prev_hilbert_sfc_eff, run_id);
         }
         
         amrex::Print()<<" Final Hilbert SFC time: " << amrex::second() - time_start << endl<<endl;
-        metric_utils_add(MetricUtilsAlgorithms::HILBERT_SFC, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);
+        // metric_utils_add(MetricUtilsAlgorithms::HILBERT_SFC, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);
 
         // SFC + KNAPSACK ALGORITHM
         // Calculate previous efficiency for SFC+Knapsack
@@ -309,7 +309,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
             prev_sfc_knapsack_eff = static_cast<amrex::Real>(total_weight) / (nranks * max_load);
 
             amrex::Print() << "SFC+Knapsack previous efficiency: " << prev_sfc_knapsack_eff << endl;
-            metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_sfc_knapsack_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_sfc_knapsack_eff, run_id);
         }
 
         time_start = amrex::second();
@@ -318,14 +318,14 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
         ratio = sfc_knapsack_eff / prev_sfc_knapsack_eff;
         amrex::Print() << "SFC + Knapsack ratio: " << ratio << endl;
         if (ratio > min_ratio) {
-            metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::USED_EFFICIENCY, sfc_knapsack_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::USED_EFFICIENCY, sfc_knapsack_eff, run_id);
         } else {
             sfc_knapsack_map = prev_sfc_knapsack_map; // Use previous map if the ratio is not significant
-            metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::USED_EFFICIENCY, prev_sfc_knapsack_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::USED_EFFICIENCY, prev_sfc_knapsack_eff, run_id);
         }
 
         amrex::Print()<<" Final SFC+Knapsack_Combined time: " << amrex::second() - time_start << endl<<endl;
-        metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);
+        // metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);
 
         // SFC + PAINTER ALGORITHM
         // Calculate previous efficiency for SFC+Painter
@@ -342,7 +342,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
             prev_sfc_painter_eff = static_cast<amrex::Real>(total_weight) / (nranks * max_load);
 
             amrex::Print() << "SFC+Painter previous efficiency: " << prev_sfc_painter_eff << endl;
-            metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_sfc_painter_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_sfc_painter_eff, run_id);
         }
 
         time_start = amrex::second();
@@ -351,14 +351,14 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
         ratio = sfc_painter_eff / prev_sfc_painter_eff;
         amrex::Print() << "SFC+Painter ratio: " << ratio << endl;
         if (ratio > min_ratio) {
-            metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::USED_EFFICIENCY, sfc_painter_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::USED_EFFICIENCY, sfc_painter_eff, run_id);
         } else {
             sfc_painter_map = prev_sfc_painter_map; // Use previous map if the ratio is not significant
-            metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::USED_EFFICIENCY, prev_sfc_painter_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::USED_EFFICIENCY, prev_sfc_painter_eff, run_id);
         }
 
         amrex::Print()<<" Final SFC+Painter time: " << amrex::second() - time_start << endl<<endl;
-        metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);
+        // metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);
 
         // HILBERT + PAINTER ALGORITHM
         // Calculate previous efficiency for Hilbert+Painter
@@ -375,7 +375,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
             prev_hilbert_painter_eff = static_cast<amrex::Real>(total_weight) / (nranks * max_load);
 
             amrex::Print() << "Hilbert+Painter previous efficiency: " << prev_hilbert_painter_eff << endl;
-            metric_utils_add(MetricUtilsAlgorithms::HILBERT_PAINTER, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_hilbert_painter_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::HILBERT_PAINTER, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_hilbert_painter_eff, run_id);
         }
 
         time_start = amrex::second();
@@ -392,21 +392,21 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
             
             if (max_load > 0) {
                 hilbert_painter_eff = static_cast<amrex::Real>(total_load) / (nranks * max_load);
-                metric_utils_add(MetricUtilsAlgorithms::HILBERT_PAINTER, MetricUtilsMetrics::EFFICIENCY, hilbert_painter_eff, run_id);
+                // metric_utils_add(MetricUtilsAlgorithms::HILBERT_PAINTER, MetricUtilsMetrics::EFFICIENCY, hilbert_painter_eff, run_id);
             }
         }
 
         ratio = hilbert_painter_eff / prev_hilbert_painter_eff;
         amrex::Print() << "Hilbert+Painter ratio: " << ratio << endl;
         if (ratio > min_ratio) {
-            metric_utils_add(MetricUtilsAlgorithms::HILBERT_PAINTER, MetricUtilsMetrics::USED_EFFICIENCY, hilbert_painter_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::HILBERT_PAINTER, MetricUtilsMetrics::USED_EFFICIENCY, hilbert_painter_eff, run_id);
         } else {
             hilbert_painter_map = prev_hilbert_painter_map; // Use previous map if the ratio is not significant
-            metric_utils_add(MetricUtilsAlgorithms::HILBERT_PAINTER, MetricUtilsMetrics::USED_EFFICIENCY, prev_hilbert_painter_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::HILBERT_PAINTER, MetricUtilsMetrics::USED_EFFICIENCY, prev_hilbert_painter_eff, run_id);
         }
 
         amrex::Print() << " Final Hilbert+Painter time: " << amrex::second() - time_start << std::endl;
-        metric_utils_add(MetricUtilsAlgorithms::HILBERT_PAINTER, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);        
+        // metric_utils_add(MetricUtilsAlgorithms::HILBERT_PAINTER, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);        
         
 
         // PAINTER + KNAPSACK ALGORITHM
@@ -424,7 +424,7 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
             prev_painter_knapsack_eff = static_cast<amrex::Real>(total_weight) / (nranks * max_load);
 
             amrex::Print() << "Painter+Knapsack previous efficiency: " << prev_painter_knapsack_eff << endl;
-            metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_painter_knapsack_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::PREVIOUS_EFFICIENCY, prev_painter_knapsack_eff, run_id);
         }
 
         time_start = amrex::second();
@@ -433,14 +433,14 @@ void lb_real_data(string file, amrex::BoxArray &ba, int nnodes, int nranks, int 
         ratio = painter_knapsack_eff / prev_painter_knapsack_eff;
         amrex::Print() << "Painter+Knapsack ratio: " << ratio << endl;
         if (ratio > min_ratio) {
-            metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::USED_EFFICIENCY, painter_knapsack_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::USED_EFFICIENCY, painter_knapsack_eff, run_id);
         } else {
             painter_knapsack_map = prev_painter_knapsack_map; // Use previous map if the ratio is not significant
-            metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::USED_EFFICIENCY, prev_painter_knapsack_eff, run_id);
+            // metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::USED_EFFICIENCY, prev_painter_knapsack_eff, run_id);
         }
         
         amrex::Print()<<" Final painter+Knapsack_Combined time: " << amrex::second() - time_start << endl;
-        metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);
+        // metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, run_id);
     }
 
 }
@@ -473,32 +473,32 @@ void lb_generated_data(amrex::BoxArray &ba, int nnodes, int nranks, int nruns, i
         time_start = amrex::second();
         vector<int> k_dmap = KnapSackDoIt(wgts, nranks, k_eff, true, nmax, false, false, r, bytes);
         amrex::Print()<<" Final Knapsack time: " << amrex::second() - time_start << endl<<endl;
-        metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+        // metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
 
         time_start = amrex::second();
         vector<int> kk_dmap = KKDoIt(wgts, nranks, kk_eff, false, r);
         amrex::Print()<<" Final Karmarkar-Karp time: " << amrex::second() - time_start << endl<<endl;
-        metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+        // metric_utils_add(MetricUtilsAlgorithms::KARMARKAR_KARP, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
 
         time_start = amrex::second();
         vector<int> s_dmap = SFCProcessorMapDoIt(ba, wgts, nranks, &s_eff, node_size, false, false, r, bytes);
         amrex::Print()<<" Final SFC time: " << amrex::second() - time_start << endl<<endl;
-        metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+        // metric_utils_add(MetricUtilsAlgorithms::SFC, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
 
         time_start = amrex::second();
         std::vector<int> hilbertsfc_dmap = HilbertProcessorMapDoIt(ba, wgts, nranks, &hilbert_sfc_eff, node_size, true, false, r, bytes);
         amrex::Print()<<" Final Hilbert SFC time: " << amrex::second() - time_start << endl<<endl;
-        metric_utils_add(MetricUtilsAlgorithms::HILBERT_SFC, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+        // metric_utils_add(MetricUtilsAlgorithms::HILBERT_SFC, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
 
         time_start = amrex::second();
         vector<int> vec=painterPartition(ba,wgts,nranks,sfc_painter_eff, r);
         amrex::Print()<<" Final SFC+Painter time: " << amrex::second() - time_start << endl<<endl;
-        metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+        // metric_utils_add(MetricUtilsAlgorithms::SFC_PAINTER, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
 
         time_start = amrex::second();
         std::vector<int> hilbert_painter_dmap = painterPartitionHilbert(ba, wgts, nranks, hilbert_painter_eff, r);
         amrex::Print() << " Final Hilbert+Painter time: " << amrex::second() - time_start << std::endl;
-        metric_utils_add(MetricUtilsAlgorithms::HILBERT_PAINTER, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);        
+        // metric_utils_add(MetricUtilsAlgorithms::HILBERT_PAINTER, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);        
         {
             std::vector<amrex::Long> loads(nranks, 0);
             for (int i = 0; i < wgts.size(); ++i) {
@@ -510,19 +510,19 @@ void lb_generated_data(amrex::BoxArray &ba, int nnodes, int nranks, int nruns, i
             
             if (max_load > 0) {
                 hilbert_painter_eff = static_cast<amrex::Real>(total_load) / (nranks * max_load);
-                metric_utils_add(MetricUtilsAlgorithms::HILBERT_PAINTER, MetricUtilsMetrics::EFFICIENCY, hilbert_painter_eff, r);
+                // metric_utils_add(MetricUtilsAlgorithms::HILBERT_PAINTER, MetricUtilsMetrics::EFFICIENCY, hilbert_painter_eff, r);
             }
         }
 
         time_start = amrex::second();
         vector<int> sfc_knapsack_dmap = SFCProcessorMapDoItCombined(ba, wgts, nnodes, ranks_per_node, &sfc_eff, &knapsack_eff, false, false, r, bytes);
         amrex::Print()<<" Final SFC+Knapsack_Combined time: " << amrex::second() - time_start << endl<<endl;
-        metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+        // metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
 
         time_start = amrex::second();
         vector<int> painter_knapsack_dmap = SFCProcessorMapDoItCombinedPainter(ba, wgts, nnodes, ranks_per_node, sfc_eff, knapsack_eff, false, false, r, bytes);
         amrex::Print()<<" Final painter+Knapsack_Combined time: " << amrex::second() - time_start << endl;
-        metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+        // metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
 
         amrex::Print() << "\n=== End of Run " << r << " ===\n";
         amrex::Print() << "======================================\n\n";
@@ -558,7 +558,7 @@ void lb_generated_data_mem(amrex::BoxArray &ba, int nnodes, int nranks, int nrun
         time_start = amrex::second();
         vector<int> k_dmap = KnapSackDoItMem(wgts, memory, nranks, k_eff, true, nmax, false, false, r, bytes);
         amrex::Print()<<" Final Knapsack time: " << amrex::second() - time_start << endl<<endl;
-        metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
+        // metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::TIME, amrex::second() - time_start, r);
 
         // time_start = amrex::second();
         // vector<int> kk_dmap = KKDoIt(wgts, nranks, kk_eff, false, r);
@@ -659,6 +659,6 @@ int main(int argc, char* argv[]) {
         lb_generated_data(ba, nodes, nranks, nruns, ranks_per_node, mean, stdev);
     }
 
-    metric_utils_dump();
+    // metric_utils_dump();
     amrex::Finalize();
 }

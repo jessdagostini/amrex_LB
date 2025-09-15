@@ -235,7 +235,7 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
             total_weight_knapsack += local_knapsack_wgt;
 
             // Add the weight to metrics_utils
-            metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::WEIGHT, local_knapsack_wgt, r, global_rank);
+            // metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::WEIGHT, local_knapsack_wgt, r, global_rank);
             
         }
 
@@ -272,7 +272,7 @@ SFCProcessorMapDoItCombined (const amrex::BoxArray&          boxes,
         amrex::Print() << "SFC+Knapsack combined efficiency: " << *knapsack_eff << '\n';
     }
 
-    metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::EFFICIENCY, *knapsack_eff, r);
+    // metric_utils_add(MetricUtilsAlgorithms::SFC_KNAPSACK, MetricUtilsMetrics::EFFICIENCY, *knapsack_eff, r);
 
     // // Output the distribution map with weights to a CSV file
     // std::ofstream outfile("distribution_map_sfc_knapsack.csv");

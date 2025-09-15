@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "../amrex_LB"
+		},
+		{
+			"path": "../../../../../pscratch/sd/j/jessd/laser-ion-48-1740"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../amrex-tutorials"
+		},
+		{
+			"path": "../amrex"
+		},
+		{
+			"path": "../src/warpx"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ratio": "cpp"
+		}
+	}
+}

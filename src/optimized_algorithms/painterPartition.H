@@ -20,11 +20,11 @@ bool isPartitionPossible(vector<long> arr, int n, int k, long maxTime);
 long minWeight(vector<long> wgts, int n, int k);
 
 // Main painterPartition function with SFC type parameter
-vector<int> painterPartition(const amrex::BoxArray& boxes, vector<long> wgts, int number_of_ranks, amrex::Real &sfc_painter_eff, int r, bool full = true, SFCType sfc_type = SFCType::MORTON);
+vector<int> painterPartition(const amrex::BoxArray& boxes, vector<long> wgts, int number_of_ranks, amrex::Real &sfc_painter_eff, bool full = true, SFCType sfc_type = SFCType::MORTON);
 
 // Wrapper functions for specific SFC types
-vector<int> painterPartitionMorton(const amrex::BoxArray& boxes, vector<long> wgts, int number_of_ranks, amrex::Real &sfc_painter_eff, int r, bool full = true);
-vector<int> painterPartitionHilbert(const amrex::BoxArray& boxes, vector<long> wgts, int number_of_ranks, amrex::Real &sfc_painter_eff, int r, bool full = true);
+vector<int> painterPartitionMorton(const amrex::BoxArray& boxes, vector<long> wgts, int number_of_ranks, amrex::Real &sfc_painter_eff, bool full = true);
+vector<int> painterPartitionHilbert(const amrex::BoxArray& boxes, vector<long> wgts, int number_of_ranks, amrex::Real &sfc_painter_eff, bool full = true);
 
 // VecVec versions
 vector<vector<int>> painterPartition_VecVec(const amrex::BoxArray& boxes, vector<long> wgts, int number_of_ranks, SFCType sfc_type = SFCType::MORTON);
@@ -40,5 +40,4 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
                      amrex::Real                    &knapsack_eff,
                      bool                            flag_verbose_mapper,
                      bool                            sort,
-                     int                             r, // run number
                      const std::vector<amrex::Long>& bytes); 

@@ -17,6 +17,5 @@ void kk (const std::vector<amrex::Long>&  wgts,
 std::vector<int> KKDoIt (const std::vector<amrex::Long>& wgts,
               int                             nprocs,
               amrex::Real&                    efficiency,
-              bool                            flag_verbose_mapper = false,
-              int                             r = 0);
+              bool                            flag_verbose_mapper = false);
 #endif

@@ -66,7 +66,6 @@ KnapSackDoIt (const std::vector<amrex::Long>& wgts,
               int                             nmax = std::numeric_limits<int>::max(),
               bool                            flag_verbose_mapper = false,
               bool                            sort = false,
-              int                             r = 0, //run number
               const std::vector<amrex::Long>& bytes = std::vector<amrex::Long>());
 
 std::vector<int>
@@ -78,7 +77,6 @@ KnapSackDoItMem (const std::vector<amrex::Long>& wgts,
                  std::size_t                     maxmem = std::numeric_limits<std::size_t>::max(),
                  bool                            flag_verbose_mapper = false,
                  bool                            sort = false,
-                 int                             r = 0, //run number
                  const std::vector<amrex::Long>& bytes = std::vector<amrex::Long>());
 //std::vector<int>
 // BruteForceDoIt (const std::vector<amrex::Long>& wgts,

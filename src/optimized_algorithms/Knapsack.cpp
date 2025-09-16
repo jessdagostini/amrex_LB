@@ -433,7 +433,6 @@ KnapSackDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the nu
               int                             nmax,//limit max number of boxes in the buckets, 
               bool                            flag_verbose_mapper,//output distributed maps
               bool                            sort,  //wgts sorted or not
-              int                             r, //run number
               const std::vector<amrex::Long>& bytes)
 {
     sort = false;
@@ -500,7 +499,10 @@ KnapSackDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the nu
     }
 
     for (const auto &p : LIpairV) {
-        // metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::WEIGHT, p.first, r, p.second);
+        fprintf(stderr, "%s, %s, %0.10f, %d\n", 
+                algorithms[MetricUtilsAlgorithms::KNAPSACK],
+                metrics[MetricUtilsMetrics::WEIGHT],
+                p.first, p.second);
     }
 
     amrex::Vector<int> ord;// ordering of the buckets 
@@ -566,7 +568,10 @@ KnapSackDoIt (const std::vector<amrex::Long>& wgts,// length of vector is the nu
         amrex::Print() << "test......: " << '\n';
     }
 
-    // metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
+    fprintf(stderr, "%s, %s, %0.10f\n", 
+            algorithms[MetricUtilsAlgorithms::KNAPSACK],
+            metrics[MetricUtilsMetrics::EFFICIENCY],
+            efficiency);
 
     // // Output the distribution map to a CSV file
     // std::ofstream outfile("distribution_map_knapsack.csv");
@@ -599,7 +604,6 @@ KnapSackDoItMem (const std::vector<amrex::Long>& wgts,// length of vector is the
                 std::size_t                     maxmem,//limit max memory in the buckets,
                 bool                            flag_verbose_mapper,//output distributed maps
                 bool                            sort,  //wgts sorted or not
-                int                             r, //run number
                 const std::vector<amrex::Long>& bytes)
 {
     sort = false;
@@ -666,7 +670,10 @@ KnapSackDoItMem (const std::vector<amrex::Long>& wgts,// length of vector is the
     }
 
     for (const auto &p : LIpairV) {
-        // metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::WEIGHT, p.first, r, p.second);
+        fprintf(stderr, "%s, %s, %0.10f, %d\n", 
+                algorithms[MetricUtilsAlgorithms::KNAPSACK],
+                metrics[MetricUtilsMetrics::WEIGHT],
+                p.first, p.second);
     }
 
     amrex::Vector<int> ord;// ordering of the buckets 
@@ -732,7 +739,10 @@ KnapSackDoItMem (const std::vector<amrex::Long>& wgts,// length of vector is the
         amrex::Print() << "test......: " << '\n';
     }
 
-    // metric_utils_add(MetricUtilsAlgorithms::KNAPSACK, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
+    fprintf(stderr, "%s, %s, %0.10f\n", 
+            algorithms[MetricUtilsAlgorithms::KNAPSACK],
+            metrics[MetricUtilsMetrics::EFFICIENCY],
+            efficiency);
 
     // // Output the distribution map to a CSV file
     // std::ofstream outfile("distribution_map_knapsack.csv");

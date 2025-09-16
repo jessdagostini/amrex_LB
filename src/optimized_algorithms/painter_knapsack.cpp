@@ -22,7 +22,6 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
                      amrex::Real                    &knapsack_eff,
                      bool                            flag_verbose_mapper,
                      bool                            sort,
-                     int                             r, // run number
                      const std::vector<amrex::Long>& bytes)
 
 {
@@ -84,7 +83,7 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
     std::vector<int> p_result; 
     //Distribute(tokens, wgts, nteams, volperteam, vec, flag_verbose_mapper); //// calling SFC 1
 //    vec2=painterPartition_VecVec(boxes,wgts,nteams);
-     p_result=painterPartition(boxes,wgts,nteams, sfc_eff, r);
+     p_result=painterPartition(boxes,wgts,nteams, sfc_eff);
      
      for (int i = 0; i < p_result.size(); ++i)
     {
@@ -324,7 +323,10 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
             total_weight_knapsack += local_knapsack_wgt;
 
             // Add the weight to metrics_utils
-            // metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::WEIGHT, local_knapsack_wgt, r, global_rank);
+            fprintf(stderr, "%s, %s, %0.10f, %d\n", 
+                algorithms[MetricUtilsAlgorithms::PAINTER_KNAPSACK],
+                metrics[MetricUtilsMetrics::WEIGHT],
+                local_knapsack_wgt, global_rank);
 
         }
 
@@ -391,7 +393,10 @@ SFCProcessorMapDoItCombinedPainter (const amrex::BoxArray&          boxes,
         amrex::Print() << "SFC[painter] efficiency for combined algorithm: " << sfc_eff << '\n';
         amrex::Print() << "Painter+Knapsack combined efficiency: " << knapsack_eff << '\n';
     }
-    // metric_utils_add(MetricUtilsAlgorithms::PAINTER_KNAPSACK, MetricUtilsMetrics::EFFICIENCY, knapsack_eff, r);
+    fprintf(stderr, "%s, %s, %0.10f\n", 
+        algorithms[MetricUtilsAlgorithms::PAINTER_KNAPSACK],
+        metrics[MetricUtilsMetrics::EFFICIENCY],
+        knapsack_eff);
 
 
 

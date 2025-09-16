@@ -29,7 +29,6 @@ HilbertProcessorMapDoIt(const amrex::BoxArray& boxes,
                        int node_size = 0,
                        bool flag_verbose_mapper = false,
                        bool sort = false,
-                       int r = 0,
                        const std::vector<amrex::Long>& bytes = std::vector<amrex::Long>(),
                        HilbertDirection direction = HilbertDirection::DEFAULT);
 

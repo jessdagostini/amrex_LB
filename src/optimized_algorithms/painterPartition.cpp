@@ -117,7 +117,6 @@ vector<int> painterPartition(const amrex::BoxArray& boxes,
                            vector<long> wgts, 
                            int number_of_ranks,
                            amrex::Real &sfc_painter_eff,
-                           int r,
                            bool full,
                            SFCType sfc_type) { 
     BL_PROFILE("painterPartition()");
@@ -290,7 +289,7 @@ vector<int> painterPartition(const amrex::BoxArray& boxes,
     }
     
     // Fallback to Morton if unknown type
-    return painterPartition(boxes, wgts, number_of_ranks, sfc_painter_eff, full, r, SFCType::MORTON);
+    return painterPartition(boxes, wgts, number_of_ranks, sfc_painter_eff, full, SFCType::MORTON);
 }
 
 // Wrapper functions for backward compatibility and easy access
@@ -298,18 +297,16 @@ vector<int> painterPartitionMorton(const amrex::BoxArray& boxes,
                                  vector<long> wgts,
                                  int number_of_ranks,
                                  bool full,
-                                 int r,
                                  amrex::Real &sfc_painter_eff) {
-    return painterPartition(boxes, wgts, number_of_ranks, sfc_painter_eff, full, r, SFCType::MORTON);
+    return painterPartition(boxes, wgts, number_of_ranks, sfc_painter_eff, full, SFCType::MORTON);
 }
 
 vector<int> painterPartitionHilbert(const amrex::BoxArray& boxes,
                                   vector<long> wgts,
                                   int number_of_ranks,
                                   amrex::Real &sfc_painter_eff,
-                                  int r,
                                   bool full) {
-    return painterPartition(boxes, wgts, number_of_ranks, sfc_painter_eff, full, r, SFCType::HILBERT);
+    return painterPartition(boxes, wgts, number_of_ranks, sfc_painter_eff, full, SFCType::HILBERT);
 }
 
 // Updated VecVec version with SFC type selection

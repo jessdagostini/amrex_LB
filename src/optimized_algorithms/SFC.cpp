@@ -194,7 +194,6 @@ SFCProcessorMapDoIt (const amrex::BoxArray&          boxes,
                      int                             node_size,
                      bool                            flag_verbose_mapper,
                      bool                            sort,
-                     int                             r, // run number
                      const std::vector<amrex::Long>& bytes)
 
 {

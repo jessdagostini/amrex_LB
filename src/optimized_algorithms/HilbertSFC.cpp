@@ -335,7 +335,6 @@ HilbertProcessorMapDoIt(const amrex::BoxArray& boxes,
                        int node_size,
                        bool flag_verbose_mapper,
                        bool sort,
-                       int r, 
                        const std::vector<amrex::Long>& bytes,
                        HilbertDirection direction) {
     if (flag_verbose_mapper) {
@@ -491,13 +490,19 @@ HilbertProcessorMapDoIt(const amrex::BoxArray& boxes,
             if (W > max_wgt) max_wgt = W;
             sum_wgt += W;
 
-            // Store the weight distribution per rank
-            // metric_utils_add(MetricUtilsAlgorithms::HILBERT_SFC, MetricUtilsMetrics::WEIGHT, W, r, i);
+            // Print the weight distribution per rank
+            fprintf(stderr, "%s, %s, %0.10f, %d\n", 
+                algorithms[MetricUtilsAlgorithms::HILBERT_SFC],
+                metrics[MetricUtilsMetrics::WEIGHT],
+                W, i);
         }
         amrex::Real efficiency = (sum_wgt / (nteams * max_wgt));
         if (eff) *eff = efficiency;
 
-        // metric_utils_add(MetricUtilsAlgorithms::HILBERT_SFC, MetricUtilsMetrics::EFFICIENCY, efficiency, r);
+        fprintf(stderr, "%s, %s, %0.10f\n", 
+                algorithms[MetricUtilsAlgorithms::HILBERT_SFC],
+                metrics[MetricUtilsMetrics::EFFICIENCY],
+                efficiency);
 
         if (flag_verbose_mapper) {
             amrex::Print() << "Hilbert SFC efficiency: " << efficiency << '\n';
@@ -550,7 +555,7 @@ HilbertProcessorMapDoItWithDirectionTesting(const amrex::BoxArray& boxes,
         auto current_result = HilbertProcessorMapDoIt(boxes, wgts, nprocs, 
                                                      &current_eff, node_size, 
                                                      false, // Don't print individual results
-                                                     sort, 0, bytes, directions[d]);
+                                                     sort, bytes, directions[d]);
         
         // Calculate load distribution statistics
         std::vector<amrex::Long> rank_loads(nprocs, 0);

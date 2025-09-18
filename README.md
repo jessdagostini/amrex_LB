@@ -144,7 +144,8 @@ Kevin Gott \
 Md Kamal Chowdhury\
 Amitash Nanda \
 Hannah Ross \
-Sowmya Yellapragada
+Sowmya Yellapragada \
+Jessica Dagostini
 
 Plus, the BoxLib and AMReX authors of the original load balancing algorithms.
 

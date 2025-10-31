@@ -1,0 +1,27 @@
+{
+    "input_name": "input_laser_ion",
+    "max_steps": 10000,
+    "n_cells": [
+        7488,
+        14720
+    ],
+    "blocking_factor": [
+        32,
+        32
+    ],
+    "max_grid_size": [
+        512,
+        512
+    ],
+    "load_balance_intervals": 100,
+    "load_balance_costs_update": "timers",
+    "lbc_output_interval": 100,
+    "lbc_output_type": "LoadBalanceCosts",
+    "load_balance_with_sfc": "0",
+    "nodes": 20,
+    "job_name": "laser_ion_420_80_knapsack",
+    "ratio": 1.0,
+    "time": "02:00:00",
+    "lbc_file": "laser_ion_420_80_knapsack_eff.csv",
+    "time_file": "laser_ion_420_80_knapsack_time.csv"
+}

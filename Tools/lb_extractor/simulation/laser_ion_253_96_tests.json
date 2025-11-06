@@ -1,0 +1,37 @@
+{
+    "input_name": "input_laser_ion",
+    "max_steps": 5000,
+    "n_cells": [
+        7488,
+        14720
+    ],
+    "blocking_factor": [
+        32,
+        32
+    ],
+    "load_balance_intervals": 100,
+    "load_balance_costs_update": "timers",
+    "lbc_output_interval": 50,
+    "lbc_output_type": "LoadBalanceCosts",
+    "ratio": 1.0,
+    "runs": {
+        "laser_ion_253_96_knapsack": {
+            "max_grid_size": [
+                640,
+                640
+            ],
+            "time": "01:30:00",
+            "load_balance_with_sfc": "0"
+        },
+        "laser_ion_253_96_sfc": {
+            "max_grid_size": [
+                640,
+                640
+            ],
+            "time": "01:30:00",
+            "load_balance_with_sfc": "1"
+        }
+    },
+    "nodes": 24,
+    "job_name": "laser_ion_253_96"
+}

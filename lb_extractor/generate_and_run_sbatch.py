@@ -10,6 +10,7 @@ import json
 
 SCRATCH = os.environ['SCRATCH']
 HOME = os.environ['HOME']
+NERSC_PROJECT = 'nintern_g'
 MAX_STEPS = 5000
 N_CELLS = [7488, 14720]  # [nx, nz]
 BLOCKING_FACTOR = [32, 32]  # [bx, bz]
@@ -41,6 +42,7 @@ if not os.path.exists(job_folder):
 print(f"Job folder created at: {job_folder}")
 
 # Copy executable to the job folder
+# EDIT HERE to point to your Warpx executable
 executable = os.path.join(HOME, "src", "warpx", "build_pm_gpu", "bin", "warpx.2d")
 try:
     os.system("cp %s %s" % (executable, job_folder))
@@ -62,7 +64,7 @@ sbatch_header = f"""#!/bin/bash -l
 #SBATCH -N {NODES}
 #SBATCH -J {JOB_NAME}
 #    note: <proj> must end on _g
-#SBATCH -A nintern_g
+#SBATCH -A {NERSC_PROJECT}
 #SBATCH -q regular
 # A100 40GB (most nodes)
 #SBATCH -C gpu

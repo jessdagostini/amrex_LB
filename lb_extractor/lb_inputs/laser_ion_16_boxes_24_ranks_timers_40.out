@@ -1,0 +1,3615 @@
+Initializing AMReX (25.06-22-g1d307c2c661a-dirty)...
+OMP initialized with 256 OMP threads
+AMReX (25.06-22-g1d307c2c661a-dirty) initialized
+Starting running input_laser_ion running with 6 nodes and 4 ranks per node.
+Total steps: 5000, intervals: 100 = 50 runs
+Reading precomputed weights, memory, and ranks from file: /global/homes/j/jessd/amrex_LB/Tools/lb_extractor/lb_inputs/imp_40/laser_ion_16_boxes_24_ranks_timers_40_lb_data.txt
+/global/homes/j/jessd/amrex_LB/Tools/lb_extractor/lb_inputs/imp_40/laser_ion_16_boxes_24_ranks_timers_40_lb_data.txt
+Run 0: Weights size: 435
+Run 1: Weights size: 435
+Run 2: Weights size: 435
+Run 3: Weights size: 435
+Run 4: Weights size: 435
+Run 5: Weights size: 435
+Run 6: Weights size: 435
+Run 7: Weights size: 435
+Run 8: Weights size: 435
+Run 9: Weights size: 435
+Run 10: Weights size: 435
+Run 11: Weights size: 435
+Run 12: Weights size: 435
+Run 13: Weights size: 435
+Run 14: Weights size: 435
+Run 15: Weights size: 435
+Run 16: Weights size: 435
+Run 17: Weights size: 435
+Run 18: Weights size: 435
+Run 19: Weights size: 435
+Run 20: Weights size: 435
+Run 21: Weights size: 435
+Run 22: Weights size: 435
+Run 23: Weights size: 435
+Run 24: Weights size: 435
+Run 25: Weights size: 435
+Run 26: Weights size: 435
+Run 27: Weights size: 435
+Run 28: Weights size: 435
+Run 29: Weights size: 435
+Run 30: Weights size: 435
+Run 31: Weights size: 435
+Run 32: Weights size: 435
+Run 33: Weights size: 435
+Run 34: Weights size: 435
+Run 35: Weights size: 435
+Run 36: Weights size: 435
+Run 37: Weights size: 435
+Run 38: Weights size: 435
+Run 39: Weights size: 435
+Run 40: Weights size: 435
+Run 41: Weights size: 435
+Run 42: Weights size: 435
+Run 43: Weights size: 435
+Run 44: Weights size: 435
+Run 45: Weights size: 435
+Run 46: Weights size: 435
+Run 47: Weights size: 435
+Run 48: Weights size: 435
+Run 49: Weights size: 435
+Run 50: Weights size: 435
+Run 0
+File weights 51 and ranks 51
+Original efficiency: 0.6836648685
+Original ratio: inf
+Knapsack ratio: inf
+ Final Knapsack time: 0.00421202
+
+Karmarkar-Karp ratio: inf
+ Final Karmarkar-Karp time: 0.005969865
+
+ Time take to run this function: 8.01e-07
+SFC ratio: inf
+ Final SFC time: 0.001228409
+
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+Building Hilbert lookup table for order 8...
+  Bucket 0 contains 757297414
+  Bucket 1 contains 669892231
+  Bucket 2 contains 759370536
+  Bucket 3 contains 635700677
+  Bucket 4 contains 564415030
+  Bucket 5 contains 761046655
+  Bucket 6 contains 1105949126
+  Bucket 7 contains 563601764
+  Bucket 8 contains 780790550
+  Bucket 9 contains 775933943
+  Bucket 10 contains 806020688
+  Bucket 11 contains 775792209
+  Bucket 12 contains 777921354
+  Bucket 13 contains 776421341
+  Bucket 14 contains 635949738
+  Bucket 15 contains 639557779
+  Bucket 16 contains 1000000001
+  Bucket 17 contains 780719618
+  Bucket 18 contains 583495110
+  Bucket 19 contains 1005868138
+  Bucket 20 contains 764788165
+  Bucket 21 contains 348797536
+  Bucket 22 contains 964209464
+  Bucket 23 contains 981198698
+Hilbert SFC efficiency: 0.6862407945
+Hilbert SFC ratio: inf
+ Final Hilbert SFC time: 1.19951808
+
+SFC + Knapsack ratio: inf
+ Final SFC+Knapsack_Combined time: 0.000717701
+
+Binary search iterations: 29
+SFC+painterPartition efficiency: 0.7589474061
+SFC+Painter ratio: inf
+ Final SFC+Painter time: 0.004581826
+
+Binary search iterations: 29
+Hilbert+painterPartition efficiency: 0.7589474061
+Hilbert+Painter ratio: inf
+ Final Hilbert+Painter time: 0.001205465
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9522401175
+Painter+Knapsack ratio: inf
+ Final painter+Knapsack_Combined time: 0.006378878
+Run 1
+File weights 51 and ranks 51
+Original previous efficiency: 0.3807560633
+Original efficiency: 0.3807560633
+Original ratio: 1
+Knapsack previous efficiency: 0.5681018323
+Knapsack ratio: 1.750000486
+ Final Knapsack time: 0.005026808
+
+Karmarkar-Karp previous efficiency: 0.5681018323
+Karmarkar-Karp ratio: 1.757392291
+ Final Karmarkar-Karp time: 0.004915714
+
+SFC previous efficiency: 0.2680544581
+ Time take to run this function: 9.02e-07
+SFC ratio: 3.53346881
+ Final SFC time: 0.000730184
+
+Hilbert SFC previous efficiency: 0.2357917283
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 5670388817
+  Bucket 1 contains 5695241696
+  Bucket 2 contains 5713498018
+  Bucket 3 contains 5375241291
+  Bucket 4 contains 5792504484
+  Bucket 5 contains 5827662578
+  Bucket 6 contains 5154226728
+  Bucket 7 contains 5859381898
+  Bucket 8 contains 5853382076
+  Bucket 9 contains 5747436672
+  Bucket 10 contains 5802034793
+  Bucket 11 contains 5105145171
+  Bucket 12 contains 5817955032
+  Bucket 13 contains 6027153475
+  Bucket 14 contains 5259928773
+  Bucket 15 contains 5733198408
+  Bucket 16 contains 5925553662
+  Bucket 17 contains 5705318290
+  Bucket 18 contains 5458987332
+  Bucket 19 contains 5480168736
+  Bucket 20 contains 5731283888
+  Bucket 21 contains 5693767239
+  Bucket 22 contains 5985919444
+  Bucket 23 contains 6228670125
+Hilbert SFC efficiency: 0.9140798777
+Hilbert SFC ratio: 3.876640985
+ Final Hilbert SFC time: 0.009032008
+
+SFC+Knapsack previous efficiency: 0.2537070623
+SFC + Knapsack ratio: 3.73200163
+ Final SFC+Knapsack_Combined time: 0.000587919
+
+SFC+Painter previous efficiency: 0.3010712185
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9551858687
+SFC+Painter ratio: 3.172624316
+ Final SFC+Painter time: 0.004499587
+
+Hilbert+Painter previous efficiency: 0.189049408
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9505456144
+Hilbert+Painter ratio: 5.028027459
+ Final Hilbert+Painter time: 0.001278697
+Painter+Knapsack previous efficiency: 0.2537070623
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9834700455
+Painter+Knapsack ratio: 3.732487099
+ Final painter+Knapsack_Combined time: 0.007194608
+Run 2
+File weights 51 and ranks 51
+Original previous efficiency: 0.3705463722
+Original efficiency: 0.9666283429
+Original ratio: 2.608656879
+Knapsack previous efficiency: 0.9666283429
+Knapsack ratio: 1.030339952
+ Final Knapsack time: 0.004525788
+
+Karmarkar-Karp previous efficiency: 0.9623396071
+Karmarkar-Karp ratio: 1.036972643
+ Final Karmarkar-Karp time: 0.004664277
+
+SFC previous efficiency: 0.910212629
+ Time take to run this function: 5.61e-07
+SFC ratio: 1.014370807
+ Final SFC time: 0.000630682
+
+Hilbert SFC previous efficiency: 0.8474355883
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 5879284480
+  Bucket 1 contains 5949245856
+  Bucket 2 contains 5169248592
+  Bucket 3 contains 6064782115
+  Bucket 4 contains 6379956436
+  Bucket 5 contains 6058404476
+  Bucket 6 contains 5294305109
+  Bucket 7 contains 6402510680
+  Bucket 8 contains 6084254301
+  Bucket 9 contains 5438960854
+  Bucket 10 contains 6308025262
+  Bucket 11 contains 5389942512
+  Bucket 12 contains 6580408004
+  Bucket 13 contains 5610087334
+  Bucket 14 contains 6388605285
+  Bucket 15 contains 5262349338
+  Bucket 16 contains 6377603929
+  Bucket 17 contains 5881800235
+  Bucket 18 contains 6093754564
+  Bucket 19 contains 5530981409
+  Bucket 20 contains 5874329164
+  Bucket 21 contains 6263181904
+  Bucket 22 contains 5877211505
+  Bucket 23 contains 6316848368
+Hilbert SFC efficiency: 0.9021482256
+Hilbert SFC ratio: 1.064562591
+ Final Hilbert SFC time: 0.011362763
+
+SFC+Knapsack previous efficiency: 0.8822269222
+SFC + Knapsack ratio: 1.058091514
+ Final SFC+Knapsack_Combined time: 0.00211096
+
+SFC+Painter previous efficiency: 0.910212629
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9349289627
+SFC+Painter ratio: 1.027154461
+ Final SFC+Painter time: 0.004319257
+
+Hilbert+Painter previous efficiency: 0.9143696724
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.939788809
+Hilbert+Painter ratio: 1.027799628
+ Final Hilbert+Painter time: 0.000961272
+Painter+Knapsack previous efficiency: 0.8830404753
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9878387095
+Painter+Knapsack ratio: 1.057116685
+ Final painter+Knapsack_Combined time: 0.005412606
+Run 3
+File weights 51 and ranks 51
+Original previous efficiency: 0.9639857944
+Original efficiency: 0.9639857944
+Original ratio: 1
+Knapsack previous efficiency: 0.9639857944
+Knapsack ratio: 1.031373091
+ Final Knapsack time: 0.003540109
+
+Karmarkar-Karp previous efficiency: 0.9693528367
+Karmarkar-Karp ratio: 1.031343488
+ Final Karmarkar-Karp time: 0.005228629
+
+SFC previous efficiency: 0.9051207288
+ Time take to run this function: 5.21e-07
+SFC ratio: 1.009915507
+ Final SFC time: 0.000686521
+
+Hilbert SFC previous efficiency: 0.8693340852
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 5871678614
+  Bucket 1 contains 5940396849
+  Bucket 2 contains 5158199267
+  Bucket 3 contains 6044736307
+  Bucket 4 contains 6357068610
+  Bucket 5 contains 6051622411
+  Bucket 6 contains 5269428301
+  Bucket 7 contains 6386952444
+  Bucket 8 contains 5278673902
+  Bucket 9 contains 6249986738
+  Bucket 10 contains 6316054984
+  Bucket 11 contains 5377147779
+  Bucket 12 contains 5674721123
+  Bucket 13 contains 5859682479
+  Bucket 14 contains 6384058435
+  Bucket 15 contains 6164111724
+  Bucket 16 contains 5436200223
+  Bucket 17 contains 5928450277
+  Bucket 18 contains 5818178571
+  Bucket 19 contains 5730697591
+  Bucket 20 contains 6086254396
+  Bucket 21 contains 5946264134
+  Bucket 22 contains 5956418923
+  Bucket 23 contains 6496196405
+Hilbert SFC efficiency: 0.909398693
+Hilbert SFC ratio: 1.046086549
+ Final Hilbert SFC time: 0.011574934
+
+SFC+Knapsack previous efficiency: 0.8937450252
+SFC + Knapsack ratio: 1.040142114
+ Final SFC+Knapsack_Combined time: 0.000461814
+
+SFC+Painter previous efficiency: 0.9051207288
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9299897978
+SFC+Painter ratio: 1.027475969
+ Final SFC+Painter time: 0.003911287
+
+Hilbert+Painter previous efficiency: 0.9249532656
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9434831831
+Hilbert+Painter ratio: 1.020033355
+ Final Hilbert+Painter time: 0.0010687
+Painter+Knapsack previous efficiency: 0.8929305293
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9888008217
+Painter+Knapsack ratio: 1.04109089
+ Final painter+Knapsack_Combined time: 0.006723966
+Run 4
+File weights 51 and ranks 51
+Original previous efficiency: 0.95510982
+Original efficiency: 0.95510982
+Original ratio: 1
+Knapsack previous efficiency: 0.95510982
+Knapsack ratio: 1.040679354
+ Final Knapsack time: 0.003821033
+
+Karmarkar-Karp previous efficiency: 0.9703167904
+Karmarkar-Karp ratio: 1.028609825
+ Final Karmarkar-Karp time: 0.00483172
+
+SFC previous efficiency: 0.8975521664
+ Time take to run this function: 5.709999999e-07
+SFC ratio: 1.020145117
+ Final SFC time: 0.000724013
+
+Hilbert SFC previous efficiency: 0.8507471565
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 5731543582
+  Bucket 1 contains 5804662365
+  Bucket 2 contains 5035997295
+  Bucket 3 contains 5919645991
+  Bucket 4 contains 6201279941
+  Bucket 5 contains 5917932611
+  Bucket 6 contains 5156506465
+  Bucket 7 contains 6228446217
+  Bucket 8 contains 5933714978
+  Bucket 9 contains 5312507265
+  Bucket 10 contains 6199275413
+  Bucket 11 contains 5272884380
+  Bucket 12 contains 5654265967
+  Bucket 13 contains 5881831733
+  Bucket 14 contains 6251700779
+  Bucket 15 contains 5999466335
+  Bucket 16 contains 5316692631
+  Bucket 17 contains 5862157545
+  Bucket 18 contains 5599967483
+  Bucket 19 contains 6496193231
+  Bucket 20 contains 5718750738
+  Bucket 21 contains 5222001243
+  Bucket 22 contains 6382018335
+  Bucket 23 contains 5937777885
+Hilbert SFC efficiency: 0.8917865142
+Hilbert SFC ratio: 1.048239195
+ Final Hilbert SFC time: 0.008667732
+
+SFC+Knapsack previous efficiency: 0.8863215122
+SFC + Knapsack ratio: 1.052283639
+ Final SFC+Knapsack_Combined time: 0.00049599
+
+SFC+Painter previous efficiency: 0.8975521664
+Binary search iterations: 29
+SFC+painterPartition efficiency: 0.9337480468
+SFC+Painter ratio: 1.040327328
+ Final SFC+Painter time: 0.004388021
+
+Hilbert+Painter previous efficiency: 0.9301224278
+Binary search iterations: 29
+Hilbert+painterPartition efficiency: 0.9432770391
+Hilbert+Painter ratio: 1.014142882
+ Final Hilbert+Painter time: 0.001039864
+Painter+Knapsack previous efficiency: 0.8866499803
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9925184595
+Painter+Knapsack ratio: 1.052345689
+ Final painter+Knapsack_Combined time: 0.005859341
+Run 5
+File weights 51 and ranks 51
+Original previous efficiency: 0.9542877974
+Original efficiency: 0.9542877974
+Original ratio: 1
+Knapsack previous efficiency: 0.9542877974
+Knapsack ratio: 1.040463837
+ Final Knapsack time: 0.003974491
+
+Karmarkar-Karp previous efficiency: 0.9686898264
+Karmarkar-Karp ratio: 1.028439074
+ Final Karmarkar-Karp time: 0.004609741
+
+SFC previous efficiency: 0.8932798938
+ Time take to run this function: 5.110000001e-07
+SFC ratio: 1.023447436
+ Final SFC time: 0.00067135
+
+Hilbert SFC previous efficiency: 0.8359493202
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 5605891603
+  Bucket 1 contains 5747253416
+  Bucket 2 contains 4848534365
+  Bucket 3 contains 5783705289
+  Bucket 4 contains 6062835795
+  Bucket 5 contains 5785046235
+  Bucket 6 contains 5904420305
+  Bucket 7 contains 5222319745
+  Bucket 8 contains 5805701192
+  Bucket 9 contains 5184456358
+  Bucket 10 contains 6052861454
+  Bucket 11 contains 5983943767
+  Bucket 12 contains 5794899022
+  Bucket 13 contains 4873776583
+  Bucket 14 contains 6129706334
+  Bucket 15 contains 5872799078
+  Bucket 16 contains 5203660433
+  Bucket 17 contains 5737248851
+  Bucket 18 contains 5474331754
+  Bucket 19 contains 6356821412
+  Bucket 20 contains 5591975486
+  Bucket 21 contains 5085109068
+  Bucket 22 contains 6259712728
+  Bucket 23 contains 5942446914
+Hilbert SFC efficiency: 0.8934592225
+Hilbert SFC ratio: 1.06879592
+ Final Hilbert SFC time: 0.007990931
+
+SFC+Knapsack previous efficiency: 0.8792814501
+SFC + Knapsack ratio: 1.052965347
+ Final SFC+Knapsack_Combined time: 0.000648356
+
+SFC+Painter previous efficiency: 0.8932798938
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9360509245
+SFC+Painter ratio: 1.047880884
+ Final SFC+Painter time: 0.004425073
+
+Hilbert+Painter previous efficiency: 0.9329886762
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.943777588
+Hilbert+Painter ratio: 1.011563819
+ Final Hilbert+Painter time: 0.001025788
+Painter+Knapsack previous efficiency: 0.8793655034
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9912583318
+Painter+Knapsack ratio: 1.065218505
+ Final painter+Knapsack_Combined time: 0.00504837
+Run 6
+File weights 51 and ranks 51
+Original previous efficiency: 0.94787085
+Original efficiency: 0.94787085
+Original ratio: 1
+Knapsack previous efficiency: 0.94787085
+Knapsack ratio: 1.047454922
+ Final Knapsack time: 0.00365973
+
+Karmarkar-Karp previous efficiency: 0.9677512873
+Karmarkar-Karp ratio: 1.030477754
+ Final Karmarkar-Karp time: 0.004773908
+
+SFC previous efficiency: 0.8907934442
+ Time take to run this function: 5.109999999e-07
+SFC ratio: 1.029050706
+ Final SFC time: 0.000599571
+
+Hilbert SFC previous efficiency: 0.8255945666
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 5548475068
+  Bucket 1 contains 5542948582
+  Bucket 2 contains 4735834056
+  Bucket 3 contains 5631961600
+  Bucket 4 contains 5918720235
+  Bucket 5 contains 5651271394
+  Bucket 6 contains 5764877699
+  Bucket 7 contains 5099401792
+  Bucket 8 contains 5666501696
+  Bucket 9 contains 5899397138
+  Bucket 10 contains 5084444540
+  Bucket 11 contains 5828587081
+  Bucket 12 contains 5777681827
+  Bucket 13 contains 4822284917
+  Bucket 14 contains 5975337629
+  Bucket 15 contains 5729490458
+  Bucket 16 contains 5068991349
+  Bucket 17 contains 5605036933
+  Bucket 18 contains 5342547297
+  Bucket 19 contains 6192804194
+  Bucket 20 contains 5466852860
+  Bucket 21 contains 4979480532
+  Bucket 22 contains 6083619579
+  Bucket 23 contains 5833420490
+Hilbert SFC efficiency: 0.8965376371
+Hilbert SFC ratio: 1.085929672
+ Final Hilbert SFC time: 0.007438581
+
+SFC+Knapsack previous efficiency: 0.8750612663
+SFC + Knapsack ratio: 1.071855173
+ Final SFC+Knapsack_Combined time: 0.000461725
+
+SFC+Painter previous efficiency: 0.8907934442
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9377530398
+SFC+Painter ratio: 1.052716593
+ Final SFC+Painter time: 0.004103429
+
+Hilbert+Painter previous efficiency: 0.9331145342
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9405152592
+Hilbert+Painter ratio: 1.007931207
+ Final Hilbert+Painter time: 0.001701487
+Painter+Knapsack previous efficiency: 0.8753661314
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9907403026
+Painter+Knapsack ratio: 1.072126029
+ Final painter+Knapsack_Combined time: 0.005282363
+Run 7
+File weights 51 and ranks 51
+Original previous efficiency: 0.9444243417
+Original efficiency: 0.9444243417
+Original ratio: 1
+Knapsack previous efficiency: 0.9444243417
+Knapsack ratio: 1.052813704
+ Final Knapsack time: 0.003644341
+
+Karmarkar-Karp previous efficiency: 0.9636704444
+Karmarkar-Karp ratio: 1.036042218
+ Final Karmarkar-Karp time: 0.004426977
+
+SFC previous efficiency: 0.8879524823
+ Time take to run this function: 5.21e-07
+SFC ratio: 1.031862578
+ Final SFC time: 0.0005832
+
+Hilbert SFC previous efficiency: 0.8169672711
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 5447981673
+  Bucket 1 contains 5441616211
+  Bucket 2 contains 5480106424
+  Bucket 3 contains 4710244386
+  Bucket 4 contains 5805818990
+  Bucket 5 contains 5556312404
+  Bucket 6 contains 5660239994
+  Bucket 7 contains 5021169467
+  Bucket 8 contains 5574106499
+  Bucket 9 contains 5802962088
+  Bucket 10 contains 4995514034
+  Bucket 11 contains 5738262651
+  Bucket 12 contains 4794519285
+  Bucket 13 contains 5799072719
+  Bucket 14 contains 5869910155
+  Bucket 15 contains 5632351825
+  Bucket 16 contains 4988665151
+  Bucket 17 contains 5486276504
+  Bucket 18 contains 5254762173
+  Bucket 19 contains 6084213390
+  Bucket 20 contains 5362873701
+  Bucket 21 contains 4899601327
+  Bucket 22 contains 5919123993
+  Bucket 23 contains 5727830436
+Hilbert SFC efficiency: 0.8974971173
+Hilbert SFC ratio: 1.098571692
+ Final Hilbert SFC time: 0.008038643
+
+SFC+Knapsack previous efficiency: 0.8717476891
+SFC + Knapsack ratio: 1.076671209
+ Final SFC+Knapsack_Combined time: 0.000477294
+
+SFC+Painter previous efficiency: 0.8879524823
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9379467188
+SFC+Painter ratio: 1.056302829
+ Final SFC+Painter time: 0.003830371
+
+Hilbert+Painter previous efficiency: 0.918357097
+Binary search iterations: 29
+Hilbert+painterPartition efficiency: 0.9404399379
+Hilbert+Painter ratio: 1.024046028
+ Final Hilbert+Painter time: 0.000947926
+Painter+Knapsack previous efficiency: 0.8716515944
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9910763162
+Painter+Knapsack ratio: 1.077171428
+ Final painter+Knapsack_Combined time: 0.004928408
+Run 8
+File weights 51 and ranks 51
+Original previous efficiency: 0.9460711233
+Original efficiency: 0.9460711233
+Original ratio: 1
+Knapsack previous efficiency: 0.9460711233
+Knapsack ratio: 1.050893288
+ Final Knapsack time: 0.004513874
+
+Karmarkar-Karp previous efficiency: 0.9581788852
+Karmarkar-Karp ratio: 1.039786444
+ Final Karmarkar-Karp time: 0.004714834
+
+SFC previous efficiency: 0.8806404775
+ Time take to run this function: 4.809999998e-07
+SFC ratio: 1.038054194
+ Final SFC time: 0.000590494
+
+Hilbert SFC previous efficiency: 0.806666665
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 5337982736
+  Bucket 1 contains 5331984844
+  Bucket 2 contains 5358508731
+  Bucket 3 contains 4625896138
+  Bucket 4 contains 5706018517
+  Bucket 5 contains 5432423969
+  Bucket 6 contains 5545097797
+  Bucket 7 contains 4906052941
+  Bucket 8 contains 5447563656
+  Bucket 9 contains 5691597101
+  Bucket 10 contains 4905998751
+  Bucket 11 contains 5646449859
+  Bucket 12 contains 4778510838
+  Bucket 13 contains 5764884567
+  Bucket 14 contains 5761692550
+  Bucket 15 contains 4697048762
+  Bucket 16 contains 5692071700
+  Bucket 17 contains 5410730717
+  Bucket 18 contains 5142404911
+  Bucket 19 contains 5150866481
+  Bucket 20 contains 5471183632
+  Bucket 21 contains 5406847260
+  Bucket 22 contains 5755027764
+  Bucket 23 contains 5617633308
+Hilbert SFC efficiency: 0.9293658011
+Hilbert SFC ratio: 1.152106367
+ Final Hilbert SFC time: 0.009345335
+
+SFC+Knapsack previous efficiency: 0.8685491572
+SFC + Knapsack ratio: 1.082907854
+ Final SFC+Knapsack_Combined time: 0.000639038
+
+SFC+Painter previous efficiency: 0.8806404775
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9404211799
+SFC+Painter ratio: 1.06788321
+ Final SFC+Painter time: 0.00421233
+
+Hilbert+Painter previous efficiency: 0.8994438963
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.941123554
+Hilbert+Painter ratio: 1.046339364
+ Final Hilbert+Painter time: 0.00101188
+Painter+Knapsack previous efficiency: 0.8681636513
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9897055081
+Painter+Knapsack ratio: 1.083715784
+ Final painter+Knapsack_Combined time: 0.005212698
+Run 9
+File weights 51 and ranks 51
+Original previous efficiency: 0.9434541151
+Original efficiency: 0.9434541151
+Original ratio: 1
+Knapsack previous efficiency: 0.9434541151
+Knapsack ratio: 1.052488951
+ Final Knapsack time: 0.003802988
+
+Karmarkar-Karp previous efficiency: 0.9573812297
+Karmarkar-Karp ratio: 1.040516954
+ Final Karmarkar-Karp time: 0.004652083
+
+SFC previous efficiency: 0.8751054009
+ Time take to run this function: 4.809999998e-07
+SFC ratio: 1.021607357
+ Final SFC time: 0.000713262
+
+Hilbert SFC previous efficiency: 0.8054900382
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 5254744779
+  Bucket 1 contains 5248970427
+  Bucket 2 contains 5285164111
+  Bucket 3 contains 5344445317
+  Bucket 4 contains 4795188908
+  Bucket 5 contains 5353735027
+  Bucket 6 contains 5466079100
+  Bucket 7 contains 4847904563
+  Bucket 8 contains 5383969941
+  Bucket 9 contains 5591622415
+  Bucket 10 contains 4902938663
+  Bucket 11 contains 5625931409
+  Bucket 12 contains 4769662765
+  Bucket 13 contains 5685866735
+  Bucket 14 contains 5697845253
+  Bucket 15 contains 4645041385
+  Bucket 16 contains 5624026962
+  Bucket 17 contains 5315092897
+  Bucket 18 contains 5045320546
+  Bucket 19 contains 5057068650
+  Bucket 20 contains 5373068388
+  Bucket 21 contains 5342784022
+  Bucket 22 contains 5679512235
+  Bucket 23 contains 5533927910
+Hilbert SFC efficiency: 0.9277623585
+Hilbert SFC ratio: 1.151798675
+ Final Hilbert SFC time: 0.009526956
+
+SFC+Knapsack previous efficiency: 0.8632023813
+SFC + Knapsack ratio: 1.089644436
+ Final SFC+Knapsack_Combined time: 0.000458658
+
+SFC+Painter previous efficiency: 0.8751054009
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9403704194
+SFC+Painter ratio: 1.074579609
+ Final SFC+Painter time: 0.00420678
+
+Hilbert+Painter previous efficiency: 0.8902414228
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9409875824
+Hilbert+Painter ratio: 1.057002694
+ Final Hilbert+Painter time: 0.000952445
+Painter+Knapsack previous efficiency: 0.8610378925
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9881296018
+Painter+Knapsack ratio: 1.092284157
+ Final painter+Knapsack_Combined time: 0.005052599
+Run 10
+File weights 51 and ranks 51
+Original previous efficiency: 0.9508644038
+Original efficiency: 0.9508644038
+Original ratio: 1
+Knapsack previous efficiency: 0.9508644038
+Knapsack ratio: 1.048975249
+ Final Knapsack time: 0.004291033
+
+Karmarkar-Karp previous efficiency: 0.9557709571
+Karmarkar-Karp ratio: 1.042775318
+ Final Karmarkar-Karp time: 0.004738761
+
+SFC previous efficiency: 0.8536308734
+ Time take to run this function: 4.410000001e-07
+SFC ratio: 1.047657855
+ Final SFC time: 0.000628327
+
+Hilbert SFC previous efficiency: 0.8395436428
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 5301783747
+  Bucket 1 contains 5364557898
+  Bucket 2 contains 5262183980
+  Bucket 3 contains 5385360327
+  Bucket 4 contains 4852115928
+  Bucket 5 contains 5407772783
+  Bucket 6 contains 5514250634
+  Bucket 7 contains 4867462380
+  Bucket 8 contains 5418369730
+  Bucket 9 contains 5621394811
+  Bucket 10 contains 5302267720
+  Bucket 11 contains 5037805216
+  Bucket 12 contains 5547998134
+  Bucket 13 contains 5484068361
+  Bucket 14 contains 4936639883
+  Bucket 15 contains 5410197704
+  Bucket 16 contains 5732175047
+  Bucket 17 contains 5379916315
+  Bucket 18 contains 5096651683
+  Bucket 19 contains 5102295513
+  Bucket 20 contains 5422459693
+  Bucket 21 contains 5382930515
+  Bucket 22 contains 5753530557
+  Bucket 23 contains 5585116655
+Hilbert SFC efficiency: 0.9281931615
+Hilbert SFC ratio: 1.105592508
+ Final Hilbert SFC time: 0.008535356
+
+SFC+Knapsack previous efficiency: 0.8656718475
+SFC + Knapsack ratio: 1.071363789
+ Final SFC+Knapsack_Combined time: 0.000542791
+
+SFC+Painter previous efficiency: 0.8536308734
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.943591254
+SFC+Painter ratio: 1.105385575
+ Final SFC+Painter time: 0.004395014
+
+Hilbert+Painter previous efficiency: 0.8628586293
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9427076262
+Hilbert+Painter ratio: 1.092540069
+ Final Hilbert+Painter time: 0.001128105
+Painter+Knapsack previous efficiency: 0.8604993713
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9899045406
+Painter+Knapsack ratio: 1.095559252
+ Final painter+Knapsack_Combined time: 0.005643994
+Run 11
+File weights 51 and ranks 51
+Original previous efficiency: 0.9448503831
+Original efficiency: 0.9448503831
+Original ratio: 1
+Knapsack previous efficiency: 0.9448503831
+Knapsack ratio: 1.051852441
+ Final Knapsack time: 0.003743362
+
+Karmarkar-Karp previous efficiency: 0.9305740183
+Karmarkar-Karp ratio: 1.073949513
+ Final Karmarkar-Karp time: 0.0045321
+
+SFC previous efficiency: 0.8211047905
+ Time take to run this function: 4.51e-07
+SFC ratio: 1.073639254
+ Final SFC time: 0.000681691
+
+Hilbert SFC previous efficiency: 0.8262681695
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4923238968
+  Bucket 1 contains 4980714476
+  Bucket 2 contains 4887476957
+  Bucket 3 contains 5014564737
+  Bucket 4 contains 4508760786
+  Bucket 5 contains 5008701416
+  Bucket 6 contains 5129537106
+  Bucket 7 contains 4520666821
+  Bucket 8 contains 5025726715
+  Bucket 9 contains 5243207443
+  Bucket 10 contains 4512939153
+  Bucket 11 contains 5184051192
+  Bucket 12 contains 4905587440
+  Bucket 13 contains 5380362650
+  Bucket 14 contains 4559007958
+  Bucket 15 contains 5024262731
+  Bucket 16 contains 5315828909
+  Bucket 17 contains 5009815137
+  Bucket 18 contains 4734758801
+  Bucket 19 contains 4741265814
+  Bucket 20 contains 5038491865
+  Bucket 21 contains 5006369941
+  Bucket 22 contains 5368146051
+  Bucket 23 contains 5143709761
+Hilbert SFC efficiency: 0.9228559531
+Hilbert SFC ratio: 1.116896411
+ Final Hilbert SFC time: 0.009720682
+
+SFC+Knapsack previous efficiency: 0.8769880289
+SFC + Knapsack ratio: 1.078298167
+ Final SFC+Knapsack_Combined time: 0.000701139
+
+SFC+Painter previous efficiency: 0.8211047905
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.944264036
+SFC+Painter ratio: 1.149992117
+ Final SFC+Painter time: 0.004076027
+
+Hilbert+Painter previous efficiency: 0.7724640826
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9425620482
+Hilbert+Painter ratio: 1.22020178
+ Final Hilbert+Painter time: 0.001130981
+Painter+Knapsack previous efficiency: 0.862985147
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9876249122
+Painter+Knapsack ratio: 1.095794739
+ Final painter+Knapsack_Combined time: 0.005409319
+Run 12
+File weights 51 and ranks 51
+Original previous efficiency: 0.9353734075
+Original efficiency: 0.9353734075
+Original ratio: 1
+Knapsack previous efficiency: 0.9353734075
+Knapsack ratio: 1.064553595
+ Final Knapsack time: 0.003713744
+
+Karmarkar-Karp previous efficiency: 0.9152536935
+Karmarkar-Karp ratio: 1.091270023
+ Final Karmarkar-Karp time: 0.004567719
+
+SFC previous efficiency: 0.7991668546
+ Time take to run this function: 4.61e-07
+SFC ratio: 1.118164865
+ Final SFC time: 0.000798527
+
+Hilbert SFC previous efficiency: 0.7866308794
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4452815017
+  Bucket 1 contains 4505956395
+  Bucket 2 contains 4415765015
+  Bucket 3 contains 4521078904
+  Bucket 4 contains 4077576355
+  Bucket 5 contains 4527376977
+  Bucket 6 contains 4624299175
+  Bucket 7 contains 4771049168
+  Bucket 8 contains 3861525784
+  Bucket 9 contains 4750164947
+  Bucket 10 contains 4346400777
+  Bucket 11 contains 4872535679
+  Bucket 12 contains 4369133505
+  Bucket 13 contains 4473415858
+  Bucket 14 contains 4103405252
+  Bucket 15 contains 4545295891
+  Bucket 16 contains 4812623883
+  Bucket 17 contains 4536914116
+  Bucket 18 contains 4290928784
+  Bucket 19 contains 4288898733
+  Bucket 20 contains 4556483766
+  Bucket 21 contains 4523026100
+  Bucket 22 contains 4862865629
+  Bucket 23 contains 4608758394
+Hilbert SFC efficiency: 0.920963789
+Hilbert SFC ratio: 1.170769942
+ Final Hilbert SFC time: 0.011208053
+
+SFC+Knapsack previous efficiency: 0.8552617561
+SFC + Knapsack ratio: 1.105934002
+ Final SFC+Knapsack_Combined time: 0.000514777
+
+SFC+Painter previous efficiency: 0.7991668546
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9460141773
+SFC+Painter ratio: 1.183750517
+ Final SFC+Painter time: 0.004837712
+
+Hilbert+Painter previous efficiency: 0.7230431583
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9448732416
+Hilbert+Painter ratio: 1.306800612
+ Final Hilbert+Painter time: 0.001211507
+Painter+Knapsack previous efficiency: 0.8642097998
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9845564586
+Painter+Knapsack ratio: 1.094483141
+ Final painter+Knapsack_Combined time: 0.005708269
+Run 13
+File weights 51 and ranks 51
+Original previous efficiency: 0.9323592836
+Original efficiency: 0.9323592836
+Original ratio: 1
+Knapsack previous efficiency: 0.9323592836
+Knapsack ratio: 1.067724131
+ Final Knapsack time: 0.004193764
+
+Karmarkar-Karp previous efficiency: 0.9163361969
+Karmarkar-Karp ratio: 1.08913303
+ Final Karmarkar-Karp time: 0.005145218
+
+SFC previous efficiency: 0.7947824083
+ Time take to run this function: 5.320000001e-07
+SFC ratio: 1.124033053
+ Final SFC time: 0.000710226
+
+Hilbert SFC previous efficiency: 0.7834844399
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4416731156
+  Bucket 1 contains 4467906327
+  Bucket 2 contains 4378842900
+  Bucket 3 contains 4504822234
+  Bucket 4 contains 4029967728
+  Bucket 5 contains 4499107126
+  Bucket 6 contains 4597578343
+  Bucket 7 contains 4731776590
+  Bucket 8 contains 3846192056
+  Bucket 9 contains 4713834337
+  Bucket 10 contains 4344758430
+  Bucket 11 contains 4858305729
+  Bucket 12 contains 4358502145
+  Bucket 13 contains 4358257767
+  Bucket 14 contains 4090152110
+  Bucket 15 contains 4513499779
+  Bucket 16 contains 4768886137
+  Bucket 17 contains 4496784801
+  Bucket 18 contains 4259724994
+  Bucket 19 contains 4255171853
+  Bucket 20 contains 4524547478
+  Bucket 21 contains 4476677813
+  Bucket 22 contains 4829846653
+  Bucket 23 contains 4611007530
+Hilbert SFC efficiency: 0.9170968233
+Hilbert SFC ratio: 1.170536103
+ Final Hilbert SFC time: 0.008472333
+
+SFC+Knapsack previous efficiency: 0.8493657627
+SFC + Knapsack ratio: 1.110638132
+ Final SFC+Knapsack_Combined time: 0.000474198
+
+SFC+Painter previous efficiency: 0.7947824083
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9440151187
+SFC+Painter ratio: 1.187765493
+ Final SFC+Painter time: 0.004864385
+
+Hilbert+Painter previous efficiency: 0.7182000108
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9441003647
+Hilbert+Painter ratio: 1.314536829
+ Final Hilbert+Painter time: 0.000971892
+Painter+Knapsack previous efficiency: 0.8622602046
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.981976678
+Painter+Knapsack ratio: 1.094029388
+ Final painter+Knapsack_Combined time: 0.005415481
+Run 14
+File weights 51 and ranks 51
+Original previous efficiency: 0.9263503096
+Original efficiency: 0.9263503096
+Original ratio: 1
+Knapsack previous efficiency: 0.9263503096
+Knapsack ratio: 1.074167554
+ Final Knapsack time: 0.003760505
+
+Karmarkar-Karp previous efficiency: 0.9103964967
+Karmarkar-Karp ratio: 1.096300044
+ Final Karmarkar-Karp time: 0.00481532
+
+SFC previous efficiency: 0.787757746
+ Time take to run this function: 5.209999998e-07
+SFC ratio: 1.133393207
+ Final SFC time: 0.000884864
+
+Hilbert SFC previous efficiency: 0.7759969356
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4369479827
+  Bucket 1 contains 4421173957
+  Bucket 2 contains 4337019961
+  Bucket 3 contains 4443459798
+  Bucket 4 contains 3989197642
+  Bucket 5 contains 4449466646
+  Bucket 6 contains 4543946273
+  Bucket 7 contains 4684434768
+  Bucket 8 contains 4457950023
+  Bucket 9 contains 3989839312
+  Bucket 10 contains 4361549821
+  Bucket 11 contains 4950731234
+  Bucket 12 contains 4373330106
+  Bucket 13 contains 4285931127
+  Bucket 14 contains 4044127812
+  Bucket 15 contains 4458178001
+  Bucket 16 contains 4716106499
+  Bucket 17 contains 4462106907
+  Bucket 18 contains 4208602870
+  Bucket 19 contains 4198126534
+  Bucket 20 contains 4476642152
+  Bucket 21 contains 4442138439
+  Bucket 22 contains 4742475757
+  Bucket 23 contains 4595272731
+Hilbert SFC efficiency: 0.8921349459
+Hilbert SFC ratio: 1.149662975
+ Final Hilbert SFC time: 0.008177772
+
+SFC+Knapsack previous efficiency: 0.8442569206
+SFC + Knapsack ratio: 1.121920428
+ Final SFC+Knapsack_Combined time: 0.000600794
+
+SFC+Painter previous efficiency: 0.787757746
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9470160098
+SFC+Painter ratio: 1.202166547
+ Final SFC+Painter time: 0.004265463
+
+Hilbert+Painter previous efficiency: 0.7071769101
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.947662533
+Hilbert+Painter ratio: 1.340064303
+ Final Hilbert+Painter time: 0.001023693
+Painter+Knapsack previous efficiency: 0.856983954
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9828319681
+Painter+Knapsack ratio: 1.105258834
+ Final painter+Knapsack_Combined time: 0.005598656
+Run 15
+File weights 51 and ranks 51
+Original previous efficiency: 0.9241836585
+Original efficiency: 0.9241836585
+Original ratio: 1
+Knapsack previous efficiency: 0.9241836585
+Knapsack ratio: 1.076966534
+ Final Knapsack time: 0.004156452
+
+Karmarkar-Karp previous efficiency: 0.9166161656
+Karmarkar-Karp ratio: 1.088009992
+ Final Karmarkar-Karp time: 0.004564533
+
+SFC previous efficiency: 0.7883437378
+ Time take to run this function: 4.699999998e-07
+SFC ratio: 1.130524397
+ Final SFC time: 0.001204685
+
+Hilbert SFC previous efficiency: 0.7818706268
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4464017344
+  Bucket 1 contains 4517451987
+  Bucket 2 contains 4428760282
+  Bucket 3 contains 4546848863
+  Bucket 4 contains 4094225249
+  Bucket 5 contains 4535835470
+  Bucket 6 contains 4633762895
+  Bucket 7 contains 4791936129
+  Bucket 8 contains 3879345401
+  Bucket 9 contains 4757656054
+  Bucket 10 contains 4401465458
+  Bucket 11 contains 4990439588
+  Bucket 12 contains 4532384407
+  Bucket 13 contains 4495319535
+  Bucket 14 contains 4130820941
+  Bucket 15 contains 4564178559
+  Bucket 16 contains 4825496022
+  Bucket 17 contains 4522706686
+  Bucket 18 contains 4289621964
+  Bucket 19 contains 4297594900
+  Bucket 20 contains 4575299324
+  Bucket 21 contains 4545560622
+  Bucket 22 contains 4817137455
+  Bucket 23 contains 4525122428
+Hilbert SFC efficiency: 0.9030850026
+Hilbert SFC ratio: 1.155031244
+ Final Hilbert SFC time: 0.008650639
+
+SFC+Knapsack previous efficiency: 0.84586478
+SFC + Knapsack ratio: 1.117899873
+ Final SFC+Knapsack_Combined time: 0.000521921
+
+SFC+Painter previous efficiency: 0.7883437378
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9441491673
+SFC+Painter ratio: 1.197636414
+ Final SFC+Painter time: 0.004020639
+
+Hilbert+Painter previous efficiency: 0.7156688216
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9448508395
+Hilbert+Painter ratio: 1.320234739
+ Final Hilbert+Painter time: 0.001403529
+Painter+Knapsack previous efficiency: 0.849655141
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9826613337
+Painter+Knapsack ratio: 1.112912857
+ Final painter+Knapsack_Combined time: 0.005342028
+Run 16
+File weights 51 and ranks 51
+Original previous efficiency: 0.9021832384
+Original efficiency: 0.9021832384
+Original ratio: 1
+Knapsack previous efficiency: 0.9021832384
+Knapsack ratio: 1.102334106
+ Final Knapsack time: 0.003780945
+
+Karmarkar-Karp previous efficiency: 0.8947250065
+Karmarkar-Karp ratio: 1.115450317
+ Final Karmarkar-Karp time: 0.00471805
+
+SFC previous efficiency: 0.756591799
+ Time take to run this function: 5.209999998e-07
+SFC ratio: 1.177100616
+ Final SFC time: 0.000998554
+
+Hilbert SFC previous efficiency: 0.7352205219
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 3958205544
+  Bucket 1 contains 3955185515
+  Bucket 2 contains 3976909287
+  Bucket 3 contains 4024906354
+  Bucket 4 contains 3628668752
+  Bucket 5 contains 4031447408
+  Bucket 6 contains 4116112527
+  Bucket 7 contains 3642820697
+  Bucket 8 contains 4050575941
+  Bucket 9 contains 4216240477
+  Bucket 10 contains 3210670183
+  Bucket 11 contains 4297273250
+  Bucket 12 contains 3988869086
+  Bucket 13 contains 4209426714
+  Bucket 14 contains 4325822863
+  Bucket 15 contains 4043481657
+  Bucket 16 contains 3677261822
+  Bucket 17 contains 4029045739
+  Bucket 18 contains 3763169479
+  Bucket 19 contains 4436958897
+  Bucket 20 contains 3908637533
+  Bucket 21 contains 3926512819
+  Bucket 22 contains 3748004294
+  Bucket 23 contains 4353501456
+Hilbert SFC efficiency: 0.8970080494
+Hilbert SFC ratio: 1.220053063
+ Final Hilbert SFC time: 0.008507171
+
+SFC+Knapsack previous efficiency: 0.8076347247
+SFC + Knapsack ratio: 1.165283148
+ Final SFC+Knapsack_Combined time: 0.000484167
+
+SFC+Painter previous efficiency: 0.756591799
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9420377696
+SFC+Painter ratio: 1.245107032
+ Final SFC+Painter time: 0.004105834
+
+Hilbert+Painter previous efficiency: 0.656020503
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9421947262
+Hilbert+Painter ratio: 1.43622756
+ Final Hilbert+Painter time: 0.00099112
+Painter+Knapsack previous efficiency: 0.8512345195
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9891265313
+Painter+Knapsack ratio: 1.106436096
+ Final painter+Knapsack_Combined time: 0.006419707
+Run 17
+File weights 51 and ranks 51
+Original previous efficiency: 0.8954265393
+Original efficiency: 0.9728092364
+Original ratio: 1.086419928
+Knapsack previous efficiency: 0.8954265393
+Knapsack ratio: 1.110601567
+ Final Knapsack time: 0.00385568
+
+Karmarkar-Karp previous efficiency: 0.8879619261
+Karmarkar-Karp ratio: 1.122025592
+ Final Karmarkar-Karp time: 0.004945651
+
+SFC previous efficiency: 0.7309370259
+ Time take to run this function: 4.600000001e-07
+SFC ratio: 1.216988122
+ Final SFC time: 0.000635151
+
+Hilbert SFC previous efficiency: 0.7034437741
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 3889430104
+  Bucket 1 contains 3939067307
+  Bucket 2 contains 3858238538
+  Bucket 3 contains 3965253070
+  Bucket 4 contains 3569960743
+  Bucket 5 contains 3986039010
+  Bucket 6 contains 4056120252
+  Bucket 7 contains 3596883018
+  Bucket 8 contains 3983331253
+  Bucket 9 contains 4156632458
+  Bucket 10 contains 3393594965
+  Bucket 11 contains 4554395415
+  Bucket 12 contains 3973852043
+  Bucket 13 contains 3678077703
+  Bucket 14 contains 3685987601
+  Bucket 15 contains 3978825907
+  Bucket 16 contains 4214204786
+  Bucket 17 contains 3958855457
+  Bucket 18 contains 3718399892
+  Bucket 19 contains 3736144118
+  Bucket 20 contains 3949999980
+  Bucket 21 contains 4362661125
+  Bucket 22 contains 3703812314
+  Bucket 23 contains 4146116786
+Hilbert SFC efficiency: 0.8604863661
+Hilbert SFC ratio: 1.223248251
+ Final Hilbert SFC time: 0.008832822
+
+SFC+Knapsack previous efficiency: 0.7797857753
+SFC + Knapsack ratio: 1.205905362
+ Final SFC+Knapsack_Combined time: 0.000540327
+
+SFC+Painter previous efficiency: 0.7309370259
+Binary search iterations: 29
+SFC+painterPartition efficiency: 0.9418192543
+SFC+Painter ratio: 1.288509435
+ Final SFC+Painter time: 0.004478196
+
+Hilbert+Painter previous efficiency: 0.8940027975
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.940738576
+Hilbert+Painter ratio: 1.052276994
+ Final Hilbert+Painter time: 0.000998785
+Painter+Knapsack previous efficiency: 0.8365786895
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9874562324
+Painter+Knapsack ratio: 1.124222245
+ Final painter+Knapsack_Combined time: 0.005141441
+Run 18
+File weights 51 and ranks 51
+Original previous efficiency: 0.8934282475
+Original efficiency: 0.9620408486
+Original ratio: 1.076796991
+Knapsack previous efficiency: 0.8934282475
+Knapsack ratio: 1.112236086
+ Final Knapsack time: 0.003859226
+
+Karmarkar-Karp previous efficiency: 0.8940212585
+Karmarkar-Karp ratio: 1.113699748
+ Final Karmarkar-Karp time: 0.005375785
+
+SFC previous efficiency: 0.7267395632
+ Time take to run this function: 5.110000001e-07
+SFC ratio: 1.263892391
+ Final SFC time: 0.000956333
+
+Hilbert SFC previous efficiency: 0.7032108022
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 3912045462
+  Bucket 1 contains 3909860238
+  Bucket 2 contains 3936061467
+  Bucket 3 contains 3394420423
+  Bucket 4 contains 4172824817
+  Bucket 5 contains 4002736821
+  Bucket 6 contains 4071708431
+  Bucket 7 contains 3600980372
+  Bucket 8 contains 4017827541
+  Bucket 9 contains 4171041209
+  Bucket 10 contains 3397844917
+  Bucket 11 contains 3839164572
+  Bucket 12 contains 3945742558
+  Bucket 13 contains 3963408890
+  Bucket 14 contains 4162572445
+  Bucket 15 contains 3991762229
+  Bucket 16 contains 4225787050
+  Bucket 17 contains 3953245195
+  Bucket 18 contains 3732987326
+  Bucket 19 contains 3758229189
+  Bucket 20 contains 3976910038
+  Bucket 21 contains 3782040882
+  Bucket 22 contains 4319223576
+  Bucket 23 contains 4093930732
+Hilbert SFC efficiency: 0.9100049534
+Hilbert SFC ratio: 1.294071352
+ Final Hilbert SFC time: 0.012783706
+
+SFC+Knapsack previous efficiency: 0.7732981558
+SFC + Knapsack ratio: 1.213805896
+ Final SFC+Knapsack_Combined time: 0.00048018
+
+SFC+Painter previous efficiency: 0.7267395632
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9391039886
+SFC+Painter ratio: 1.292215308
+ Final SFC+Painter time: 0.004421466
+
+Hilbert+Painter previous efficiency: 0.8937365738
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9397601617
+Hilbert+Painter ratio: 1.051495697
+ Final Hilbert+Painter time: 0.000885745
+Painter+Knapsack previous efficiency: 0.8311818516
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9847186021
+Painter+Knapsack ratio: 1.12838956
+ Final painter+Knapsack_Combined time: 0.004928689
+Run 19
+File weights 51 and ranks 51
+Original previous efficiency: 0.8886100208
+Original efficiency: 0.9555296195
+Original ratio: 1.075308175
+Knapsack previous efficiency: 0.8886100208
+Knapsack ratio: 1.121099066
+ Final Knapsack time: 0.004092168
+
+Karmarkar-Karp previous efficiency: 0.8941911574
+Karmarkar-Karp ratio: 1.113169917
+ Final Karmarkar-Karp time: 0.004535968
+
+SFC previous efficiency: 0.73117507
+ Time take to run this function: 4.709999999e-07
+SFC ratio: 1.224371742
+ Final SFC time: 0.000592749
+
+Hilbert SFC previous efficiency: 0.722624271
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4018614555
+  Bucket 1 contains 4016052745
+  Bucket 2 contains 4046860489
+  Bucket 3 contains 3469590682
+  Bucket 4 contains 4292823611
+  Bucket 5 contains 4096939896
+  Bucket 6 contains 4170409869
+  Bucket 7 contains 3698536144
+  Bucket 8 contains 4122358501
+  Bucket 9 contains 4285253458
+  Bucket 10 contains 3441380252
+  Bucket 11 contains 4641756894
+  Bucket 12 contains 3390573852
+  Bucket 13 contains 4520310941
+  Bucket 14 contains 4297719587
+  Bucket 15 contains 4106716492
+  Bucket 16 contains 3979233026
+  Bucket 17 contains 4064467845
+  Bucket 18 contains 3827095008
+  Bucket 19 contains 3856627780
+  Bucket 20 contains 4070964761
+  Bucket 21 contains 3893997775
+  Bucket 22 contains 4445269201
+  Bucket 23 contains 4170764229
+Hilbert SFC efficiency: 0.8700397986
+Hilbert SFC ratio: 1.204000244
+ Final Hilbert SFC time: 0.008876176
+
+SFC+Knapsack previous efficiency: 0.7802800468
+SFC + Knapsack ratio: 1.201187294
+ Final SFC+Knapsack_Combined time: 0.000503616
+
+SFC+Painter previous efficiency: 0.73117507
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9407403232
+SFC+Painter ratio: 1.286614331
+ Final SFC+Painter time: 0.004071067
+
+Hilbert+Painter previous efficiency: 0.90038874
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9417257885
+Hilbert+Painter ratio: 1.045910224
+ Final Hilbert+Painter time: 0.00099076
+Painter+Knapsack previous efficiency: 0.8323559824
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.980589218
+Painter+Knapsack ratio: 1.108591223
+ Final painter+Knapsack_Combined time: 0.004883881
+Run 20
+File weights 51 and ranks 51
+Original previous efficiency: 0.8816161399
+Original efficiency: 0.9479517253
+Original ratio: 1.075243161
+Knapsack previous efficiency: 0.8816161399
+Knapsack ratio: 1.128910451
+ Final Knapsack time: 0.004068412
+
+Karmarkar-Karp previous efficiency: 0.8876752954
+Karmarkar-Karp ratio: 1.122649645
+ Final Karmarkar-Karp time: 0.00455788
+
+SFC previous efficiency: 0.7249778396
+ Time take to run this function: 5.010000002e-07
+SFC ratio: 1.227516112
+ Final SFC time: 0.000608409
+
+Hilbert SFC previous efficiency: 0.7410115491
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4095416071
+  Bucket 1 contains 4144603158
+  Bucket 2 contains 4054833390
+  Bucket 3 contains 4172180160
+  Bucket 4 contains 3738069441
+  Bucket 5 contains 4188157538
+  Bucket 6 contains 4252601156
+  Bucket 7 contains 3769813358
+  Bucket 8 contains 4190577869
+  Bucket 9 contains 4365633997
+  Bucket 10 contains 4313238729
+  Bucket 11 contains 3699753668
+  Bucket 12 contains 4472252664
+  Bucket 13 contains 4218474611
+  Bucket 14 contains 3773815408
+  Bucket 15 contains 4189963468
+  Bucket 16 contains 3802434783
+  Bucket 17 contains 4170326574
+  Bucket 18 contains 4491635063
+  Bucket 19 contains 3932139568
+  Bucket 20 contains 4138685065
+  Bucket 21 contains 3974755819
+  Bucket 22 contains 4499553942
+  Bucket 23 contains 4239135340
+Hilbert SFC efficiency: 0.9157208703
+Hilbert SFC ratio: 1.235771388
+ Final Hilbert SFC time: 0.008467935
+
+SFC+Knapsack previous efficiency: 0.7884531812
+SFC + Knapsack ratio: 1.19344483
+ Final SFC+Knapsack_Combined time: 0.0006811
+
+SFC+Painter previous efficiency: 0.7249778396
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9413331299
+SFC+Painter ratio: 1.298430212
+ Final SFC+Painter time: 0.00488308
+
+Hilbert+Painter previous efficiency: 0.9164279621
+Binary search iterations: 29
+Hilbert+painterPartition efficiency: 0.9412634922
+Hilbert+Painter ratio: 1.027100363
+ Final Hilbert+Painter time: 0.000928048
+Painter+Knapsack previous efficiency: 0.8264089833
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9797989428
+Painter+Knapsack ratio: 1.138631588
+ Final painter+Knapsack_Combined time: 0.00517203
+Run 21
+File weights 51 and ranks 51
+Original previous efficiency: 0.885238403
+Original efficiency: 0.9311154892
+Original ratio: 1.051824555
+Knapsack previous efficiency: 0.885238403
+Knapsack ratio: 1.123595818
+ Final Knapsack time: 0.003898492
+
+Karmarkar-Karp previous efficiency: 0.8970363918
+Karmarkar-Karp ratio: 1.109105795
+ Final Karmarkar-Karp time: 0.00481108
+
+SFC previous efficiency: 0.7237878662
+ Time take to run this function: 5.509999998e-07
+SFC ratio: 1.266756051
+ Final SFC time: 0.00068135
+
+Hilbert SFC previous efficiency: 0.7622107026
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4237411054
+  Bucket 1 contains 4236605004
+  Bucket 2 contains 4262331628
+  Bucket 3 contains 3674272125
+  Bucket 4 contains 4536214927
+  Bucket 5 contains 4334458815
+  Bucket 6 contains 4395956639
+  Bucket 7 contains 3899604184
+  Bucket 8 contains 4339108556
+  Bucket 9 contains 4524106250
+  Bucket 10 contains 4301680281
+  Bucket 11 contains 3643334121
+  Bucket 12 contains 4600266453
+  Bucket 13 contains 4384954580
+  Bucket 14 contains 3925019313
+  Bucket 15 contains 4322374756
+  Bucket 16 contains 4180322059
+  Bucket 17 contains 4292393820
+  Bucket 18 contains 4647530283
+  Bucket 19 contains 4074919162
+  Bucket 20 contains 4298448162
+  Bucket 21 contains 4106076299
+  Bucket 22 contains 4663119237
+  Bucket 23 contains 4309909312
+Hilbert SFC efficiency: 0.9131085495
+Hilbert SFC ratio: 1.197973928
+ Final Hilbert SFC time: 0.008045627
+
+SFC+Knapsack previous efficiency: 0.794168083
+SFC + Knapsack ratio: 1.181988274
+ Final SFC+Knapsack_Combined time: 0.000685068
+
+SFC+Painter previous efficiency: 0.7237878662
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9387693094
+SFC+Painter ratio: 1.297022723
+ Final SFC+Painter time: 0.004286554
+
+Hilbert+Painter previous efficiency: 0.8919010798
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9379931209
+Hilbert+Painter ratio: 1.051678423
+ Final Hilbert+Painter time: 0.001013884
+Painter+Knapsack previous efficiency: 0.8219808024
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9762097537
+Painter+Knapsack ratio: 1.141994264
+ Final painter+Knapsack_Combined time: 0.005133314
+Run 22
+File weights 51 and ranks 51
+Original previous efficiency: 0.8760187529
+Original efficiency: 0.9262283957
+Original ratio: 1.057315717
+Knapsack previous efficiency: 0.8760187529
+Knapsack ratio: 1.136443761
+ Final Knapsack time: 0.003907049
+
+Karmarkar-Karp previous efficiency: 0.8896522071
+Karmarkar-Karp ratio: 1.12128115
+ Final Karmarkar-Karp time: 0.004720024
+
+SFC previous efficiency: 0.7221470387
+ Time take to run this function: 5.009999997e-07
+SFC ratio: 1.273795291
+ Final SFC time: 0.000595384
+
+Hilbert SFC previous efficiency: 0.7625275939
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4391506466
+  Bucket 1 contains 4388567411
+  Bucket 2 contains 4412850286
+  Bucket 3 contains 3794514216
+  Bucket 4 contains 4690672254
+  Bucket 5 contains 4476684747
+  Bucket 6 contains 4559840699
+  Bucket 7 contains 4044847632
+  Bucket 8 contains 4503402817
+  Bucket 9 contains 4679350611
+  Bucket 10 contains 4442795526
+  Bucket 11 contains 4544575250
+  Bucket 12 contains 4005114724
+  Bucket 13 contains 4438404778
+  Bucket 14 contains 4133735874
+  Bucket 15 contains 4473786760
+  Bucket 16 contains 4496840235
+  Bucket 17 contains 4443900991
+  Bucket 18 contains 4807990886
+  Bucket 19 contains 4216495887
+  Bucket 20 contains 4454039401
+  Bucket 21 contains 4272295650
+  Bucket 22 contains 4412562615
+  Bucket 23 contains 4790829912
+Hilbert SFC efficiency: 0.9175315995
+Hilbert SFC ratio: 1.203276585
+ Final Hilbert SFC time: 0.007874095
+
+SFC+Knapsack previous efficiency: 0.8003943003
+SFC + Knapsack ratio: 1.171080492
+ Final SFC+Knapsack_Combined time: 0.0004958
+
+SFC+Painter previous efficiency: 0.7221470387
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9376333565
+SFC+Painter ratio: 1.298396734
+ Final SFC+Painter time: 0.003972937
+
+Hilbert+Painter previous efficiency: 0.8638657976
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9351531631
+Hilbert+Painter ratio: 1.082521343
+ Final Hilbert+Painter time: 0.0014921
+Painter+Knapsack previous efficiency: 0.8147710445
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9778634296
+Painter+Knapsack ratio: 1.151197096
+ Final painter+Knapsack_Combined time: 0.005698911
+Run 23
+File weights 51 and ranks 51
+Original previous efficiency: 0.8749332969
+Original efficiency: 0.9231170693
+Original ratio: 1.055071367
+Knapsack previous efficiency: 0.8749332969
+Knapsack ratio: 1.138478742
+ Final Knapsack time: 0.003762519
+
+Karmarkar-Karp previous efficiency: 0.8807473339
+Karmarkar-Karp ratio: 1.132795578
+ Final Karmarkar-Karp time: 0.004575494
+
+SFC previous efficiency: 0.7195083835
+ Time take to run this function: 5.1e-07
+SFC ratio: 1.236688318
+ Final SFC time: 0.000702912
+
+Hilbert SFC previous efficiency: 0.7666096773
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4298596183
+  Bucket 1 contains 4352589126
+  Bucket 2 contains 4262643191
+  Bucket 3 contains 4368236875
+  Bucket 4 contains 3947014681
+  Bucket 5 contains 4393917451
+  Bucket 6 contains 4475520524
+  Bucket 7 contains 3969282978
+  Bucket 8 contains 4411571013
+  Bucket 9 contains 4583806615
+  Bucket 10 contains 4335774536
+  Bucket 11 contains 4449466229
+  Bucket 12 contains 3989078880
+  Bucket 13 contains 4319764360
+  Bucket 14 contains 4723908757
+  Bucket 15 contains 3792373272
+  Bucket 16 contains 4453631755
+  Bucket 17 contains 4361595827
+  Bucket 18 contains 4127567217
+  Bucket 19 contains 4735369781
+  Bucket 20 contains 4364189727
+  Bucket 21 contains 4174562700
+  Bucket 22 contains 4318266963
+  Bucket 23 contains 4613085193
+Hilbert SFC efficiency: 0.913531384
+Hilbert SFC ratio: 1.191651255
+ Final Hilbert SFC time: 0.009175275
+
+SFC+Knapsack previous efficiency: 0.8006317234
+SFC + Knapsack ratio: 1.172539956
+ Final SFC+Knapsack_Combined time: 0.000476413
+
+SFC+Painter previous efficiency: 0.7195083835
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9382297236
+SFC+Painter ratio: 1.303987202
+ Final SFC+Painter time: 0.00392827
+
+Hilbert+Painter previous efficiency: 0.8461770479
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9377474572
+Hilbert+Painter ratio: 1.108216607
+ Final Hilbert+Painter time: 0.000970991
+Painter+Knapsack previous efficiency: 0.8096032195
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9812144766
+Painter+Knapsack ratio: 1.161235558
+ Final painter+Knapsack_Combined time: 0.006084408
+Run 24
+File weights 51 and ranks 51
+Original previous efficiency: 0.8667116523
+Original efficiency: 0.9167889268
+Original ratio: 1.057778471
+Knapsack previous efficiency: 0.8667116523
+Knapsack ratio: 1.148484359
+ Final Knapsack time: 0.003977786
+
+Karmarkar-Karp previous efficiency: 0.871551908
+Karmarkar-Karp ratio: 1.145672959
+ Final Karmarkar-Karp time: 0.00450055
+
+SFC previous efficiency: 0.7186916356
+ Time take to run this function: 4.209999998e-07
+SFC ratio: 1.261645817
+ Final SFC time: 0.000593359
+
+Hilbert SFC previous efficiency: 0.7563396946
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4112518187
+  Bucket 1 contains 4109651616
+  Bucket 2 contains 4131490679
+  Bucket 3 contains 3557836461
+  Bucket 4 contains 4386386019
+  Bucket 5 contains 4197357187
+  Bucket 6 contains 4273739233
+  Bucket 7 contains 3794730511
+  Bucket 8 contains 4215772441
+  Bucket 9 contains 4377675217
+  Bucket 10 contains 3909129622
+  Bucket 11 contains 4115761937
+  Bucket 12 contains 4440511473
+  Bucket 13 contains 4058164355
+  Bucket 14 contains 3944226788
+  Bucket 15 contains 3632144112
+  Bucket 16 contains 4516741106
+  Bucket 17 contains 4160128097
+  Bucket 18 contains 4511083280
+  Bucket 19 contains 3957506443
+  Bucket 20 contains 4179213855
+  Bucket 21 contains 3982632606
+  Bucket 22 contains 4133973586
+  Bucket 23 contains 4399749452
+Hilbert SFC efficiency: 0.9141742717
+Hilbert SFC ratio: 1.208682128
+ Final Hilbert SFC time: 0.007530799
+
+SFC+Knapsack previous efficiency: 0.8020344995
+SFC + Knapsack ratio: 1.157349412
+ Final SFC+Knapsack_Combined time: 0.000505109
+
+SFC+Painter previous efficiency: 0.7186916356
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9415577189
+SFC+Painter ratio: 1.310099732
+ Final SFC+Painter time: 0.004293147
+
+Hilbert+Painter previous efficiency: 0.8006865734
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9339915291
+Hilbert+Painter ratio: 1.166488312
+ Final Hilbert+Painter time: 0.000897018
+Painter+Knapsack previous efficiency: 0.807842155
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9945432006
+Painter+Knapsack ratio: 1.162949167
+ Final painter+Knapsack_Combined time: 0.005140398
+Run 25
+File weights 51 and ranks 51
+Original previous efficiency: 0.8713728402
+Original efficiency: 0.8885684173
+Original ratio: 1.019733892
+Knapsack previous efficiency: 0.8713728402
+Knapsack ratio: 1.141838898
+ Final Knapsack time: 0.003583051
+
+Karmarkar-Karp previous efficiency: 0.8585456347
+Karmarkar-Karp ratio: 1.159630274
+ Final Karmarkar-Karp time: 0.004648606
+
+SFC previous efficiency: 0.7181929779
+ Time take to run this function: 4.61e-07
+SFC ratio: 1.238058232
+ Final SFC time: 0.000654007
+
+Hilbert SFC previous efficiency: 0.7254317479
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 3967699175
+  Bucket 1 contains 3967183616
+  Bucket 2 contains 3989702043
+  Bucket 3 contains 4046553418
+  Bucket 4 contains 3640318000
+  Bucket 5 contains 4050115530
+  Bucket 6 contains 4130443191
+  Bucket 7 contains 3663923800
+  Bucket 8 contains 4069168522
+  Bucket 9 contains 4244212511
+  Bucket 10 contains 3649216439
+  Bucket 11 contains 3893196384
+  Bucket 12 contains 4301479753
+  Bucket 13 contains 3784941189
+  Bucket 14 contains 4485272538
+  Bucket 15 contains 3890869033
+  Bucket 16 contains 3662208624
+  Bucket 17 contains 4000195103
+  Bucket 18 contains 4408232942
+  Bucket 19 contains 3815388745
+  Bucket 20 contains 4019842103
+  Bucket 21 contains 3875789719
+  Bucket 22 contains 3996921418
+  Bucket 23 contains 4286401102
+Hilbert SFC efficiency: 0.8903144875
+Hilbert SFC ratio: 1.227289114
+ Final Hilbert SFC time: 0.007549274
+
+SFC+Knapsack previous efficiency: 0.8047492817
+SFC + Knapsack ratio: 1.165767886
+ Final SFC+Knapsack_Combined time: 0.000488857
+
+SFC+Painter previous efficiency: 0.7181929779
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9386111903
+SFC+Painter ratio: 1.306906666
+ Final SFC+Painter time: 0.00466626
+
+Hilbert+Painter previous efficiency: 0.7577585004
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9408684811
+Hilbert+Painter ratio: 1.241646884
+ Final Hilbert+Painter time: 0.001303405
+Painter+Knapsack previous efficiency: 0.7958048722
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9926618182
+Painter+Knapsack ratio: 1.180391312
+ Final painter+Knapsack_Combined time: 0.005078148
+Run 26
+File weights 51 and ranks 51
+Original previous efficiency: 0.8649727316
+Original efficiency: 0.9777470988
+Original ratio: 1.130379101
+Knapsack previous efficiency: 0.8649727316
+Knapsack ratio: 1.151301652
+ Final Knapsack time: 0.003872151
+
+Karmarkar-Karp previous efficiency: 0.8425864734
+Karmarkar-Karp ratio: 1.184243595
+ Final Karmarkar-Karp time: 0.004492423
+
+SFC previous efficiency: 0.7206564488
+ Time take to run this function: 4.910000002e-07
+SFC ratio: 1.233955321
+ Final SFC time: 0.00060884
+
+Hilbert SFC previous efficiency: 0.7032402837
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 3902831805
+  Bucket 1 contains 3956658388
+  Bucket 2 contains 3879837511
+  Bucket 3 contains 3398228758
+  Bucket 4 contains 4186417406
+  Bucket 5 contains 3980342399
+  Bucket 6 contains 4067309107
+  Bucket 7 contains 3603451501
+  Bucket 8 contains 4017141379
+  Bucket 9 contains 4166701251
+  Bucket 10 contains 3510447346
+  Bucket 11 contains 4491457324
+  Bucket 12 contains 3781114877
+  Bucket 13 contains 3343937605
+  Bucket 14 contains 4478740891
+  Bucket 15 contains 3875499212
+  Bucket 16 contains 3770724127
+  Bucket 17 contains 3942897995
+  Bucket 18 contains 4329449537
+  Bucket 19 contains 3768016152
+  Bucket 20 contains 3974441322
+  Bucket 21 contains 3822422561
+  Bucket 22 contains 3934963892
+  Bucket 23 contains 4202055719
+Hilbert SFC efficiency: 0.8755982121
+Hilbert SFC ratio: 1.245091091
+ Final Hilbert SFC time: 0.007899173
+
+SFC+Knapsack previous efficiency: 0.8078166018
+SFC + Knapsack ratio: 1.162783271
+ Final SFC+Knapsack_Combined time: 0.000502674
+
+SFC+Painter previous efficiency: 0.7206564488
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.937445176
+SFC+Painter ratio: 1.300821185
+ Final SFC+Painter time: 0.003910285
+
+Hilbert+Painter previous efficiency: 0.7304730748
+Binary search iterations: 29
+Hilbert+painterPartition efficiency: 0.9407465814
+Hilbert+Painter ratio: 1.287859353
+ Final Hilbert+Painter time: 0.001097657
+Painter+Knapsack previous efficiency: 0.788934942
+Binary search iterations: 29
+SFC+painterPartition efficiency: 0.9936371849
+Painter+Knapsack ratio: 1.190927855
+ Final painter+Knapsack_Combined time: 0.005680455
+Run 27
+File weights 51 and ranks 51
+Original previous efficiency: 0.8564614481
+Original efficiency: 0.9555050342
+Original ratio: 1.115642784
+Knapsack previous efficiency: 0.8564614481
+Knapsack ratio: 1.163450051
+ Final Knapsack time: 0.003568714
+
+Karmarkar-Karp previous efficiency: 0.8247948691
+Karmarkar-Karp ratio: 1.209029837
+ Final Karmarkar-Karp time: 0.004567349
+
+SFC previous efficiency: 0.725331581
+ Time take to run this function: 5.21e-07
+SFC ratio: 1.23785513
+ Final SFC time: 0.000644438
+
+Hilbert SFC previous efficiency: 0.6897735031
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 3950233684
+  Bucket 1 contains 3956465889
+  Bucket 2 contains 3975541189
+  Bucket 3 contains 3434807237
+  Bucket 4 contains 4224201336
+  Bucket 5 contains 4031170531
+  Bucket 6 contains 4124635788
+  Bucket 7 contains 3649149067
+  Bucket 8 contains 4103314860
+  Bucket 9 contains 4216016960
+  Bucket 10 contains 3547907988
+  Bucket 11 contains 4337016136
+  Bucket 12 contains 3746980891
+  Bucket 13 contains 3367852677
+  Bucket 14 contains 3971965601
+  Bucket 15 contains 4529857368
+  Bucket 16 contains 3868195689
+  Bucket 17 contains 4019261657
+  Bucket 18 contains 3832671893
+  Bucket 19 contains 4356125258
+  Bucket 20 contains 4007142679
+  Bucket 21 contains 3862072124
+  Bucket 22 contains 3956599978
+  Bucket 23 contains 4191458540
+Hilbert SFC efficiency: 0.876229254
+Hilbert SFC ratio: 1.270314458
+ Final Hilbert SFC time: 0.008002795
+
+SFC+Knapsack previous efficiency: 0.8151147414
+SFC + Knapsack ratio: 1.144642197
+ Final SFC+Knapsack_Combined time: 0.000508816
+
+SFC+Painter previous efficiency: 0.725331581
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9370834731
+SFC+Painter ratio: 1.291938057
+ Final SFC+Painter time: 0.004978425
+
+Hilbert+Painter previous efficiency: 0.7160127099
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9469719203
+Hilbert+Painter ratio: 1.322563004
+ Final Hilbert+Painter time: 0.001097446
+Painter+Knapsack previous efficiency: 0.7786989791
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9929078362
+Painter+Knapsack ratio: 1.198171249
+ Final painter+Knapsack_Combined time: 0.004982673
+Run 28
+File weights 51 and ranks 51
+Original previous efficiency: 0.8743537082
+Original efficiency: 0.9504582716
+Original ratio: 1.087040934
+Knapsack previous efficiency: 0.8743537082
+Knapsack ratio: 1.139047425
+ Final Knapsack time: 0.004143447
+
+Karmarkar-Karp previous efficiency: 0.8273617979
+Karmarkar-Karp ratio: 1.203662722
+ Final Karmarkar-Karp time: 0.004643125
+
+SFC previous efficiency: 0.7437917239
+ Time take to run this function: 5.1e-07
+SFC ratio: 1.183378644
+ Final SFC time: 0.000707821
+
+Hilbert SFC previous efficiency: 0.7021267933
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4058529596
+  Bucket 1 contains 4061536185
+  Bucket 2 contains 4085066515
+  Bucket 3 contains 3528562708
+  Bucket 4 contains 4336385492
+  Bucket 5 contains 4130165124
+  Bucket 6 contains 4300372558
+  Bucket 7 contains 3736808980
+  Bucket 8 contains 4308518376
+  Bucket 9 contains 3705114941
+  Bucket 10 contains 4281722929
+  Bucket 11 contains 3602219809
+  Bucket 12 contains 4267272311
+  Bucket 13 contains 4748072908
+  Bucket 14 contains 3870169263
+  Bucket 15 contains 4003508378
+  Bucket 16 contains 3811286885
+  Bucket 17 contains 4097358835
+  Bucket 18 contains 4608628120
+  Bucket 19 contains 3904968557
+  Bucket 20 contains 4117185743
+  Bucket 21 contains 3978129631
+  Bucket 22 contains 4323885403
+  Bucket 23 contains 4110290712
+Hilbert SFC efficiency: 0.8597853088
+Hilbert SFC ratio: 1.224544223
+ Final Hilbert SFC time: 0.007759512
+
+SFC+Knapsack previous efficiency: 0.8210312188
+SFC + Knapsack ratio: 1.109362138
+ Final SFC+Knapsack_Combined time: 0.000479579
+
+SFC+Painter previous efficiency: 0.7437917239
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9370124673
+SFC+Painter ratio: 1.259778023
+ Final SFC+Painter time: 0.004013265
+
+Hilbert+Painter previous efficiency: 0.7370453528
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9421180285
+Hilbert+Painter ratio: 1.27823617
+ Final Hilbert+Painter time: 0.00096055
+Painter+Knapsack previous efficiency: 0.7763513384
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9904867531
+Painter+Knapsack ratio: 1.173207159
+ Final painter+Knapsack_Combined time: 0.005040064
+Run 29
+File weights 51 and ranks 51
+Original previous efficiency: 0.8667690764
+Original efficiency: 0.9478597171
+Original ratio: 1.093555069
+Knapsack previous efficiency: 0.8667690764
+Knapsack ratio: 1.147938206
+ Final Knapsack time: 0.003698355
+
+Karmarkar-Karp previous efficiency: 0.8334943171
+Karmarkar-Karp ratio: 1.196202568
+ Final Karmarkar-Karp time: 0.004699775
+
+SFC previous efficiency: 0.7543258377
+ Time take to run this function: 4.61e-07
+SFC ratio: 1.180926499
+ Final SFC time: 0.000615723
+
+Hilbert SFC previous efficiency: 0.7113406226
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4131655996
+  Bucket 1 contains 4137519096
+  Bucket 2 contains 4160032249
+  Bucket 3 contains 3596554451
+  Bucket 4 contains 4419188713
+  Bucket 5 contains 4205149016
+  Bucket 6 contains 4465114467
+  Bucket 7 contains 3819429161
+  Bucket 8 contains 4443541565
+  Bucket 9 contains 3780418162
+  Bucket 10 contains 4284139253
+  Bucket 11 contains 3612878312
+  Bucket 12 contains 4401738583
+  Bucket 13 contains 3848198452
+  Bucket 14 contains 4404022120
+  Bucket 15 contains 4665891345
+  Bucket 16 contains 3751656542
+  Bucket 17 contains 4175605250
+  Bucket 18 contains 4169046717
+  Bucket 19 contains 4549903471
+  Bucket 20 contains 4191007406
+  Bucket 21 contains 4054138266
+  Bucket 22 contains 4353639136
+  Bucket 23 contains 4215448276
+Hilbert SFC efficiency: 0.891540228
+Hilbert SFC ratio: 1.253323935
+ Final Hilbert SFC time: 0.007760455
+
+SFC+Knapsack previous efficiency: 0.8291924017
+SFC + Knapsack ratio: 1.084068022
+ Final SFC+Knapsack_Combined time: 0.000477545
+
+SFC+Painter previous efficiency: 0.7543258377
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9379442162
+SFC+Painter ratio: 1.243420508
+ Final SFC+Painter time: 0.004089743
+
+Hilbert+Painter previous efficiency: 0.7579990495
+Binary search iterations: 29
+Hilbert+painterPartition efficiency: 0.9349306562
+Hilbert+Painter ratio: 1.233419299
+ Final Hilbert+Painter time: 0.000951924
+Painter+Knapsack previous efficiency: 0.7871869097
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9856097464
+Painter+Knapsack ratio: 1.141915543
+ Final painter+Knapsack_Combined time: 0.005225744
+Run 30
+File weights 51 and ranks 51
+Original previous efficiency: 0.8557733516
+Original efficiency: 0.9479122531
+Original ratio: 1.107667411
+Knapsack previous efficiency: 0.8557733516
+Knapsack ratio: 1.162935112
+ Final Knapsack time: 0.003681192
+
+Karmarkar-Karp previous efficiency: 0.8470665975
+Karmarkar-Karp ratio: 1.176865453
+ Final Karmarkar-Karp time: 0.00483665
+
+SFC previous efficiency: 0.7498786976
+ Time take to run this function: 4.909999998e-07
+SFC ratio: 1.22398956
+ Final SFC time: 0.000612286
+
+Hilbert SFC previous efficiency: 0.7198833817
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4206910766
+  Bucket 1 contains 4209943281
+  Bucket 2 contains 4237150615
+  Bucket 3 contains 3661888838
+  Bucket 4 contains 4494723055
+  Bucket 5 contains 4286769566
+  Bucket 6 contains 3966146470
+  Bucket 7 contains 4522804604
+  Bucket 8 contains 3988979904
+  Bucket 9 contains 4422372496
+  Bucket 10 contains 4306923882
+  Bucket 11 contains 3663037298
+  Bucket 12 contains 4454311304
+  Bucket 13 contains 3824480118
+  Bucket 14 contains 4578070449
+  Bucket 15 contains 4744803814
+  Bucket 16 contains 3703796769
+  Bucket 17 contains 4232719072
+  Bucket 18 contains 4299292152
+  Bucket 19 contains 4627963933
+  Bucket 20 contains 4267747752
+  Bucket 21 contains 4119276702
+  Bucket 22 contains 4390786414
+  Bucket 23 contains 4292662969
+Hilbert SFC efficiency: 0.8913572106
+Hilbert SFC ratio: 1.238196676
+ Final Hilbert SFC time: 0.010887783
+
+SFC+Knapsack previous efficiency: 0.8353146113
+SFC + Knapsack ratio: 1.067075821
+ Final SFC+Knapsack_Combined time: 0.000505259
+
+SFC+Painter previous efficiency: 0.7498786976
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9341587541
+SFC+Painter ratio: 1.245746488
+ Final SFC+Painter time: 0.004324077
+
+Hilbert+Painter previous efficiency: 0.7739672695
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9395415826
+Hilbert+Painter ratio: 1.213929348
+ Final Hilbert+Painter time: 0.000911987
+Painter+Knapsack previous efficiency: 0.7914460442
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9842442275
+Painter+Knapsack ratio: 1.126222099
+ Final painter+Knapsack_Combined time: 0.005158022
+Run 31
+File weights 51 and ranks 51
+Original previous efficiency: 0.8370076442
+Original efficiency: 0.9450040692
+Original ratio: 1.129026808
+Knapsack previous efficiency: 0.8370076442
+Knapsack ratio: 1.188856019
+ Final Knapsack time: 0.003720177
+
+Karmarkar-Karp previous efficiency: 0.8570398081
+Karmarkar-Karp ratio: 1.164304574
+ Final Karmarkar-Karp time: 0.005421834
+
+SFC previous efficiency: 0.7367753594
+ Time take to run this function: 5.009999997e-07
+SFC ratio: 1.209601917
+ Final SFC time: 0.000647003
+
+Hilbert SFC previous efficiency: 0.7250374805
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4209022584
+  Bucket 1 contains 4210642102
+  Bucket 2 contains 4236766817
+  Bucket 3 contains 3655238795
+  Bucket 4 contains 4494050586
+  Bucket 5 contains 4293097135
+  Bucket 6 contains 4023830693
+  Bucket 7 contains 4530523601
+  Bucket 8 contains 4007631426
+  Bucket 9 contains 4412916406
+  Bucket 10 contains 4346146475
+  Bucket 11 contains 3655259856
+  Bucket 12 contains 4412448534
+  Bucket 13 contains 4686306121
+  Bucket 14 contains 4305911837
+  Bucket 15 contains 4110029661
+  Bucket 16 contains 3632643886
+  Bucket 17 contains 4233271553
+  Bucket 18 contains 4361856990
+  Bucket 19 contains 4627596636
+  Bucket 20 contains 4263886555
+  Bucket 21 contains 4138843193
+  Bucket 22 contains 4377833478
+  Bucket 23 contains 4348038945
+Hilbert SFC efficiency: 0.9031081841
+Hilbert SFC ratio: 1.245602067
+ Final Hilbert SFC time: 0.008157122
+
+SFC+Knapsack previous efficiency: 0.8387822573
+SFC + Knapsack ratio: 1.062234334
+ Final SFC+Knapsack_Combined time: 0.000464039
+
+SFC+Painter previous efficiency: 0.7367753594
+Binary search iterations: 29
+SFC+painterPartition efficiency: 0.9330267099
+SFC+Painter ratio: 1.266365247
+ Final SFC+Painter time: 0.004391277
+
+Hilbert+Painter previous efficiency: 0.7842878468
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9415733011
+Hilbert+Painter ratio: 1.200545571
+ Final Hilbert+Painter time: 0.001240143
+Painter+Knapsack previous efficiency: 0.7861600201
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9821090621
+Painter+Knapsack ratio: 1.133335822
+ Final painter+Knapsack_Combined time: 0.007057422
+Run 32
+File weights 51 and ranks 51
+Original previous efficiency: 0.8240980873
+Original efficiency: 0.928772571
+Original ratio: 1.127017021
+Knapsack previous efficiency: 0.8240980873
+Knapsack ratio: 1.207661792
+ Final Knapsack time: 0.004420935
+
+Karmarkar-Karp previous efficiency: 0.8823161199
+Karmarkar-Karp ratio: 1.129953958
+ Final Karmarkar-Karp time: 0.004670708
+
+SFC previous efficiency: 0.7343884446
+ Time take to run this function: 4.709999999e-07
+SFC ratio: 1.201075515
+ Final SFC time: 0.000917327
+
+Hilbert SFC previous efficiency: 0.7521435376
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4157289104
+  Bucket 1 contains 4161575529
+  Bucket 2 contains 4186789634
+  Bucket 3 contains 3609222341
+  Bucket 4 contains 4443874639
+  Bucket 5 contains 4244520772
+  Bucket 6 contains 4107870433
+  Bucket 7 contains 4477616463
+  Bucket 8 contains 4061195041
+  Bucket 9 contains 4370625388
+  Bucket 10 contains 3646642198
+  Bucket 11 contains 4155284134
+  Bucket 12 contains 4308075414
+  Bucket 13 contains 4637398031
+  Bucket 14 contains 3797202980
+  Bucket 15 contains 3864155572
+  Bucket 16 contains 4130645195
+  Bucket 17 contains 4193256306
+  Bucket 18 contains 4305784757
+  Bucket 19 contains 4575912032
+  Bucket 20 contains 4223493720
+  Bucket 21 contains 4093137185
+  Bucket 22 contains 4325671186
+  Bucket 23 contains 4348465453
+Hilbert SFC efficiency: 0.902317266
+Hilbert SFC ratio: 1.199660997
+ Final Hilbert SFC time: 0.013862656
+
+SFC+Knapsack previous efficiency: 0.8475648664
+SFC + Knapsack ratio: 1.049741909
+ Final SFC+Knapsack_Combined time: 0.000566608
+
+SFC+Painter previous efficiency: 0.7343884446
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9383812901
+SFC+Painter ratio: 1.277772406
+ Final SFC+Painter time: 0.004821952
+
+Hilbert+Painter previous efficiency: 0.8329969979
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9406248576
+Hilbert+Painter ratio: 1.129205579
+ Final Hilbert+Painter time: 0.00123861
+Painter+Knapsack previous efficiency: 0.7907192551
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9822953727
+Painter+Knapsack ratio: 1.144319449
+ Final painter+Knapsack_Combined time: 0.005183112
+Run 33
+File weights 51 and ranks 51
+Original previous efficiency: 0.8061081153
+Original efficiency: 0.9093569749
+Original ratio: 1.128083141
+Knapsack previous efficiency: 0.8061081153
+Knapsack ratio: 1.235611232
+ Final Knapsack time: 0.004058183
+
+Karmarkar-Karp previous efficiency: 0.8903746524
+Karmarkar-Karp ratio: 1.119059702
+ Final Karmarkar-Karp time: 0.004906896
+
+SFC previous efficiency: 0.7204799692
+ Time take to run this function: 4.899999997e-07
+SFC ratio: 1.232384163
+ Final SFC time: 0.000594572
+
+Hilbert SFC previous efficiency: 0.765355443
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4074879622
+  Bucket 1 contains 4078427765
+  Bucket 2 contains 4100081168
+  Bucket 3 contains 3538414954
+  Bucket 4 contains 4353597662
+  Bucket 5 contains 4149902803
+  Bucket 6 contains 4139351476
+  Bucket 7 contains 3762259846
+  Bucket 8 contains 4630264969
+  Bucket 9 contains 3665816238
+  Bucket 10 contains 4160012375
+  Bucket 11 contains 4020559497
+  Bucket 12 contains 4183891290
+  Bucket 13 contains 4430498719
+  Bucket 14 contains 3872232739
+  Bucket 15 contains 3807479454
+  Bucket 16 contains 3864292626
+  Bucket 17 contains 4102872990
+  Bucket 18 contains 4275836250
+  Bucket 19 contains 4490014785
+  Bucket 20 contains 4130072919
+  Bucket 21 contains 4012448256
+  Bucket 22 contains 4230708811
+  Bucket 23 contains 4349976768
+Hilbert SFC efficiency: 0.8856934992
+Hilbert SFC ratio: 1.157231594
+ Final Hilbert SFC time: 0.009987439
+
+SFC+Knapsack previous efficiency: 0.8486019722
+SFC + Knapsack ratio: 1.059840627
+ Final SFC+Knapsack_Combined time: 0.000601485
+
+SFC+Painter previous efficiency: 0.7204799692
+Binary search iterations: 29
+SFC+painterPartition efficiency: 0.9372132175
+SFC+Painter ratio: 1.300817868
+ Final SFC+Painter time: 0.005417355
+
+Hilbert+Painter previous efficiency: 0.8597527241
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9416950809
+Hilbert+Painter ratio: 1.095309215
+ Final Hilbert+Painter time: 0.001069792
+Painter+Knapsack previous efficiency: 0.7930194178
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9811845987
+Painter+Knapsack ratio: 1.196809857
+ Final painter+Knapsack_Combined time: 0.006263835
+Run 34
+File weights 51 and ranks 51
+Original previous efficiency: 0.7806247595
+Original efficiency: 0.8887372341
+Original ratio: 1.138494806
+Knapsack previous efficiency: 0.7806247595
+Knapsack ratio: 1.274289985
+ Final Knapsack time: 0.007674858
+
+Karmarkar-Karp previous efficiency: 0.8890976307
+Karmarkar-Karp ratio: 1.119211209
+ Final Karmarkar-Karp time: 0.004606835
+
+SFC previous efficiency: 0.7008259693
+ Time take to run this function: 4.61e-07
+SFC ratio: 1.258521513
+ Final SFC time: 0.000652534
+
+Hilbert SFC previous efficiency: 0.7754711316
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4041606580
+  Bucket 1 contains 4045893647
+  Bucket 2 contains 4071555141
+  Bucket 3 contains 3514368421
+  Bucket 4 contains 4316729908
+  Bucket 5 contains 4113557527
+  Bucket 6 contains 4187575140
+  Bucket 7 contains 3732860666
+  Bucket 8 contains 4596576265
+  Bucket 9 contains 3629570937
+  Bucket 10 contains 4122625783
+  Bucket 11 contains 3959629920
+  Bucket 12 contains 4162166210
+  Bucket 13 contains 4283984859
+  Bucket 14 contains 3950584744
+  Bucket 15 contains 3790917090
+  Bucket 16 contains 4621276122
+  Bucket 17 contains 4065860623
+  Bucket 18 contains 3958283387
+  Bucket 19 contains 3883361134
+  Bucket 20 contains 4096450711
+  Bucket 21 contains 3976744497
+  Bucket 22 contains 4182706563
+  Bucket 23 contains 4368883712
+Hilbert SFC efficiency: 0.8806529391
+Hilbert SFC ratio: 1.135636007
+ Final Hilbert SFC time: 0.019577057
+
+SFC+Knapsack previous efficiency: 0.8393760664
+SFC + Knapsack ratio: 1.063026283
+ Final SFC+Knapsack_Combined time: 0.001128526
+
+SFC+Painter previous efficiency: 0.7008259693
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9395997064
+SFC+Painter ratio: 1.340703324
+ Final SFC+Painter time: 0.004780762
+
+Hilbert+Painter previous efficiency: 0.8458465622
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9352476657
+Hilbert+Painter ratio: 1.105694233
+ Final Hilbert+Painter time: 0.001141321
+Painter+Knapsack previous efficiency: 0.785835168
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9843388465
+Painter+Knapsack ratio: 1.193059453
+ Final painter+Knapsack_Combined time: 0.005740882
+Run 35
+File weights 51 and ranks 51
+Original previous efficiency: 0.7533036168
+Original efficiency: 0.9647092632
+Original ratio: 1.280638035
+Knapsack previous efficiency: 0.7533036168
+Knapsack ratio: 1.323391406
+ Final Knapsack time: 0.004033314
+
+Karmarkar-Karp previous efficiency: 0.8823209892
+Karmarkar-Karp ratio: 1.128830151
+ Final Karmarkar-Karp time: 0.004777005
+
+SFC previous efficiency: 0.6886854135
+ Time take to run this function: 4.909999998e-07
+SFC ratio: 1.270569083
+ Final SFC time: 0.001093369
+
+Hilbert SFC previous efficiency: 0.7825068492
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4039191258
+  Bucket 1 contains 4083229372
+  Bucket 2 contains 4008034158
+  Bucket 3 contains 4113747709
+  Bucket 4 contains 3758444521
+  Bucket 5 contains 4122413373
+  Bucket 6 contains 4215343235
+  Bucket 7 contains 3734613451
+  Bucket 8 contains 4004444449
+  Bucket 9 contains 4183974716
+  Bucket 10 contains 4087859935
+  Bucket 11 contains 3879786278
+  Bucket 12 contains 4135852119
+  Bucket 13 contains 4273466363
+  Bucket 14 contains 4068948373
+  Bucket 15 contains 3807673301
+  Bucket 16 contains 4523572966
+  Bucket 17 contains 4091936902
+  Bucket 18 contains 3942602525
+  Bucket 19 contains 3886778817
+  Bucket 20 contains 4094921906
+  Bucket 21 contains 3962837360
+  Bucket 22 contains 4161728449
+  Bucket 23 contains 4398813623
+Hilbert SFC efficiency: 0.8988121401
+Hilbert SFC ratio: 1.148631659
+ Final Hilbert SFC time: 0.012902626
+
+SFC+Knapsack previous efficiency: 0.8250296974
+SFC + Knapsack ratio: 1.136420202
+ Final SFC+Knapsack_Combined time: 0.000507493
+
+SFC+Painter previous efficiency: 0.6886854135
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9346286833
+SFC+Painter ratio: 1.357119905
+ Final SFC+Painter time: 0.004417729
+
+Hilbert+Painter previous efficiency: 0.8428831175
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9503456702
+Hilbert+Painter ratio: 1.127494015
+ Final Hilbert+Painter time: 0.00216825
+Painter+Knapsack previous efficiency: 0.7852450145
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.982181861
+Painter+Knapsack ratio: 1.193947238
+ Final painter+Knapsack_Combined time: 0.007553744
+Run 36
+File weights 51 and ranks 51
+Original previous efficiency: 0.7383506958
+Original efficiency: 0.9381060551
+Original ratio: 1.270542657
+Knapsack previous efficiency: 0.7383506958
+Knapsack ratio: 1.347006566
+ Final Knapsack time: 0.003804731
+
+Karmarkar-Karp previous efficiency: 0.8694658419
+Karmarkar-Karp ratio: 1.144991192
+ Final Karmarkar-Karp time: 0.004946603
+
+SFC previous efficiency: 0.6791948069
+ Time take to run this function: 4.809999998e-07
+SFC ratio: 1.265735843
+ Final SFC time: 0.001294117
+
+Hilbert SFC previous efficiency: 0.7907936181
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4045954977
+  Bucket 1 contains 4090755452
+  Bucket 2 contains 4016562255
+  Bucket 3 contains 4119054043
+  Bucket 4 contains 3950894569
+  Bucket 5 contains 4108440996
+  Bucket 6 contains 3677716053
+  Bucket 7 contains 4288062313
+  Bucket 8 contains 3944822240
+  Bucket 9 contains 4171988375
+  Bucket 10 contains 4066068060
+  Bucket 11 contains 3858064470
+  Bucket 12 contains 4430290953
+  Bucket 13 contains 3845651836
+  Bucket 14 contains 4110607204
+  Bucket 15 contains 3832187242
+  Bucket 16 contains 4426067233
+  Bucket 17 contains 4115260031
+  Bucket 18 contains 4002389566
+  Bucket 19 contains 3892185163
+  Bucket 20 contains 4084959565
+  Bucket 21 contains 3983105305
+  Bucket 22 contains 4124967559
+  Bucket 23 contains 4472742813
+Hilbert SFC efficiency: 0.9097586794
+Hilbert SFC ratio: 1.150437559
+ Final Hilbert SFC time: 0.012096825
+
+SFC+Knapsack previous efficiency: 0.8166704741
+SFC + Knapsack ratio: 1.147360714
+ Final SFC+Knapsack_Combined time: 0.000601204
+
+SFC+Painter previous efficiency: 0.6791948069
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9244840976
+SFC+Painter ratio: 1.361147182
+ Final SFC+Painter time: 0.004488777
+
+Hilbert+Painter previous efficiency: 0.8447976203
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9336316758
+Hilbert+Painter ratio: 1.105154245
+ Final Hilbert+Painter time: 0.001781872
+Painter+Knapsack previous efficiency: 0.7871732834
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9814400302
+Painter+Knapsack ratio: 1.188486803
+ Final painter+Knapsack_Combined time: 0.005776752
+Run 37
+File weights 51 and ranks 51
+Original previous efficiency: 0.7262202413
+Original efficiency: 0.9209123914
+Original ratio: 1.268089677
+Knapsack previous efficiency: 0.7262202413
+Knapsack ratio: 1.370170606
+ Final Knapsack time: 0.003691121
+
+Karmarkar-Karp previous efficiency: 0.8596022767
+Karmarkar-Karp ratio: 1.159952262
+ Final Karmarkar-Karp time: 0.004685748
+
+SFC previous efficiency: 0.6730357565
+ Time take to run this function: 6.109999999e-07
+SFC ratio: 1.288257561
+ Final SFC time: 0.000624119
+
+Hilbert SFC previous efficiency: 0.7958856483
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4091146964
+  Bucket 1 contains 4137641535
+  Bucket 2 contains 4088701962
+  Bucket 3 contains 3550139615
+  Bucket 4 contains 4154559984
+  Bucket 5 contains 4166301411
+  Bucket 6 contains 4327257095
+  Bucket 7 contains 4349599511
+  Bucket 8 contains 3924495679
+  Bucket 9 contains 4227333552
+  Bucket 10 contains 4146003680
+  Bucket 11 contains 3857178410
+  Bucket 12 contains 4401154739
+  Bucket 13 contains 3864600594
+  Bucket 14 contains 4153127544
+  Bucket 15 contains 3865311789
+  Bucket 16 contains 4404044701
+  Bucket 17 contains 4142589797
+  Bucket 18 contains 4106394125
+  Bucket 19 contains 3938338872
+  Bucket 20 contains 4146342174
+  Bucket 21 contains 4034663151
+  Bucket 22 contains 4163705035
+  Bucket 23 contains 4551167102
+Hilbert SFC efficiency: 0.9044548062
+Hilbert SFC ratio: 1.136413011
+ Final Hilbert SFC time: 0.009495094
+
+SFC+Knapsack previous efficiency: 0.8101469962
+SFC + Knapsack ratio: 1.161672808
+ Final SFC+Knapsack_Combined time: 0.000518564
+
+SFC+Painter previous efficiency: 0.6730357565
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9158855182
+SFC+Painter ratio: 1.360827429
+ Final SFC+Painter time: 0.006263956
+
+Hilbert+Painter previous efficiency: 0.8488770764
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9357879551
+Hilbert+Painter ratio: 1.10238335
+ Final Hilbert+Painter time: 0.001154858
+Painter+Knapsack previous efficiency: 0.7856461034
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9798698216
+Painter+Knapsack ratio: 1.197900342
+ Final painter+Knapsack_Combined time: 0.006249216
+Run 38
+File weights 51 and ranks 51
+Original previous efficiency: 0.7240203567
+Original efficiency: 0.9071960386
+Original ratio: 1.252997972
+Knapsack previous efficiency: 0.7240203567
+Knapsack ratio: 1.37490602
+ Final Knapsack time: 0.003777558
+
+Karmarkar-Karp previous efficiency: 0.856563446
+Karmarkar-Karp ratio: 1.164349733
+ Final Karmarkar-Karp time: 0.005002792
+
+SFC previous efficiency: 0.6749919795
+ Time take to run this function: 4.610000004e-07
+SFC ratio: 1.284150284
+ Final SFC time: 0.000823816
+
+Hilbert SFC previous efficiency: 0.7957638095
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4134807756
+  Bucket 1 contains 4122794828
+  Bucket 2 contains 3603771742
+  Bucket 3 contains 4202458017
+  Bucket 4 contains 4316708559
+  Bucket 5 contains 4209063962
+  Bucket 6 contains 4369575143
+  Bucket 7 contains 3737289119
+  Bucket 8 contains 4579597378
+  Bucket 9 contains 3646309055
+  Bucket 10 contains 4191581624
+  Bucket 11 contains 4449086718
+  Bucket 12 contains 4385460429
+  Bucket 13 contains 3908173251
+  Bucket 14 contains 4168859144
+  Bucket 15 contains 3909772820
+  Bucket 16 contains 4413706474
+  Bucket 17 contains 4181874712
+  Bucket 18 contains 4143029054
+  Bucket 19 contains 3985151848
+  Bucket 20 contains 4181325037
+  Bucket 21 contains 4064534763
+  Bucket 22 contains 4195273874
+  Bucket 23 contains 4565327782
+Hilbert SFC efficiency: 0.9067894408
+Hilbert SFC ratio: 1.139520835
+ Final Hilbert SFC time: 0.009467852
+
+SFC+Knapsack previous efficiency: 0.7955474124
+SFC + Knapsack ratio: 1.184199271
+ Final SFC+Knapsack_Combined time: 0.000478076
+
+SFC+Painter previous efficiency: 0.6749919795
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9209822599
+SFC+Painter ratio: 1.364434375
+ Final SFC+Painter time: 0.004198063
+
+Hilbert+Painter previous efficiency: 0.8547066505
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9370302036
+Hilbert+Painter ratio: 1.096317904
+ Final Hilbert+Painter time: 0.001417636
+Painter+Knapsack previous efficiency: 0.7909661008
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9815576142
+Painter+Knapsack ratio: 1.190835315
+ Final painter+Knapsack_Combined time: 0.005106493
+Run 39
+File weights 51 and ranks 51
+Original previous efficiency: 0.7315843046
+Original efficiency: 0.8950711249
+Original ratio: 1.223469557
+Knapsack previous efficiency: 0.7315843046
+Knapsack ratio: 1.360236861
+ Final Knapsack time: 0.004343925
+
+Karmarkar-Karp previous efficiency: 0.8565604258
+Karmarkar-Karp ratio: 1.165740514
+ Final Karmarkar-Karp time: 0.004722068
+
+SFC previous efficiency: 0.6720848807
+ Time take to run this function: 5.320000001e-07
+SFC ratio: 1.318575786
+ Final SFC time: 0.000902048
+
+Hilbert SFC previous efficiency: 0.7947483567
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4058651997
+  Bucket 1 contains 4051129555
+  Bucket 2 contains 3582785956
+  Bucket 3 contains 4125652239
+  Bucket 4 contains 4410407493
+  Bucket 5 contains 4136016057
+  Bucket 6 contains 3727549475
+  Bucket 7 contains 4227793177
+  Bucket 8 contains 3901264394
+  Bucket 9 contains 4125347513
+  Bucket 10 contains 4114878013
+  Bucket 11 contains 4385672452
+  Bucket 12 contains 3879221535
+  Bucket 13 contains 4151124165
+  Bucket 14 contains 4055257585
+  Bucket 15 contains 3825548004
+  Bucket 16 contains 4323696169
+  Bucket 17 contains 4094125071
+  Bucket 18 contains 4118995567
+  Bucket 19 contains 3902592352
+  Bucket 20 contains 4114302669
+  Bucket 21 contains 4002668756
+  Bucket 22 contains 4100409910
+  Bucket 23 contains 4493848304
+Hilbert SFC efficiency: 0.9078052538
+Hilbert SFC ratio: 1.142254962
+ Final Hilbert SFC time: 0.009034733
+
+SFC+Knapsack previous efficiency: 0.7908797881
+SFC + Knapsack ratio: 1.184987786
+ Final SFC+Knapsack_Combined time: 0.000491292
+
+SFC+Painter previous efficiency: 0.6720848807
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9172635777
+SFC+Painter ratio: 1.364803173
+ Final SFC+Painter time: 0.004099332
+
+Hilbert+Painter previous efficiency: 0.8627579455
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9394448134
+Hilbert+Painter ratio: 1.088885728
+ Final Hilbert+Painter time: 0.001511649
+Painter+Knapsack previous efficiency: 0.7942500762
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9812185953
+Painter+Knapsack ratio: 1.18079263
+ Final painter+Knapsack_Combined time: 0.004993584
+Run 40
+File weights 51 and ranks 51
+Original previous efficiency: 0.7401623846
+Original efficiency: 0.9720172222
+Original ratio: 1.313248609
+Knapsack previous efficiency: 0.7401623846
+Knapsack ratio: 1.344948871
+ Final Knapsack time: 0.00362877
+
+Karmarkar-Karp previous efficiency: 0.8554469203
+Karmarkar-Karp ratio: 1.165840826
+ Final Karmarkar-Karp time: 0.004457325
+
+SFC previous efficiency: 0.6730763105
+ Time take to run this function: 4.809999998e-07
+SFC ratio: 1.312367899
+ Final SFC time: 0.000672282
+
+Hilbert SFC previous efficiency: 0.7762959329
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 3976411384
+  Bucket 1 contains 4027790713
+  Bucket 2 contains 3514086905
+  Bucket 3 contains 4063249875
+  Bucket 4 contains 4010770708
+  Bucket 5 contains 4153078058
+  Bucket 6 contains 4119048869
+  Bucket 7 contains 4162975615
+  Bucket 8 contains 3760047224
+  Bucket 9 contains 4071737764
+  Bucket 10 contains 3983001326
+  Bucket 11 contains 3622174942
+  Bucket 12 contains 4417379395
+  Bucket 13 contains 4025477303
+  Bucket 14 contains 3895836588
+  Bucket 15 contains 3776923181
+  Bucket 16 contains 4208788380
+  Bucket 17 contains 4041266457
+  Bucket 18 contains 4103862287
+  Bucket 19 contains 3837342751
+  Bucket 20 contains 4032098133
+  Bucket 21 contains 3942656194
+  Bucket 22 contains 4024730062
+  Bucket 23 contains 4459264470
+Hilbert SFC efficiency: 0.8991579892
+Hilbert SFC ratio: 1.158267036
+ Final Hilbert SFC time: 0.008942906
+
+SFC+Knapsack previous efficiency: 0.7803270052
+SFC + Knapsack ratio: 1.192999307
+ Final SFC+Knapsack_Combined time: 0.000662723
+
+SFC+Painter previous efficiency: 0.6730763105
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9138837543
+SFC+Painter ratio: 1.357771385
+ Final SFC+Painter time: 0.005389882
+
+Hilbert+Painter previous efficiency: 0.8757510384
+Binary search iterations: 29
+Hilbert+painterPartition efficiency: 0.942831096
+Hilbert+Painter ratio: 1.076597177
+ Final Hilbert+Painter time: 0.00116137
+Painter+Knapsack previous efficiency: 0.7986668052
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.978947542
+Painter+Knapsack ratio: 1.171192839
+ Final painter+Knapsack_Combined time: 0.005753887
+Run 41
+File weights 51 and ranks 51
+Original previous efficiency: 0.7563951858
+Original efficiency: 0.9653731137
+Original ratio: 1.276281409
+Knapsack previous efficiency: 0.7563951858
+Knapsack ratio: 1.314556563
+ Final Knapsack time: 0.004492764
+
+Karmarkar-Karp previous efficiency: 0.8354762843
+Karmarkar-Karp ratio: 1.193605116
+ Final Karmarkar-Karp time: 0.004603127
+
+SFC previous efficiency: 0.6773145185
+ Time take to run this function: 4.810000003e-07
+SFC ratio: 1.308921088
+ Final SFC time: 0.000617195
+
+Hilbert SFC previous efficiency: 0.7580261327
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 3903375158
+  Bucket 1 contains 3953073964
+  Bucket 2 contains 3525750145
+  Bucket 3 contains 3983750314
+  Bucket 4 contains 4053829142
+  Bucket 5 contains 4089218136
+  Bucket 6 contains 3983031411
+  Bucket 7 contains 3472117491
+  Bucket 8 contains 4281860476
+  Bucket 9 contains 3978807447
+  Bucket 10 contains 3880495705
+  Bucket 11 contains 3527367903
+  Bucket 12 contains 4246936645
+  Bucket 13 contains 3955993569
+  Bucket 14 contains 3741010575
+  Bucket 15 contains 3718451104
+  Bucket 16 contains 4114317922
+  Bucket 17 contains 3954963823
+  Bucket 18 contains 4070341933
+  Bucket 19 contains 3736054790
+  Bucket 20 contains 3956408691
+  Bucket 21 contains 3914151729
+  Bucket 22 contains 4147833003
+  Bucket 23 contains 4125708680
+Hilbert SFC efficiency: 0.9177752121
+Hilbert SFC ratio: 1.210743499
+ Final Hilbert SFC time: 0.008261185
+
+SFC+Knapsack previous efficiency: 0.7689420022
+SFC + Knapsack ratio: 1.211833121
+ Final SFC+Knapsack_Combined time: 0.000563392
+
+SFC+Painter previous efficiency: 0.6773145185
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9169028104
+SFC+Painter ratio: 1.353732698
+ Final SFC+Painter time: 0.006894817
+
+Hilbert+Painter previous efficiency: 0.8595705953
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9478286412
+Hilbert+Painter ratio: 1.102676902
+ Final Hilbert+Painter time: 0.001464478
+Painter+Knapsack previous efficiency: 0.8012735149
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9771945593
+Painter+Knapsack ratio: 1.162935463
+ Final painter+Knapsack_Combined time: 0.008862069
+Run 42
+File weights 51 and ranks 51
+Original previous efficiency: 0.7841404747
+Original efficiency: 0.9460737934
+Original ratio: 1.206510599
+Knapsack previous efficiency: 0.7841404747
+Knapsack ratio: 1.268770789
+ Final Knapsack time: 0.004366809
+
+Karmarkar-Karp previous efficiency: 0.8190312817
+Karmarkar-Karp ratio: 1.218681275
+ Final Karmarkar-Karp time: 0.007024488
+
+SFC previous efficiency: 0.6775693868
+ Time take to run this function: 4.61e-07
+SFC ratio: 1.312268766
+ Final SFC time: 0.000761254
+
+Hilbert SFC previous efficiency: 0.74411744
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 3822569562
+  Bucket 1 contains 3870305560
+  Bucket 2 contains 3487192795
+  Bucket 3 contains 3902716426
+  Bucket 4 contains 4062183510
+  Bucket 5 contains 3544678056
+  Bucket 6 contains 3795696312
+  Bucket 7 contains 3987895080
+  Bucket 8 contains 3593448686
+  Bucket 9 contains 3908658584
+  Bucket 10 contains 3797185342
+  Bucket 11 contains 4006206153
+  Bucket 12 contains 4097724107
+  Bucket 13 contains 3829995796
+  Bucket 14 contains 3608503873
+  Bucket 15 contains 3662231032
+  Bucket 16 contains 4014467802
+  Bucket 17 contains 3874665800
+  Bucket 18 contains 4035179196
+  Bucket 19 contains 3673331224
+  Bucket 20 contains 3875323986
+  Bucket 21 contains 3809935126
+  Bucket 22 contains 4054112492
+  Bucket 23 contains 4040975116
+Hilbert SFC efficiency: 0.9390902039
+Hilbert SFC ratio: 1.262018807
+ Final Hilbert SFC time: 0.011648207
+
+SFC+Knapsack previous efficiency: 0.7713155155
+SFC + Knapsack ratio: 1.2093198
+ Final SFC+Knapsack_Combined time: 0.000522222
+
+SFC+Painter previous efficiency: 0.6775693868
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9138674723
+SFC+Painter ratio: 1.348743745
+ Final SFC+Painter time: 0.004143778
+
+Hilbert+Painter previous efficiency: 0.8420152363
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9479443005
+Hilbert+Painter ratio: 1.125804213
+ Final Hilbert+Painter time: 0.00119793
+Painter+Knapsack previous efficiency: 0.7992141507
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9790493739
+Painter+Knapsack ratio: 1.167105367
+ Final painter+Knapsack_Combined time: 0.005070122
+Run 43
+File weights 51 and ranks 51
+Original previous efficiency: 0.8123002211
+Original efficiency: 0.9388895178
+Original ratio: 1.15584053
+Knapsack previous efficiency: 0.8123002211
+Knapsack ratio: 1.225510264
+ Final Knapsack time: 0.003726139
+
+Karmarkar-Karp previous efficiency: 0.803738223
+Karmarkar-Karp ratio: 1.241432432
+ Final Karmarkar-Karp time: 0.004897247
+
+SFC previous efficiency: 0.682658417
+ Time take to run this function: 4.910000002e-07
+SFC ratio: 1.296854561
+ Final SFC time: 0.000631203
+
+Hilbert SFC previous efficiency: 0.7425308035
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 3796730605
+  Bucket 1 contains 3844936247
+  Bucket 2 contains 3479387531
+  Bucket 3 contains 3862382761
+  Bucket 4 contains 4050754955
+  Bucket 5 contains 3602927732
+  Bucket 6 contains 3754565099
+  Bucket 7 contains 3972316099
+  Bucket 8 contains 3574254882
+  Bucket 9 contains 3875737378
+  Bucket 10 contains 3829475675
+  Bucket 11 contains 3964397329
+  Bucket 12 contains 4013452446
+  Bucket 13 contains 3833381377
+  Bucket 14 contains 3533389520
+  Bucket 15 contains 3638200033
+  Bucket 16 contains 3974886398
+  Bucket 17 contains 3862616494
+  Bucket 18 contains 4017740030
+  Bucket 19 contains 3644995995
+  Bucket 20 contains 3859083136
+  Bucket 21 contains 3796468162
+  Bucket 22 contains 4022552148
+  Bucket 23 contains 3962622206
+Hilbert SFC efficiency: 0.9439315969
+Hilbert SFC ratio: 1.271235607
+ Final Hilbert SFC time: 0.007676422
+
+SFC+Knapsack previous efficiency: 0.7775065302
+SFC + Knapsack ratio: 1.19779746
+ Final SFC+Knapsack_Combined time: 0.000463588
+
+SFC+Painter previous efficiency: 0.682658417
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9218030472
+SFC+Painter ratio: 1.35031375
+ Final SFC+Painter time: 0.004433579
+
+Hilbert+Painter previous efficiency: 0.8319434693
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9505496641
+Hilbert+Painter ratio: 1.142565209
+ Final Hilbert+Painter time: 0.000969558
+Painter+Knapsack previous efficiency: 0.7915107701
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9784250947
+Painter+Knapsack ratio: 1.179822789
+ Final painter+Knapsack_Combined time: 0.005137553
+Run 44
+File weights 51 and ranks 51
+Original previous efficiency: 0.8370780072
+Original efficiency: 0.9258892194
+Original ratio: 1.106096698
+Knapsack previous efficiency: 0.8370780072
+Knapsack ratio: 1.187018197
+ Final Knapsack time: 0.004733319
+
+Karmarkar-Karp previous efficiency: 0.7912135659
+Karmarkar-Karp ratio: 1.260904546
+ Final Karmarkar-Karp time: 0.004617335
+
+SFC previous efficiency: 0.7001615666
+ Time take to run this function: 5.110000001e-07
+SFC ratio: 1.262083964
+ Final SFC time: 0.00094466
+
+Hilbert SFC previous efficiency: 0.7509482309
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 3779860604
+  Bucket 1 contains 3779012456
+  Bucket 2 contains 3527276901
+  Bucket 3 contains 3854848901
+  Bucket 4 contains 3963125844
+  Bucket 5 contains 3665732622
+  Bucket 6 contains 3739812731
+  Bucket 7 contains 3944708226
+  Bucket 8 contains 3555719385
+  Bucket 9 contains 3852026692
+  Bucket 10 contains 3941936053
+  Bucket 11 contains 3923525512
+  Bucket 12 contains 3561772822
+  Bucket 13 contains 3531938301
+  Bucket 14 contains 4103515134
+  Bucket 15 contains 3611726809
+  Bucket 16 contains 3971870040
+  Bucket 17 contains 3832873943
+  Bucket 18 contains 4046810613
+  Bucket 19 contains 3628517694
+  Bucket 20 contains 3825680702
+  Bucket 21 contains 3777392007
+  Bucket 22 contains 3991976387
+  Bucket 23 contains 3805586237
+Hilbert SFC efficiency: 0.9262104525
+Hilbert SFC ratio: 1.233387888
+ Final Hilbert SFC time: 0.007605415
+
+SFC+Knapsack previous efficiency: 0.7882467998
+SFC + Knapsack ratio: 1.215685848
+ Final SFC+Knapsack_Combined time: 0.000491202
+
+SFC+Painter previous efficiency: 0.7001615666
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9211776743
+SFC+Painter ratio: 1.315664439
+ Final SFC+Painter time: 0.006079698
+
+Hilbert+Painter previous efficiency: 0.8360863702
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9520894516
+Hilbert+Painter ratio: 1.138745332
+ Final Hilbert+Painter time: 0.0021008
+Painter+Knapsack previous efficiency: 0.7844463506
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.981015485
+Painter+Knapsack ratio: 1.181206253
+ Final painter+Knapsack_Combined time: 0.005304156
+Run 45
+File weights 51 and ranks 51
+Original previous efficiency: 0.8534232036
+Original efficiency: 0.9110853364
+Original ratio: 1.067565696
+Knapsack previous efficiency: 0.8534232036
+Knapsack ratio: 1.165743668
+ Final Knapsack time: 0.004100394
+
+Karmarkar-Karp previous efficiency: 0.7861998025
+Karmarkar-Karp ratio: 1.268210862
+ Final Karmarkar-Karp time: 0.004680278
+
+SFC previous efficiency: 0.7115472886
+ Time take to run this function: 4.61e-07
+SFC ratio: 1.218347299
+ Final SFC time: 0.000957745
+
+Hilbert SFC previous efficiency: 0.7612163709
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 3785872516
+  Bucket 1 contains 3785298988
+  Bucket 2 contains 3521179589
+  Bucket 3 contains 3863837216
+  Bucket 4 contains 3907115626
+  Bucket 5 contains 3751261029
+  Bucket 6 contains 3732711540
+  Bucket 7 contains 3948059030
+  Bucket 8 contains 3569797127
+  Bucket 9 contains 3867034639
+  Bucket 10 contains 4059702499
+  Bucket 11 contains 3327353615
+  Bucket 12 contains 4169097271
+  Bucket 13 contains 3486124510
+  Bucket 14 contains 4062817480
+  Bucket 15 contains 3630421546
+  Bucket 16 contains 3966856743
+  Bucket 17 contains 3839401304
+  Bucket 18 contains 3578979048
+  Bucket 19 contains 4167386746
+  Bucket 20 contains 3840989041
+  Bucket 21 contains 3796962049
+  Bucket 22 contains 3767684576
+  Bucket 23 contains 3955958142
+Hilbert SFC efficiency: 0.9132862577
+Hilbert SFC ratio: 1.199772223
+ Final Hilbert SFC time: 0.007940463
+
+SFC+Knapsack previous efficiency: 0.7993233822
+SFC + Knapsack ratio: 1.189823642
+ Final SFC+Knapsack_Combined time: 0.000470421
+
+SFC+Painter previous efficiency: 0.7115472886
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.926199543
+SFC+Painter ratio: 1.301669696
+ Final SFC+Painter time: 0.0045216
+
+Hilbert+Painter previous efficiency: 0.8395164129
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9551696267
+Hilbert+Painter ratio: 1.137761707
+ Final Hilbert+Painter time: 0.001503643
+Painter+Knapsack previous efficiency: 0.7803229169
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9780465355
+Painter+Knapsack ratio: 1.218795242
+ Final painter+Knapsack_Combined time: 0.005968854
+Run 46
+File weights 51 and ranks 51
+Original previous efficiency: 0.859997494
+Original efficiency: 0.9099554617
+Original ratio: 1.058090829
+Knapsack previous efficiency: 0.859997494
+Knapsack ratio: 1.156721386
+ Final Knapsack time: 0.00380914
+
+Karmarkar-Karp previous efficiency: 0.795063503
+Karmarkar-Karp ratio: 1.254905996
+ Final Karmarkar-Karp time: 0.004464138
+
+SFC previous efficiency: 0.7164432545
+ Time take to run this function: 4.410000001e-07
+SFC ratio: 1.209809711
+ Final SFC time: 0.000617897
+
+Hilbert SFC previous efficiency: 0.7703735197
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 3917177518
+  Bucket 1 contains 3916274934
+  Bucket 2 contains 3611626970
+  Bucket 3 contains 3986255719
+  Bucket 4 contains 3980241727
+  Bucket 5 contains 3945948300
+  Bucket 6 contains 3838773810
+  Bucket 7 contains 4102262046
+  Bucket 8 contains 3672204568
+  Bucket 9 contains 4001549307
+  Bucket 10 contains 4358367312
+  Bucket 11 contains 3434694396
+  Bucket 12 contains 4236109332
+  Bucket 13 contains 3633794787
+  Bucket 14 contains 4191697879
+  Bucket 15 contains 3776296943
+  Bucket 16 contains 4096040245
+  Bucket 17 contains 3981427972
+  Bucket 18 contains 3700486528
+  Bucket 19 contains 4301348262
+  Bucket 20 contains 3968222296
+  Bucket 21 contains 3946378943
+  Bucket 22 contains 3888779117
+  Bucket 23 contains 4069956052
+Hilbert SFC efficiency: 0.9039691949
+Hilbert SFC ratio: 1.173416754
+ Final Hilbert SFC time: 0.010233164
+
+SFC+Knapsack previous efficiency: 0.8004801796
+SFC + Knapsack ratio: 1.188087401
+ Final SFC+Knapsack_Combined time: 0.000551638
+
+SFC+Painter previous efficiency: 0.7164432545
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9396088805
+SFC+Painter ratio: 1.311491
+ Final SFC+Painter time: 0.004281585
+
+Hilbert+Painter previous efficiency: 0.8445688109
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9532279456
+Hilbert+Painter ratio: 1.128656343
+ Final Hilbert+Painter time: 0.001728078
+Painter+Knapsack previous efficiency: 0.779652791
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9808029786
+Painter+Knapsack ratio: 1.201438558
+ Final painter+Knapsack_Combined time: 0.005394972
+Run 47
+File weights 51 and ranks 51
+Original previous efficiency: 0.869774646
+Original efficiency: 0.918803374
+Original ratio: 1.056369461
+Knapsack previous efficiency: 0.869774646
+Knapsack ratio: 1.144914515
+ Final Knapsack time: 0.003760706
+
+Karmarkar-Karp previous efficiency: 0.8142070801
+Karmarkar-Karp ratio: 1.225019418
+ Final Karmarkar-Karp time: 0.004626162
+
+SFC previous efficiency: 0.7278648476
+ Time take to run this function: 4.599999999e-07
+SFC ratio: 1.226189284
+ Final SFC time: 0.000859946
+
+Hilbert SFC previous efficiency: 0.781121735
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4103769589
+  Bucket 1 contains 4102331944
+  Bucket 2 contains 3749258702
+  Bucket 3 contains 4183967710
+  Bucket 4 contains 4026976949
+  Bucket 5 contains 4163017072
+  Bucket 6 contains 3997079748
+  Bucket 7 contains 4285639403
+  Bucket 8 contains 4490668155
+  Bucket 9 contains 3586306139
+  Bucket 10 contains 4169162223
+  Bucket 11 contains 4210768286
+  Bucket 12 contains 4362040797
+  Bucket 13 contains 3768914133
+  Bucket 14 contains 4399685105
+  Bucket 15 contains 3997628762
+  Bucket 16 contains 4274077247
+  Bucket 17 contains 4170386140
+  Bucket 18 contains 3879000052
+  Bucket 19 contains 4513941994
+  Bucket 20 contains 4152860119
+  Bucket 21 contains 4089245978
+  Bucket 22 contains 4102374481
+  Bucket 23 contains 4195524650
+Hilbert SFC efficiency: 0.9136011782
+Hilbert SFC ratio: 1.169601532
+ Final Hilbert SFC time: 0.008818173
+
+SFC+Knapsack previous efficiency: 0.8100130541
+SFC + Knapsack ratio: 1.172572244
+ Final SFC+Knapsack_Combined time: 0.000532201
+
+SFC+Painter previous efficiency: 0.7278648476
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9441045757
+SFC+Painter ratio: 1.297087747
+ Final SFC+Painter time: 0.005478163
+
+Hilbert+Painter previous efficiency: 0.8485478926
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9420829798
+Hilbert+Painter ratio: 1.110229591
+ Final Hilbert+Painter time: 0.000982704
+Painter+Knapsack previous efficiency: 0.7895101698
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9774363959
+Painter+Knapsack ratio: 1.203022914
+ Final painter+Knapsack_Combined time: 0.005248178
+Run 48
+File weights 51 and ranks 51
+Original previous efficiency: 0.8815315721
+Original efficiency: 0.9220360602
+Original ratio: 1.045947859
+Knapsack previous efficiency: 0.8815315721
+Knapsack ratio: 1.128844668
+ Final Knapsack time: 0.003554707
+
+Karmarkar-Karp previous efficiency: 0.8318380809
+Karmarkar-Karp ratio: 1.197541554
+ Final Karmarkar-Karp time: 0.005158864
+
+SFC previous efficiency: 0.7385976684
+ Time take to run this function: 1.072e-06
+SFC ratio: 1.205677736
+ Final SFC time: 0.001564902
+
+Hilbert SFC previous efficiency: 0.7853236388
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4268586989
+  Bucket 1 contains 4267431297
+  Bucket 2 contains 3833661861
+  Bucket 3 contains 4368460500
+  Bucket 4 contains 4655386809
+  Bucket 5 contains 4291934925
+  Bucket 6 contains 4238216616
+  Bucket 7 contains 3814397750
+  Bucket 8 contains 4656553420
+  Bucket 9 contains 3762428437
+  Bucket 10 contains 4622942328
+  Bucket 11 contains 4426907560
+  Bucket 12 contains 4474559384
+  Bucket 13 contains 3900513335
+  Bucket 14 contains 4547500651
+  Bucket 15 contains 4187416936
+  Bucket 16 contains 4451451100
+  Bucket 17 contains 4315837318
+  Bucket 18 contains 4029293921
+  Bucket 19 contains 4040926604
+  Bucket 20 contains 4304878337
+  Bucket 21 contains 4882273575
+  Bucket 22 contains 4314604918
+  Bucket 23 contains 4295957340
+Hilbert SFC efficiency: 0.8786217487
+Hilbert SFC ratio: 1.118802116
+ Final Hilbert SFC time: 0.011896438
+
+SFC+Knapsack previous efficiency: 0.8169662577
+SFC + Knapsack ratio: 1.16237466
+ Final SFC+Knapsack_Combined time: 0.000458618
+
+SFC+Painter previous efficiency: 0.7385976684
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9302790064
+SFC+Painter ratio: 1.259520638
+ Final SFC+Painter time: 0.008793706
+
+Hilbert+Painter previous efficiency: 0.8522005537
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9349420058
+Hilbert+Painter ratio: 1.097091526
+ Final Hilbert+Painter time: 0.005318314
+Painter+Knapsack previous efficiency: 0.7949815915
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.977052259
+Painter+Knapsack ratio: 1.194519328
+ Final painter+Knapsack_Combined time: 0.005738608
+Run 49
+File weights 51 and ranks 51
+Original previous efficiency: 0.8906095842
+Original efficiency: 0.9177696223
+Original ratio: 1.030496009
+Knapsack previous efficiency: 0.8906095842
+Knapsack ratio: 1.117648139
+ Final Knapsack time: 0.003831182
+
+Karmarkar-Karp previous efficiency: 0.8652253153
+Karmarkar-Karp ratio: 1.149285451
+ Final Karmarkar-Karp time: 0.004876047
+
+SFC previous efficiency: 0.7639935662
+ Time take to run this function: 4.810000003e-07
+SFC ratio: 1.159722896
+ Final SFC time: 0.000763178
+
+Hilbert SFC previous efficiency: 0.7821180239
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4354746135
+  Bucket 1 contains 4354088605
+  Bucket 2 contains 3844159887
+  Bucket 3 contains 4457435314
+  Bucket 4 contains 4699974706
+  Bucket 5 contains 4406282081
+  Bucket 6 contains 4343170747
+  Bucket 7 contains 3881698395
+  Bucket 8 contains 4749976472
+  Bucket 9 contains 3886930680
+  Bucket 10 contains 4845102610
+  Bucket 11 contains 4515108306
+  Bucket 12 contains 3812157741
+  Bucket 13 contains 4709636467
+  Bucket 14 contains 4639024378
+  Bucket 15 contains 4268086627
+  Bucket 16 contains 3789631269
+  Bucket 17 contains 4432309509
+  Bucket 18 contains 4848847679
+  Bucket 19 contains 4118492026
+  Bucket 20 contains 4402537382
+  Bucket 21 contains 4072865171
+  Bucket 22 contains 4425842695
+  Bucket 23 contains 5073164322
+Hilbert SFC efficiency: 0.8618164008
+Hilbert SFC ratio: 1.101900704
+ Final Hilbert SFC time: 0.008679906
+
+SFC+Knapsack previous efficiency: 0.8249284755
+SFC + Knapsack ratio: 1.143816622
+ Final SFC+Knapsack_Combined time: 0.000844466
+
+SFC+Painter previous efficiency: 0.7639935662
+Binary search iterations: 29
+SFC+painterPartition efficiency: 0.9139165161
+SFC+Painter ratio: 1.19623588
+ Final SFC+Painter time: 0.005264699
+
+Hilbert+Painter previous efficiency: 0.8212891834
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9355288091
+Hilbert+Painter ratio: 1.13909793
+ Final Hilbert+Painter time: 0.001595972
+Painter+Knapsack previous efficiency: 0.8184895725
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9755849655
+Painter+Knapsack ratio: 1.152814811
+ Final painter+Knapsack_Combined time: 0.006154563
+Run 50
+File weights 51 and ranks 51
+Original previous efficiency: 0.8942036927
+Original efficiency: 0.9229093989
+Original ratio: 1.032101977
+Knapsack previous efficiency: 0.8942036927
+Knapsack ratio: 1.114044272
+ Final Knapsack time: 0.00516729
+
+Karmarkar-Karp previous efficiency: 0.8872851364
+Karmarkar-Karp ratio: 1.121310658
+ Final Karmarkar-Karp time: 0.004613508
+
+SFC previous efficiency: 0.7480061665
+ Time take to run this function: 4.51e-07
+SFC ratio: 1.179236515
+ Final SFC time: 0.000981662
+
+Hilbert SFC previous efficiency: 0.7817873955
+DM: HilbertProcessorMapDoIt called...
+  (nprocs, nteams, nworkers) = (24, 24, 1)
+  Bucket 0 contains 4307079109
+  Bucket 1 contains 4306881814
+  Bucket 2 contains 3781003511
+  Bucket 3 contains 4412042798
+  Bucket 4 contains 4666350716
+  Bucket 5 contains 4317703918
+  Bucket 6 contains 4280650398
+  Bucket 7 contains 3831920933
+  Bucket 8 contains 4681321203
+  Bucket 9 contains 3897833496
+  Bucket 10 contains 4826958145
+  Bucket 11 contains 4439381930
+  Bucket 12 contains 3760963624
+  Bucket 13 contains 4597460830
+  Bucket 14 contains 4565803931
+  Bucket 15 contains 4223252409
+  Bucket 16 contains 3743603066
+  Bucket 17 contains 4416966194
+  Bucket 18 contains 4799375313
+  Bucket 19 contains 4073050505
+  Bucket 20 contains 4357318760
+  Bucket 21 contains 3998852514
+  Bucket 22 contains 4368320823
+  Bucket 23 contains 4904382188
+Hilbert SFC efficiency: 0.8798124663
+Hilbert SFC ratio: 1.125385842
+ Final Hilbert SFC time: 0.013860242
+
+SFC+Knapsack previous efficiency: 0.8233714362
+SFC + Knapsack ratio: 1.139361554
+ Final SFC+Knapsack_Combined time: 0.001613436
+
+SFC+Painter previous efficiency: 0.7480061665
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9081707678
+SFC+Painter ratio: 1.214122033
+ Final SFC+Painter time: 0.004803236
+
+Hilbert+Painter previous efficiency: 0.8026115673
+Binary search iterations: 30
+Hilbert+painterPartition efficiency: 0.9367434666
+Hilbert+Painter ratio: 1.16711932
+ Final Hilbert+Painter time: 0.001476331
+Painter+Knapsack previous efficiency: 0.8233714362
+Binary search iterations: 30
+SFC+painterPartition efficiency: 0.9824042294
+Painter+Knapsack ratio: 1.159232646
+ Final painter+Knapsack_Combined time: 0.005874932
+
+
+TinyProfiler total time across processes [min...avg...max]: 3.231 ... 3.231 ... 3.231
+
+-------------------------------------------------------------------------------------
+Name                                  NCalls  Excl. Min  Excl. Avg  Excl. Max   Max %
+-------------------------------------------------------------------------------------
+HilbertProcessorMapDoIt()                 51      1.647      1.647      1.647  50.98%
+painterPartition()                       153     0.3366     0.3366     0.3366  10.42%
+SFCProcessorMapDoItCombinedPainter()      51     0.1862     0.1862     0.1862   5.76%
+KnapSackDoIt()                            51     0.1801     0.1801     0.1801   5.57%
+KKDoIt()                                  51     0.1793     0.1793     0.1793   5.55%
+kk()                                      51    0.04763    0.04763    0.04763   1.47%
+SFCProcessorMapDoIt()                     51    0.02062    0.02062    0.02062   0.64%
+SFCProcessorMapDoItCombined()             51   0.009337   0.009337   0.009337   0.29%
+knapsack()                               663   0.005476   0.005476   0.005476   0.17%
+Distribute()                             102   0.000433   0.000433   0.000433   0.01%
+HilbertDistribute()                       51  0.0002769  0.0002769  0.0002769   0.01%
+knapsack()swap                             1   4.61e-07   4.61e-07   4.61e-07   0.00%
+-------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------
+Name                                  NCalls  Incl. Min  Incl. Avg  Incl. Max   Max %
+-------------------------------------------------------------------------------------
+HilbertProcessorMapDoIt()                 51      1.647      1.647      1.647  50.99%
+painterPartition()                       153     0.3366     0.3366     0.3366  10.42%
+SFCProcessorMapDoItCombinedPainter()      51      0.269      0.269      0.269   8.33%
+KKDoIt()                                  51     0.2269     0.2269     0.2269   7.02%
+KnapSackDoIt()                            51     0.1825     0.1825     0.1825   5.65%
+kk()                                      51    0.04763    0.04763    0.04763   1.47%
+SFCProcessorMapDoIt()                     51    0.02089    0.02089    0.02089   0.65%
+SFCProcessorMapDoItCombined()             51    0.01103    0.01103    0.01103   0.34%
+knapsack()                               663   0.005476   0.005476   0.005476   0.17%
+Distribute()                             102   0.000433   0.000433   0.000433   0.01%
+HilbertDistribute()                       51  0.0002769  0.0002769  0.0002769   0.01%
+knapsack()swap                             1   4.61e-07   4.61e-07   4.61e-07   0.00%
+-------------------------------------------------------------------------------------
+
+Pinned Memory Usage:
+-----------------------------------------------------------------
+Name                            Nalloc  Nfree    AvgMem    MaxMem
+-----------------------------------------------------------------
+The_Pinned_Arena::Initialize()       1      1  2609   B  8192 KiB
+-----------------------------------------------------------------
+
+AMReX (25.06-22-g1d307c2c661a-dirty) finalized

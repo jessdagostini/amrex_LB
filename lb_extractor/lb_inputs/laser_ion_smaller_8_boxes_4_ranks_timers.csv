@@ -1,0 +1,2949 @@
+0, Original, Efficiency, 0.8055944476, 0
+0, Original, UsedEfficiency, 0.8055944476, 0
+0, Knapsack, Weight, 0.0000000000, 0
+0, Knapsack, Weight, 0.0000000000, 1
+0, Knapsack, Weight, 0.0000000000, 2
+0, Knapsack, Weight, 0.0000000000, 3
+0, Knapsack, Efficiency, 0.9956669804
+0, Knapsack, UsedEfficiency, 0.9956669804, 0
+0, Knapsack, Time, 0.0013900740, 0
+0, Karmarkar-Karp, Weight, 0.0000000000, 1256882679
+0, Karmarkar-Karp, Weight, 0.0000000000, 1257488766
+0, Karmarkar-Karp, Weight, 0.0000000000, 1257563754
+0, Karmarkar-Karp, Weight, 0.0000000000, 1257574887
+0, Karmarkar-Karp, Efficiency, 0.9998430587
+0, Karmarkar-Karp, UsedEfficiency, 0.9998430587, 0
+0, Karmarkar-Karp, Time, 0.0014077080, 0
+0, SFC, Efficiency, 0.7015347112
+0, SFC, UsedEfficiency, 0.7015347112, 0
+0, SFC, Time, 0.0008080260, 0
+0, HilbertSFC, Weight, 1256058710.0000000000, 0
+0, HilbertSFC, Weight, 1221824244.0000000000, 1
+0, HilbertSFC, Weight, 415273506.0000000000, 2
+0, HilbertSFC, Weight, 2136353626.0000000000, 3
+0, HilbertSFC, Efficiency, 0.5885624487
+0, HilbertSFC, UsedEfficiency, 0.5885624487, 0
+0, HilbertSFC, Time, 1.1818471570, 0
+0, SFC+Knapsack, Efficiency, 0.9956669804
+0, SFC+Knapsack, UsedEfficiency, 0.9956669804, 0
+0, SFC+Knapsack, Time, 0.0007918240, 0
+0, SFC+Painter, Weight, 0.0000000000, 1388268498
+0, SFC+Painter, Weight, 0.0000000000, 1376913824
+0, SFC+Painter, Weight, 0.0000000000, 1227496645
+0, SFC+Painter, Weight, 0.0000000000, 1036831119
+0, SFC+Painter, Efficiency, 0.9057163822
+0, SFC+Painter, UsedEfficiency, 0.9057163822, 0
+0, SFC+Painter, Time, 0.0018057280, 0
+0, Hilbert+Painter, Efficiency, 0.9581914423
+0, Hilbert+Painter, Efficiency, 0.9581914423, 0
+0, Hilbert+Painter, UsedEfficiency, 0.9581914423, 0
+0, Hilbert+Painter, Time, 0.0011678320, 0
+0, SFC+Painter, Weight, 0.0000000000, 734542790
+0, SFC+Painter, Efficiency, 1.0000000000
+0, Painter+Knapsack, Weight, 1262849473.0000000000, 0
+0, Painter+Knapsack, Weight, 1258525958.0000000000, 1
+0, Painter+Knapsack, Weight, 1255699337.0000000000, 2
+0, Painter+Knapsack, Weight, 1252435318.0000000000, 3
+0, Painter+Knapsack, Efficiency, 0.9956669804
+0, Painter+Knapsack, UsedEfficiency, 0.9956669804, 0
+0, Painter+Knapsack, Time, 0.0019206210, 0
+1, Original, PreviousEfficiency, 0.4315318126, 0
+1, Original, Efficiency, 0.4315318126, 0
+1, Original, UsedEfficiency, 0.4315318126, 0
+1, Knapsack, PreviousEfficiency, 0.8269663299, 0
+1, Knapsack, Weight, 0.0000000000, 0
+1, Knapsack, Weight, 0.0000000000, 1
+1, Knapsack, Weight, 0.0000000000, 2
+1, Knapsack, Weight, 0.0000000000, 3
+1, Knapsack, Efficiency, 0.9886446321
+1, Knapsack, UsedEfficiency, 0.9886446321, 0
+1, Knapsack, Time, 0.0013429020, 0
+1, Karmarkar-Karp, PreviousEfficiency, 0.8379257892, 0
+1, Karmarkar-Karp, Weight, 0.0000000000, -659233576
+1, Karmarkar-Karp, Weight, 0.0000000000, -654534809
+1, Karmarkar-Karp, Weight, 0.0000000000, -654430051
+1, Karmarkar-Karp, Weight, 0.0000000000, -654420357
+1, Karmarkar-Karp, Efficiency, 0.9996609462
+1, Karmarkar-Karp, UsedEfficiency, 0.9996609462, 0
+1, Karmarkar-Karp, Time, 0.0013011210, 0
+1, SFC, PreviousEfficiency, 0.6111420414, 0
+1, SFC, Efficiency, 0.8754614763
+1, SFC, UsedEfficiency, 0.8754614763, 0
+1, SFC, Time, 0.0007721260, 0
+1, HilbertSFC, PreviousEfficiency, 0.7304389072, 0
+1, HilbertSFC, Weight, 3592560849.0000000000, 0
+1, HilbertSFC, Weight, 3642873207.0000000000, 1
+1, HilbertSFC, Weight, 3339452223.0000000000, 2
+1, HilbertSFC, Weight, 3982364112.0000000000, 3
+1, HilbertSFC, Efficiency, 0.9138573208
+1, HilbertSFC, UsedEfficiency, 0.9138573208, 0
+1, HilbertSFC, Time, 0.0027370030, 0
+1, SFC+Knapsack, PreviousEfficiency, 0.8269663299, 0
+1, SFC+Knapsack, Efficiency, 0.9886446321
+1, SFC+Knapsack, UsedEfficiency, 0.9886446321, 0
+1, SFC+Knapsack, Time, 0.0006084480, 0
+1, SFC+Painter, PreviousEfficiency, 0.6028378335, 0
+1, SFC+Painter, Weight, 0.0000000000, -354330438
+1, SFC+Painter, Weight, 0.0000000000, -526569072
+1, SFC+Painter, Weight, 0.0000000000, -577899975
+1, SFC+Painter, Weight, 0.0000000000, -1163819308
+1, SFC+Painter, Efficiency, 0.9235341212
+1, SFC+Painter, UsedEfficiency, 0.9235341212, 0
+1, SFC+Painter, Time, 0.0015979460, 0
+1, Hilbert+Painter, PreviousEfficiency, 0.7374126278, 0
+1, Hilbert+Painter, Efficiency, 0.9215591138
+1, Hilbert+Painter, Efficiency, 0.9215591138, 0
+1, Hilbert+Painter, UsedEfficiency, 0.9215591138, 0
+1, Hilbert+Painter, Time, 0.0038313740, 0
+1, Painter+Knapsack, PreviousEfficiency, 0.8269663299, 0
+1, SFC+Painter, Weight, 0.0000000000, 1672348503
+1, SFC+Painter, Efficiency, 1.0000000000
+1, Painter+Knapsack, Weight, 3681112990.0000000000, 0
+1, Painter+Knapsack, Weight, 3636662705.0000000000, 1
+1, Painter+Knapsack, Weight, 3622395068.0000000000, 2
+1, Painter+Knapsack, Weight, 3617079628.0000000000, 3
+1, Painter+Knapsack, Efficiency, 0.9886446321
+1, Painter+Knapsack, UsedEfficiency, 0.9886446321, 0
+1, Painter+Knapsack, Time, 0.0017917420, 0
+2, Original, PreviousEfficiency, 0.4155710924, 0
+2, Original, Efficiency, 0.9580994772, 0
+2, Original, UsedEfficiency, 0.9580994772, 0
+2, Knapsack, PreviousEfficiency, 0.9580994772, 0
+2, Knapsack, Weight, 0.0000000000, 0
+2, Knapsack, Weight, 0.0000000000, 1
+2, Knapsack, Weight, 0.0000000000, 2
+2, Knapsack, Weight, 0.0000000000, 3
+2, Knapsack, Efficiency, 0.9937256773
+2, Knapsack, UsedEfficiency, 0.9580994772, 0
+2, Knapsack, Time, 0.0011754170, 0
+2, Karmarkar-Karp, PreviousEfficiency, 0.9572057674, 0
+2, Karmarkar-Karp, Weight, 0.0000000000, -591494164
+2, Karmarkar-Karp, Weight, 0.0000000000, -569847515
+2, Karmarkar-Karp, Weight, 0.0000000000, -566067066
+2, Karmarkar-Karp, Weight, 0.0000000000, -565492616
+2, Karmarkar-Karp, Efficiency, 0.9979265916
+2, Karmarkar-Karp, UsedEfficiency, 0.9572057674, 0
+2, Karmarkar-Karp, Time, 0.0011945450, 0
+2, SFC, PreviousEfficiency, 0.8302316728, 0
+2, SFC, Efficiency, 0.8302316728
+2, SFC, UsedEfficiency, 0.8302316728, 0
+2, SFC, Time, 0.0007485510, 0
+2, HilbertSFC, PreviousEfficiency, 0.8831666122, 0
+2, HilbertSFC, Weight, 3545793927.0000000000, 0
+2, HilbertSFC, Weight, 3699513704.0000000000, 1
+2, HilbertSFC, Weight, 3427572041.0000000000, 2
+2, HilbertSFC, Weight, 4214088151.0000000000, 3
+2, HilbertSFC, Efficiency, 0.8831666122
+2, HilbertSFC, UsedEfficiency, 0.8831666122, 0
+2, HilbertSFC, Time, 0.0022848070, 0
+2, SFC+Knapsack, PreviousEfficiency, 0.9580994772, 0
+2, SFC+Knapsack, Efficiency, 0.9937256773
+2, SFC+Knapsack, UsedEfficiency, 0.9580994772, 0
+2, SFC+Knapsack, Time, 0.0006321150, 0
+2, SFC+Painter, PreviousEfficiency, 0.8734778343, 0
+2, SFC+Painter, Weight, 0.0000000000, -363293085
+2, SFC+Painter, Weight, 0.0000000000, -517471606
+2, SFC+Painter, Weight, 0.0000000000, -620748052
+2, SFC+Painter, Weight, 0.0000000000, -791388618
+2, SFC+Painter, Efficiency, 0.9466048701
+2, SFC+Painter, UsedEfficiency, 0.8734778343, 0
+2, SFC+Painter, Time, 0.0014430260, 0
+2, Hilbert+Painter, PreviousEfficiency, 0.9253521035, 0
+2, Hilbert+Painter, Efficiency, 0.9253521035
+2, Hilbert+Painter, Efficiency, 0.9253521035, 0
+2, Hilbert+Painter, UsedEfficiency, 0.9253521035, 0
+2, Hilbert+Painter, Time, 0.0010930780, 0
+2, Painter+Knapsack, PreviousEfficiency, 0.9580994772, 0
+2, SFC+Painter, Weight, 0.0000000000, 2002065935
+2, SFC+Painter, Efficiency, 1.0000000000
+2, Painter+Knapsack, Weight, 3745240805.0000000000, 0
+2, Painter+Knapsack, Weight, 3739387524.0000000000, 1
+2, Painter+Knapsack, Weight, 3714365677.0000000000, 2
+2, Painter+Knapsack, Weight, 3687973817.0000000000, 3
+2, Painter+Knapsack, Efficiency, 0.9937256773
+2, Painter+Knapsack, UsedEfficiency, 0.9580994772, 0
+2, Painter+Knapsack, Time, 0.0017133300, 0
+3, Original, PreviousEfficiency, 0.9522621169, 0
+3, Original, Efficiency, 0.9522621169, 0
+3, Original, UsedEfficiency, 0.9522621169, 0
+3, Knapsack, PreviousEfficiency, 0.9522621169, 0
+3, Knapsack, Weight, 0.0000000000, 0
+3, Knapsack, Weight, 0.0000000000, 1
+3, Knapsack, Weight, 0.0000000000, 2
+3, Knapsack, Weight, 0.0000000000, 3
+3, Knapsack, Efficiency, 0.9884146245
+3, Knapsack, UsedEfficiency, 0.9522621169, 0
+3, Knapsack, Time, 0.0011790040, 0
+3, Karmarkar-Karp, PreviousEfficiency, 0.9492680706, 0
+3, Karmarkar-Karp, Weight, 0.0000000000, -618399491
+3, Karmarkar-Karp, Weight, 0.0000000000, -617054381
+3, Karmarkar-Karp, Weight, 0.0000000000, -617023564
+3, Karmarkar-Karp, Weight, 0.0000000000, -616799148
+3, Karmarkar-Karp, Efficiency, 0.9998586258
+3, Karmarkar-Karp, UsedEfficiency, 0.9492680706, 0
+3, Karmarkar-Karp, Time, 0.0011577030, 0
+3, SFC, PreviousEfficiency, 0.8188649221, 0
+3, SFC, Efficiency, 0.8188649221
+3, SFC, UsedEfficiency, 0.8188649221, 0
+3, SFC, Time, 0.0007488110, 0
+3, HilbertSFC, PreviousEfficiency, 0.8716876712, 0
+3, HilbertSFC, Weight, 3503341418.0000000000, 0
+3, HilbertSFC, Weight, 3662435676.0000000000, 1
+3, HilbertSFC, Weight, 3325817955.0000000000, 2
+3, HilbertSFC, Weight, 4218997551.0000000000, 3
+3, HilbertSFC, Efficiency, 0.8716876712
+3, HilbertSFC, UsedEfficiency, 0.8716876712, 0
+3, HilbertSFC, Time, 0.0022114250, 0
+3, SFC+Knapsack, PreviousEfficiency, 0.9522621169, 0
+3, SFC+Knapsack, Efficiency, 0.9884146245
+3, SFC+Knapsack, UsedEfficiency, 0.9522621169, 0
+3, SFC+Knapsack, Time, 0.0005941110, 0
+3, SFC+Painter, PreviousEfficiency, 0.8625002106, 0
+3, SFC+Painter, Weight, 0.0000000000, -465379103
+3, SFC+Painter, Weight, 0.0000000000, -568289304
+3, SFC+Painter, Weight, 0.0000000000, -657693235
+3, SFC+Painter, Weight, 0.0000000000, -777914942
+3, SFC+Painter, Efficiency, 0.9603247046
+3, SFC+Painter, UsedEfficiency, 0.9603247046, 0
+3, SFC+Painter, Time, 0.0015186730, 0
+3, Hilbert+Painter, PreviousEfficiency, 0.9244700956, 0
+3, Hilbert+Painter, Efficiency, 0.9244700956
+3, Hilbert+Painter, Efficiency, 0.9244700956, 0
+3, Hilbert+Painter, UsedEfficiency, 0.9244700956, 0
+3, Hilbert+Painter, Time, 0.0010457460, 0
+3, Painter+Knapsack, PreviousEfficiency, 0.9522621169, 0
+3, SFC+Painter, Weight, 0.0000000000, 1825690712
+3, SFC+Painter, Efficiency, 1.0000000000
+3, Painter+Knapsack, Weight, 3720754488.0000000000, 0
+3, Painter+Knapsack, Weight, 3670005506.0000000000, 1
+3, Painter+Knapsack, Weight, 3664297923.0000000000, 2
+3, Painter+Knapsack, Weight, 3655534683.0000000000, 3
+3, Painter+Knapsack, Efficiency, 0.9884146245
+3, Painter+Knapsack, UsedEfficiency, 0.9522621169, 0
+3, Painter+Knapsack, Time, 0.0016701160, 0
+4, Original, PreviousEfficiency, 0.9557815890, 0
+4, Original, Efficiency, 0.9557815890, 0
+4, Original, UsedEfficiency, 0.9557815890, 0
+4, Knapsack, PreviousEfficiency, 0.9557815890, 0
+4, Knapsack, Weight, 0.0000000000, 0
+4, Knapsack, Weight, 0.0000000000, 1
+4, Knapsack, Weight, 0.0000000000, 2
+4, Knapsack, Weight, 0.0000000000, 3
+4, Knapsack, Efficiency, 0.9891241959
+4, Knapsack, UsedEfficiency, 0.9557815890, 0
+4, Knapsack, Time, 0.0011045600, 0
+4, Karmarkar-Karp, PreviousEfficiency, 0.9483827902, 0
+4, Karmarkar-Karp, Weight, 0.0000000000, -575809508
+4, Karmarkar-Karp, Weight, 0.0000000000, -574881183
+4, Karmarkar-Karp, Weight, 0.0000000000, -569211342
+4, Karmarkar-Karp, Weight, 0.0000000000, -551855436
+4, Karmarkar-Karp, Efficiency, 0.9957030589
+4, Karmarkar-Karp, UsedEfficiency, 0.9483827902, 0
+4, Karmarkar-Karp, Time, 0.0011895650, 0
+4, SFC, PreviousEfficiency, 0.8179432566, 0
+4, SFC, Efficiency, 0.8179432566
+4, SFC, UsedEfficiency, 0.8179432566, 0
+4, SFC, Time, 0.0007819150, 0
+4, HilbertSFC, PreviousEfficiency, 0.8663720985, 0
+4, HilbertSFC, Weight, 3545122959.0000000000, 0
+4, HilbertSFC, Weight, 3700822754.0000000000, 1
+4, HilbertSFC, Weight, 3360287011.0000000000, 2
+4, HilbertSFC, Weight, 4301878991.0000000000, 3
+4, HilbertSFC, Efficiency, 0.8663720985
+4, HilbertSFC, UsedEfficiency, 0.8663720985, 0
+4, HilbertSFC, Time, 0.0022938140, 0
+4, SFC+Knapsack, PreviousEfficiency, 0.9557815890, 0
+4, SFC+Knapsack, Efficiency, 0.9891241959
+4, SFC+Knapsack, UsedEfficiency, 0.9557815890, 0
+4, SFC+Knapsack, Time, 0.0023115690, 0
+4, SFC+Painter, PreviousEfficiency, 0.9599459775, 0
+4, SFC+Painter, Weight, 0.0000000000, -412428053
+4, SFC+Painter, Weight, 0.0000000000, -528632397
+4, SFC+Painter, Weight, 0.0000000000, -606786036
+4, SFC+Painter, Weight, 0.0000000000, -723910983
+4, SFC+Painter, Efficiency, 0.9599459775
+4, SFC+Painter, UsedEfficiency, 0.9599459775, 0
+4, SFC+Painter, Time, 0.0014000930, 0
+4, Hilbert+Painter, PreviousEfficiency, 0.9267511827, 0
+4, Hilbert+Painter, Efficiency, 0.9267511827
+4, Hilbert+Painter, Efficiency, 0.9267511827, 0
+4, Hilbert+Painter, UsedEfficiency, 0.9267511827, 0
+4, Hilbert+Painter, Time, 0.0009905190, 0
+4, Painter+Knapsack, PreviousEfficiency, 0.9557815890, 0
+4, SFC+Painter, Weight, 0.0000000000, 2023209827
+4, SFC+Painter, Efficiency, 1.0000000000
+4, Painter+Knapsack, Weight, 3768008046.0000000000, 0
+4, Painter+Knapsack, Weight, 3726930422.0000000000, 1
+4, Painter+Knapsack, Weight, 3710676968.0000000000, 2
+4, Painter+Knapsack, Weight, 3702496279.0000000000, 3
+4, Painter+Knapsack, Efficiency, 0.9891241959
+4, Painter+Knapsack, UsedEfficiency, 0.9557815890, 0
+4, Painter+Knapsack, Time, 0.0017762520, 0
+5, Original, PreviousEfficiency, 0.9673457877, 0
+5, Original, Efficiency, 0.9673457877, 0
+5, Original, UsedEfficiency, 0.9673457877, 0
+5, Knapsack, PreviousEfficiency, 0.9673457877, 0
+5, Knapsack, Weight, 0.0000000000, 0
+5, Knapsack, Weight, 0.0000000000, 1
+5, Knapsack, Weight, 0.0000000000, 2
+5, Knapsack, Weight, 0.0000000000, 3
+5, Knapsack, Efficiency, 0.9879682690
+5, Knapsack, UsedEfficiency, 0.9673457877, 0
+5, Knapsack, Time, 0.0011228350, 0
+5, Karmarkar-Karp, PreviousEfficiency, 0.9528275980, 0
+5, Karmarkar-Karp, Weight, 0.0000000000, -606250268
+5, Karmarkar-Karp, Weight, 0.0000000000, -600864672
+5, Karmarkar-Karp, Weight, 0.0000000000, -589219835
+5, Karmarkar-Karp, Weight, 0.0000000000, -581732616
+5, Karmarkar-Karp, Efficiency, 0.9965571172
+5, Karmarkar-Karp, UsedEfficiency, 0.9528275980, 0
+5, Karmarkar-Karp, Time, 0.0011777220, 0
+5, SFC, PreviousEfficiency, 0.8232977242, 0
+5, SFC, Efficiency, 0.8232977242
+5, SFC, UsedEfficiency, 0.8232977242, 0
+5, SFC, Time, 0.0007113580, 0
+5, HilbertSFC, PreviousEfficiency, 0.8699499699, 0
+5, HilbertSFC, Weight, 3517579173.0000000000, 0
+5, HilbertSFC, Weight, 3683855659.0000000000, 1
+5, HilbertSFC, Weight, 3346731032.0000000000, 2
+5, HilbertSFC, Weight, 4253635929.0000000000, 3
+5, HilbertSFC, Efficiency, 0.8699499699
+5, HilbertSFC, UsedEfficiency, 0.8699499699, 0
+5, HilbertSFC, Time, 0.0022883030, 0
+5, SFC+Knapsack, PreviousEfficiency, 0.9673457877, 0
+5, SFC+Knapsack, Efficiency, 0.9879682690
+5, SFC+Knapsack, UsedEfficiency, 0.9673457877, 0
+5, SFC+Knapsack, Time, 0.0005911950, 0
+5, SFC+Painter, PreviousEfficiency, 0.9620125768, 0
+5, SFC+Painter, Weight, 0.0000000000, -448395497
+5, SFC+Painter, Weight, 0.0000000000, -546807162
+5, SFC+Painter, Weight, 0.0000000000, -611221516
+5, SFC+Painter, Weight, 0.0000000000, -771643216
+5, SFC+Painter, Efficiency, 0.9620125768
+5, SFC+Painter, UsedEfficiency, 0.9620125768, 0
+5, SFC+Painter, Time, 0.0014652490, 0
+5, Hilbert+Painter, PreviousEfficiency, 0.9245663914, 0
+5, Hilbert+Painter, Efficiency, 0.9245663914
+5, Hilbert+Painter, Efficiency, 0.9245663914, 0
+5, Hilbert+Painter, UsedEfficiency, 0.9245663914, 0
+5, Hilbert+Painter, Time, 0.0010486310, 0
+5, Painter+Knapsack, PreviousEfficiency, 0.9673457877, 0
+5, SFC+Painter, Weight, 0.0000000000, 1916899905
+5, SFC+Painter, Efficiency, 1.0000000000
+5, Painter+Knapsack, Weight, 3745515483.0000000000, 0
+5, Painter+Knapsack, Weight, 3692824682.0000000000, 1
+5, Painter+Knapsack, Weight, 3683605685.0000000000, 2
+5, Painter+Knapsack, Weight, 3679855943.0000000000, 3
+5, Painter+Knapsack, Efficiency, 0.9879682690
+5, Painter+Knapsack, UsedEfficiency, 0.9673457877, 0
+5, Painter+Knapsack, Time, 0.0016688130, 0
+6, Original, PreviousEfficiency, 0.9689717333, 0
+6, Original, Efficiency, 0.9689717333, 0
+6, Original, UsedEfficiency, 0.9689717333, 0
+6, Knapsack, PreviousEfficiency, 0.9689717333, 0
+6, Knapsack, Weight, 0.0000000000, 0
+6, Knapsack, Weight, 0.0000000000, 1
+6, Knapsack, Weight, 0.0000000000, 2
+6, Knapsack, Weight, 0.0000000000, 3
+6, Knapsack, Efficiency, 0.9936792238
+6, Knapsack, UsedEfficiency, 0.9689717333, 0
+6, Knapsack, Time, 0.0011819100, 0
+6, Karmarkar-Karp, PreviousEfficiency, 0.9525214060, 0
+6, Karmarkar-Karp, Weight, 0.0000000000, -578006727
+6, Karmarkar-Karp, Weight, 0.0000000000, -570667528
+6, Karmarkar-Karp, Weight, 0.0000000000, -570232338
+6, Karmarkar-Karp, Weight, 0.0000000000, -559661654
+6, Karmarkar-Karp, Efficiency, 0.9973280881
+6, Karmarkar-Karp, UsedEfficiency, 0.9525214060, 0
+6, Karmarkar-Karp, Time, 0.0013971570, 0
+6, SFC, PreviousEfficiency, 0.8308210688, 0
+6, SFC, Efficiency, 0.8308210688
+6, SFC, UsedEfficiency, 0.8308210688, 0
+6, SFC, Time, 0.0007968440, 0
+6, HilbertSFC, PreviousEfficiency, 0.8840482372, 0
+6, HilbertSFC, Weight, 3564767776.0000000000, 0
+6, HilbertSFC, Weight, 3723753362.0000000000, 1
+6, HilbertSFC, Weight, 3398840924.0000000000, 2
+6, HilbertSFC, Weight, 4213938875.0000000000, 3
+6, HilbertSFC, Efficiency, 0.8840482372
+6, HilbertSFC, UsedEfficiency, 0.8840482372, 0
+6, HilbertSFC, Time, 0.0021384940, 0
+6, SFC+Knapsack, PreviousEfficiency, 0.9689717333, 0
+6, SFC+Knapsack, Efficiency, 0.9936792238
+6, SFC+Knapsack, UsedEfficiency, 0.9689717333, 0
+6, SFC+Knapsack, Time, 0.0005981790, 0
+6, SFC+Painter, PreviousEfficiency, 0.9629464688, 0
+6, SFC+Painter, Weight, 0.0000000000, -426294057
+6, SFC+Painter, Weight, 0.0000000000, -496177389
+6, SFC+Painter, Weight, 0.0000000000, -556384731
+6, SFC+Painter, Weight, 0.0000000000, -799712070
+6, SFC+Painter, Efficiency, 0.9629464688
+6, SFC+Painter, UsedEfficiency, 0.9629464688, 0
+6, SFC+Painter, Time, 0.0014573340, 0
+6, Hilbert+Painter, PreviousEfficiency, 0.9206994711, 0
+6, Hilbert+Painter, Efficiency, 0.9206994711
+6, Hilbert+Painter, Efficiency, 0.9206994711, 0
+6, Hilbert+Painter, UsedEfficiency, 0.9206994711, 0
+6, Hilbert+Painter, Time, 0.0010761350, 0
+6, Painter+Knapsack, PreviousEfficiency, 0.9689717333, 0
+6, SFC+Painter, Weight, 0.0000000000, 2016399049
+6, SFC+Painter, Efficiency, 1.0000000000
+6, Painter+Knapsack, Weight, 3749021963.0000000000, 0
+6, Painter+Knapsack, Weight, 3741286399.0000000000, 1
+6, Painter+Knapsack, Weight, 3715781831.0000000000, 2
+6, Painter+Knapsack, Weight, 3695210744.0000000000, 3
+6, Painter+Knapsack, Efficiency, 0.9936792238
+6, Painter+Knapsack, UsedEfficiency, 0.9689717333, 0
+6, Painter+Knapsack, Time, 0.0017188900, 0
+7, Original, PreviousEfficiency, 0.9678039012, 0
+7, Original, Efficiency, 0.9678039012, 0
+7, Original, UsedEfficiency, 0.9678039012, 0
+7, Knapsack, PreviousEfficiency, 0.9678039012, 0
+7, Knapsack, Weight, 0.0000000000, 0
+7, Knapsack, Weight, 0.0000000000, 1
+7, Knapsack, Weight, 0.0000000000, 2
+7, Knapsack, Weight, 0.0000000000, 3
+7, Knapsack, Efficiency, 0.9958494193
+7, Knapsack, UsedEfficiency, 0.9678039012, 0
+7, Knapsack, Time, 0.0011821100, 0
+7, Karmarkar-Karp, PreviousEfficiency, 0.9459064201, 0
+7, Karmarkar-Karp, Weight, 0.0000000000, -550531127
+7, Karmarkar-Karp, Weight, 0.0000000000, -550144551
+7, Karmarkar-Karp, Weight, 0.0000000000, -550087252
+7, Karmarkar-Karp, Weight, 0.0000000000, -546741343
+7, Karmarkar-Karp, Efficiency, 0.9992970741
+7, Karmarkar-Karp, UsedEfficiency, 0.9459064201, 0
+7, Karmarkar-Karp, Time, 0.0020609730, 0
+7, SFC, PreviousEfficiency, 0.8295191183, 0
+7, SFC, Efficiency, 0.8295191183
+7, SFC, UsedEfficiency, 0.8295191183, 0
+7, SFC, Time, 0.0007455950, 0
+7, HilbertSFC, PreviousEfficiency, 0.8824953859, 0
+7, HilbertSFC, Weight, 3588143886.0000000000, 0
+7, HilbertSFC, Weight, 3725192991.0000000000, 1
+7, HilbertSFC, Weight, 3424709834.0000000000, 2
+7, HilbertSFC, Weight, 4244318200.0000000000, 3
+7, HilbertSFC, Efficiency, 0.8824953859
+7, HilbertSFC, UsedEfficiency, 0.8824953859, 0
+7, HilbertSFC, Time, 0.0021087050, 0
+7, SFC+Knapsack, PreviousEfficiency, 0.9678039012, 0
+7, SFC+Knapsack, Efficiency, 0.9958494193
+7, SFC+Knapsack, UsedEfficiency, 0.9678039012, 0
+7, SFC+Knapsack, Time, 0.0005984900, 0
+7, SFC+Painter, PreviousEfficiency, 0.9633304541, 0
+7, SFC+Painter, Weight, 0.0000000000, -406798691
+7, SFC+Painter, Weight, 0.0000000000, -486669098
+7, SFC+Painter, Weight, 0.0000000000, -524445801
+7, SFC+Painter, Weight, 0.0000000000, -779590683
+7, SFC+Painter, Efficiency, 0.9633304541
+7, SFC+Painter, UsedEfficiency, 0.9633304541, 0
+7, SFC+Painter, Time, 0.0016222530, 0
+7, Hilbert+Painter, PreviousEfficiency, 0.9248241268, 0
+7, Hilbert+Painter, Efficiency, 0.9248241268
+7, Hilbert+Painter, Efficiency, 0.9248241268, 0
+7, Hilbert+Painter, UsedEfficiency, 0.9248241268, 0
+7, Hilbert+Painter, Time, 0.0010756640, 0
+7, Painter+Knapsack, PreviousEfficiency, 0.9678039012, 0
+7, SFC+Painter, Weight, 0.0000000000, 2097463023
+7, SFC+Painter, Efficiency, 1.0000000000
+7, Painter+Knapsack, Weight, 3761202402.0000000000, 0
+7, Painter+Knapsack, Weight, 3754384082.0000000000, 1
+7, Painter+Knapsack, Weight, 3738376862.0000000000, 2
+7, Painter+Knapsack, Weight, 3728401565.0000000000, 3
+7, Painter+Knapsack, Efficiency, 0.9958494193
+7, Painter+Knapsack, UsedEfficiency, 0.9678039012, 0
+7, Painter+Knapsack, Time, 0.0016597760, 0
+8, Original, PreviousEfficiency, 0.9685143416, 0
+8, Original, Efficiency, 0.9685143416, 0
+8, Original, UsedEfficiency, 0.9685143416, 0
+8, Knapsack, PreviousEfficiency, 0.9685143416, 0
+8, Knapsack, Weight, 0.0000000000, 0
+8, Knapsack, Weight, 0.0000000000, 1
+8, Knapsack, Weight, 0.0000000000, 2
+8, Knapsack, Weight, 0.0000000000, 3
+8, Knapsack, Efficiency, 0.9970323292
+8, Knapsack, UsedEfficiency, 0.9685143416, 0
+8, Knapsack, Time, 0.0010847310, 0
+8, Karmarkar-Karp, PreviousEfficiency, 0.9459947598, 0
+8, Karmarkar-Karp, Weight, 0.0000000000, -566750595
+8, Karmarkar-Karp, Weight, 0.0000000000, -561320027
+8, Karmarkar-Karp, Weight, 0.0000000000, -561301870
+8, Karmarkar-Karp, Weight, 0.0000000000, -554863178
+8, Karmarkar-Karp, Efficiency, 0.9983434313
+8, Karmarkar-Karp, UsedEfficiency, 0.9459947598, 0
+8, Karmarkar-Karp, Time, 0.0011218230, 0
+8, SFC, PreviousEfficiency, 0.8266816850, 0
+8, SFC, Efficiency, 0.8266816850
+8, SFC, UsedEfficiency, 0.8266816850, 0
+8, SFC, Time, 0.0007443120, 0
+8, HilbertSFC, PreviousEfficiency, 0.8787189661, 0
+8, HilbertSFC, Weight, 3565202183.0000000000, 0
+8, HilbertSFC, Weight, 3716741910.0000000000, 1
+8, HilbertSFC, Weight, 3404425979.0000000000, 2
+8, HilbertSFC, Weight, 4249263442.0000000000, 3
+8, HilbertSFC, Efficiency, 0.8787189661
+8, HilbertSFC, UsedEfficiency, 0.8787189661, 0
+8, HilbertSFC, Time, 0.0022235970, 0
+8, SFC+Knapsack, PreviousEfficiency, 0.9685143416, 0
+8, SFC+Knapsack, Efficiency, 0.9970323292
+8, SFC+Knapsack, UsedEfficiency, 0.9685143416, 0
+8, SFC+Knapsack, Time, 0.0005768470, 0
+8, SFC+Painter, PreviousEfficiency, 0.9676894310, 0
+8, SFC+Painter, Weight, 0.0000000000, -436385959
+8, SFC+Painter, Weight, 0.0000000000, -499768097
+8, SFC+Painter, Weight, 0.0000000000, -540301901
+8, SFC+Painter, Weight, 0.0000000000, -767779713
+8, SFC+Painter, Efficiency, 0.9676894310
+8, SFC+Painter, UsedEfficiency, 0.9676894310, 0
+8, SFC+Painter, Time, 0.0013934600, 0
+8, Hilbert+Painter, PreviousEfficiency, 0.9244237069, 0
+8, Hilbert+Painter, Efficiency, 0.9244237069
+8, Hilbert+Painter, Efficiency, 0.9244237069, 0
+8, Hilbert+Painter, UsedEfficiency, 0.9244237069, 0
+8, Hilbert+Painter, Time, 0.0009867810, 0
+8, Painter+Knapsack, PreviousEfficiency, 0.9685143416, 0
+8, SFC+Painter, Weight, 0.0000000000, 2050731626
+8, SFC+Painter, Efficiency, 1.0000000000
+8, Painter+Knapsack, Weight, 3745022372.0000000000, 0
+8, Painter+Knapsack, Weight, 3739943789.0000000000, 1
+8, Painter+Knapsack, Weight, 3733277498.0000000000, 2
+8, Painter+Knapsack, Weight, 3717389855.0000000000, 3
+8, Painter+Knapsack, Efficiency, 0.9970323292
+8, Painter+Knapsack, UsedEfficiency, 0.9685143416, 0
+8, Painter+Knapsack, Time, 0.0017040620, 0
+9, Original, PreviousEfficiency, 0.9822630548, 0
+9, Original, Efficiency, 0.9822630548, 0
+9, Original, UsedEfficiency, 0.9822630548, 0
+9, Knapsack, PreviousEfficiency, 0.9822630548, 0
+9, Knapsack, Weight, 0.0000000000, 0
+9, Knapsack, Weight, 0.0000000000, 1
+9, Knapsack, Weight, 0.0000000000, 2
+9, Knapsack, Weight, 0.0000000000, 3
+9, Knapsack, Efficiency, 0.9975651112
+9, Knapsack, UsedEfficiency, 0.9822630548, 0
+9, Knapsack, Time, 0.0011325140, 0
+9, Karmarkar-Karp, PreviousEfficiency, 0.9553975526, 0
+9, Karmarkar-Karp, Weight, 0.0000000000, -792301226
+9, Karmarkar-Karp, Weight, 0.0000000000, -771462075
+9, Karmarkar-Karp, Weight, 0.0000000000, -770183921
+9, Karmarkar-Karp, Weight, 0.0000000000, -759301268
+9, Karmarkar-Karp, Efficiency, 0.9960372800
+9, Karmarkar-Karp, UsedEfficiency, 0.9553975526, 0
+9, Karmarkar-Karp, Time, 0.0011529840, 0
+9, SFC, PreviousEfficiency, 0.8277126500, 0
+9, SFC, Efficiency, 0.8277126500
+9, SFC, UsedEfficiency, 0.8277126500, 0
+9, SFC, Time, 0.0007167490, 0
+9, HilbertSFC, PreviousEfficiency, 0.8912118695, 0
+9, HilbertSFC, Weight, 3365107220.0000000000, 0
+9, HilbertSFC, Weight, 3563383760.0000000000, 1
+9, HilbertSFC, Weight, 3206594401.0000000000, 2
+9, HilbertSFC, Weight, 3951535313.0000000000, 3
+9, HilbertSFC, Efficiency, 0.8912118695
+9, HilbertSFC, UsedEfficiency, 0.8912118695, 0
+9, HilbertSFC, Time, 0.0022498190, 0
+9, SFC+Knapsack, PreviousEfficiency, 0.9822630548, 0
+9, SFC+Knapsack, Efficiency, 0.9975651112
+9, SFC+Knapsack, UsedEfficiency, 0.9822630548, 0
+9, SFC+Knapsack, Time, 0.0005881100, 0
+9, SFC+Painter, PreviousEfficiency, 0.9713613747, 0
+9, SFC+Painter, Weight, 0.0000000000, -669483243
+9, SFC+Painter, Weight, 0.0000000000, -714326300
+9, SFC+Painter, Weight, 0.0000000000, -739219256
+9, SFC+Painter, Weight, 0.0000000000, -970219691
+9, SFC+Painter, Efficiency, 0.9713613747
+9, SFC+Painter, UsedEfficiency, 0.9713613747, 0
+9, SFC+Painter, Time, 0.0040568710, 0
+9, Hilbert+Painter, PreviousEfficiency, 0.9105061328, 0
+9, Hilbert+Painter, Efficiency, 0.9105061328
+9, Hilbert+Painter, Efficiency, 0.9105061328, 0
+9, Hilbert+Painter, UsedEfficiency, 0.9105061328, 0
+9, Hilbert+Painter, Time, 0.0030665010, 0
+9, Painter+Knapsack, PreviousEfficiency, 0.9822630548, 0
+9, SFC+Painter, Weight, 0.0000000000, 1201718806
+9, SFC+Painter, Efficiency, 1.0000000000
+9, Painter+Knapsack, Weight, 3530250942.0000000000, 0
+9, Painter+Knapsack, Weight, 3524073522.0000000000, 1
+9, Painter+Knapsack, Weight, 3517942765.0000000000, 2
+9, Painter+Knapsack, Weight, 3514353465.0000000000, 3
+9, Painter+Knapsack, Efficiency, 0.9975651112
+9, Painter+Knapsack, UsedEfficiency, 0.9822630548, 0
+9, Painter+Knapsack, Time, 0.0017751790, 0
+10, Original, PreviousEfficiency, 0.9805323470, 0
+10, Original, Efficiency, 0.9805323470, 0
+10, Original, UsedEfficiency, 0.9805323470, 0
+10, Knapsack, PreviousEfficiency, 0.9805323470, 0
+10, Knapsack, Weight, 0.0000000000, 0
+10, Knapsack, Weight, 0.0000000000, 1
+10, Knapsack, Weight, 0.0000000000, 2
+10, Knapsack, Weight, 0.0000000000, 3
+10, Knapsack, Efficiency, 0.9929537117
+10, Knapsack, UsedEfficiency, 0.9805323470, 0
+10, Knapsack, Time, 0.0010957330, 0
+10, Karmarkar-Karp, PreviousEfficiency, 0.9692182041, 0
+10, Karmarkar-Karp, Weight, 0.0000000000, -964879162
+10, Karmarkar-Karp, Weight, 0.0000000000, -964876693
+10, Karmarkar-Karp, Weight, 0.0000000000, -948723471
+10, Karmarkar-Karp, Weight, 0.0000000000, -922415415
+10, Karmarkar-Karp, Efficiency, 0.9917545315
+10, Karmarkar-Karp, UsedEfficiency, 0.9692182041, 0
+10, Karmarkar-Karp, Time, 0.0011342470, 0
+10, SFC, PreviousEfficiency, 0.8281526663, 0
+10, SFC, Efficiency, 0.8281526663
+10, SFC, UsedEfficiency, 0.8281526663, 0
+10, SFC, Time, 0.0007058070, 0
+10, HilbertSFC, PreviousEfficiency, 0.9124952602, 0
+10, HilbertSFC, Weight, 3236108412.0000000000, 0
+10, HilbertSFC, Weight, 3432483994.0000000000, 1
+10, HilbertSFC, Weight, 3044890547.0000000000, 2
+10, HilbertSFC, Weight, 3665491490.0000000000, 3
+10, HilbertSFC, Efficiency, 0.9124952602
+10, HilbertSFC, UsedEfficiency, 0.9124952602, 0
+10, HilbertSFC, Time, 0.0025136100, 0
+10, SFC+Knapsack, PreviousEfficiency, 0.9805323470, 0
+10, SFC+Knapsack, Efficiency, 0.9929537117
+10, SFC+Knapsack, UsedEfficiency, 0.9805323470, 0
+10, SFC+Knapsack, Time, 0.0006203920, 0
+10, SFC+Painter, PreviousEfficiency, 0.9679420429, 0
+10, SFC+Painter, Weight, 0.0000000000, -839446756
+10, SFC+Painter, Weight, 0.0000000000, -875980253
+10, SFC+Painter, Weight, 0.0000000000, -925657384
+10, SFC+Painter, Weight, 0.0000000000, -1159810348
+10, SFC+Painter, Efficiency, 0.9679420429
+10, SFC+Painter, UsedEfficiency, 0.9679420429, 0
+10, SFC+Painter, Time, 0.0013758460, 0
+10, Hilbert+Painter, PreviousEfficiency, 0.8991667658, 0
+10, Hilbert+Painter, Efficiency, 0.9124952602
+10, Hilbert+Painter, Efficiency, 0.9124952602, 0
+10, Hilbert+Painter, UsedEfficiency, 0.8991667658, 0
+10, Hilbert+Painter, Time, 0.0023820250, 0
+10, Painter+Knapsack, PreviousEfficiency, 0.9805323470, 0
+10, SFC+Painter, Weight, 0.0000000000, 494072555
+10, SFC+Painter, Efficiency, 1.0000000000
+10, Painter+Knapsack, Weight, 3368478884.0000000000, 0
+10, Painter+Knapsack, Weight, 3342461280.0000000000, 1
+10, Painter+Knapsack, Weight, 3341936150.0000000000, 2
+10, Painter+Knapsack, Weight, 3326098129.0000000000, 3
+10, Painter+Knapsack, Efficiency, 0.9929537117
+10, Painter+Knapsack, UsedEfficiency, 0.9805323470, 0
+10, Painter+Knapsack, Time, 0.0016709370, 0
+11, Original, PreviousEfficiency, 0.9715852060, 0
+11, Original, Efficiency, 0.9715852060, 0
+11, Original, UsedEfficiency, 0.9715852060, 0
+11, Knapsack, PreviousEfficiency, 0.9715852060, 0
+11, Knapsack, Weight, 0.0000000000, 0
+11, Knapsack, Weight, 0.0000000000, 1
+11, Knapsack, Weight, 0.0000000000, 2
+11, Knapsack, Weight, 0.0000000000, 3
+11, Knapsack, Efficiency, 0.9945758844
+11, Knapsack, UsedEfficiency, 0.9715852060, 0
+11, Knapsack, Time, 0.0011164830, 0
+11, Karmarkar-Karp, PreviousEfficiency, 0.9778927396, 0
+11, Karmarkar-Karp, Weight, 0.0000000000, -1051353607
+11, Karmarkar-Karp, Weight, 0.0000000000, -1047001642
+11, Karmarkar-Karp, Weight, 0.0000000000, -1040269940
+11, Karmarkar-Karp, Weight, 0.0000000000, -1040234451
+11, Karmarkar-Karp, Efficiency, 0.9986234019
+11, Karmarkar-Karp, UsedEfficiency, 0.9778927396, 0
+11, Karmarkar-Karp, Time, 0.0011193390, 0
+11, SFC, PreviousEfficiency, 0.8266807658, 0
+11, SFC, Efficiency, 0.8266807658
+11, SFC, UsedEfficiency, 0.8266807658, 0
+11, SFC, Time, 0.0006639770, 0
+11, HilbertSFC, PreviousEfficiency, 0.9358887823, 0
+11, HilbertSFC, Weight, 3222713380.0000000000, 0
+11, HilbertSFC, Weight, 3086124940.0000000000, 1
+11, HilbertSFC, Weight, 3219266700.0000000000, 2
+11, HilbertSFC, Weight, 3472904524.0000000000, 3
+11, HilbertSFC, Efficiency, 0.9358887823
+11, HilbertSFC, UsedEfficiency, 0.9358887823, 0
+11, HilbertSFC, Time, 0.0020788570, 0
+11, SFC+Knapsack, PreviousEfficiency, 0.9715852060, 0
+11, SFC+Knapsack, Efficiency, 0.9945758844
+11, SFC+Knapsack, UsedEfficiency, 0.9715852060, 0
+11, SFC+Knapsack, Time, 0.0006580550, 0
+11, SFC+Painter, PreviousEfficiency, 0.9652272446, 0
+11, SFC+Painter, Weight, 0.0000000000, -950506813
+11, SFC+Painter, Weight, 0.0000000000, -954240084
+11, SFC+Painter, Weight, 0.0000000000, -994015476
+11, SFC+Painter, Weight, 0.0000000000, -1280097267
+11, SFC+Painter, Efficiency, 0.9718316011
+11, SFC+Painter, UsedEfficiency, 0.9652272446, 0
+11, SFC+Painter, Time, 0.0014047920, 0
+11, Hilbert+Painter, PreviousEfficiency, 0.8913477092, 0
+11, Hilbert+Painter, Efficiency, 0.9358887823
+11, Hilbert+Painter, Efficiency, 0.9358887823, 0
+11, Hilbert+Painter, UsedEfficiency, 0.8913477092, 0
+11, Hilbert+Painter, Time, 0.0011521030, 0
+11, Painter+Knapsack, PreviousEfficiency, 0.9715852060, 0
+11, SFC+Painter, Weight, 0.0000000000, 116107656
+11, SFC+Painter, Efficiency, 1.0000000000
+11, Painter+Knapsack, Weight, 3267978278.0000000000, 0
+11, Painter+Knapsack, Weight, 3254762584.0000000000, 1
+11, Painter+Knapsack, Weight, 3240907655.0000000000, 2
+11, Painter+Knapsack, Weight, 3237361027.0000000000, 3
+11, Painter+Knapsack, Efficiency, 0.9945758844
+11, Painter+Knapsack, UsedEfficiency, 0.9715852060, 0
+11, Painter+Knapsack, Time, 0.0016567900, 0
+12, Original, PreviousEfficiency, 0.9611797591, 0
+12, Original, Efficiency, 0.9611797591, 0
+12, Original, UsedEfficiency, 0.9611797591, 0
+12, Knapsack, PreviousEfficiency, 0.9611797591, 0
+12, Knapsack, Weight, 0.0000000000, 0
+12, Knapsack, Weight, 0.0000000000, 1
+12, Knapsack, Weight, 0.0000000000, 2
+12, Knapsack, Weight, 0.0000000000, 3
+12, Knapsack, Efficiency, 0.9941902857
+12, Knapsack, UsedEfficiency, 0.9611797591, 0
+12, Knapsack, Time, 0.0011255410, 0
+12, Karmarkar-Karp, PreviousEfficiency, 0.9809630968, 0
+12, Karmarkar-Karp, Weight, 0.0000000000, -1099396771
+12, Karmarkar-Karp, Weight, 0.0000000000, -1081283727
+12, Karmarkar-Karp, Weight, 0.0000000000, -1072799901
+12, Karmarkar-Karp, Weight, 0.0000000000, -1059571184
+12, Karmarkar-Karp, Efficiency, 0.9942227440
+12, Karmarkar-Karp, UsedEfficiency, 0.9809630968, 0
+12, Karmarkar-Karp, Time, 0.0011400690, 0
+12, SFC, PreviousEfficiency, 0.8253826384, 0
+12, SFC, Efficiency, 0.8253826384
+12, SFC, UsedEfficiency, 0.8253826384, 0
+12, SFC, Time, 0.0007871560, 0
+12, HilbertSFC, PreviousEfficiency, 0.9505342028, 0
+12, HilbertSFC, Weight, 2296411082.0000000000, 0
+12, HilbertSFC, Weight, 3259452006.0000000000, 1
+12, HilbertSFC, Weight, 3926852825.0000000000, 2
+12, HilbertSFC, Weight, 3384101688.0000000000, 3
+12, HilbertSFC, Efficiency, 0.8191558338
+12, HilbertSFC, UsedEfficiency, 0.9505342028, 0
+12, HilbertSFC, Time, 0.0020880950, 0
+12, SFC+Knapsack, PreviousEfficiency, 0.9611797591, 0
+12, SFC+Knapsack, Efficiency, 0.9941902857
+12, SFC+Knapsack, UsedEfficiency, 0.9611797591, 0
+12, SFC+Knapsack, Time, 0.0005494740, 0
+12, SFC+Painter, PreviousEfficiency, 0.9604736708, 0
+12, SFC+Painter, Weight, 0.0000000000, -980855280
+12, SFC+Painter, Weight, 0.0000000000, -986840777
+12, SFC+Painter, Weight, 0.0000000000, -1011567192
+12, SFC+Painter, Weight, 0.0000000000, -1333788334
+12, SFC+Painter, Efficiency, 0.9706082307
+12, SFC+Painter, UsedEfficiency, 0.9604736708, 0
+12, SFC+Painter, Time, 0.0014772520, 0
+12, Hilbert+Painter, PreviousEfficiency, 0.8880793559, 0
+12, Hilbert+Painter, Efficiency, 0.9505342028
+12, Hilbert+Painter, Efficiency, 0.9505342028, 0
+12, Hilbert+Painter, UsedEfficiency, 0.8880793559, 0
+12, Hilbert+Painter, Time, 0.0009720230, 0
+12, Painter+Knapsack, PreviousEfficiency, 0.9611797591, 0
+12, SFC+Painter, Weight, 0.0000000000, -18084287
+12, SFC+Painter, Efficiency, 1.0000000000
+12, Painter+Knapsack, Weight, 3235501741.0000000000, 0
+12, Painter+Knapsack, Weight, 3229496720.0000000000, 1
+12, Painter+Knapsack, Weight, 3201106538.0000000000, 2
+12, Painter+Knapsack, Weight, 3200712602.0000000000, 3
+12, Painter+Knapsack, Efficiency, 0.9941902857
+12, Painter+Knapsack, UsedEfficiency, 0.9611797591, 0
+12, Painter+Knapsack, Time, 0.0018104980, 0
+13, Original, PreviousEfficiency, 0.9575037745, 0
+13, Original, Efficiency, 0.9575037745, 0
+13, Original, UsedEfficiency, 0.9575037745, 0
+13, Knapsack, PreviousEfficiency, 0.9575037745, 0
+13, Knapsack, Weight, 0.0000000000, 0
+13, Knapsack, Weight, 0.0000000000, 1
+13, Knapsack, Weight, 0.0000000000, 2
+13, Knapsack, Weight, 0.0000000000, 3
+13, Knapsack, Efficiency, 0.9972424979
+13, Knapsack, UsedEfficiency, 0.9575037745, 0
+13, Knapsack, Time, 0.0011271950, 0
+13, Karmarkar-Karp, PreviousEfficiency, 0.9793403499, 0
+13, Karmarkar-Karp, Weight, 0.0000000000, -1093616543
+13, Karmarkar-Karp, Weight, 0.0000000000, -1091563205
+13, Karmarkar-Karp, Weight, 0.0000000000, -1088563480
+13, Karmarkar-Karp, Weight, 0.0000000000, -1088477094
+13, Karmarkar-Karp, Efficiency, 0.9993519436
+13, Karmarkar-Karp, UsedEfficiency, 0.9793403499, 0
+13, Karmarkar-Karp, Time, 0.0012025000, 0
+13, SFC, PreviousEfficiency, 0.8293519432, 0
+13, SFC, Efficiency, 0.8293519432
+13, SFC, UsedEfficiency, 0.8293519432, 0
+13, SFC, Time, 0.0007617560, 0
+13, HilbertSFC, PreviousEfficiency, 0.9573903835, 0
+13, HilbertSFC, Weight, 2288962668.0000000000, 0
+13, HilbertSFC, Weight, 3277970853.0000000000, 1
+13, HilbertSFC, Weight, 3903687555.0000000000, 2
+13, HilbertSFC, Weight, 3347027786.0000000000, 3
+13, HilbertSFC, Efficiency, 0.8208680050
+13, HilbertSFC, UsedEfficiency, 0.9573903835, 0
+13, HilbertSFC, Time, 0.0043022550, 0
+13, SFC+Knapsack, PreviousEfficiency, 0.9575037745, 0
+13, SFC+Knapsack, Efficiency, 0.9972424979
+13, SFC+Knapsack, UsedEfficiency, 0.9575037745, 0
+13, SFC+Knapsack, Time, 0.0006200710, 0
+13, SFC+Painter, PreviousEfficiency, 0.9588200439, 0
+13, SFC+Painter, Weight, 0.0000000000, -964672109
+13, SFC+Painter, Weight, 0.0000000000, -1003679186
+13, SFC+Painter, Weight, 0.0000000000, -1018170584
+13, SFC+Painter, Weight, 0.0000000000, -1375698443
+13, SFC+Painter, Efficiency, 0.9622006566
+13, SFC+Painter, UsedEfficiency, 0.9588200439, 0
+13, SFC+Painter, Time, 0.0014290390, 0
+13, Hilbert+Painter, PreviousEfficiency, 0.8850137238, 0
+13, Hilbert+Painter, Efficiency, 0.9573903835
+13, Hilbert+Painter, Efficiency, 0.9573903835, 0
+13, Hilbert+Painter, UsedEfficiency, 0.8850137238, 0
+13, Hilbert+Painter, Time, 0.0010332520, 0
+13, Painter+Knapsack, PreviousEfficiency, 0.9575037745, 0
+13, SFC+Painter, Weight, 0.0000000000, -67253026
+13, SFC+Painter, Efficiency, 1.0000000000
+13, Painter+Knapsack, Weight, 3213272822.0000000000, 0
+13, Painter+Knapsack, Weight, 3211210478.0000000000, 1
+13, Painter+Knapsack, Weight, 3204875092.0000000000, 2
+13, Painter+Knapsack, Weight, 3188290470.0000000000, 3
+13, Painter+Knapsack, Efficiency, 0.9972424979
+13, Painter+Knapsack, UsedEfficiency, 0.9575037745, 0
+13, Painter+Knapsack, Time, 0.0018259580, 0
+14, Original, PreviousEfficiency, 0.9530988488, 0
+14, Original, Efficiency, 0.9530988488, 0
+14, Original, UsedEfficiency, 0.9530988488, 0
+14, Knapsack, PreviousEfficiency, 0.9530988488, 0
+14, Knapsack, Weight, 0.0000000000, 0
+14, Knapsack, Weight, 0.0000000000, 1
+14, Knapsack, Weight, 0.0000000000, 2
+14, Knapsack, Weight, 0.0000000000, 3
+14, Knapsack, Efficiency, 0.9979796646
+14, Knapsack, UsedEfficiency, 0.9530988488, 0
+14, Knapsack, Time, 0.0012904010, 0
+14, Karmarkar-Karp, PreviousEfficiency, 0.9722042456, 0
+14, Karmarkar-Karp, Weight, 0.0000000000, -1101719370
+14, Karmarkar-Karp, Weight, 0.0000000000, -1100310508
+14, Karmarkar-Karp, Weight, 0.0000000000, -1091312513
+14, Karmarkar-Karp, Weight, 0.0000000000, -1090763421
+14, Karmarkar-Karp, Efficiency, 0.9983574603
+14, Karmarkar-Karp, UsedEfficiency, 0.9722042456, 0
+14, Karmarkar-Karp, Time, 0.0011579740, 0
+14, SFC, PreviousEfficiency, 0.8348489934, 0
+14, SFC, Efficiency, 0.8348489934
+14, SFC, UsedEfficiency, 0.8348489934, 0
+14, SFC, Time, 0.0007455050, 0
+14, HilbertSFC, PreviousEfficiency, 0.9537399068, 0
+14, HilbertSFC, Weight, 2291914220.0000000000, 0
+14, HilbertSFC, Weight, 3293107399.0000000000, 1
+14, HilbertSFC, Weight, 3922086580.0000000000, 2
+14, HilbertSFC, Weight, 3288655173.0000000000, 3
+14, HilbertSFC, Efficiency, 0.8156221893
+14, HilbertSFC, UsedEfficiency, 0.9537399068, 0
+14, HilbertSFC, Time, 0.0021858550, 0
+14, SFC+Knapsack, PreviousEfficiency, 0.9530988488, 0
+14, SFC+Knapsack, Efficiency, 0.9979796646
+14, SFC+Knapsack, UsedEfficiency, 0.9530988488, 0
+14, SFC+Knapsack, Time, 0.0006257530, 0
+14, SFC+Painter, PreviousEfficiency, 0.9531993307, 0
+14, SFC+Painter, Weight, 0.0000000000, -977718294
+14, SFC+Painter, Weight, 0.0000000000, -982874843
+14, SFC+Painter, Weight, 0.0000000000, -1004411468
+14, SFC+Painter, Weight, 0.0000000000, -1419101207
+14, SFC+Painter, Efficiency, 0.9643354602
+14, SFC+Painter, UsedEfficiency, 0.9531993307, 0
+14, SFC+Painter, Time, 0.0014099420, 0
+14, Hilbert+Painter, PreviousEfficiency, 0.8808996313, 0
+14, Hilbert+Painter, Efficiency, 0.9727200557
+14, Hilbert+Painter, Efficiency, 0.9727200557, 0
+14, Hilbert+Painter, UsedEfficiency, 0.9727200557, 0
+14, Hilbert+Painter, Time, 0.0010304270, 0
+14, Painter+Knapsack, PreviousEfficiency, 0.9530988488, 0
+14, SFC+Painter, Weight, 0.0000000000, -89138516
+14, SFC+Painter, Efficiency, 1.0000000000
+14, Painter+Knapsack, Weight, 3205416860.0000000000, 0
+14, Painter+Knapsack, Weight, 3204333031.0000000000, 1
+14, Painter+Knapsack, Weight, 3196131748.0000000000, 2
+14, Painter+Knapsack, Weight, 3189881733.0000000000, 3
+14, Painter+Knapsack, Efficiency, 0.9979796646
+14, Painter+Knapsack, UsedEfficiency, 0.9530988488, 0
+14, Painter+Knapsack, Time, 0.0018258370, 0
+15, Original, PreviousEfficiency, 0.9436306455, 0
+15, Original, Efficiency, 0.9436306455, 0
+15, Original, UsedEfficiency, 0.9436306455, 0
+15, Knapsack, PreviousEfficiency, 0.9436306455, 0
+15, Knapsack, Weight, 0.0000000000, 0
+15, Knapsack, Weight, 0.0000000000, 1
+15, Knapsack, Weight, 0.0000000000, 2
+15, Knapsack, Weight, 0.0000000000, 3
+15, Knapsack, Efficiency, 0.9965848499
+15, Knapsack, UsedEfficiency, 0.9436306455, 0
+15, Knapsack, Time, 0.0011303200, 0
+15, Karmarkar-Karp, PreviousEfficiency, 0.9624021131, 0
+15, Karmarkar-Karp, Weight, 0.0000000000, -1168695871
+15, Karmarkar-Karp, Weight, 0.0000000000, -1119600346
+15, Karmarkar-Karp, Weight, 0.0000000000, -1119580722
+15, Karmarkar-Karp, Weight, 0.0000000000, -1119566588
+15, Karmarkar-Karp, Efficiency, 0.9961282701
+15, Karmarkar-Karp, UsedEfficiency, 0.9624021131, 0
+15, Karmarkar-Karp, Time, 0.0011771510, 0
+15, SFC, PreviousEfficiency, 0.8296630277, 0
+15, SFC, Efficiency, 0.8296630277
+15, SFC, UsedEfficiency, 0.8296630277, 0
+15, SFC, Time, 0.0008902450, 0
+15, HilbertSFC, PreviousEfficiency, 0.9475496732, 0
+15, HilbertSFC, Weight, 2279247352.0000000000, 0
+15, HilbertSFC, Weight, 3300034916.0000000000, 1
+15, HilbertSFC, Weight, 3861394425.0000000000, 2
+15, HilbertSFC, Weight, 3211748964.0000000000, 3
+15, HilbertSFC, Efficiency, 0.8191616981
+15, HilbertSFC, UsedEfficiency, 0.9475496732, 0
+15, HilbertSFC, Time, 0.0021527010, 0
+15, SFC+Knapsack, PreviousEfficiency, 0.9436306455, 0
+15, SFC+Knapsack, Efficiency, 0.9965848499
+15, SFC+Knapsack, UsedEfficiency, 0.9436306455, 0
+15, SFC+Knapsack, Time, 0.0006905980, 0
+15, SFC+Painter, PreviousEfficiency, 0.9468116944, 0
+15, SFC+Painter, Weight, 0.0000000000, -1018778358
+15, SFC+Painter, Weight, 0.0000000000, -1024416850
+15, SFC+Painter, Weight, 0.0000000000, -1035379055
+15, SFC+Painter, Weight, 0.0000000000, -1448869264
+15, SFC+Painter, Efficiency, 0.9654835158
+15, SFC+Painter, UsedEfficiency, 0.9468116944, 0
+15, SFC+Painter, Time, 0.0014711510, 0
+15, Hilbert+Painter, PreviousEfficiency, 0.9745623035, 0
+15, Hilbert+Painter, Efficiency, 0.9745623035
+15, Hilbert+Painter, Efficiency, 0.9745623035, 0
+15, Hilbert+Painter, UsedEfficiency, 0.9745623035, 0
+15, Hilbert+Painter, Time, 0.0024786320, 0
+15, Painter+Knapsack, PreviousEfficiency, 0.9436306455, 0
+15, SFC+Painter, Weight, 0.0000000000, -232476231
+15, SFC+Painter, Efficiency, 1.0000000000
+15, Painter+Knapsack, Weight, 3173945916.0000000000, 0
+15, Painter+Knapsack, Weight, 3171705255.0000000000, 1
+15, Painter+Knapsack, Weight, 3169362809.0000000000, 2
+15, Painter+Knapsack, Weight, 3137411677.0000000000, 3
+15, Painter+Knapsack, Efficiency, 0.9965848499
+15, Painter+Knapsack, UsedEfficiency, 0.9436306455, 0
+15, Painter+Knapsack, Time, 0.0200087970, 0
+16, Original, PreviousEfficiency, 0.9383216816, 0
+16, Original, Efficiency, 0.9383216816, 0
+16, Original, UsedEfficiency, 0.9383216816, 0
+16, Knapsack, PreviousEfficiency, 0.9383216816, 0
+16, Knapsack, Weight, 0.0000000000, 0
+16, Knapsack, Weight, 0.0000000000, 1
+16, Knapsack, Weight, 0.0000000000, 2
+16, Knapsack, Weight, 0.0000000000, 3
+16, Knapsack, Efficiency, 0.9962797360
+16, Knapsack, UsedEfficiency, 0.9383216816, 0
+16, Knapsack, Time, 0.0043877020, 0
+16, Karmarkar-Karp, PreviousEfficiency, 0.9539704599, 0
+16, Karmarkar-Karp, Weight, 0.0000000000, -1163876302
+16, Karmarkar-Karp, Weight, 0.0000000000, -1163850877
+16, Karmarkar-Karp, Weight, 0.0000000000, -1163818674
+16, Karmarkar-Karp, Weight, 0.0000000000, -1157399026
+16, Karmarkar-Karp, Efficiency, 0.9984582985
+16, Karmarkar-Karp, UsedEfficiency, 0.9539704599, 0
+16, Karmarkar-Karp, Time, 0.0012707320, 0
+16, SFC, PreviousEfficiency, 0.8298056306, 0
+16, SFC, Efficiency, 0.8298056306
+16, SFC, UsedEfficiency, 0.8298056306, 0
+16, SFC, Time, 0.0009774640, 0
+16, HilbertSFC, PreviousEfficiency, 0.9386178290, 0
+16, HilbertSFC, Weight, 2262498704.0000000000, 0
+16, HilbertSFC, Weight, 3303373586.0000000000, 1
+16, HilbertSFC, Weight, 3063418831.0000000000, 2
+16, HilbertSFC, Weight, 3901633184.0000000000, 3
+16, HilbertSFC, Efficiency, 0.8029281402
+16, HilbertSFC, UsedEfficiency, 0.9386178290, 0
+16, HilbertSFC, Time, 0.0023440820, 0
+16, SFC+Knapsack, PreviousEfficiency, 0.9383216816, 0
+16, SFC+Knapsack, Efficiency, 0.9962797360
+16, SFC+Knapsack, UsedEfficiency, 0.9383216816, 0
+16, SFC+Knapsack, Time, 0.0006195810, 0
+16, SFC+Painter, PreviousEfficiency, 0.9388034868, 0
+16, SFC+Painter, Weight, 0.0000000000, -1024986112
+16, SFC+Painter, Weight, 0.0000000000, -1052578092
+16, SFC+Painter, Weight, 0.0000000000, -1086474738
+16, SFC+Painter, Weight, 0.0000000000, -1484905937
+16, SFC+Painter, Efficiency, 0.9580272485
+16, SFC+Painter, UsedEfficiency, 0.9388034868, 0
+16, SFC+Painter, Time, 0.0021156590, 0
+16, Hilbert+Painter, PreviousEfficiency, 0.9705780398, 0
+16, Hilbert+Painter, Efficiency, 0.9705780398
+16, Hilbert+Painter, Efficiency, 0.9705780398, 0
+16, Hilbert+Painter, UsedEfficiency, 0.9705780398, 0
+16, Hilbert+Painter, Time, 0.0010488630, 0
+16, Painter+Knapsack, PreviousEfficiency, 0.9383216816, 0
+16, SFC+Painter, Weight, 0.0000000000, -353977583
+16, SFC+Painter, Efficiency, 1.0000000000
+16, Painter+Knapsack, Weight, 3144429183.0000000000, 0
+16, Painter+Knapsack, Weight, 3139455456.0000000000, 1
+16, Painter+Knapsack, Weight, 3136446755.0000000000, 2
+16, Painter+Knapsack, Weight, 3110592911.0000000000, 3
+16, Painter+Knapsack, Efficiency, 0.9962797360
+16, Painter+Knapsack, UsedEfficiency, 0.9383216816, 0
+16, Painter+Knapsack, Time, 0.0021030250, 0
+17, Original, PreviousEfficiency, 0.9365063226, 0
+17, Original, Efficiency, 0.9365063226, 0
+17, Original, UsedEfficiency, 0.9365063226, 0
+17, Knapsack, PreviousEfficiency, 0.9365063226, 0
+17, Knapsack, Weight, 0.0000000000, 0
+17, Knapsack, Weight, 0.0000000000, 1
+17, Knapsack, Weight, 0.0000000000, 2
+17, Knapsack, Weight, 0.0000000000, 3
+17, Knapsack, Efficiency, 0.9936857867
+17, Knapsack, UsedEfficiency, 0.9365063226, 0
+17, Knapsack, Time, 0.0011779030, 0
+17, Karmarkar-Karp, PreviousEfficiency, 0.9530396946, 0
+17, Karmarkar-Karp, Weight, 0.0000000000, -1205279154
+17, Karmarkar-Karp, Weight, 0.0000000000, -1203395979
+17, Karmarkar-Karp, Weight, 0.0000000000, -1201887007
+17, Karmarkar-Karp, Weight, 0.0000000000, -1175010079
+17, Karmarkar-Karp, Efficiency, 0.9931463882
+17, Karmarkar-Karp, UsedEfficiency, 0.9530396946, 0
+17, Karmarkar-Karp, Time, 0.0011897450, 0
+17, SFC, PreviousEfficiency, 0.8287642019, 0
+17, SFC, Efficiency, 0.8287642019
+17, SFC, UsedEfficiency, 0.8287642019, 0
+17, SFC, Time, 0.0008142480, 0
+17, HilbertSFC, PreviousEfficiency, 0.9360922107, 0
+17, HilbertSFC, Weight, 2242079122.0000000000, 0
+17, HilbertSFC, Weight, 3283393424.0000000000, 1
+17, HilbertSFC, Weight, 3054666688.0000000000, 2
+17, HilbertSFC, Weight, 3814157731.0000000000, 3
+17, HilbertSFC, Efficiency, 0.8123875466
+17, HilbertSFC, UsedEfficiency, 0.9360922107, 0
+17, HilbertSFC, Time, 0.0023832280, 0
+17, SFC+Knapsack, PreviousEfficiency, 0.9365063226, 0
+17, SFC+Knapsack, Efficiency, 0.9936857867
+17, SFC+Knapsack, UsedEfficiency, 0.9365063226, 0
+17, SFC+Knapsack, Time, 0.0005943320, 0
+17, SFC+Painter, PreviousEfficiency, 0.9374593856, 0
+17, SFC+Painter, Weight, 0.0000000000, -1072120515
+17, SFC+Painter, Weight, 0.0000000000, -1081943540
+17, SFC+Painter, Weight, 0.0000000000, -1116679367
+17, SFC+Painter, Weight, 0.0000000000, -1514828797
+17, SFC+Painter, Efficiency, 0.9614401341
+17, SFC+Painter, UsedEfficiency, 0.9374593856, 0
+17, SFC+Painter, Time, 0.0035196690, 0
+17, Hilbert+Painter, PreviousEfficiency, 0.9680838081, 0
+17, Hilbert+Painter, Efficiency, 0.9680838081
+17, Hilbert+Painter, Efficiency, 0.9680838081, 0
+17, Hilbert+Painter, UsedEfficiency, 0.9680838081, 0
+17, Hilbert+Painter, Time, 0.0010867660, 0
+17, Painter+Knapsack, PreviousEfficiency, 0.9365063226, 0
+17, SFC+Painter, Weight, 0.0000000000, -490604923
+17, SFC+Painter, Efficiency, 1.0000000000
+17, Painter+Knapsack, Weight, 3118263623.0000000000, 0
+17, Painter+Knapsack, Weight, 3097301222.0000000000, 1
+17, Painter+Knapsack, Weight, 3092601092.0000000000, 2
+17, Painter+Knapsack, Weight, 3086131028.0000000000, 3
+17, Painter+Knapsack, Efficiency, 0.9936857867
+17, Painter+Knapsack, UsedEfficiency, 0.9365063226, 0
+17, Painter+Knapsack, Time, 0.0017052140, 0
+18, Original, PreviousEfficiency, 0.9307002032, 0
+18, Original, Efficiency, 0.9307002032, 0
+18, Original, UsedEfficiency, 0.9307002032, 0
+18, Knapsack, PreviousEfficiency, 0.9307002032, 0
+18, Knapsack, Weight, 0.0000000000, 0
+18, Knapsack, Weight, 0.0000000000, 1
+18, Knapsack, Weight, 0.0000000000, 2
+18, Knapsack, Weight, 0.0000000000, 3
+18, Knapsack, Efficiency, 0.9953121727
+18, Knapsack, UsedEfficiency, 0.9307002032, 0
+18, Knapsack, Time, 0.0012066980, 0
+18, Karmarkar-Karp, PreviousEfficiency, 0.9474579675, 0
+18, Karmarkar-Karp, Weight, 0.0000000000, -1194896047
+18, Karmarkar-Karp, Weight, 0.0000000000, -1180906866
+18, Karmarkar-Karp, Weight, 0.0000000000, -1180512374
+18, Karmarkar-Karp, Weight, 0.0000000000, -1178851590
+18, Karmarkar-Karp, Efficiency, 0.9984146515
+18, Karmarkar-Karp, UsedEfficiency, 0.9474579675, 0
+18, Karmarkar-Karp, Time, 0.0116251640, 0
+18, SFC, PreviousEfficiency, 0.8316833166, 0
+18, SFC, Efficiency, 0.8316833166
+18, SFC, UsedEfficiency, 0.8316833166, 0
+18, SFC, Time, 0.0008614590, 0
+18, HilbertSFC, PreviousEfficiency, 0.9333801646, 0
+18, HilbertSFC, Weight, 2265316899.0000000000, 0
+18, HilbertSFC, Weight, 3312875316.0000000000, 1
+18, HilbertSFC, Weight, 3075442185.0000000000, 2
+18, HilbertSFC, Weight, 3791067907.0000000000, 3
+18, HilbertSFC, Efficiency, 0.8206594166
+18, HilbertSFC, UsedEfficiency, 0.9333801646, 0
+18, HilbertSFC, Time, 0.0022305620, 0
+18, SFC+Knapsack, PreviousEfficiency, 0.9307002032, 0
+18, SFC+Knapsack, Efficiency, 0.9953121727
+18, SFC+Knapsack, UsedEfficiency, 0.9307002032, 0
+18, SFC+Knapsack, Time, 0.0006058140, 0
+18, SFC+Painter, PreviousEfficiency, 0.9320317323, 0
+18, SFC+Painter, Weight, 0.0000000000, -1049507007
+18, SFC+Painter, Weight, 0.0000000000, -1079505025
+18, SFC+Painter, Weight, 0.0000000000, -1084334059
+18, SFC+Painter, Weight, 0.0000000000, -1521820786
+18, SFC+Painter, Efficiency, 0.9586238314
+18, SFC+Painter, UsedEfficiency, 0.9320317323, 0
+18, SFC+Painter, Time, 0.0014487870, 0
+18, Hilbert+Painter, PreviousEfficiency, 0.9623220379, 0
+18, Hilbert+Painter, Efficiency, 0.9623220379
+18, Hilbert+Painter, Efficiency, 0.9623220379, 0
+18, Hilbert+Painter, UsedEfficiency, 0.9623220379, 0
+18, Hilbert+Painter, Time, 0.0009759900, 0
+18, Painter+Knapsack, PreviousEfficiency, 0.9307002032, 0
+18, SFC+Painter, Weight, 0.0000000000, -440199581
+18, SFC+Painter, Efficiency, 1.0000000000
+18, Painter+Knapsack, Weight, 3125828923.0000000000, 0
+18, Painter+Knapsack, Weight, 3113185976.0000000000, 1
+18, Painter+Knapsack, Weight, 3110767728.0000000000, 2
+18, Painter+Knapsack, Weight, 3094919680.0000000000, 3
+18, Painter+Knapsack, Efficiency, 0.9953121727
+18, Painter+Knapsack, UsedEfficiency, 0.9307002032, 0
+18, Painter+Knapsack, Time, 0.0017708410, 0
+19, Original, PreviousEfficiency, 0.9293637399, 0
+19, Original, Efficiency, 0.9293637399, 0
+19, Original, UsedEfficiency, 0.9293637399, 0
+19, Knapsack, PreviousEfficiency, 0.9293637399, 0
+19, Knapsack, Weight, 0.0000000000, 0
+19, Knapsack, Weight, 0.0000000000, 1
+19, Knapsack, Weight, 0.0000000000, 2
+19, Knapsack, Weight, 0.0000000000, 3
+19, Knapsack, Efficiency, 0.9948664434
+19, Knapsack, UsedEfficiency, 0.9293637399, 0
+19, Knapsack, Time, 0.0010756640, 0
+19, Karmarkar-Karp, PreviousEfficiency, 0.9408364270, 0
+19, Karmarkar-Karp, Weight, 0.0000000000, -1155769509
+19, Karmarkar-Karp, Weight, 0.0000000000, -1151721870
+19, Karmarkar-Karp, Weight, 0.0000000000, -1137925883
+19, Karmarkar-Karp, Weight, 0.0000000000, -1136607622
+19, Karmarkar-Karp, Efficiency, 0.9971825251
+19, Karmarkar-Karp, UsedEfficiency, 0.9408364270, 0
+19, Karmarkar-Karp, Time, 0.0011982820, 0
+19, SFC, PreviousEfficiency, 0.8375074887, 0
+19, SFC, Efficiency, 0.8375074887
+19, SFC, UsedEfficiency, 0.8375074887, 0
+19, SFC, Time, 0.0007192540, 0
+19, HilbertSFC, PreviousEfficiency, 0.9246524812, 0
+19, HilbertSFC, Weight, 2284626140.0000000000, 0
+19, HilbertSFC, Weight, 3365186157.0000000000, 1
+19, HilbertSFC, Weight, 3150800593.0000000000, 2
+19, HilbertSFC, Weight, 3797231410.0000000000, 3
+19, HilbertSFC, Efficiency, 0.8294098344
+19, HilbertSFC, UsedEfficiency, 0.9246524812, 0
+19, HilbertSFC, Time, 0.0021642940, 0
+19, SFC+Knapsack, PreviousEfficiency, 0.9293637399, 0
+19, SFC+Knapsack, Efficiency, 0.9948664434
+19, SFC+Knapsack, UsedEfficiency, 0.9293637399, 0
+19, SFC+Knapsack, Time, 0.0005880500, 0
+19, SFC+Painter, PreviousEfficiency, 0.9214416431, 0
+19, SFC+Painter, Weight, 0.0000000000, -1005532074
+19, SFC+Painter, Weight, 0.0000000000, -1007318974
+19, SFC+Painter, Weight, 0.0000000000, -1047783707
+19, SFC+Painter, Weight, 0.0000000000, -1521390129
+19, SFC+Painter, Efficiency, 0.9574473618
+19, SFC+Painter, UsedEfficiency, 0.9214416431, 0
+19, SFC+Painter, Time, 0.0016512700, 0
+19, Hilbert+Painter, PreviousEfficiency, 0.9626769522, 0
+19, Hilbert+Painter, Efficiency, 0.9626769522
+19, Hilbert+Painter, Efficiency, 0.9626769522, 0
+19, Hilbert+Painter, UsedEfficiency, 0.9626769522, 0
+19, Hilbert+Painter, Time, 0.0011414910, 0
+19, Painter+Knapsack, PreviousEfficiency, 0.9293637399, 0
+19, SFC+Painter, Weight, 0.0000000000, -287057588
+19, SFC+Painter, Efficiency, 1.0000000000
+19, Painter+Knapsack, Weight, 3165712439.0000000000, 0
+19, Painter+Knapsack, Weight, 3157343992.0000000000, 1
+19, Painter+Knapsack, Weight, 3156738292.0000000000, 2
+19, Painter+Knapsack, Weight, 3118049577.0000000000, 3
+19, Painter+Knapsack, Efficiency, 0.9948664434
+19, Painter+Knapsack, UsedEfficiency, 0.9293637399, 0
+19, Painter+Knapsack, Time, 0.0017038910, 0
+20, Original, PreviousEfficiency, 0.9272512756, 0
+20, Original, Efficiency, 0.9272512756, 0
+20, Original, UsedEfficiency, 0.9272512756, 0
+20, Knapsack, PreviousEfficiency, 0.9272512756, 0
+20, Knapsack, Weight, 0.0000000000, 0
+20, Knapsack, Weight, 0.0000000000, 1
+20, Knapsack, Weight, 0.0000000000, 2
+20, Knapsack, Weight, 0.0000000000, 3
+20, Knapsack, Efficiency, 0.9991976506
+20, Knapsack, UsedEfficiency, 0.9272512756, 0
+20, Knapsack, Time, 0.0011952160, 0
+20, Karmarkar-Karp, PreviousEfficiency, 0.9335459497, 0
+20, Karmarkar-Karp, Weight, 0.0000000000, -1118411130
+20, Karmarkar-Karp, Weight, 0.0000000000, -1117662832
+20, Karmarkar-Karp, Weight, 0.0000000000, -1079166137
+20, Karmarkar-Karp, Weight, 0.0000000000, -1072460224
+20, Karmarkar-Karp, Efficiency, 0.9924081294
+20, Karmarkar-Karp, UsedEfficiency, 0.9335459497, 0
+20, Karmarkar-Karp, Time, 0.0034972250, 0
+20, SFC, PreviousEfficiency, 0.8520635714, 0
+20, SFC, Efficiency, 0.8520635714
+20, SFC, UsedEfficiency, 0.8520635714, 0
+20, SFC, Time, 0.0007781970, 0
+20, HilbertSFC, PreviousEfficiency, 0.9141241181, 0
+20, HilbertSFC, Weight, 2311220288.0000000000, 0
+20, HilbertSFC, Weight, 3377782413.0000000000, 1
+20, HilbertSFC, Weight, 3295430128.0000000000, 2
+20, HilbertSFC, Weight, 3807736032.0000000000, 3
+20, HilbertSFC, Efficiency, 0.8398802302
+20, HilbertSFC, UsedEfficiency, 0.9141241181, 0
+20, HilbertSFC, Time, 0.0022603600, 0
+20, SFC+Knapsack, PreviousEfficiency, 0.9272512756, 0
+20, SFC+Knapsack, Efficiency, 0.9991976506
+20, SFC+Knapsack, UsedEfficiency, 0.9272512756, 0
+20, SFC+Knapsack, Time, 0.0044396420, 0
+20, SFC+Painter, PreviousEfficiency, 0.9023821523, 0
+20, SFC+Painter, Weight, 0.0000000000, -926469415
+20, SFC+Painter, Weight, 0.0000000000, -959206694
+20, SFC+Painter, Weight, 0.0000000000, -960347543
+20, SFC+Painter, Weight, 0.0000000000, -1541676671
+20, SFC+Painter, Efficiency, 0.9493971284
+20, SFC+Painter, UsedEfficiency, 0.9023821523, 0
+20, SFC+Painter, Time, 0.0015979560, 0
+20, Hilbert+Painter, PreviousEfficiency, 0.9658198296, 0
+20, Hilbert+Painter, Efficiency, 0.9658198296
+20, Hilbert+Painter, Efficiency, 0.9658198296, 0
+20, Hilbert+Painter, UsedEfficiency, 0.9658198296, 0
+20, Hilbert+Painter, Time, 0.0025630150, 0
+20, Painter+Knapsack, PreviousEfficiency, 0.9272512756, 0
+20, SFC+Painter, Weight, 0.0000000000, -92733027
+20, SFC+Painter, Efficiency, 1.0000000000
+20, Painter+Knapsack, Weight, 3200610223.0000000000, 0
+20, Painter+Knapsack, Weight, 3199366486.0000000000, 1
+20, Painter+Knapsack, Weight, 3197374649.0000000000, 2
+20, Painter+Knapsack, Weight, 3194817503.0000000000, 3
+20, Painter+Knapsack, Efficiency, 0.9991976506
+20, Painter+Knapsack, UsedEfficiency, 0.9272512756, 0
+20, Painter+Knapsack, Time, 0.0017969010, 0
+21, Original, PreviousEfficiency, 0.9318954173, 0
+21, Original, Efficiency, 0.9318954173, 0
+21, Original, UsedEfficiency, 0.9318954173, 0
+21, Knapsack, PreviousEfficiency, 0.9318954173, 0
+21, Knapsack, Weight, 0.0000000000, 0
+21, Knapsack, Weight, 0.0000000000, 1
+21, Knapsack, Weight, 0.0000000000, 2
+21, Knapsack, Weight, 0.0000000000, 3
+21, Knapsack, Efficiency, 0.9979114346
+21, Knapsack, UsedEfficiency, 0.9318954173, 0
+21, Knapsack, Time, 0.0011732730, 0
+21, Karmarkar-Karp, PreviousEfficiency, 0.9299584107, 0
+21, Karmarkar-Karp, Weight, 0.0000000000, -1050535380
+21, Karmarkar-Karp, Weight, 0.0000000000, -1038225546
+21, Karmarkar-Karp, Weight, 0.0000000000, -1025099777
+21, Karmarkar-Karp, Weight, 0.0000000000, -1024144648
+21, Karmarkar-Karp, Efficiency, 0.9968336132
+21, Karmarkar-Karp, UsedEfficiency, 0.9299584107, 0
+21, Karmarkar-Karp, Time, 0.0013475910, 0
+21, SFC, PreviousEfficiency, 0.8601107920, 0
+21, SFC, Efficiency, 0.8601107920
+21, SFC, UsedEfficiency, 0.8601107920, 0
+21, SFC, Time, 0.0007573880, 0
+21, HilbertSFC, PreviousEfficiency, 0.8971501602, 0
+21, HilbertSFC, Weight, 2335977707.0000000000, 0
+21, HilbertSFC, Weight, 3433932807.0000000000, 1
+21, HilbertSFC, Weight, 3435109468.0000000000, 2
+21, HilbertSFC, Weight, 3836843851.0000000000, 3
+21, HilbertSFC, Efficiency, 0.8497781210
+21, HilbertSFC, UsedEfficiency, 0.8971501602, 0
+21, HilbertSFC, Time, 0.0021958750, 0
+21, SFC+Knapsack, PreviousEfficiency, 0.9318954173, 0
+21, SFC+Knapsack, Efficiency, 0.9979114346
+21, SFC+Knapsack, UsedEfficiency, 0.9318954173, 0
+21, SFC+Knapsack, Time, 0.0007720060, 0
+21, SFC+Painter, PreviousEfficiency, 0.8907232949, 0
+21, SFC+Painter, Weight, 0.0000000000, -846290723
+21, SFC+Painter, Weight, 0.0000000000, -869692093
+21, SFC+Painter, Weight, 0.0000000000, -917806370
+21, SFC+Painter, Weight, 0.0000000000, -1504216165
+21, SFC+Painter, Efficiency, 0.9454252636
+21, SFC+Painter, UsedEfficiency, 0.8907232949, 0
+21, SFC+Painter, Time, 0.0014551000, 0
+21, Hilbert+Painter, PreviousEfficiency, 0.9773644322, 0
+21, Hilbert+Painter, Efficiency, 0.9773644322
+21, Hilbert+Painter, Efficiency, 0.9773644322, 0
+21, Hilbert+Painter, UsedEfficiency, 0.9773644322, 0
+21, Hilbert+Painter, Time, 0.0011752570, 0
+21, Painter+Knapsack, PreviousEfficiency, 0.9318954173, 0
+21, SFC+Painter, Weight, 0.0000000000, 156961945
+21, SFC+Painter, Efficiency, 1.0000000000
+21, Painter+Knapsack, Weight, 3267289907.0000000000, 0
+21, Painter+Knapsack, Weight, 3267026036.0000000000, 1
+21, Painter+Knapsack, Weight, 3264208465.0000000000, 2
+21, Painter+Knapsack, Weight, 3243339425.0000000000, 3
+21, Painter+Knapsack, Efficiency, 0.9979114346
+21, Painter+Knapsack, UsedEfficiency, 0.9318954173, 0
+21, Painter+Knapsack, Time, 0.0017429770, 0
+22, Original, PreviousEfficiency, 0.9270418313, 0
+22, Original, Efficiency, 0.9270418313, 0
+22, Original, UsedEfficiency, 0.9270418313, 0
+22, Knapsack, PreviousEfficiency, 0.9270418313, 0
+22, Knapsack, Weight, 0.0000000000, 0
+22, Knapsack, Weight, 0.0000000000, 1
+22, Knapsack, Weight, 0.0000000000, 2
+22, Knapsack, Weight, 0.0000000000, 3
+22, Knapsack, Efficiency, 0.9975107307
+22, Knapsack, UsedEfficiency, 0.9270418313, 0
+22, Knapsack, Time, 0.0010930780, 0
+22, Karmarkar-Karp, PreviousEfficiency, 0.9310948041, 0
+22, Karmarkar-Karp, Weight, 0.0000000000, -992199450
+22, Karmarkar-Karp, Weight, 0.0000000000, -972490868
+22, Karmarkar-Karp, Weight, 0.0000000000, -972388961
+22, Karmarkar-Karp, Weight, 0.0000000000, -969145826
+22, Karmarkar-Karp, Efficiency, 0.9977718436
+22, Karmarkar-Karp, UsedEfficiency, 0.9310948041, 0
+22, Karmarkar-Karp, Time, 0.0012043030, 0
+22, SFC, PreviousEfficiency, 0.8642670435, 0
+22, SFC, Efficiency, 0.8642670435
+22, SFC, UsedEfficiency, 0.8642670435, 0
+22, SFC, Time, 0.0008073940, 0
+22, HilbertSFC, PreviousEfficiency, 0.8845900225, 0
+22, HilbertSFC, Weight, 2370673091.0000000000, 0
+22, HilbertSFC, Weight, 3485100657.0000000000, 1
+22, HilbertSFC, Weight, 3544273352.0000000000, 2
+22, HilbertSFC, Weight, 3873596979.0000000000, 3
+22, HilbertSFC, Efficiency, 0.8566743101
+22, HilbertSFC, UsedEfficiency, 0.8845900225, 0
+22, HilbertSFC, Time, 0.0023843090, 0
+22, SFC+Knapsack, PreviousEfficiency, 0.9270418313, 0
+22, SFC+Knapsack, Efficiency, 0.9975107307
+22, SFC+Knapsack, UsedEfficiency, 0.9270418313, 0
+22, SFC+Knapsack, Time, 0.0006950870, 0
+22, SFC+Painter, PreviousEfficiency, 0.8805609489, 0
+22, SFC+Painter, Weight, 0.0000000000, -741083512
+22, SFC+Painter, Weight, 0.0000000000, -824259914
+22, SFC+Painter, Weight, 0.0000000000, -889503224
+22, SFC+Painter, Weight, 0.0000000000, -1451378455
+22, SFC+Painter, Efficiency, 0.9337421315
+22, SFC+Painter, UsedEfficiency, 0.8805609489, 0
+22, SFC+Painter, Time, 0.0014854380, 0
+22, Hilbert+Painter, PreviousEfficiency, 0.9715456149, 0
+22, Hilbert+Painter, Efficiency, 0.9715456149
+22, Hilbert+Painter, Efficiency, 0.9715456149, 0
+22, Hilbert+Painter, UsedEfficiency, 0.9715456149, 0
+22, Hilbert+Painter, Time, 0.0009798080, 0
+22, Painter+Knapsack, PreviousEfficiency, 0.9270418313, 0
+22, SFC+Painter, Weight, 0.0000000000, 388742191
+22, SFC+Painter, Efficiency, 1.0000000000
+22, Painter+Knapsack, Weight, 3326692052.0000000000, 0
+22, Painter+Knapsack, Weight, 3321896427.0000000000, 1
+22, Painter+Knapsack, Weight, 3321257480.0000000000, 2
+22, Painter+Knapsack, Weight, 3303798120.0000000000, 3
+22, Painter+Knapsack, Efficiency, 0.9975107307
+22, Painter+Knapsack, UsedEfficiency, 0.9270418313, 0
+22, Painter+Knapsack, Time, 0.0017169370, 0
+23, Original, PreviousEfficiency, 0.9156146066, 0
+23, Original, Efficiency, 0.9156146066, 0
+23, Original, UsedEfficiency, 0.9156146066, 0
+23, Knapsack, PreviousEfficiency, 0.9156146066, 0
+23, Knapsack, Weight, 0.0000000000, 0
+23, Knapsack, Weight, 0.0000000000, 1
+23, Knapsack, Weight, 0.0000000000, 2
+23, Knapsack, Weight, 0.0000000000, 3
+23, Knapsack, Efficiency, 0.9986301395
+23, Knapsack, UsedEfficiency, 0.9156146066, 0
+23, Knapsack, Time, 0.0011207520, 0
+23, Karmarkar-Karp, PreviousEfficiency, 0.9305411251, 0
+23, Karmarkar-Karp, Weight, 0.0000000000, -1068128291
+23, Karmarkar-Karp, Weight, 0.0000000000, -1048865665
+23, Karmarkar-Karp, Weight, 0.0000000000, -1047071313
+23, Karmarkar-Karp, Weight, 0.0000000000, -1046977256
+23, Karmarkar-Karp, Efficiency, 0.9982193987
+23, Karmarkar-Karp, UsedEfficiency, 0.9305411251, 0
+23, Karmarkar-Karp, Time, 0.0011048300, 0
+23, SFC, PreviousEfficiency, 0.8621700833, 0
+23, SFC, Efficiency, 0.8621700833
+23, SFC, UsedEfficiency, 0.8621700833, 0
+23, SFC, Time, 0.0006959590, 0
+23, HilbertSFC, PreviousEfficiency, 0.8748830670, 0
+23, HilbertSFC, Weight, 2309162541.0000000000, 0
+23, HilbertSFC, Weight, 3428705014.0000000000, 1
+23, HilbertSFC, Weight, 3489249654.0000000000, 2
+23, HilbertSFC, Weight, 3741709450.0000000000, 3
+23, HilbertSFC, Efficiency, 0.8665041228
+23, HilbertSFC, UsedEfficiency, 0.8748830670, 0
+23, HilbertSFC, Time, 0.0021566180, 0
+23, SFC+Knapsack, PreviousEfficiency, 0.9156146066, 0
+23, SFC+Knapsack, Efficiency, 0.9986301395
+23, SFC+Knapsack, UsedEfficiency, 0.9156146066, 0
+23, SFC+Knapsack, Time, 0.0006242490, 0
+23, SFC+Painter, PreviousEfficiency, 0.8759295684, 0
+23, SFC+Painter, Weight, 0.0000000000, -801950990
+23, SFC+Painter, Weight, 0.0000000000, -928399403
+23, SFC+Painter, Weight, 0.0000000000, -974500817
+23, SFC+Painter, Weight, 0.0000000000, -1506191315
+23, SFC+Painter, Efficiency, 0.9281968307
+23, SFC+Painter, UsedEfficiency, 0.8759295684, 0
+23, SFC+Painter, Time, 0.0014266640, 0
+23, Hilbert+Painter, PreviousEfficiency, 0.9613826623, 0
+23, Hilbert+Painter, Efficiency, 0.9613826623
+23, Hilbert+Painter, Efficiency, 0.9613826623, 0
+23, Hilbert+Painter, UsedEfficiency, 0.9613826623, 0
+23, Hilbert+Painter, Time, 0.0009688880, 0
+23, Painter+Knapsack, PreviousEfficiency, 0.9156146066, 0
+23, SFC+Painter, Weight, 0.0000000000, 83924771
+23, SFC+Painter, Efficiency, 1.0000000000
+23, Painter+Knapsack, Weight, 3246654128.0000000000, 0
+23, Painter+Knapsack, Weight, 3245746800.0000000000, 1
+23, Painter+Knapsack, Weight, 3243806681.0000000000, 2
+23, Painter+Knapsack, Weight, 3232619050.0000000000, 3
+23, Painter+Knapsack, Efficiency, 0.9986301395
+23, Painter+Knapsack, UsedEfficiency, 0.9156146066, 0
+23, Painter+Knapsack, Time, 0.0016190060, 0
+24, Original, PreviousEfficiency, 0.9076144604, 0
+24, Original, Efficiency, 0.9076144604, 0
+24, Original, UsedEfficiency, 0.9076144604, 0
+24, Knapsack, PreviousEfficiency, 0.9076144604, 0
+24, Knapsack, Weight, 0.0000000000, 0
+24, Knapsack, Weight, 0.0000000000, 1
+24, Knapsack, Weight, 0.0000000000, 2
+24, Knapsack, Weight, 0.0000000000, 3
+24, Knapsack, Efficiency, 0.9943703964
+24, Knapsack, UsedEfficiency, 0.9076144604, 0
+24, Knapsack, Time, 0.0011327750, 0
+24, Karmarkar-Karp, PreviousEfficiency, 0.9315484750, 0
+24, Karmarkar-Karp, Weight, 0.0000000000, -1122887288
+24, Karmarkar-Karp, Weight, 0.0000000000, -1120731598
+24, Karmarkar-Karp, Weight, 0.0000000000, -1113635209
+24, Karmarkar-Karp, Weight, 0.0000000000, -1112680559
+24, Karmarkar-Karp, Efficiency, 0.9984906751
+24, Karmarkar-Karp, UsedEfficiency, 0.9315484750, 0
+24, Karmarkar-Karp, Time, 0.0013728600, 0
+24, SFC, PreviousEfficiency, 0.8601086387, 0
+24, SFC, Efficiency, 0.8601086387
+24, SFC, UsedEfficiency, 0.8601086387, 0
+24, SFC, Time, 0.0008195980, 0
+24, HilbertSFC, PreviousEfficiency, 0.8707415110, 0
+24, HilbertSFC, Weight, 2268327892.0000000000, 0
+24, HilbertSFC, Weight, 3374173142.0000000000, 1
+24, HilbertSFC, Weight, 3434190547.0000000000, 2
+24, HilbertSFC, Weight, 3633242949.0000000000, 3
+24, HilbertSFC, Efficiency, 0.8745585355
+24, HilbertSFC, UsedEfficiency, 0.8707415110, 0
+24, HilbertSFC, Time, 0.0021677600, 0
+24, SFC+Knapsack, PreviousEfficiency, 0.9076144604, 0
+24, SFC+Knapsack, Efficiency, 0.9943703964
+24, SFC+Knapsack, UsedEfficiency, 0.9076144604, 0
+24, SFC+Knapsack, Time, 0.0005670090, 0
+24, SFC+Painter, PreviousEfficiency, 0.8730780599, 0
+24, SFC+Painter, Weight, 0.0000000000, -859073012
+24, SFC+Painter, Weight, 0.0000000000, -1013297898
+24, SFC+Painter, Weight, 0.0000000000, -1046083857
+24, SFC+Painter, Weight, 0.0000000000, -1551479887
+24, SFC+Painter, Efficiency, 0.9247908608
+24, SFC+Painter, UsedEfficiency, 0.8730780599, 0
+24, SFC+Painter, Time, 0.0013971880, 0
+24, Hilbert+Painter, PreviousEfficiency, 0.9572337058, 0
+24, Hilbert+Painter, Efficiency, 0.9572337058
+24, Hilbert+Painter, Efficiency, 0.9572337058, 0
+24, Hilbert+Painter, UsedEfficiency, 0.9572337058, 0
+24, Hilbert+Painter, Time, 0.0011160120, 0
+24, Painter+Knapsack, PreviousEfficiency, 0.9076144604, 0
+24, SFC+Painter, Weight, 0.0000000000, -174967358
+24, SFC+Painter, Efficiency, 1.0000000000
+24, Painter+Knapsack, Weight, 3195472878.0000000000, 0
+24, Painter+Knapsack, Weight, 3181541336.0000000000, 1
+24, Painter+Knapsack, Weight, 3166465312.0000000000, 2
+24, Painter+Knapsack, Weight, 3166455004.0000000000, 3
+24, Painter+Knapsack, Efficiency, 0.9943703964
+24, Painter+Knapsack, UsedEfficiency, 0.9076144604, 0
+24, Painter+Knapsack, Time, 0.0017506820, 0
+25, Original, PreviousEfficiency, 0.9009783441, 0
+25, Original, Efficiency, 0.9009783441, 0
+25, Original, UsedEfficiency, 0.9009783441, 0
+25, Knapsack, PreviousEfficiency, 0.9009783441, 0
+25, Knapsack, Weight, 0.0000000000, 0
+25, Knapsack, Weight, 0.0000000000, 1
+25, Knapsack, Weight, 0.0000000000, 2
+25, Knapsack, Weight, 0.0000000000, 3
+25, Knapsack, Efficiency, 0.9950096203
+25, Knapsack, UsedEfficiency, 0.9950096203, 0
+25, Knapsack, Time, 0.0011230960, 0
+25, Karmarkar-Karp, PreviousEfficiency, 0.9247525250, 0
+25, Karmarkar-Karp, Weight, 0.0000000000, -1162316780
+25, Karmarkar-Karp, Weight, 0.0000000000, -1139988913
+25, Karmarkar-Karp, Weight, 0.0000000000, -1135180164
+25, Karmarkar-Karp, Weight, 0.0000000000, -1117759931
+25, Karmarkar-Karp, Efficiency, 0.9933742077
+25, Karmarkar-Karp, UsedEfficiency, 0.9247525250, 0
+25, Karmarkar-Karp, Time, 0.0011530740, 0
+25, SFC, PreviousEfficiency, 0.8558017458, 0
+25, SFC, Efficiency, 0.8558017458
+25, SFC, UsedEfficiency, 0.8558017458, 0
+25, SFC, Time, 0.0007971850, 0
+25, HilbertSFC, PreviousEfficiency, 0.8689003837, 0
+25, HilbertSFC, Weight, 2269674301.0000000000, 0
+25, HilbertSFC, Weight, 3387414080.0000000000, 1
+25, HilbertSFC, Weight, 3393606313.0000000000, 2
+25, HilbertSFC, Weight, 3573928702.0000000000, 3
+25, HilbertSFC, Efficiency, 0.8831054316
+25, HilbertSFC, UsedEfficiency, 0.8689003837, 0
+25, HilbertSFC, Time, 0.0029417490, 0
+25, SFC+Knapsack, PreviousEfficiency, 0.9009783441, 0
+25, SFC+Knapsack, Efficiency, 0.9950096203
+25, SFC+Knapsack, UsedEfficiency, 0.9950096203, 0
+25, SFC+Knapsack, Time, 0.0005629910, 0
+25, SFC+Painter, PreviousEfficiency, 0.8656839080, 0
+25, SFC+Painter, Weight, 0.0000000000, -849869053
+25, SFC+Painter, Weight, 0.0000000000, -1062374271
+25, SFC+Painter, Weight, 0.0000000000, -1071685757
+25, SFC+Painter, Weight, 0.0000000000, -1571316707
+25, SFC+Painter, Efficiency, 0.9161294182
+25, SFC+Painter, UsedEfficiency, 0.8656839080, 0
+25, SFC+Painter, Time, 0.0014648580, 0
+25, Hilbert+Painter, PreviousEfficiency, 0.9551024849, 0
+25, Hilbert+Painter, Efficiency, 0.9551024849
+25, Hilbert+Painter, Efficiency, 0.9551024849, 0
+25, Hilbert+Painter, UsedEfficiency, 0.9551024849, 0
+25, Hilbert+Painter, Time, 0.0010378110, 0
+25, Painter+Knapsack, PreviousEfficiency, 0.9009783441, 0
+25, SFC+Painter, Weight, 0.0000000000, -260278492
+25, SFC+Painter, Efficiency, 1.0000000000
+25, Painter+Knapsack, Weight, 3171985260.0000000000, 0
+25, Painter+Knapsack, Weight, 3156825511.0000000000, 1
+25, Painter+Knapsack, Weight, 3156263675.0000000000, 2
+25, Painter+Knapsack, Weight, 3139548950.0000000000, 3
+25, Painter+Knapsack, Efficiency, 0.9950096203
+25, Painter+Knapsack, UsedEfficiency, 0.9950096203, 0
+25, Painter+Knapsack, Time, 0.0017685170, 0
+26, Original, PreviousEfficiency, 0.8943494226, 0
+26, Original, Efficiency, 0.9853257806, 0
+26, Original, UsedEfficiency, 0.9853257806, 0
+26, Knapsack, PreviousEfficiency, 0.9853257806, 0
+26, Knapsack, Weight, 0.0000000000, 0
+26, Knapsack, Weight, 0.0000000000, 1
+26, Knapsack, Weight, 0.0000000000, 2
+26, Knapsack, Weight, 0.0000000000, 3
+26, Knapsack, Efficiency, 0.9959641045
+26, Knapsack, UsedEfficiency, 0.9853257806, 0
+26, Knapsack, Time, 0.0011323040, 0
+26, Karmarkar-Karp, PreviousEfficiency, 0.9174164800, 0
+26, Karmarkar-Karp, Weight, 0.0000000000, -1156004524
+26, Karmarkar-Karp, Weight, 0.0000000000, -1154468740
+26, Karmarkar-Karp, Weight, 0.0000000000, -1144920514
+26, Karmarkar-Karp, Weight, 0.0000000000, -1136483468
+26, Karmarkar-Karp, Efficiency, 0.9963634946
+26, Karmarkar-Karp, UsedEfficiency, 0.9174164800, 0
+26, Karmarkar-Karp, Time, 0.0011333460, 0
+26, SFC, PreviousEfficiency, 0.8534841674, 0
+26, SFC, Efficiency, 0.8534841674
+26, SFC, UsedEfficiency, 0.8534841674, 0
+26, SFC, Time, 0.0007998200, 0
+26, HilbertSFC, PreviousEfficiency, 0.8708087140, 0
+26, HilbertSFC, Weight, 2267946005.0000000000, 0
+26, HilbertSFC, Weight, 3422775862.0000000000, 1
+26, HilbertSFC, Weight, 3355833919.0000000000, 2
+26, HilbertSFC, Weight, 3541436152.0000000000, 3
+26, HilbertSFC, Efficiency, 0.8886219741
+26, HilbertSFC, UsedEfficiency, 0.8708087140, 0
+26, HilbertSFC, Time, 0.0021189260, 0
+26, SFC+Knapsack, PreviousEfficiency, 0.9853257806, 0
+26, SFC+Knapsack, Efficiency, 0.9959641045
+26, SFC+Knapsack, UsedEfficiency, 0.9853257806, 0
+26, SFC+Knapsack, Time, 0.0005382030, 0
+26, SFC+Painter, PreviousEfficiency, 0.8633778469, 0
+26, SFC+Painter, Weight, 0.0000000000, -848826544
+26, SFC+Painter, Weight, 0.0000000000, -1059600545
+26, SFC+Painter, Weight, 0.0000000000, -1092014603
+26, SFC+Painter, Weight, 0.0000000000, -1591435554
+26, SFC+Painter, Efficiency, 0.9131948492
+26, SFC+Painter, UsedEfficiency, 0.8633778469, 0
+26, SFC+Painter, Time, 0.0014834340, 0
+26, Hilbert+Painter, PreviousEfficiency, 0.9549313151, 0
+26, Hilbert+Painter, Efficiency, 0.9549313151
+26, Hilbert+Painter, Efficiency, 0.9549313151, 0
+26, Hilbert+Painter, UsedEfficiency, 0.9549313151, 0
+26, Hilbert+Painter, Time, 0.0009999680, 0
+26, Painter+Knapsack, PreviousEfficiency, 0.9853257806, 0
+26, SFC+Painter, Weight, 0.0000000000, -296909950
+26, SFC+Painter, Efficiency, 1.0000000000
+26, Painter+Knapsack, Weight, 3159750407.0000000000, 0
+26, Painter+Knapsack, Weight, 3159550901.0000000000, 1
+26, Painter+Knapsack, Weight, 3140380260.0000000000, 2
+26, Painter+Knapsack, Weight, 3128310370.0000000000, 3
+26, Painter+Knapsack, Efficiency, 0.9959641045
+26, Painter+Knapsack, UsedEfficiency, 0.9853257806, 0
+26, Painter+Knapsack, Time, 0.0016878400, 0
+27, Original, PreviousEfficiency, 0.9767762565, 0
+27, Original, Efficiency, 0.9767762565, 0
+27, Original, UsedEfficiency, 0.9767762565, 0
+27, Knapsack, PreviousEfficiency, 0.9767762565, 0
+27, Knapsack, Weight, 0.0000000000, 0
+27, Knapsack, Weight, 0.0000000000, 1
+27, Knapsack, Weight, 0.0000000000, 2
+27, Knapsack, Weight, 0.0000000000, 3
+27, Knapsack, Efficiency, 0.9949036120
+27, Knapsack, UsedEfficiency, 0.9767762565, 0
+27, Knapsack, Time, 0.0010641720, 0
+27, Karmarkar-Karp, PreviousEfficiency, 0.9090062220, 0
+27, Karmarkar-Karp, Weight, 0.0000000000, -1198596049
+27, Karmarkar-Karp, Weight, 0.0000000000, -1185980251
+27, Karmarkar-Karp, Weight, 0.0000000000, -1185869753
+27, Karmarkar-Karp, Weight, 0.0000000000, -1183876358
+27, Karmarkar-Karp, Efficiency, 0.9984879115
+27, Karmarkar-Karp, UsedEfficiency, 0.9090062220, 0
+27, Karmarkar-Karp, Time, 0.0011593260, 0
+27, SFC, PreviousEfficiency, 0.8451762234, 0
+27, SFC, Efficiency, 0.8451762234
+27, SFC, UsedEfficiency, 0.8451762234, 0
+27, SFC, Time, 0.0007840300, 0
+27, HilbertSFC, PreviousEfficiency, 0.8729150419, 0
+27, HilbertSFC, Weight, 2244965350.0000000000, 0
+27, HilbertSFC, Weight, 3439675709.0000000000, 1
+27, HilbertSFC, Weight, 3280782433.0000000000, 2
+27, HilbertSFC, Weight, 3460123281.0000000000, 3
+27, HilbertSFC, Efficiency, 0.8977676346
+27, HilbertSFC, UsedEfficiency, 0.8729150419, 0
+27, HilbertSFC, Time, 0.0020575460, 0
+27, SFC+Knapsack, PreviousEfficiency, 0.9767762565, 0
+27, SFC+Knapsack, Efficiency, 0.9949036120
+27, SFC+Knapsack, UsedEfficiency, 0.9767762565, 0
+27, SFC+Knapsack, Time, 0.0006097410, 0
+27, SFC+Painter, PreviousEfficiency, 0.8601003577, 0
+27, SFC+Painter, Weight, 0.0000000000, -878543108
+27, SFC+Painter, Weight, 0.0000000000, -1100692899
+27, SFC+Painter, Weight, 0.0000000000, -1155549872
+27, SFC+Painter, Weight, 0.0000000000, -1619536532
+27, SFC+Painter, Efficiency, 0.9092508782
+27, SFC+Painter, UsedEfficiency, 0.8601003577, 0
+27, SFC+Painter, Time, 0.0013560680, 0
+27, Hilbert+Painter, PreviousEfficiency, 0.9521241353, 0
+27, Hilbert+Painter, Efficiency, 0.9521241353
+27, Hilbert+Painter, Efficiency, 0.9521241353, 0
+27, Hilbert+Painter, UsedEfficiency, 0.9521241353, 0
+27, Hilbert+Painter, Time, 0.0010340040, 0
+27, Painter+Knapsack, PreviousEfficiency, 0.9767762565, 0
+27, SFC+Painter, Weight, 0.0000000000, -459355115
+27, SFC+Painter, Efficiency, 1.0000000000
+27, Painter+Knapsack, Weight, 3122299141.0000000000, 0
+27, Painter+Knapsack, Weight, 3114423391.0000000000, 1
+27, Painter+Knapsack, Weight, 3108650329.0000000000, 2
+27, Painter+Knapsack, Weight, 3080173912.0000000000, 3
+27, Painter+Knapsack, Efficiency, 0.9949036120
+27, Painter+Knapsack, UsedEfficiency, 0.9767762565, 0
+27, Painter+Knapsack, Time, 0.0017821930, 0
+28, Original, PreviousEfficiency, 0.9735324442, 0
+28, Original, Efficiency, 0.9735324442, 0
+28, Original, UsedEfficiency, 0.9735324442, 0
+28, Knapsack, PreviousEfficiency, 0.9735324442, 0
+28, Knapsack, Weight, 0.0000000000, 0
+28, Knapsack, Weight, 0.0000000000, 1
+28, Knapsack, Weight, 0.0000000000, 2
+28, Knapsack, Weight, 0.0000000000, 3
+28, Knapsack, Efficiency, 0.9978734320
+28, Knapsack, UsedEfficiency, 0.9735324442, 0
+28, Knapsack, Time, 0.0010581000, 0
+28, Karmarkar-Karp, PreviousEfficiency, 0.9017991127, 0
+28, Karmarkar-Karp, Weight, 0.0000000000, -1248838266
+28, Karmarkar-Karp, Weight, 0.0000000000, -1248775073
+28, Karmarkar-Karp, Weight, 0.0000000000, -1232068054
+28, Karmarkar-Karp, Weight, 0.0000000000, -1226004228
+28, Karmarkar-Karp, Efficiency, 0.9957910288
+28, Karmarkar-Karp, UsedEfficiency, 0.9957910288, 0
+28, Karmarkar-Karp, Time, 0.0011200700, 0
+28, SFC, PreviousEfficiency, 0.8434129881, 0
+28, SFC, Efficiency, 0.8434129881
+28, SFC, UsedEfficiency, 0.8434129881, 0
+28, SFC, Time, 0.0007184830, 0
+28, HilbertSFC, PreviousEfficiency, 0.8797042117, 0
+28, HilbertSFC, Weight, 2210308951.0000000000, 0
+28, HilbertSFC, Weight, 3422624700.0000000000, 1
+28, HilbertSFC, Weight, 3211310885.0000000000, 2
+28, HilbertSFC, Weight, 3379939027.0000000000, 3
+28, HilbertSFC, Efficiency, 0.8928954117
+28, HilbertSFC, UsedEfficiency, 0.8797042117, 0
+28, HilbertSFC, Time, 0.0021211300, 0
+28, SFC+Knapsack, PreviousEfficiency, 0.9735324442, 0
+28, SFC+Knapsack, Efficiency, 0.9978734320
+28, SFC+Knapsack, UsedEfficiency, 0.9735324442, 0
+28, SFC+Knapsack, Time, 0.0006271350, 0
+28, SFC+Painter, PreviousEfficiency, 0.8585104229, 0
+28, SFC+Painter, Weight, 0.0000000000, -940656914
+28, SFC+Painter, Weight, 0.0000000000, -1127678637
+28, SFC+Painter, Weight, 0.0000000000, -1215810363
+28, SFC+Painter, Weight, 0.0000000000, -1671539707
+28, SFC+Painter, Efficiency, 0.9110802349
+28, SFC+Painter, UsedEfficiency, 0.8585104229, 0
+28, SFC+Painter, Time, 0.0013964450, 0
+28, Hilbert+Painter, PreviousEfficiency, 0.9519475965, 0
+28, Hilbert+Painter, Efficiency, 0.9519475965
+28, Hilbert+Painter, Efficiency, 0.9519475965, 0
+28, Hilbert+Painter, UsedEfficiency, 0.9519475965, 0
+28, Hilbert+Painter, Time, 0.0010042050, 0
+28, Painter+Knapsack, PreviousEfficiency, 0.9735324442, 0
+28, SFC+Painter, Weight, 0.0000000000, -660718325
+28, SFC+Painter, Efficiency, 1.0000000000
+28, Painter+Knapsack, Weight, 3062558630.0000000000, 0
+28, Painter+Knapsack, Weight, 3058134752.0000000000, 1
+28, Painter+Knapsack, Weight, 3051786529.0000000000, 2
+28, Painter+Knapsack, Weight, 3051703652.0000000000, 3
+28, Painter+Knapsack, Efficiency, 0.9978734320
+28, Painter+Knapsack, UsedEfficiency, 0.9735324442, 0
+28, Painter+Knapsack, Time, 0.0017197920, 0
+29, Original, PreviousEfficiency, 0.9662575357, 0
+29, Original, Efficiency, 0.9662575357, 0
+29, Original, UsedEfficiency, 0.9662575357, 0
+29, Knapsack, PreviousEfficiency, 0.9662575357, 0
+29, Knapsack, Weight, 0.0000000000, 0
+29, Knapsack, Weight, 0.0000000000, 1
+29, Knapsack, Weight, 0.0000000000, 2
+29, Knapsack, Weight, 0.0000000000, 3
+29, Knapsack, Efficiency, 0.9972165641
+29, Knapsack, UsedEfficiency, 0.9662575357, 0
+29, Knapsack, Time, 0.0010967750, 0
+29, Karmarkar-Karp, PreviousEfficiency, 0.9894891788, 0
+29, Karmarkar-Karp, Weight, 0.0000000000, -1273417625
+29, Karmarkar-Karp, Weight, 0.0000000000, -1263395231
+29, Karmarkar-Karp, Weight, 0.0000000000, -1262027730
+29, Karmarkar-Karp, Weight, 0.0000000000, -1234287140
+29, Karmarkar-Karp, Efficiency, 0.9921603074
+29, Karmarkar-Karp, UsedEfficiency, 0.9894891788, 0
+29, Karmarkar-Karp, Time, 0.0011741850, 0
+29, SFC, PreviousEfficiency, 0.8471515577, 0
+29, SFC, Efficiency, 0.8471515577
+29, SFC, UsedEfficiency, 0.8471515577, 0
+29, SFC, Time, 0.0007124900, 0
+29, HilbertSFC, PreviousEfficiency, 0.8947012188, 0
+29, HilbertSFC, Weight, 2266827274.0000000000, 0
+29, HilbertSFC, Weight, 3438550658.0000000000, 1
+29, HilbertSFC, Weight, 3136448065.0000000000, 2
+29, HilbertSFC, Weight, 3304915461.0000000000, 3
+29, HilbertSFC, Efficiency, 0.8831294538
+29, HilbertSFC, UsedEfficiency, 0.8947012188, 0
+29, HilbertSFC, Time, 0.0021651750, 0
+29, SFC+Knapsack, PreviousEfficiency, 0.9662575357, 0
+29, SFC+Knapsack, Efficiency, 0.9972165641
+29, SFC+Knapsack, UsedEfficiency, 0.9662575357, 0
+29, SFC+Knapsack, Time, 0.0034821370, 0
+29, SFC+Painter, PreviousEfficiency, 0.8500896906, 0
+29, SFC+Painter, Weight, 0.0000000000, -994687214
+29, SFC+Painter, Weight, 0.0000000000, -1144507252
+29, SFC+Painter, Weight, 0.0000000000, -1183549308
+29, SFC+Painter, Weight, 0.0000000000, -1710383952
+29, SFC+Painter, Efficiency, 0.9201295917
+29, SFC+Painter, UsedEfficiency, 0.8500896906, 0
+29, SFC+Painter, Time, 0.0154078330, 0
+29, Hilbert+Painter, PreviousEfficiency, 0.9295518584, 0
+29, Hilbert+Painter, Efficiency, 0.9295518584
+29, Hilbert+Painter, Efficiency, 0.9295518584, 0
+29, Hilbert+Painter, UsedEfficiency, 0.9295518584, 0
+29, Hilbert+Painter, Time, 0.0013537130, 0
+29, Painter+Knapsack, PreviousEfficiency, 0.9662575357, 0
+29, SFC+Painter, Weight, 0.0000000000, -738160430
+29, SFC+Painter, Efficiency, 1.0000000000
+29, Painter+Knapsack, Weight, 3045161376.0000000000, 0
+29, Painter+Knapsack, Weight, 3042133052.0000000000, 1
+29, Painter+Knapsack, Weight, 3040387150.0000000000, 2
+29, Painter+Knapsack, Weight, 3019059880.0000000000, 3
+29, Painter+Knapsack, Efficiency, 0.9972165641
+29, Painter+Knapsack, UsedEfficiency, 0.9662575357, 0
+29, Painter+Knapsack, Time, 0.0021257080, 0
+30, Original, PreviousEfficiency, 0.9587917601, 0
+30, Original, Efficiency, 0.9587917601, 0
+30, Original, UsedEfficiency, 0.9587917601, 0
+30, Knapsack, PreviousEfficiency, 0.9587917601, 0
+30, Knapsack, Weight, 0.0000000000, 0
+30, Knapsack, Weight, 0.0000000000, 1
+30, Knapsack, Weight, 0.0000000000, 2
+30, Knapsack, Weight, 0.0000000000, 3
+30, Knapsack, Efficiency, 0.9935413917
+30, Knapsack, UsedEfficiency, 0.9587917601, 0
+30, Knapsack, Time, 0.0012508040, 0
+30, Karmarkar-Karp, PreviousEfficiency, 0.9739427926, 0
+30, Karmarkar-Karp, Weight, 0.0000000000, -1262940475
+30, Karmarkar-Karp, Weight, 0.0000000000, -1260444677
+30, Karmarkar-Karp, Weight, 0.0000000000, -1253829482
+30, Karmarkar-Karp, Weight, 0.0000000000, -1227653534
+30, Karmarkar-Karp, Efficiency, 0.9923178684
+30, Karmarkar-Karp, UsedEfficiency, 0.9739427926, 0
+30, Karmarkar-Karp, Time, 0.0011218840, 0
+30, SFC, PreviousEfficiency, 0.8489155801, 0
+30, SFC, Efficiency, 0.8489155801
+30, SFC, UsedEfficiency, 0.8489155801, 0
+30, SFC, Time, 0.0007601730, 0
+30, HilbertSFC, PreviousEfficiency, 0.9127114121, 0
+30, HilbertSFC, Weight, 2315448394.0000000000, 0
+30, HilbertSFC, Weight, 3475681322.0000000000, 1
+30, HilbertSFC, Weight, 3085662043.0000000000, 2
+30, HilbertSFC, Weight, 3298209257.0000000000, 3
+30, HilbertSFC, Efficiency, 0.8757276551
+30, HilbertSFC, UsedEfficiency, 0.9127114121, 0
+30, HilbertSFC, Time, 0.0022051920, 0
+30, SFC+Knapsack, PreviousEfficiency, 0.9587917601, 0
+30, SFC+Knapsack, Efficiency, 0.9935413917
+30, SFC+Knapsack, UsedEfficiency, 0.9587917601, 0
+30, SFC+Knapsack, Time, 0.0005920370, 0
+30, SFC+Painter, PreviousEfficiency, 0.8600393849, 0
+30, SFC+Painter, Weight, 0.0000000000, -1070175596
+30, SFC+Painter, Weight, 0.0000000000, -1111151860
+30, SFC+Painter, Weight, 0.0000000000, -1114030350
+30, SFC+Painter, Weight, 0.0000000000, -1709510362
+30, SFC+Painter, Efficiency, 0.9438594915
+30, SFC+Painter, UsedEfficiency, 0.8600393849, 0
+30, SFC+Painter, Time, 0.0014535270, 0
+30, Hilbert+Painter, PreviousEfficiency, 0.9180508611, 0
+30, Hilbert+Painter, Efficiency, 0.9180508611
+30, Hilbert+Painter, Efficiency, 0.9180508611, 0
+30, Hilbert+Painter, UsedEfficiency, 0.9180508611, 0
+30, Hilbert+Painter, Time, 0.0010350850, 0
+30, Painter+Knapsack, PreviousEfficiency, 0.9587917601, 0
+30, SFC+Painter, Weight, 0.0000000000, -709900872
+30, SFC+Painter, Efficiency, 1.0000000000
+30, Painter+Knapsack, Weight, 3063536436.0000000000, 0
+30, Painter+Knapsack, Weight, 3063535811.0000000000, 1
+30, Painter+Knapsack, Weight, 3030626330.0000000000, 2
+30, Painter+Knapsack, Weight, 3017302439.0000000000, 3
+30, Painter+Knapsack, Efficiency, 0.9935413917
+30, Painter+Knapsack, UsedEfficiency, 0.9587917601, 0
+30, Painter+Knapsack, Time, 0.0016495860, 0
+31, Original, PreviousEfficiency, 0.9514609509, 0
+31, Original, Efficiency, 0.9514609509, 0
+31, Original, UsedEfficiency, 0.9514609509, 0
+31, Knapsack, PreviousEfficiency, 0.9514609509, 0
+31, Knapsack, Weight, 0.0000000000, 0
+31, Knapsack, Weight, 0.0000000000, 1
+31, Knapsack, Weight, 0.0000000000, 2
+31, Knapsack, Weight, 0.0000000000, 3
+31, Knapsack, Efficiency, 0.9973682252
+31, Knapsack, UsedEfficiency, 0.9514609509, 0
+31, Knapsack, Time, 0.0011202710, 0
+31, Karmarkar-Karp, PreviousEfficiency, 0.9625530862, 0
+31, Karmarkar-Karp, Weight, 0.0000000000, -1320573305
+31, Karmarkar-Karp, Weight, 0.0000000000, -1316641685
+31, Karmarkar-Karp, Weight, 0.0000000000, -1292070409
+31, Karmarkar-Karp, Weight, 0.0000000000, -1282179121
+31, Karmarkar-Karp, Efficiency, 0.9931335999
+31, Karmarkar-Karp, UsedEfficiency, 0.9625530862, 0
+31, Karmarkar-Karp, Time, 0.0011608290, 0
+31, SFC, PreviousEfficiency, 0.8511660733, 0
+31, SFC, Efficiency, 0.8511660733
+31, SFC, UsedEfficiency, 0.8511660733, 0
+31, SFC, Time, 0.0007347840, 0
+31, HilbertSFC, PreviousEfficiency, 0.9131423339, 0
+31, HilbertSFC, Weight, 2291197240.0000000000, 0
+31, HilbertSFC, Weight, 3446743792.0000000000, 1
+31, HilbertSFC, Weight, 2997803563.0000000000, 2
+31, HilbertSFC, Weight, 3232660069.0000000000, 3
+31, HilbertSFC, Efficiency, 0.8680950330
+31, HilbertSFC, UsedEfficiency, 0.9131423339, 0
+31, HilbertSFC, Time, 0.0021196460, 0
+31, SFC+Knapsack, PreviousEfficiency, 0.9514609509, 0
+31, SFC+Knapsack, Efficiency, 0.9973682252
+31, SFC+Knapsack, UsedEfficiency, 0.9514609509, 0
+31, SFC+Knapsack, Time, 0.0006028890, 0
+31, SFC+Painter, PreviousEfficiency, 0.8762261528, 0
+31, SFC+Painter, Weight, 0.0000000000, -1111410585
+31, SFC+Painter, Weight, 0.0000000000, -1127706779
+31, SFC+Painter, Weight, 0.0000000000, -1207165245
+31, SFC+Painter, Weight, 0.0000000000, -1765181911
+31, SFC+Painter, Efficiency, 0.9398611169
+31, SFC+Painter, UsedEfficiency, 0.8762261528, 0
+31, SFC+Painter, Time, 0.0013569590, 0
+31, Hilbert+Painter, PreviousEfficiency, 0.9131423339, 0
+31, Hilbert+Painter, Efficiency, 0.9131423339
+31, Hilbert+Painter, Efficiency, 0.9131423339, 0
+31, Hilbert+Painter, UsedEfficiency, 0.9131423339, 0
+31, Hilbert+Painter, Time, 0.0010106480, 0
+31, Painter+Knapsack, PreviousEfficiency, 0.9514609509, 0
+31, SFC+Painter, Weight, 0.0000000000, -916497224
+31, SFC+Painter, Efficiency, 1.0000000000
+31, Painter+Knapsack, Weight, 2999996481.0000000000, 0
+31, Painter+Knapsack, Weight, 2995956779.0000000000, 1
+31, Painter+Knapsack, Weight, 2987168530.0000000000, 2
+31, Painter+Knapsack, Weight, 2985282874.0000000000, 3
+31, Painter+Knapsack, Efficiency, 0.9973682252
+31, Painter+Knapsack, UsedEfficiency, 0.9514609509, 0
+31, Painter+Knapsack, Time, 0.0015727970, 0
+32, Original, PreviousEfficiency, 0.9530341796, 0
+32, Original, Efficiency, 0.9530341796, 0
+32, Original, UsedEfficiency, 0.9530341796, 0
+32, Knapsack, PreviousEfficiency, 0.9530341796, 0
+32, Knapsack, Weight, 0.0000000000, 0
+32, Knapsack, Weight, 0.0000000000, 1
+32, Knapsack, Weight, 0.0000000000, 2
+32, Knapsack, Weight, 0.0000000000, 3
+32, Knapsack, Efficiency, 0.9987807408
+32, Knapsack, UsedEfficiency, 0.9530341796, 0
+32, Knapsack, Time, 0.0010609560, 0
+32, Karmarkar-Karp, PreviousEfficiency, 0.9451363892, 0
+32, Karmarkar-Karp, Weight, 0.0000000000, -1457970252
+32, Karmarkar-Karp, Weight, 0.0000000000, -1457154615
+32, Karmarkar-Karp, Weight, 0.0000000000, -1456170389
+32, Karmarkar-Karp, Weight, 0.0000000000, -1455001263
+32, Karmarkar-Karp, Efficiency, 0.9994461671
+32, Karmarkar-Karp, UsedEfficiency, 0.9451363892, 0
+32, Karmarkar-Karp, Time, 0.0013115210, 0
+32, SFC, PreviousEfficiency, 0.8576287389, 0
+32, SFC, Efficiency, 0.8576287389
+32, SFC, UsedEfficiency, 0.8576287389, 0
+32, SFC, Time, 0.0007981670, 0
+32, HilbertSFC, PreviousEfficiency, 0.9094261390, 0
+32, HilbertSFC, Weight, 2202419666.0000000000, 0
+32, HilbertSFC, Weight, 3262978443.0000000000, 1
+32, HilbertSFC, Weight, 2809343955.0000000000, 2
+32, HilbertSFC, Weight, 3078830601.0000000000, 3
+32, HilbertSFC, Efficiency, 0.8698780013
+32, HilbertSFC, UsedEfficiency, 0.9094261390, 0
+32, HilbertSFC, Time, 0.0021154190, 0
+32, SFC+Knapsack, PreviousEfficiency, 0.9530341796, 0
+32, SFC+Knapsack, Efficiency, 0.9987807408
+32, SFC+Knapsack, UsedEfficiency, 0.9530341796, 0
+32, SFC+Knapsack, Time, 0.0005662870, 0
+32, SFC+Painter, PreviousEfficiency, 0.8990146369, 0
+32, SFC+Painter, Weight, 0.0000000000, -1251445768
+32, SFC+Painter, Weight, 0.0000000000, -1317838946
+32, SFC+Painter, Weight, 0.0000000000, -1352965217
+32, SFC+Painter, Weight, 0.0000000000, -1904046588
+32, SFC+Painter, Efficiency, 0.9326016393
+32, SFC+Painter, UsedEfficiency, 0.8990146369, 0
+32, SFC+Painter, Time, 0.0014646180, 0
+32, Hilbert+Painter, PreviousEfficiency, 0.9094261390, 0
+32, Hilbert+Painter, Efficiency, 0.9094261390
+32, Hilbert+Painter, Efficiency, 0.9094261390, 0
+32, Hilbert+Painter, UsedEfficiency, 0.9094261390, 0
+32, Hilbert+Painter, Time, 0.0009693280, 0
+32, Painter+Knapsack, PreviousEfficiency, 0.9530341796, 0
+32, SFC+Painter, Weight, 0.0000000000, -1531329223
+32, SFC+Painter, Efficiency, 1.0000000000
+32, Painter+Knapsack, Weight, 2841858128.0000000000, 0
+32, Painter+Knapsack, Weight, 2837539900.0000000000, 1
+32, Painter+Knapsack, Weight, 2837380956.0000000000, 2
+32, Painter+Knapsack, Weight, 2836793681.0000000000, 3
+32, Painter+Knapsack, Efficiency, 0.9987807408
+32, Painter+Knapsack, UsedEfficiency, 0.9530341796, 0
+32, Painter+Knapsack, Time, 0.0017107540, 0
+33, Original, PreviousEfficiency, 0.9607936498, 0
+33, Original, Efficiency, 0.9607936498, 0
+33, Original, UsedEfficiency, 0.9607936498, 0
+33, Knapsack, PreviousEfficiency, 0.9607936498, 0
+33, Knapsack, Weight, 0.0000000000, 0
+33, Knapsack, Weight, 0.0000000000, 1
+33, Knapsack, Weight, 0.0000000000, 2
+33, Knapsack, Weight, 0.0000000000, 3
+33, Knapsack, Efficiency, 0.9998550141
+33, Knapsack, UsedEfficiency, 0.9607936498, 0
+33, Knapsack, Time, 0.0011749760, 0
+33, Karmarkar-Karp, PreviousEfficiency, 0.9287153463, 0
+33, Karmarkar-Karp, Weight, 0.0000000000, -1605843675
+33, Karmarkar-Karp, Weight, 0.0000000000, -1605355249
+33, Karmarkar-Karp, Weight, 0.0000000000, -1602294459
+33, Karmarkar-Karp, Weight, 0.0000000000, -1601572308
+33, Karmarkar-Karp, Efficiency, 0.9991853721
+33, Karmarkar-Karp, UsedEfficiency, 0.9287153463, 0
+33, Karmarkar-Karp, Time, 0.0011185170, 0
+33, SFC, PreviousEfficiency, 0.8598987751, 0
+33, SFC, Efficiency, 0.8598987751
+33, SFC, UsedEfficiency, 0.8598987751, 0
+33, SFC, Time, 0.0008275140, 0
+33, HilbertSFC, PreviousEfficiency, 0.9140276354, 0
+33, HilbertSFC, Weight, 2091274355.0000000000, 0
+33, HilbertSFC, Weight, 3092103727.0000000000, 1
+33, HilbertSFC, Weight, 2637931968.0000000000, 2
+33, HilbertSFC, Weight, 2943493443.0000000000, 3
+33, HilbertSFC, Efficiency, 0.8703462467
+33, HilbertSFC, UsedEfficiency, 0.9140276354, 0
+33, HilbertSFC, Time, 0.0022468730, 0
+33, SFC+Knapsack, PreviousEfficiency, 0.9607936498, 0
+33, SFC+Knapsack, Efficiency, 0.9998550141
+33, SFC+Knapsack, UsedEfficiency, 0.9607936498, 0
+33, SFC+Knapsack, Time, 0.0005528410, 0
+33, SFC+Painter, PreviousEfficiency, 0.9210746793, 0
+33, SFC+Painter, Weight, 0.0000000000, -1373162003
+33, SFC+Painter, Weight, 0.0000000000, -1376323598
+33, SFC+Painter, Weight, 0.0000000000, -1647226800
+33, SFC+Painter, Weight, 0.0000000000, -2018353290
+33, SFC+Painter, Efficiency, 0.9210746793
+33, SFC+Painter, UsedEfficiency, 0.9210746793, 0
+33, SFC+Painter, Time, 0.0014983830, 0
+33, Hilbert+Painter, PreviousEfficiency, 0.9140276354, 0
+33, Hilbert+Painter, Efficiency, 0.9140276354
+33, Hilbert+Painter, Efficiency, 0.9140276354, 0
+33, Hilbert+Painter, UsedEfficiency, 0.9140276354, 0
+33, Hilbert+Painter, Time, 0.0010225620, 0
+33, Painter+Knapsack, PreviousEfficiency, 0.9607936498, 0
+33, SFC+Painter, Weight, 0.0000000000, -2120098395
+33, SFC+Painter, Efficiency, 1.0000000000
+33, Painter+Knapsack, Weight, 2691591116.0000000000, 0
+33, Painter+Knapsack, Weight, 2691328801.0000000000, 1
+33, Painter+Knapsack, Weight, 2691011552.0000000000, 2
+33, Painter+Knapsack, Weight, 2690872024.0000000000, 3
+33, Painter+Knapsack, Efficiency, 0.9998550141
+33, Painter+Knapsack, UsedEfficiency, 0.9607936498, 0
+33, Painter+Knapsack, Time, 0.0018104680, 0
+34, Original, PreviousEfficiency, 0.9508778614, 0
+34, Original, Efficiency, 0.9508778614, 0
+34, Original, UsedEfficiency, 0.9508778614, 0
+34, Knapsack, PreviousEfficiency, 0.9508778614, 0
+34, Knapsack, Weight, 0.0000000000, 0
+34, Knapsack, Weight, 0.0000000000, 1
+34, Knapsack, Weight, 0.0000000000, 2
+34, Knapsack, Weight, 0.0000000000, 3
+34, Knapsack, Efficiency, 0.9993106211
+34, Knapsack, UsedEfficiency, 0.9508778614, 0
+34, Knapsack, Time, 0.0010155670, 0
+34, Karmarkar-Karp, PreviousEfficiency, 0.9180094514, 0
+34, Karmarkar-Karp, Weight, 0.0000000000, -1706754871
+34, Karmarkar-Karp, Weight, 0.0000000000, -1706750725
+34, Karmarkar-Karp, Weight, 0.0000000000, -1706736655
+34, Karmarkar-Karp, Weight, 0.0000000000, -1703621949
+34, Karmarkar-Karp, Efficiency, 0.9990954116
+34, Karmarkar-Karp, UsedEfficiency, 0.9180094514, 0
+34, Karmarkar-Karp, Time, 0.0011673620, 0
+34, SFC, PreviousEfficiency, 0.8609554052, 0
+34, SFC, Efficiency, 0.8609554052
+34, SFC, UsedEfficiency, 0.8609554052, 0
+34, SFC, Time, 0.0007520970, 0
+34, HilbertSFC, PreviousEfficiency, 0.9231282347, 0
+34, HilbertSFC, Weight, 2004356732.0000000000, 0
+34, HilbertSFC, Weight, 2962802220.0000000000, 1
+34, HilbertSFC, Weight, 2513489528.0000000000, 2
+34, HilbertSFC, Weight, 2875356504.0000000000, 3
+34, HilbertSFC, Efficiency, 0.8738353267
+34, HilbertSFC, UsedEfficiency, 0.9231282347, 0
+34, HilbertSFC, Time, 0.0023463970, 0
+34, SFC+Knapsack, PreviousEfficiency, 0.9508778614, 0
+34, SFC+Knapsack, Efficiency, 0.9993106211
+34, SFC+Knapsack, UsedEfficiency, 0.9508778614, 0
+34, SFC+Knapsack, Time, 0.0006085690, 0
+34, SFC+Painter, PreviousEfficiency, 0.9100391905, 0
+34, SFC+Painter, Weight, 0.0000000000, -1450033503
+34, SFC+Painter, Weight, 0.0000000000, -1473739326
+34, SFC+Painter, Weight, 0.0000000000, -1781815890
+34, SFC+Painter, Weight, 0.0000000000, -2118275481
+34, SFC+Painter, Efficiency, 0.9100391905
+34, SFC+Painter, UsedEfficiency, 0.9100391905, 0
+34, SFC+Painter, Time, 0.0013591630, 0
+34, Hilbert+Painter, PreviousEfficiency, 0.9231282347, 0
+34, Hilbert+Painter, Efficiency, 0.9231282347
+34, Hilbert+Painter, Efficiency, 0.9231282347, 0
+34, Hilbert+Painter, UsedEfficiency, 0.9231282347, 0
+34, Hilbert+Painter, Time, 0.0010217500, 0
+34, Painter+Knapsack, PreviousEfficiency, 0.9508778614, 0
+34, SFC+Painter, Weight, 0.0000000000, 1766070392
+34, SFC+Painter, Efficiency, 1.0000000000
+34, Painter+Knapsack, Weight, 2590787280.0000000000, 0
+34, Painter+Knapsack, Weight, 2590510006.0000000000, 1
+34, Painter+Knapsack, Weight, 2587983832.0000000000, 2
+34, Painter+Knapsack, Weight, 2586723866.0000000000, 3
+34, Painter+Knapsack, Efficiency, 0.9993106211
+34, Painter+Knapsack, UsedEfficiency, 0.9508778614, 0
+34, Painter+Knapsack, Time, 0.0016594750, 0
+35, Original, PreviousEfficiency, 0.9353880316, 0
+35, Original, Efficiency, 0.9353880316, 0
+35, Original, UsedEfficiency, 0.9353880316, 0
+35, Knapsack, PreviousEfficiency, 0.9353880316, 0
+35, Knapsack, Weight, 0.0000000000, 0
+35, Knapsack, Weight, 0.0000000000, 1
+35, Knapsack, Weight, 0.0000000000, 2
+35, Knapsack, Weight, 0.0000000000, 3
+35, Knapsack, Efficiency, 0.9894318308
+35, Knapsack, UsedEfficiency, 0.9353880316, 0
+35, Knapsack, Time, 0.0010916450, 0
+35, Karmarkar-Karp, PreviousEfficiency, 0.9089503066, 0
+35, Karmarkar-Karp, Weight, 0.0000000000, -1793655396
+35, Karmarkar-Karp, Weight, 0.0000000000, -1785425520
+35, Karmarkar-Karp, Weight, 0.0000000000, -1785071236
+35, Karmarkar-Karp, Weight, 0.0000000000, -1784379659
+35, Karmarkar-Karp, Efficiency, 0.9989033270
+35, Karmarkar-Karp, UsedEfficiency, 0.9089503066, 0
+35, Karmarkar-Karp, Time, 0.0010987690, 0
+35, SFC, PreviousEfficiency, 0.8590385533, 0
+35, SFC, Efficiency, 0.8590385533
+35, SFC, UsedEfficiency, 0.8590385533, 0
+35, SFC, Time, 0.0008190270, 0
+35, HilbertSFC, PreviousEfficiency, 0.9301366647, 0
+35, HilbertSFC, Weight, 1940511704.0000000000, 0
+35, HilbertSFC, Weight, 2845009730.0000000000, 1
+35, HilbertSFC, Weight, 2399626492.0000000000, 2
+35, HilbertSFC, Weight, 2846189447.0000000000, 3
+35, HilbertSFC, Efficiency, 0.8811199641
+35, HilbertSFC, UsedEfficiency, 0.9301366647, 0
+35, HilbertSFC, Time, 0.0021859450, 0
+35, SFC+Knapsack, PreviousEfficiency, 0.9353880316, 0
+35, SFC+Knapsack, Efficiency, 0.9894318308
+35, SFC+Knapsack, UsedEfficiency, 0.9353880316, 0
+35, SFC+Knapsack, Time, 0.0006279160, 0
+35, SFC+Painter, PreviousEfficiency, 0.8983694477, 0
+35, SFC+Painter, Weight, 0.0000000000, -1503427190
+35, SFC+Painter, Weight, 0.0000000000, -1546464340
+35, SFC+Painter, Weight, 0.0000000000, -1917594310
+35, SFC+Painter, Weight, 0.0000000000, 2113921325
+35, SFC+Painter, Efficiency, 0.8983694477
+35, SFC+Painter, UsedEfficiency, 0.8983694477, 0
+35, SFC+Painter, Time, 0.0014195410, 0
+35, Hilbert+Painter, PreviousEfficiency, 0.9301366647, 0
+35, Hilbert+Painter, Efficiency, 0.9301366647
+35, Hilbert+Painter, Efficiency, 0.9301366647, 0
+35, Hilbert+Painter, UsedEfficiency, 0.9301366647, 0
+35, Hilbert+Painter, Time, 0.0012442510, 0
+35, Painter+Knapsack, PreviousEfficiency, 0.9353880316, 0
+35, SFC+Painter, Weight, 0.0000000000, 1441402781
+35, SFC+Painter, Efficiency, 1.0000000000
+35, Painter+Knapsack, Weight, 2534620643.0000000000, 0
+35, Painter+Knapsack, Weight, 2501871618.0000000000, 1
+35, Painter+Knapsack, Weight, 2500380802.0000000000, 2
+35, Painter+Knapsack, Weight, 2494464310.0000000000, 3
+35, Painter+Knapsack, Efficiency, 0.9894318308
+35, Painter+Knapsack, UsedEfficiency, 0.9353880316, 0
+35, Painter+Knapsack, Time, 0.0017429970, 0
+36, Original, PreviousEfficiency, 0.9612714427, 0
+36, Original, Efficiency, 0.9612714427, 0
+36, Original, UsedEfficiency, 0.9612714427, 0
+36, Knapsack, PreviousEfficiency, 0.9612714427, 0
+36, Knapsack, Weight, 0.0000000000, 0
+36, Knapsack, Weight, 0.0000000000, 1
+36, Knapsack, Weight, 0.0000000000, 2
+36, Knapsack, Weight, 0.0000000000, 3
+36, Knapsack, Efficiency, 0.9880395282
+36, Knapsack, UsedEfficiency, 0.9612714427, 0
+36, Knapsack, Time, 0.0010940600, 0
+36, Karmarkar-Karp, PreviousEfficiency, 0.9176909946, 0
+36, Karmarkar-Karp, Weight, 0.0000000000, -1671726258
+36, Karmarkar-Karp, Weight, 0.0000000000, -1670170562
+36, Karmarkar-Karp, Weight, 0.0000000000, -1668906099
+36, Karmarkar-Karp, Weight, 0.0000000000, -1667926210
+36, Karmarkar-Karp, Efficiency, 0.9993315399
+36, Karmarkar-Karp, UsedEfficiency, 0.9176909946, 0
+36, Karmarkar-Karp, Time, 0.0011437460, 0
+36, SFC, PreviousEfficiency, 0.8409527870, 0
+36, SFC, Efficiency, 0.8409527870
+36, SFC, UsedEfficiency, 0.8409527870, 0
+36, SFC, Time, 0.0007519170, 0
+36, HilbertSFC, PreviousEfficiency, 0.9225464996, 0
+36, HilbertSFC, Weight, 2052680019.0000000000, 0
+36, HilbertSFC, Weight, 2936885340.0000000000, 1
+36, HilbertSFC, Weight, 2423866747.0000000000, 2
+36, HilbertSFC, Weight, 3087707949.0000000000, 3
+36, HilbertSFC, Efficiency, 0.8502374762
+36, HilbertSFC, UsedEfficiency, 0.9225464996, 0
+36, HilbertSFC, Time, 0.0023016390, 0
+36, SFC+Knapsack, PreviousEfficiency, 0.9612714427, 0
+36, SFC+Knapsack, Efficiency, 0.9880395282
+36, SFC+Knapsack, UsedEfficiency, 0.9612714427, 0
+36, SFC+Knapsack, Time, 0.0005942210, 0
+36, SFC+Painter, PreviousEfficiency, 0.8993654454, 0
+36, SFC+Painter, Weight, 0.0000000000, -1375925846
+36, SFC+Painter, Weight, 0.0000000000, -1610713669
+36, SFC+Painter, Weight, 0.0000000000, -1725906703
+36, SFC+Painter, Weight, 0.0000000000, -1966182911
+36, SFC+Painter, Efficiency, 0.8993654454
+36, SFC+Painter, UsedEfficiency, 0.8993654454, 0
+36, SFC+Painter, Time, 0.0013523400, 0
+36, Hilbert+Painter, PreviousEfficiency, 0.9225464996, 0
+36, Hilbert+Painter, Efficiency, 0.9225464996
+36, Hilbert+Painter, Efficiency, 0.9225464996, 0
+36, Hilbert+Painter, UsedEfficiency, 0.9225464996, 0
+36, Hilbert+Painter, Time, 0.0011031070, 0
+36, Painter+Knapsack, PreviousEfficiency, 0.9612714427, 0
+36, SFC+Painter, Weight, 0.0000000000, 1911205463
+36, SFC+Painter, Efficiency, 1.0000000000
+36, Painter+Knapsack, Weight, 2657064762.0000000000, 0
+36, Painter+Knapsack, Weight, 2616787060.0000000000, 1
+36, Painter+Knapsack, Weight, 2613652976.0000000000, 2
+36, Painter+Knapsack, Weight, 2613635257.0000000000, 3
+36, Painter+Knapsack, Efficiency, 0.9880395282
+36, Painter+Knapsack, UsedEfficiency, 0.9612714427, 0
+36, Painter+Knapsack, Time, 0.0041570540, 0
+37, Original, PreviousEfficiency, 0.9846316973, 0
+37, Original, Efficiency, 0.9846316973, 0
+37, Original, UsedEfficiency, 0.9846316973, 0
+37, Knapsack, PreviousEfficiency, 0.9846316973, 0
+37, Knapsack, Weight, 0.0000000000, 0
+37, Knapsack, Weight, 0.0000000000, 1
+37, Knapsack, Weight, 0.0000000000, 2
+37, Knapsack, Weight, 0.0000000000, 3
+37, Knapsack, Efficiency, 0.9962786719
+37, Knapsack, UsedEfficiency, 0.9846316973, 0
+37, Knapsack, Time, 0.0010967450, 0
+37, Karmarkar-Karp, PreviousEfficiency, 0.9334954295, 0
+37, Karmarkar-Karp, Weight, 0.0000000000, -1493482249
+37, Karmarkar-Karp, Weight, 0.0000000000, -1492723126
+37, Karmarkar-Karp, Weight, 0.0000000000, -1489861455
+37, Karmarkar-Karp, Weight, 0.0000000000, -1486331741
+37, Karmarkar-Karp, Efficiency, 0.9984804359
+37, Karmarkar-Karp, UsedEfficiency, 0.9334954295, 0
+37, Karmarkar-Karp, Time, 0.0011846160, 0
+37, SFC, PreviousEfficiency, 0.8299843841, 0
+37, SFC, Efficiency, 0.7775314826
+37, SFC, UsedEfficiency, 0.8299843841, 0
+37, SFC, Time, 0.0007405150, 0
+37, HilbertSFC, PreviousEfficiency, 0.9181926641, 0
+37, HilbertSFC, Weight, 2216765625.0000000000, 0
+37, HilbertSFC, Weight, 3098956614.0000000000, 1
+37, HilbertSFC, Weight, 3086629627.0000000000, 2
+37, HilbertSFC, Weight, 2815118747.0000000000, 3
+37, HilbertSFC, Efficiency, 0.9049393078
+37, HilbertSFC, UsedEfficiency, 0.9181926641, 0
+37, HilbertSFC, Time, 0.0021546240, 0
+37, SFC+Knapsack, PreviousEfficiency, 0.9846316973, 0
+37, SFC+Knapsack, Efficiency, 0.9962786719
+37, SFC+Knapsack, UsedEfficiency, 0.9846316973, 0
+37, SFC+Knapsack, Time, 0.0005617480, 0
+37, SFC+Painter, PreviousEfficiency, 0.9098986676, 0
+37, SFC+Painter, Weight, 0.0000000000, -1212901399
+37, SFC+Painter, Weight, 0.0000000000, -1436798297
+37, SFC+Painter, Weight, 0.0000000000, -1559091260
+37, SFC+Painter, Weight, 0.0000000000, -1753607615
+37, SFC+Painter, Efficiency, 0.9098986676
+37, SFC+Painter, UsedEfficiency, 0.9098986676, 0
+37, SFC+Painter, Time, 0.0013396260, 0
+37, Hilbert+Painter, PreviousEfficiency, 0.9181926641, 0
+37, Hilbert+Painter, Efficiency, 0.9181926641
+37, Hilbert+Painter, Efficiency, 0.9181926641, 0
+37, Hilbert+Painter, UsedEfficiency, 0.9181926641, 0
+37, Hilbert+Painter, Time, 0.0009797890, 0
+37, Painter+Knapsack, PreviousEfficiency, 0.9846316973, 0
+37, SFC+Painter, Weight, 0.0000000000, -1667431275
+37, SFC+Painter, Efficiency, 1.0000000000
+37, Painter+Knapsack, Weight, 2814842606.0000000000, 0
+37, Painter+Knapsack, Weight, 2804911864.0000000000, 1
+37, Painter+Knapsack, Weight, 2803889117.0000000000, 2
+37, Painter+Knapsack, Weight, 2793827026.0000000000, 3
+37, Painter+Knapsack, Efficiency, 0.9962786719
+37, Painter+Knapsack, UsedEfficiency, 0.9846316973, 0
+37, Painter+Knapsack, Time, 0.0016802350, 0
+38, Original, PreviousEfficiency, 0.9840467624, 0
+38, Original, Efficiency, 0.9840467624, 0
+38, Original, UsedEfficiency, 0.9840467624, 0
+38, Knapsack, PreviousEfficiency, 0.9840467624, 0
+38, Knapsack, Weight, 0.0000000000, 0
+38, Knapsack, Weight, 0.0000000000, 1
+38, Knapsack, Weight, 0.0000000000, 2
+38, Knapsack, Weight, 0.0000000000, 3
+38, Knapsack, Efficiency, 0.9996576861
+38, Knapsack, UsedEfficiency, 0.9840467624, 0
+38, Knapsack, Time, 0.0011004220, 0
+38, Karmarkar-Karp, PreviousEfficiency, 0.9388559873, 0
+38, Karmarkar-Karp, Weight, 0.0000000000, -1391539579
+38, Karmarkar-Karp, Weight, 0.0000000000, -1384216957
+38, Karmarkar-Karp, Weight, 0.0000000000, -1384042852
+38, Karmarkar-Karp, Weight, 0.0000000000, -1381435590
+38, Karmarkar-Karp, Efficiency, 0.9986706325
+38, Karmarkar-Karp, UsedEfficiency, 0.9388559873, 0
+38, Karmarkar-Karp, Time, 0.0011222440, 0
+38, SFC, PreviousEfficiency, 0.8272460421, 0
+38, SFC, Efficiency, 0.8146991246
+38, SFC, UsedEfficiency, 0.8272460421, 0
+38, SFC, Time, 0.0007662640, 0
+38, HilbertSFC, PreviousEfficiency, 0.9036639130, 0
+38, HilbertSFC, Weight, 2358010486.0000000000, 0
+38, HilbertSFC, Weight, 3145418391.0000000000, 1
+38, HilbertSFC, Weight, 3162153395.0000000000, 2
+38, HilbertSFC, Weight, 2973051934.0000000000, 3
+38, HilbertSFC, Efficiency, 0.9201509820
+38, HilbertSFC, UsedEfficiency, 0.9036639130, 0
+38, HilbertSFC, Time, 0.0021578910, 0
+38, SFC+Knapsack, PreviousEfficiency, 0.9840467624, 0
+38, SFC+Knapsack, Efficiency, 0.9996576861
+38, SFC+Knapsack, UsedEfficiency, 0.9840467624, 0
+38, SFC+Knapsack, Time, 0.0006081180, 0
+38, SFC+Painter, PreviousEfficiency, 0.9134769084, 0
+38, SFC+Painter, Weight, 0.0000000000, -1109710477
+38, SFC+Painter, Weight, 0.0000000000, -1362178343
+38, SFC+Painter, Weight, 0.0000000000, -1429826575
+38, SFC+Painter, Weight, 0.0000000000, -1639519583
+38, SFC+Painter, Efficiency, 0.9134769084
+38, SFC+Painter, UsedEfficiency, 0.9134769084, 0
+38, SFC+Painter, Time, 0.0018519180, 0
+38, Hilbert+Painter, PreviousEfficiency, 0.9036639130, 0
+38, Hilbert+Painter, Efficiency, 0.9201509820
+38, Hilbert+Painter, Efficiency, 0.9201509820, 0
+38, Hilbert+Painter, UsedEfficiency, 0.9036639130, 0
+38, Hilbert+Painter, Time, 0.0010045260, 0
+38, Painter+Knapsack, PreviousEfficiency, 0.9840467624, 0
+38, SFC+Painter, Weight, 0.0000000000, -1246267682
+38, SFC+Painter, Efficiency, 1.0000000000
+38, Painter+Knapsack, Weight, 2910654909.0000000000, 0
+38, Painter+Knapsack, Weight, 2910024645.0000000000, 1
+38, Painter+Knapsack, Weight, 2909687496.0000000000, 2
+38, Painter+Knapsack, Weight, 2908267156.0000000000, 3
+38, Painter+Knapsack, Efficiency, 0.9996576861
+38, Painter+Knapsack, UsedEfficiency, 0.9840467624, 0
+38, Painter+Knapsack, Time, 0.0017425270, 0
+39, Original, PreviousEfficiency, 0.9819759870, 0
+39, Original, Efficiency, 0.9819759870, 0
+39, Original, UsedEfficiency, 0.9819759870, 0
+39, Knapsack, PreviousEfficiency, 0.9819759870, 0
+39, Knapsack, Weight, 0.0000000000, 0
+39, Knapsack, Weight, 0.0000000000, 1
+39, Knapsack, Weight, 0.0000000000, 2
+39, Knapsack, Weight, 0.0000000000, 3
+39, Knapsack, Efficiency, 0.9991425070
+39, Knapsack, UsedEfficiency, 0.9819759870, 0
+39, Knapsack, Time, 0.0010724680, 0
+39, Karmarkar-Karp, PreviousEfficiency, 0.9486826746, 0
+39, Karmarkar-Karp, Weight, 0.0000000000, -1252371904
+39, Karmarkar-Karp, Weight, 0.0000000000, -1251534879
+39, Karmarkar-Karp, Weight, 0.0000000000, -1251075661
+39, Karmarkar-Karp, Weight, 0.0000000000, -1250453611
+39, Karmarkar-Karp, Efficiency, 0.9997026117
+39, Karmarkar-Karp, UsedEfficiency, 0.9486826746, 0
+39, Karmarkar-Karp, Time, 0.0011151410, 0
+39, SFC, PreviousEfficiency, 0.8234798993, 0
+39, SFC, Efficiency, 0.8119771351
+39, SFC, UsedEfficiency, 0.8234798993, 0
+39, SFC, Time, 0.0007126510, 0
+39, HilbertSFC, PreviousEfficiency, 0.8945544631, 0
+39, HilbertSFC, Weight, 2498378313.0000000000, 0
+39, HilbertSFC, Weight, 3243947447.0000000000, 1
+39, HilbertSFC, Weight, 3274952396.0000000000, 2
+39, HilbertSFC, Weight, 3157154973.0000000000, 3
+39, HilbertSFC, Efficiency, 0.9293595492
+39, HilbertSFC, UsedEfficiency, 0.8945544631, 0
+39, HilbertSFC, Time, 0.0021202780, 0
+39, SFC+Knapsack, PreviousEfficiency, 0.9819759870, 0
+39, SFC+Knapsack, Efficiency, 0.9991425070
+39, SFC+Knapsack, UsedEfficiency, 0.9819759870, 0
+39, SFC+Knapsack, Time, 0.0005965460, 0
+39, SFC+Painter, PreviousEfficiency, 0.9150310279, 0
+39, SFC+Painter, Weight, 0.0000000000, -968732240
+39, SFC+Painter, Weight, 0.0000000000, -1266015362
+39, SFC+Painter, Weight, 0.0000000000, -1267758372
+39, SFC+Painter, Weight, 0.0000000000, -1502930081
+39, SFC+Painter, Efficiency, 0.9150310279
+39, SFC+Painter, UsedEfficiency, 0.9150310279, 0
+39, SFC+Painter, Time, 0.0013994610, 0
+39, Hilbert+Painter, PreviousEfficiency, 0.8945544631, 0
+39, Hilbert+Painter, Efficiency, 0.9293595492
+39, Hilbert+Painter, Efficiency, 0.9293595492, 0
+39, Hilbert+Painter, UsedEfficiency, 0.8945544631, 0
+39, Hilbert+Painter, Time, 0.0010012090, 0
+39, Painter+Knapsack, PreviousEfficiency, 0.9819759870, 0
+39, SFC+Painter, Weight, 0.0000000000, -710468759
+39, SFC+Painter, Efficiency, 1.0000000000
+39, Painter+Knapsack, Weight, 3046220395.0000000000, 0
+39, Painter+Knapsack, Weight, 3045295868.0000000000, 1
+39, Painter+Knapsack, Weight, 3042069052.0000000000, 2
+39, Painter+Knapsack, Weight, 3040847814.0000000000, 3
+39, Painter+Knapsack, Efficiency, 0.9991425070
+39, Painter+Knapsack, UsedEfficiency, 0.9819759870, 0
+39, Painter+Knapsack, Time, 0.0016716890, 0
+40, Original, PreviousEfficiency, 0.9820092448, 0
+40, Original, Efficiency, 0.9820092448, 0
+40, Original, UsedEfficiency, 0.9820092448, 0
+40, Knapsack, PreviousEfficiency, 0.9820092448, 0
+40, Knapsack, Weight, 0.0000000000, 0
+40, Knapsack, Weight, 0.0000000000, 1
+40, Knapsack, Weight, 0.0000000000, 2
+40, Knapsack, Weight, 0.0000000000, 3
+40, Knapsack, Efficiency, 0.9973728430
+40, Knapsack, UsedEfficiency, 0.9820092448, 0
+40, Knapsack, Time, 0.0010925370, 0
+40, Karmarkar-Karp, PreviousEfficiency, 0.9603271928, 0
+40, Karmarkar-Karp, Weight, 0.0000000000, -1149811710
+40, Karmarkar-Karp, Weight, 0.0000000000, -1147853516
+40, Karmarkar-Karp, Weight, 0.0000000000, -1146711113
+40, Karmarkar-Karp, Weight, 0.0000000000, -1145197993
+40, Karmarkar-Karp, Efficiency, 0.9993029363
+40, Karmarkar-Karp, UsedEfficiency, 0.9603271928, 0
+40, Karmarkar-Karp, Time, 0.0011075560, 0
+40, SFC, PreviousEfficiency, 0.8204818398, 0
+40, SFC, Efficiency, 0.8098410615
+40, SFC, UsedEfficiency, 0.8204818398, 0
+40, SFC, Time, 0.0007145450, 0
+40, HilbertSFC, PreviousEfficiency, 0.8917886935, 0
+40, HilbertSFC, Weight, 2599415586.0000000000, 0
+40, HilbertSFC, Weight, 3341142876.0000000000, 1
+40, HilbertSFC, Weight, 3375033363.0000000000, 2
+40, HilbertSFC, Weight, 3274703027.0000000000, 3
+40, HilbertSFC, Efficiency, 0.9326052144
+40, HilbertSFC, UsedEfficiency, 0.8917886935, 0
+40, HilbertSFC, Time, 0.0021106500, 0
+40, SFC+Knapsack, PreviousEfficiency, 0.9820092448, 0
+40, SFC+Knapsack, Efficiency, 0.9973728430
+40, SFC+Knapsack, UsedEfficiency, 0.9820092448, 0
+40, SFC+Knapsack, Time, 0.0005393140, 0
+40, SFC+Painter, PreviousEfficiency, 0.9229462145, 0
+40, SFC+Painter, Weight, 0.0000000000, -884612864
+40, SFC+Painter, Weight, 0.0000000000, -1114998957
+40, SFC+Painter, Weight, 0.0000000000, -1201154923
+40, SFC+Painter, Weight, 0.0000000000, -1388807588
+40, SFC+Painter, Efficiency, 0.9229462145
+40, SFC+Painter, UsedEfficiency, 0.9229462145, 0
+40, SFC+Painter, Time, 0.0014593880, 0
+40, Hilbert+Painter, PreviousEfficiency, 0.8917886935, 0
+40, Hilbert+Painter, Efficiency, 0.9326052144
+40, Hilbert+Painter, Efficiency, 0.9326052144, 0
+40, Hilbert+Painter, UsedEfficiency, 0.8917886935, 0
+40, Hilbert+Painter, Time, 0.0010104480, 0
+40, Painter+Knapsack, PreviousEfficiency, 0.9820092448, 0
+40, SFC+Painter, Weight, 0.0000000000, -294607036
+40, SFC+Painter, Efficiency, 1.0000000000
+40, Painter+Knapsack, Weight, 3155864665.0000000000, 0
+40, Painter+Knapsack, Weight, 3150912895.0000000000, 1
+40, Painter+Knapsack, Weight, 3142877853.0000000000, 2
+40, Painter+Knapsack, Weight, 3140639439.0000000000, 3
+40, Painter+Knapsack, Efficiency, 0.9973728430
+40, Painter+Knapsack, UsedEfficiency, 0.9820092448, 0
+40, Painter+Knapsack, Time, 0.0017160150, 0
+41, Original, PreviousEfficiency, 0.9786128726, 0
+41, Original, Efficiency, 0.9786128726, 0
+41, Original, UsedEfficiency, 0.9786128726, 0
+41, Knapsack, PreviousEfficiency, 0.9786128726, 0
+41, Knapsack, Weight, 0.0000000000, 0
+41, Knapsack, Weight, 0.0000000000, 1
+41, Knapsack, Weight, 0.0000000000, 2
+41, Knapsack, Weight, 0.0000000000, 3
+41, Knapsack, Efficiency, 0.9978368953
+41, Knapsack, UsedEfficiency, 0.9786128726, 0
+41, Knapsack, Time, 0.0011305400, 0
+41, Karmarkar-Karp, PreviousEfficiency, 0.9578590142, 0
+41, Karmarkar-Karp, Weight, 0.0000000000, -1082422789
+41, Karmarkar-Karp, Weight, 0.0000000000, -1082139259
+41, Karmarkar-Karp, Weight, 0.0000000000, -1081751870
+41, Karmarkar-Karp, Weight, 0.0000000000, -1078886873
+41, Karmarkar-Karp, Efficiency, 0.9992496068
+41, Karmarkar-Karp, UsedEfficiency, 0.9578590142, 0
+41, Karmarkar-Karp, Time, 0.0018268800, 0
+41, SFC, PreviousEfficiency, 0.8187152797, 0
+41, SFC, Efficiency, 0.8059337619
+41, SFC, UsedEfficiency, 0.8187152797, 0
+41, SFC, Time, 0.0007074010, 0
+41, HilbertSFC, PreviousEfficiency, 0.8866911199, 0
+41, HilbertSFC, Weight, 2668750487.0000000000, 0
+41, HilbertSFC, Weight, 3398577917.0000000000, 1
+41, HilbertSFC, Weight, 3437513579.0000000000, 2
+41, HilbertSFC, Weight, 3349826410.0000000000, 3
+41, HilbertSFC, Efficiency, 0.9348812810
+41, HilbertSFC, UsedEfficiency, 0.8866911199, 0
+41, HilbertSFC, Time, 0.0021849240, 0
+41, SFC+Knapsack, PreviousEfficiency, 0.9786128726, 0
+41, SFC+Knapsack, Efficiency, 0.9978368953
+41, SFC+Knapsack, UsedEfficiency, 0.9786128726, 0
+41, SFC+Knapsack, Time, 0.0005876280, 0
+41, SFC+Painter, PreviousEfficiency, 0.9256173232, 0
+41, SFC+Painter, Weight, 0.0000000000, -823049671
+41, SFC+Painter, Weight, 0.0000000000, -1013428244
+41, SFC+Painter, Weight, 0.0000000000, -1163425487
+41, SFC+Painter, Weight, 0.0000000000, -1325297389
+41, SFC+Painter, Efficiency, 0.9256173232
+41, SFC+Painter, UsedEfficiency, 0.9256173232, 0
+41, SFC+Painter, Time, 0.0013945620, 0
+41, Hilbert+Painter, PreviousEfficiency, 0.8866911199, 0
+41, Hilbert+Painter, Efficiency, 0.9348812810
+41, Hilbert+Painter, Efficiency, 0.9348812810, 0
+41, Hilbert+Painter, UsedEfficiency, 0.8866911199, 0
+41, Hilbert+Painter, Time, 0.0009967620, 0
+41, Painter+Knapsack, PreviousEfficiency, 0.9786128726, 0
+41, SFC+Painter, Weight, 0.0000000000, -30233495
+41, SFC+Painter, Efficiency, 1.0000000000
+41, Painter+Knapsack, Weight, 3220633666.0000000000, 0
+41, Painter+Knapsack, Weight, 3216705338.0000000000, 1
+41, Painter+Knapsack, Weight, 3213694476.0000000000, 2
+41, Painter+Knapsack, Weight, 3203634913.0000000000, 3
+41, Painter+Knapsack, Efficiency, 0.9978368953
+41, Painter+Knapsack, UsedEfficiency, 0.9786128726, 0
+41, Painter+Knapsack, Time, 0.0016942120, 0
+42, Original, PreviousEfficiency, 0.9802101230, 0
+42, Original, Efficiency, 0.9802101230, 0
+42, Original, UsedEfficiency, 0.9802101230, 0
+42, Knapsack, PreviousEfficiency, 0.9802101230, 0
+42, Knapsack, Weight, 0.0000000000, 0
+42, Knapsack, Weight, 0.0000000000, 1
+42, Knapsack, Weight, 0.0000000000, 2
+42, Knapsack, Weight, 0.0000000000, 3
+42, Knapsack, Efficiency, 0.9963907519
+42, Knapsack, UsedEfficiency, 0.9802101230, 0
+42, Knapsack, Time, 0.0010895210, 0
+42, Karmarkar-Karp, PreviousEfficiency, 0.9558196462, 0
+42, Karmarkar-Karp, Weight, 0.0000000000, -1045832337
+42, Karmarkar-Karp, Weight, 0.0000000000, -1042847501
+42, Karmarkar-Karp, Weight, 0.0000000000, -1042142868
+42, Karmarkar-Karp, Weight, 0.0000000000, -1039121483
+42, Karmarkar-Karp, Efficiency, 0.9989666082
+42, Karmarkar-Karp, UsedEfficiency, 0.9558196462, 0
+42, Karmarkar-Karp, Time, 0.0011805280, 0
+42, SFC, PreviousEfficiency, 0.8177073727, 0
+42, SFC, Efficiency, 0.8029321078
+42, SFC, UsedEfficiency, 0.8177073727, 0
+42, SFC, Time, 0.0007113080, 0
+42, HilbertSFC, PreviousEfficiency, 0.8839582115, 0
+42, HilbertSFC, Weight, 2707173838.0000000000, 0
+42, HilbertSFC, Weight, 3447068114.0000000000, 1
+42, HilbertSFC, Weight, 3477041167.0000000000, 2
+42, HilbertSFC, Weight, 3378641876.0000000000, 3
+42, HilbertSFC, Efficiency, 0.9354163763
+42, HilbertSFC, UsedEfficiency, 0.8839582115, 0
+42, HilbertSFC, Time, 0.0021331320, 0
+42, SFC+Knapsack, PreviousEfficiency, 0.9802101230, 0
+42, SFC+Knapsack, Efficiency, 0.9963907519
+42, SFC+Knapsack, UsedEfficiency, 0.9802101230, 0
+42, SFC+Knapsack, Time, 0.0005834600, 0
+42, SFC+Painter, PreviousEfficiency, 0.9273444016, 0
+42, SFC+Painter, Weight, 0.0000000000, -787660579
+42, SFC+Painter, Weight, 0.0000000000, -939191424
+42, SFC+Painter, Weight, 0.0000000000, -1153408721
+42, SFC+Painter, Weight, 0.0000000000, -1289683465
+42, SFC+Painter, Efficiency, 0.9273444016
+42, SFC+Painter, UsedEfficiency, 0.9273444016, 0
+42, SFC+Painter, Time, 0.0015539710, 0
+42, Hilbert+Painter, PreviousEfficiency, 0.8839582115, 0
+42, Hilbert+Painter, Efficiency, 0.9354163763
+42, Hilbert+Painter, Efficiency, 0.9354163763, 0
+42, Hilbert+Painter, UsedEfficiency, 0.8839582115, 0
+42, Hilbert+Painter, Time, 0.0010340540, 0
+42, Painter+Knapsack, PreviousEfficiency, 0.9802101230, 0
+42, SFC+Painter, Weight, 0.0000000000, 125023107
+42, SFC+Painter, Efficiency, 1.0000000000
+42, Painter+Knapsack, Weight, 3264262783.0000000000, 0
+42, Painter+Knapsack, Weight, 3260770581.0000000000, 1
+42, Painter+Knapsack, Weight, 3242918837.0000000000, 2
+42, Painter+Knapsack, Weight, 3241972794.0000000000, 3
+42, Painter+Knapsack, Efficiency, 0.9963907519
+42, Painter+Knapsack, UsedEfficiency, 0.9802101230, 0
+42, Painter+Knapsack, Time, 0.0017165860, 0
+43, Original, PreviousEfficiency, 0.9779918166, 0
+43, Original, Efficiency, 0.9779918166, 0
+43, Original, UsedEfficiency, 0.9779918166, 0
+43, Knapsack, PreviousEfficiency, 0.9779918166, 0
+43, Knapsack, Weight, 0.0000000000, 0
+43, Knapsack, Weight, 0.0000000000, 1
+43, Knapsack, Weight, 0.0000000000, 2
+43, Knapsack, Weight, 0.0000000000, 3
+43, Knapsack, Efficiency, 0.9968364867
+43, Knapsack, UsedEfficiency, 0.9779918166, 0
+43, Knapsack, Time, 0.0012465860, 0
+43, Karmarkar-Karp, PreviousEfficiency, 0.9563374076, 0
+43, Karmarkar-Karp, Weight, 0.0000000000, -1070942672
+43, Karmarkar-Karp, Weight, 0.0000000000, -1069178006
+43, Karmarkar-Karp, Weight, 0.0000000000, -1067472777
+43, Karmarkar-Karp, Weight, 0.0000000000, -1066761684
+43, Karmarkar-Karp, Efficiency, 0.9994340197
+43, Karmarkar-Karp, UsedEfficiency, 0.9563374076, 0
+43, Karmarkar-Karp, Time, 0.0011536750, 0
+43, SFC, PreviousEfficiency, 0.8174791514, 0
+43, SFC, Efficiency, 0.8174791514
+43, SFC, UsedEfficiency, 0.8174791514, 0
+43, SFC, Time, 0.0007808730, 0
+43, HilbertSFC, PreviousEfficiency, 0.8804580344, 0
+43, HilbertSFC, Weight, 2688077080.0000000000, 0
+43, HilbertSFC, Weight, 3449649142.0000000000, 1
+43, HilbertSFC, Weight, 3444869942.0000000000, 2
+43, HilbertSFC, Weight, 3322917881.0000000000, 3
+43, HilbertSFC, Efficiency, 0.9352772930
+43, HilbertSFC, UsedEfficiency, 0.8804580344, 0
+43, HilbertSFC, Time, 0.0022213840, 0
+43, SFC+Knapsack, PreviousEfficiency, 0.9779918166, 0
+43, SFC+Knapsack, Efficiency, 0.9968364867
+43, SFC+Knapsack, UsedEfficiency, 0.9779918166, 0
+43, SFC+Knapsack, Time, 0.0006468730, 0
+43, SFC+Painter, PreviousEfficiency, 0.9274315377, 0
+43, SFC+Painter, Weight, 0.0000000000, -816135296
+43, SFC+Painter, Weight, 0.0000000000, -947247790
+43, SFC+Painter, Weight, 0.0000000000, -1186390967
+43, SFC+Painter, Weight, 0.0000000000, -1324581086
+43, SFC+Painter, Efficiency, 0.9274315377
+43, SFC+Painter, UsedEfficiency, 0.9274315377, 0
+43, SFC+Painter, Time, 0.0014495190, 0
+43, Hilbert+Painter, PreviousEfficiency, 0.8804580344, 0
+43, Hilbert+Painter, Efficiency, 0.9352772930
+43, Hilbert+Painter, Efficiency, 0.9352772930, 0
+43, Hilbert+Painter, UsedEfficiency, 0.8804580344, 0
+43, Hilbert+Painter, Time, 0.0010362980, 0
+43, Painter+Knapsack, PreviousEfficiency, 0.9779918166, 0
+43, SFC+Painter, Weight, 0.0000000000, 20612157
+43, SFC+Painter, Efficiency, 1.0000000000
+43, Painter+Knapsack, Weight, 3236617594.0000000000, 0
+43, Painter+Knapsack, Weight, 3234531247.0000000000, 1
+43, Painter+Knapsack, Weight, 3217512021.0000000000, 2
+43, Painter+Knapsack, Weight, 3216853183.0000000000, 3
+43, Painter+Knapsack, Efficiency, 0.9968364867
+43, Painter+Knapsack, UsedEfficiency, 0.9779918166, 0
+43, Painter+Knapsack, Time, 0.0017703800, 0
+44, Original, PreviousEfficiency, 0.9791382877, 0
+44, Original, Efficiency, 0.9791382877, 0
+44, Original, UsedEfficiency, 0.9791382877, 0
+44, Knapsack, PreviousEfficiency, 0.9791382877, 0
+44, Knapsack, Weight, 0.0000000000, 0
+44, Knapsack, Weight, 0.0000000000, 1
+44, Knapsack, Weight, 0.0000000000, 2
+44, Knapsack, Weight, 0.0000000000, 3
+44, Knapsack, Efficiency, 0.9960328355
+44, Knapsack, UsedEfficiency, 0.9791382877, 0
+44, Knapsack, Time, 0.0012051660, 0
+44, Karmarkar-Karp, PreviousEfficiency, 0.9589861898, 0
+44, Karmarkar-Karp, Weight, 0.0000000000, -1097569282
+44, Karmarkar-Karp, Weight, 0.0000000000, -1096249594
+44, Karmarkar-Karp, Weight, 0.0000000000, -1096183064
+44, Karmarkar-Karp, Weight, 0.0000000000, -1096092979
+44, Karmarkar-Karp, Efficiency, 0.9998653430
+44, Karmarkar-Karp, UsedEfficiency, 0.9589861898, 0
+44, Karmarkar-Karp, Time, 0.0011744460, 0
+44, SFC, PreviousEfficiency, 0.8181252729, 0
+44, SFC, Efficiency, 0.8181252729
+44, SFC, UsedEfficiency, 0.8181252729, 0
+44, SFC, Time, 0.0007500230, 0
+44, HilbertSFC, PreviousEfficiency, 0.8780475006, 0
+44, HilbertSFC, Weight, 2668004626.0000000000, 0
+44, HilbertSFC, Weight, 3447433133.0000000000, 1
+44, HilbertSFC, Weight, 3416359457.0000000000, 2
+44, HilbertSFC, Weight, 3261977049.0000000000, 3
+44, HilbertSFC, Efficiency, 0.9277753746
+44, HilbertSFC, UsedEfficiency, 0.8780475006, 0
+44, HilbertSFC, Time, 0.0022113750, 0
+44, SFC+Knapsack, PreviousEfficiency, 0.9791382877, 0
+44, SFC+Knapsack, Efficiency, 0.9960328355
+44, SFC+Knapsack, UsedEfficiency, 0.9791382877, 0
+44, SFC+Knapsack, Time, 0.0006612510, 0
+44, SFC+Painter, PreviousEfficiency, 0.9275896499, 0
+44, SFC+Painter, Weight, 0.0000000000, -846843908
+44, SFC+Painter, Weight, 0.0000000000, -956025204
+44, SFC+Painter, Weight, 0.0000000000, -1223064979
+44, SFC+Painter, Weight, 0.0000000000, -1360160828
+44, SFC+Painter, Efficiency, 0.9275896499
+44, SFC+Painter, UsedEfficiency, 0.9275896499, 0
+44, SFC+Painter, Time, 0.0015173300, 0
+44, Hilbert+Painter, PreviousEfficiency, 0.8780475006, 0
+44, Hilbert+Painter, Efficiency, 0.9277753746
+44, Hilbert+Painter, Efficiency, 0.9277753746, 0
+44, Hilbert+Painter, UsedEfficiency, 0.8780475006, 0
+44, Hilbert+Painter, Time, 0.0011407600, 0
+44, Painter+Knapsack, PreviousEfficiency, 0.9791382877, 0
+44, SFC+Painter, Weight, 0.0000000000, -91127623
+44, SFC+Painter, Efficiency, 1.0000000000
+44, Painter+Knapsack, Weight, 3211182857.0000000000, 0
+44, Painter+Knapsack, Weight, 3206758590.0000000000, 1
+44, Painter+Knapsack, Weight, 3188422243.0000000000, 2
+44, Painter+Knapsack, Weight, 3187410575.0000000000, 3
+44, Painter+Knapsack, Efficiency, 0.9960328355
+44, Painter+Knapsack, UsedEfficiency, 0.9791382877, 0
+44, Painter+Knapsack, Time, 0.0018107390, 0
+45, Original, PreviousEfficiency, 0.9770108583, 0
+45, Original, Efficiency, 0.9770108583, 0
+45, Original, UsedEfficiency, 0.9770108583, 0
+45, Knapsack, PreviousEfficiency, 0.9770108583, 0
+45, Knapsack, Weight, 0.0000000000, 0
+45, Knapsack, Weight, 0.0000000000, 1
+45, Knapsack, Weight, 0.0000000000, 2
+45, Knapsack, Weight, 0.0000000000, 3
+45, Knapsack, Efficiency, 0.9962242667
+45, Knapsack, UsedEfficiency, 0.9770108583, 0
+45, Knapsack, Time, 0.0033189700, 0
+45, Karmarkar-Karp, PreviousEfficiency, 0.9636161834, 0
+45, Karmarkar-Karp, Weight, 0.0000000000, -1132544721
+45, Karmarkar-Karp, Weight, 0.0000000000, -1129179582
+45, Karmarkar-Karp, Weight, 0.0000000000, -1128375298
+45, Karmarkar-Karp, Weight, 0.0000000000, -1128304726
+45, Karmarkar-Karp, Efficiency, 0.9995906240
+45, Karmarkar-Karp, UsedEfficiency, 0.9636161834, 0
+45, Karmarkar-Karp, Time, 0.0012636080, 0
+45, SFC, PreviousEfficiency, 0.8190957448, 0
+45, SFC, Efficiency, 0.8190957448
+45, SFC, UsedEfficiency, 0.8190957448, 0
+45, SFC, Time, 0.0007441020, 0
+45, HilbertSFC, PreviousEfficiency, 0.8759537951, 0
+45, HilbertSFC, Weight, 2645672133.0000000000, 0
+45, HilbertSFC, Weight, 3433547867.0000000000, 1
+45, HilbertSFC, Weight, 3385170102.0000000000, 2
+45, HilbertSFC, Weight, 3197074755.0000000000, 3
+45, HilbertSFC, Efficiency, 0.9218937195
+45, HilbertSFC, UsedEfficiency, 0.8759537951, 0
+45, HilbertSFC, Time, 0.0021783910, 0
+45, SFC+Knapsack, PreviousEfficiency, 0.9770108583, 0
+45, SFC+Knapsack, Efficiency, 0.9962242667
+45, SFC+Knapsack, UsedEfficiency, 0.9770108583, 0
+45, SFC+Knapsack, Time, 0.0005786110, 0
+45, SFC+Painter, PreviousEfficiency, 0.9300358118, 0
+45, SFC+Painter, Weight, 0.0000000000, -891478770
+45, SFC+Painter, Weight, 0.0000000000, -978818924
+45, SFC+Painter, Weight, 0.0000000000, -1249653356
+45, SFC+Painter, Weight, 0.0000000000, -1398453277
+45, SFC+Painter, Efficiency, 0.9300358118
+45, SFC+Painter, UsedEfficiency, 0.9300358118, 0
+45, SFC+Painter, Time, 0.0018384420, 0
+45, Hilbert+Painter, PreviousEfficiency, 0.8759537951, 0
+45, Hilbert+Painter, Efficiency, 0.9218937195
+45, Hilbert+Painter, Efficiency, 0.9218937195, 0
+45, Hilbert+Painter, UsedEfficiency, 0.8759537951, 0
+45, Hilbert+Painter, Time, 0.0010072320, 0
+45, Painter+Knapsack, PreviousEfficiency, 0.9770108583, 0
+45, SFC+Painter, Weight, 0.0000000000, -223437031
+45, SFC+Painter, Efficiency, 1.0000000000
+45, Painter+Knapsack, Weight, 3177363090.0000000000, 0
+45, Painter+Knapsack, Weight, 3173511164.0000000000, 1
+45, Painter+Knapsack, Weight, 3157036983.0000000000, 2
+45, Painter+Knapsack, Weight, 3153553620.0000000000, 3
+45, Painter+Knapsack, Efficiency, 0.9962242667
+45, Painter+Knapsack, UsedEfficiency, 0.9770108583, 0
+45, Painter+Knapsack, Time, 0.0017185100, 0
+46, Original, PreviousEfficiency, 0.9756994299, 0
+46, Original, Efficiency, 0.9756994299, 0
+46, Original, UsedEfficiency, 0.9756994299, 0
+46, Knapsack, PreviousEfficiency, 0.9756994299, 0
+46, Knapsack, Weight, 0.0000000000, 0
+46, Knapsack, Weight, 0.0000000000, 1
+46, Knapsack, Weight, 0.0000000000, 2
+46, Knapsack, Weight, 0.0000000000, 3
+46, Knapsack, Efficiency, 0.9958860528
+46, Knapsack, UsedEfficiency, 0.9756994299, 0
+46, Knapsack, Time, 0.0010636910, 0
+46, Karmarkar-Karp, PreviousEfficiency, 0.9670792138, 0
+46, Karmarkar-Karp, Weight, 0.0000000000, -1150531840
+46, Karmarkar-Karp, Weight, 0.0000000000, -1149330534
+46, Karmarkar-Karp, Weight, 0.0000000000, -1148144286
+46, Karmarkar-Karp, Weight, 0.0000000000, -1148129141
+46, Karmarkar-Karp, Efficiency, 0.9997124704
+46, Karmarkar-Karp, UsedEfficiency, 0.9670792138, 0
+46, Karmarkar-Karp, Time, 0.0011256410, 0
+46, SFC, PreviousEfficiency, 0.8182606376, 0
+46, SFC, Efficiency, 0.8182606376
+46, SFC, UsedEfficiency, 0.8182606376, 0
+46, SFC, Time, 0.0007435710, 0
+46, HilbertSFC, PreviousEfficiency, 0.8733502486, 0
+46, HilbertSFC, Weight, 2632564176.0000000000, 0
+46, HilbertSFC, Weight, 3433223641.0000000000, 1
+46, HilbertSFC, Weight, 3360105841.0000000000, 2
+46, HilbertSFC, Weight, 3157839725.0000000000, 3
+46, HilbertSFC, Efficiency, 0.9163205415
+46, HilbertSFC, UsedEfficiency, 0.8733502486, 0
+46, HilbertSFC, Time, 0.0022654390, 0
+46, SFC+Knapsack, PreviousEfficiency, 0.9756994299, 0
+46, SFC+Knapsack, Efficiency, 0.9958860528
+46, SFC+Knapsack, UsedEfficiency, 0.9756994299, 0
+46, SFC+Knapsack, Time, 0.0005605960, 0
+46, SFC+Painter, PreviousEfficiency, 0.9313960893, 0
+46, SFC+Painter, Weight, 0.0000000000, -917313705
+46, SFC+Painter, Weight, 0.0000000000, -989361375
+46, SFC+Painter, Weight, 0.0000000000, -1269572885
+46, SFC+Painter, Weight, 0.0000000000, -1419887836
+46, SFC+Painter, Efficiency, 0.9313960893
+46, SFC+Painter, UsedEfficiency, 0.9313960893, 0
+46, SFC+Painter, Time, 0.0015079520, 0
+46, Hilbert+Painter, PreviousEfficiency, 0.8733502486, 0
+46, Hilbert+Painter, Efficiency, 0.9163205415
+46, Hilbert+Painter, Efficiency, 0.9163205415, 0
+46, Hilbert+Painter, UsedEfficiency, 0.8733502486, 0
+46, Hilbert+Painter, Time, 0.0010153280, 0
+46, Painter+Knapsack, PreviousEfficiency, 0.9756994299, 0
+46, SFC+Painter, Weight, 0.0000000000, -301168505
+46, SFC+Painter, Efficiency, 1.0000000000
+46, Painter+Knapsack, Weight, 3158929013.0000000000, 0
+46, Painter+Knapsack, Weight, 3154668397.0000000000, 1
+46, Painter+Knapsack, Weight, 3137218009.0000000000, 2
+46, Painter+Knapsack, Weight, 3132917964.0000000000, 3
+46, Painter+Knapsack, Efficiency, 0.9958860528
+46, Painter+Knapsack, UsedEfficiency, 0.9756994299, 0
+46, Painter+Knapsack, Time, 0.0018557560, 0
+47, Original, PreviousEfficiency, 0.9757473537, 0
+47, Original, Efficiency, 0.9757473537, 0
+47, Original, UsedEfficiency, 0.9757473537, 0
+47, Knapsack, PreviousEfficiency, 0.9757473537, 0
+47, Knapsack, Weight, 0.0000000000, 0
+47, Knapsack, Weight, 0.0000000000, 1
+47, Knapsack, Weight, 0.0000000000, 2
+47, Knapsack, Weight, 0.0000000000, 3
+47, Knapsack, Efficiency, 0.9992855912
+47, Knapsack, UsedEfficiency, 0.9757473537, 0
+47, Knapsack, Time, 0.0041604120, 0
+47, Karmarkar-Karp, PreviousEfficiency, 0.9638281999, 0
+47, Karmarkar-Karp, Weight, 0.0000000000, -1164915290
+47, Karmarkar-Karp, Weight, 0.0000000000, -1164581512
+47, Karmarkar-Karp, Weight, 0.0000000000, -1163464162
+47, Karmarkar-Karp, Weight, 0.0000000000, -1162806097
+47, Karmarkar-Karp, Efficiency, 0.9996374170
+47, Karmarkar-Karp, UsedEfficiency, 0.9638281999, 0
+47, Karmarkar-Karp, Time, 0.0014389180, 0
+47, SFC, PreviousEfficiency, 0.8225878090, 0
+47, SFC, Efficiency, 0.8225878090
+47, SFC, UsedEfficiency, 0.8225878090, 0
+47, SFC, Time, 0.0007656730, 0
+47, HilbertSFC, PreviousEfficiency, 0.8633377223, 0
+47, HilbertSFC, Weight, 2662689445.0000000000, 0
+47, HilbertSFC, Weight, 3424708241.0000000000, 1
+47, HilbertSFC, Weight, 2632458982.0000000000, 2
+47, HilbertSFC, Weight, 3804245455.0000000000, 3
+47, HilbertSFC, Efficiency, 0.8230345722
+47, HilbertSFC, UsedEfficiency, 0.8633377223, 0
+47, HilbertSFC, Time, 0.0026542620, 0
+47, SFC+Knapsack, PreviousEfficiency, 0.9757473537, 0
+47, SFC+Knapsack, Efficiency, 0.9992855912
+47, SFC+Knapsack, UsedEfficiency, 0.9757473537, 0
+47, SFC+Knapsack, Time, 0.0007380600, 0
+47, SFC+Painter, PreviousEfficiency, 0.9359387280, 0
+47, SFC+Painter, Weight, 0.0000000000, -949635559
+47, SFC+Painter, Weight, 0.0000000000, -957887536
+47, SFC+Painter, Weight, 0.0000000000, -1295625667
+47, SFC+Painter, Weight, 0.0000000000, -1452618299
+47, SFC+Painter, Efficiency, 0.9359387280
+47, SFC+Painter, UsedEfficiency, 0.9359387280, 0
+47, SFC+Painter, Time, 0.0018882390, 0
+47, Hilbert+Painter, PreviousEfficiency, 0.8633377223, 0
+47, Hilbert+Painter, Efficiency, 0.9142459183
+47, Hilbert+Painter, Efficiency, 0.9142459183, 0
+47, Hilbert+Painter, UsedEfficiency, 0.8633377223, 0
+47, Hilbert+Painter, Time, 0.0011588850, 0
+47, Painter+Knapsack, PreviousEfficiency, 0.9757473537, 0
+47, SFC+Painter, Weight, 0.0000000000, -360799765
+47, SFC+Painter, Efficiency, 1.0000000000
+47, Painter+Knapsack, Weight, 3133263962.0000000000, 0
+47, Painter+Knapsack, Weight, 3133169353.0000000000, 1
+47, Painter+Knapsack, Weight, 3129071276.0000000000, 2
+47, Painter+Knapsack, Weight, 3128597532.0000000000, 3
+47, Painter+Knapsack, Efficiency, 0.9992855912
+47, Painter+Knapsack, UsedEfficiency, 0.9757473537, 0
+47, Painter+Knapsack, Time, 0.0018631390, 0
+48, Original, PreviousEfficiency, 0.9737361549, 0
+48, Original, Efficiency, 0.9737361549, 0
+48, Original, UsedEfficiency, 0.9737361549, 0
+48, Knapsack, PreviousEfficiency, 0.9737361549, 0
+48, Knapsack, Weight, 0.0000000000, 0
+48, Knapsack, Weight, 0.0000000000, 1
+48, Knapsack, Weight, 0.0000000000, 2
+48, Knapsack, Weight, 0.0000000000, 3
+48, Knapsack, Efficiency, 0.9991536304
+48, Knapsack, UsedEfficiency, 0.9737361549, 0
+48, Knapsack, Time, 0.0012261560, 0
+48, Karmarkar-Karp, PreviousEfficiency, 0.9636397683, 0
+48, Karmarkar-Karp, Weight, 0.0000000000, -1169453620
+48, Karmarkar-Karp, Weight, 0.0000000000, -1169078687
+48, Karmarkar-Karp, Weight, 0.0000000000, -1168341302
+48, Karmarkar-Karp, Weight, 0.0000000000, -1165032351
+48, Karmarkar-Karp, Efficiency, 0.9990593610
+48, Karmarkar-Karp, UsedEfficiency, 0.9636397683, 0
+48, Karmarkar-Karp, Time, 0.0012176190, 0
+48, SFC, PreviousEfficiency, 0.8267445302, 0
+48, SFC, Efficiency, 0.8267445302
+48, SFC, UsedEfficiency, 0.8267445302, 0
+48, SFC, Time, 0.0019941540, 0
+48, HilbertSFC, PreviousEfficiency, 0.8540805230, 0
+48, HilbertSFC, Weight, 2693501240.0000000000, 0
+48, HilbertSFC, Weight, 3424865833.0000000000, 1
+48, HilbertSFC, Weight, 2631509991.0000000000, 2
+48, HilbertSFC, Weight, 3758086160.0000000000, 3
+48, HilbertSFC, Efficiency, 0.8320700146
+48, HilbertSFC, UsedEfficiency, 0.8540805230, 0
+48, HilbertSFC, Time, 0.0025864510, 0
+48, SFC+Knapsack, PreviousEfficiency, 0.9737361549, 0
+48, SFC+Knapsack, Efficiency, 0.9991536304
+48, SFC+Knapsack, UsedEfficiency, 0.9737361549, 0
+48, SFC+Knapsack, Time, 0.0006040500, 0
+48, SFC+Painter, PreviousEfficiency, 0.9295337685, 0
+48, SFC+Painter, Weight, 0.0000000000, -930925115
+48, SFC+Painter, Weight, 0.0000000000, -956678935
+48, SFC+Painter, Weight, 0.0000000000, -1303893244
+48, SFC+Painter, Weight, 0.0000000000, -1480408666
+48, SFC+Painter, Efficiency, 0.9295337685
+48, SFC+Painter, UsedEfficiency, 0.9295337685, 0
+48, SFC+Painter, Time, 0.0015047760, 0
+48, Hilbert+Painter, PreviousEfficiency, 0.8540805230, 0
+48, Hilbert+Painter, Efficiency, 0.9130257822
+48, Hilbert+Painter, Efficiency, 0.9130257822, 0
+48, Hilbert+Painter, UsedEfficiency, 0.8540805230, 0
+48, Hilbert+Painter, Time, 0.0010630600, 0
+48, Painter+Knapsack, PreviousEfficiency, 0.9737361549, 0
+48, SFC+Painter, Weight, 0.0000000000, -376938664
+48, SFC+Painter, Efficiency, 1.0000000000
+48, Painter+Knapsack, Weight, 3129639638.0000000000, 0
+48, Painter+Knapsack, Weight, 3129262269.0000000000, 1
+48, Painter+Knapsack, Weight, 3127135316.0000000000, 2
+48, Painter+Knapsack, Weight, 3121926001.0000000000, 3
+48, Painter+Knapsack, Efficiency, 0.9991536304
+48, Painter+Knapsack, UsedEfficiency, 0.9737361549, 0
+48, Painter+Knapsack, Time, 0.0018254870, 0
+49, Original, PreviousEfficiency, 0.9701901849, 0
+49, Original, Efficiency, 0.9701901849, 0
+49, Original, UsedEfficiency, 0.9701901849, 0
+49, Knapsack, PreviousEfficiency, 0.9701901849, 0
+49, Knapsack, Weight, 0.0000000000, 0
+49, Knapsack, Weight, 0.0000000000, 1
+49, Knapsack, Weight, 0.0000000000, 2
+49, Knapsack, Weight, 0.0000000000, 3
+49, Knapsack, Efficiency, 0.9997198977
+49, Knapsack, UsedEfficiency, 0.9701901849, 0
+49, Knapsack, Time, 0.0011338170, 0
+49, Karmarkar-Karp, PreviousEfficiency, 0.9642476329, 0
+49, Karmarkar-Karp, Weight, 0.0000000000, -1185301491
+49, Karmarkar-Karp, Weight, 0.0000000000, -1185158585
+49, Karmarkar-Karp, Weight, 0.0000000000, -1185154924
+49, Karmarkar-Karp, Weight, 0.0000000000, -1185071784
+49, Karmarkar-Karp, Efficiency, 0.9999678729
+49, Karmarkar-Karp, UsedEfficiency, 0.9642476329, 0
+49, Karmarkar-Karp, Time, 0.0011167330, 0
+49, SFC, PreviousEfficiency, 0.8259959432, 0
+49, SFC, Efficiency, 0.8259959432
+49, SFC, UsedEfficiency, 0.8259959432, 0
+49, SFC, Time, 0.0013085250, 0
+49, HilbertSFC, PreviousEfficiency, 0.8545732991, 0
+49, HilbertSFC, Weight, 2677206707.0000000000, 0
+49, HilbertSFC, Weight, 3409125173.0000000000, 1
+49, HilbertSFC, Weight, 2626933860.0000000000, 2
+49, HilbertSFC, Weight, 3725916660.0000000000, 3
+49, HilbertSFC, Efficiency, 0.8346390657
+49, HilbertSFC, UsedEfficiency, 0.8545732991, 0
+49, HilbertSFC, Time, 0.0053607270, 0
+49, SFC+Knapsack, PreviousEfficiency, 0.9701901849, 0
+49, SFC+Knapsack, Efficiency, 0.9997198977
+49, SFC+Knapsack, UsedEfficiency, 0.9701901849, 0
+49, SFC+Knapsack, Time, 0.0006068160, 0
+49, SFC+Painter, PreviousEfficiency, 0.9301547333, 0
+49, SFC+Painter, Weight, 0.0000000000, -951657319
+49, SFC+Painter, Weight, 0.0000000000, -980374316
+49, SFC+Painter, Weight, 0.0000000000, -1316794828
+49, SFC+Painter, Weight, 0.0000000000, -1491860321
+49, SFC+Painter, Efficiency, 0.9301547333
+49, SFC+Painter, UsedEfficiency, 0.9301547333, 0
+49, SFC+Painter, Time, 0.0013918270, 0
+49, Hilbert+Painter, PreviousEfficiency, 0.8545732991, 0
+49, Hilbert+Painter, Efficiency, 0.9121975411
+49, Hilbert+Painter, Efficiency, 0.9121975411, 0
+49, Hilbert+Painter, UsedEfficiency, 0.8545732991, 0
+49, Hilbert+Painter, Time, 0.0010359670, 0
+49, Painter+Knapsack, PreviousEfficiency, 0.9701901849, 0
+49, SFC+Painter, Weight, 0.0000000000, -445719488
+49, SFC+Painter, Efficiency, 1.0000000000
+49, Painter+Knapsack, Weight, 3110666905.0000000000, 0
+49, Painter+Knapsack, Weight, 3110618647.0000000000, 1
+49, Painter+Knapsack, Weight, 3109773619.0000000000, 2
+49, Painter+Knapsack, Weight, 3108123229.0000000000, 3
+49, Painter+Knapsack, Efficiency, 0.9997198977
+49, Painter+Knapsack, UsedEfficiency, 0.9701901849, 0
+49, Painter+Knapsack, Time, 0.0017627360, 0
+50, Original, PreviousEfficiency, 0.9640419957, 0
+50, Original, Efficiency, 0.9640419957, 0
+50, Original, UsedEfficiency, 0.9640419957, 0
+50, Knapsack, PreviousEfficiency, 0.9640419957, 0
+50, Knapsack, Weight, 0.0000000000, 0
+50, Knapsack, Weight, 0.0000000000, 1
+50, Knapsack, Weight, 0.0000000000, 2
+50, Knapsack, Weight, 0.0000000000, 3
+50, Knapsack, Efficiency, 0.9992599080
+50, Knapsack, UsedEfficiency, 0.9640419957, 0
+50, Knapsack, Time, 0.0011414810, 0
+50, Karmarkar-Karp, PreviousEfficiency, 0.9632933825, 0
+50, Karmarkar-Karp, Weight, 0.0000000000, -1184492879
+50, Karmarkar-Karp, Weight, 0.0000000000, -1183866069
+50, Karmarkar-Karp, Weight, 0.0000000000, -1183621605
+50, Karmarkar-Karp, Weight, 0.0000000000, -1183461937
+50, Karmarkar-Karp, Efficiency, 0.9998718673
+50, Karmarkar-Karp, UsedEfficiency, 0.9632933825, 0
+50, Karmarkar-Karp, Time, 0.0014042310, 0
+50, SFC, PreviousEfficiency, 0.8303057162, 0
+50, SFC, Efficiency, 0.8303057162
+50, SFC, UsedEfficiency, 0.8303057162, 0
+50, SFC, Time, 0.0008062320, 0
+50, HilbertSFC, PreviousEfficiency, 0.8524543514, 0
+50, HilbertSFC, Weight, 2686620084.0000000000, 0
+50, HilbertSFC, Weight, 3417166500.0000000000, 1
+50, HilbertSFC, Weight, 2654236911.0000000000, 2
+50, HilbertSFC, Weight, 3686403199.0000000000, 3
+50, HilbertSFC, Efficiency, 0.8439409651
+50, HilbertSFC, UsedEfficiency, 0.8524543514, 0
+50, HilbertSFC, Time, 0.0022737060, 0
+50, SFC+Knapsack, PreviousEfficiency, 0.9640419957, 0
+50, SFC+Knapsack, Efficiency, 0.9992599080
+50, SFC+Knapsack, UsedEfficiency, 0.9640419957, 0
+50, SFC+Knapsack, Time, 0.0006586970, 0
+50, SFC+Painter, PreviousEfficiency, 0.9197406509, 0
+50, SFC+Painter, Weight, 0.0000000000, -912376051
+50, SFC+Painter, Weight, 0.0000000000, -996623808
+50, SFC+Painter, Weight, 0.0000000000, -1315449175
+50, SFC+Painter, Weight, 0.0000000000, -1510993456
+50, SFC+Painter, Efficiency, 0.9197406509
+50, SFC+Painter, UsedEfficiency, 0.9197406509, 0
+50, SFC+Painter, Time, 0.0014220460, 0
+50, Hilbert+Painter, PreviousEfficiency, 0.8524543514, 0
+50, Hilbert+Painter, Efficiency, 0.9104346170
+50, Hilbert+Painter, Efficiency, 0.9104346170, 0
+50, Hilbert+Painter, UsedEfficiency, 0.8524543514, 0
+50, Hilbert+Painter, Time, 0.0010267890, 0
+50, Painter+Knapsack, PreviousEfficiency, 0.9640419957, 0
+50, SFC+Painter, Weight, 0.0000000000, -440475194
+50, SFC+Painter, Efficiency, 1.0000000000
+50, Painter+Knapsack, Weight, 3113410884.0000000000, 0
+50, Painter+Knapsack, Weight, 3111556209.0000000000, 1
+50, Painter+Knapsack, Weight, 3111195948.0000000000, 2
+50, Painter+Knapsack, Weight, 3108263653.0000000000, 3
+50, Painter+Knapsack, Efficiency, 0.9992599080
+50, Painter+Knapsack, UsedEfficiency, 0.9640419957, 0
+50, Painter+Knapsack, Time, 0.0016375830, 0

@@ -1,0 +1,25 @@
+{
+    "input_name": "input_laser_ion",
+    "max_steps": 5000,
+    "n_cells": [
+        2560,
+        3584
+    ],
+    "blocking_factor": [
+        32,
+        32
+    ],
+    "max_grid_size": [
+        512,
+        512
+    ],
+    "load_balance_intervals": 100,
+    "load_balance_costs_update": "timers",
+    "lbc_output_interval": 100,
+    "lbc_output_type": "LoadBalanceCosts",
+    "nodes": 2,
+    "job_name": "laser_ion_35_8_1_timestep",
+    "ratio": 1.0,
+    "time": "01:00:00",
+    "lbc_file": "laser_ion_35_8_1_timestep_lb_data.txt"
+}
